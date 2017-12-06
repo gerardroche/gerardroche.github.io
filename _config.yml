@@ -1,0 +1,8 @@
+permalink: pretty
+liquid:
+  error_mode: strict
+sass:
+  style: compressed
+strict_front_matter: true
+lang: en_IE
+timezone: UTC
