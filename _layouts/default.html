@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-ie">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gerard Roche</title>
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    {% feed_meta %}
   </head>
   <body>
-    {{ content }}
+    <div class="site">
+
+      <div class="site-header">
+          <a href="/">Gerard Roche</a>
+          <a class="extra" href="/about-me/">About me</a>
+      </div>
+
+      <main class="site-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <ul>
+          <li><a href="https://github.com/{{ site.github.username }}">github.com/{{ site.github.username }}</a></li>
+          <li><a href="https://twitter.com/{{ site.twitter.username }}">twitter.com/{{ site.twitter.username }}</a></li>
+          <li><a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a></li>
+          <li>Copyright Gerard Roche &copy; {{ site.time | date: '%Y' }}</li>
+        </ul>
+      </footer>
+
+    </div>
   </body>
 </html>

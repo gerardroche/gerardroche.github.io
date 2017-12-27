@@ -6,3 +6,45 @@ sass:
 strict_front_matter: true
 lang: en_IE
 timezone: UTC
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+kramdown:
+  show_warnings:  true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+url: http://blog.gerardroche.com
+title: Your awesome title
+description: A blog about stuff.
+email: gerard@gerardroche.com
+
+author:
+  name: Gerard Roche # Used by feed
+  # email: authoremail@example.com # Used by feed
+  # uri: uri # Used by feed
+  # twitter: my_twitter_username_for_author
+  twitter: gerardroche
+
+twitter:
+  username: gerardroche
+
+github:
+  username: gerardroche
