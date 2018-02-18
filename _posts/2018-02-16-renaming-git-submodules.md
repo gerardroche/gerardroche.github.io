@@ -6,7 +6,7 @@ $ git mv <source> <destination>
 
 That's all there is to it!
 
-Git version 2.9 fixed an [issue](https://stackoverflow.com/a/18712756) renaming **nested** submodules.
+Git version 2.9 fixed an issue[^1] renaming **nested** submodules.
 
 ```sh
 $ git --version
@@ -43,3 +43,5 @@ $ git commit -m "Moved submodule"
  2 files changed, 1 insertion(+), 1 deletion(-)
  rename submodule_a => submodule_b (100%)
 ```
+
+[^1]: https://stackoverflow.com/a/18712756

@@ -16,22 +16,13 @@ ul, ol, dl, figure,
 
 @import "syntax-highlighting";
 
-/* Global Reset */
-
 * {
   margin: 0;
   padding: 0;
 }
 
-html, body {
-  // height: 100%;
-}
-
 body {
-  // background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
-  // *font-size: small;
-  // text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,14 +45,42 @@ a:hover {
   color: black;
 }
 
-// a:visited {
-//   color: #a0a;
-// }
+blockquote {
+  font-style: italic;
+  padding-left: 7px;
+  color: #444;
+  border-left: 4px solid #ddd;
+  cite {
+    &:before {
+      content: '— ';
+    }
+    display: block;
+    text-align: right;
+    color: #111;
+    font-style: normal;
+  }
+}
 
-// table {
-//   font-size: inherit;
-//   font: 100%;
-// }
+.footnote {
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.footnotes {
+  margin: 30px 0;
+  color: #aaa;
+  padding: 10px 0 0 20px;
+  border-top: 1px solid #ebf2f6;
+}
+
+.footnotes ol {
+  padding: 0;
+  margin: 0;
+}
+
+.footnotes ol li {
+  line-height: .5em;
+}
 
 .post-footer {
     margin: 30px 0;
@@ -76,11 +95,6 @@ a:hover {
 ._404 h1 {
     font-size: 4em;
 }
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
 
 .post-list,
 .site-footer ul {
@@ -100,7 +114,6 @@ ul.posts {
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
-
 
 .site {
   font-size: 110%;
@@ -135,21 +148,9 @@ ul.posts {
     color: black;
   }
 
-  // .site .meta {
-  //   color: #aaa;
-  // }
-
   .post-meta {
     color: #aaa;
   }
-
-  // .site .footer {
-  //   font-size: 80%;
-  //   color: #666;
-  //   border-top: 4px solid #eee;
-  //   margin-top: 2em;
-  //   overflow: hidden;
-  // }
 
   .site-footer {
     font-size: 80%;
@@ -159,56 +160,11 @@ ul.posts {
     overflow: hidden;
   }
 
-
-    // .site .footer .contact {
-    //   float: left;
-    //   margin-right: 3em;
-    // }
-
-    //   .site .footer .contact a {
-    //     color: #8085C1;
-    //   }
-
-    // .site .footer .rss {
-    //   margin-top: 1.1em;
-    //   margin-right: -.2em;
-    //   float: right;
-    // }
-
-    //   .site .footer .rss img {
-    //     border: 0;
-    //   }
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-  /* standard */
-
-  // #post pre {
-  //   border: 1px solid #ddd;
-  //   padding: 0 .4em;
-  // }
-
   pre {
     border: 1px solid #ddd;
     padding: 0 .4em;
     font-size: 85%;
   }
-
-  // #post ul,
-  // #post ol {
-  //   margin-left: 1.35em;
-  // }
-
-  // #post code {
-  //   border: 1px solid #ddd;
-  //   background-color: #eef;
-  //   font-size: 85%;
-  //   padding: 0 .2em;
-  // }
 
   code.highlighter-rouge {
     border: 1px solid #ddd;
@@ -216,38 +172,3 @@ ul.posts {
     padding: 0 .2em;
     font-size: 85%;
   }
-
-    // #post pre code {
-    //   border: none;
-    // }
-
-  // #post img {
-  //   max-width: 42em;
-  //   padding: 1em 0;
-  // }
-
-  /* terminal */
-
-  // #post pre.terminal {
-  //   border: 1px solid black;
-  //   background-color: #333;
-  //   color: white;
-  // }
-
-  // #post pre.terminal code {
-  //   background-color: #333;
-  // }
-
-  .language-terminal pre.highlight {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-
-// #related {
-//   margin-top: 2em;
-// }
-
-//   #related h2 {
-//     margin-bottom: 1em;
-//   }
