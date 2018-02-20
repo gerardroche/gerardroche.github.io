@@ -3,17 +3,10 @@ title: Gerard Roche
 layout: default
 ---
 
-<div class="home">
-
-  <header class="page-header">
-    <h1 class="page-title">Blog Posts</h1>
-  </header>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        &raquo; <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-    {% endfor %}
-  </ul>
-
+<div class="index-posts">
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
+      {% endfor %}
+    </ul>
 </div>

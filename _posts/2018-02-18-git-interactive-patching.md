@@ -1,26 +1,8 @@
-With `git add --patch` you can *interactively* add hunks to the index.
+The `git add --patch` command allows you to *interactively* add hunks to the index. It effectively runs `add --interactive`, but bypasses the initial command menu and directly jumps to the patch subcommand.
 
-# Singlekeys
+If you want to commit a patch use `git commit --patch`, which effectively runs `git add --patch` first, immediately followed by `git commit`.
 
-By default you have to press enter at each prompt. You can configure Git to accept a single key (i.e. skipping the need to hit enter at each prompt).[^1]
-
-```sh
-$ git config --global interactive.singlekey true
-```
-
-On Ubuntu you'll need to install `libterm-readkey-perl`.[^2]
-
-```sh
-$ sudo apt-get install libterm-readkey-perl
-```
-
-# Add / Commit Patch
-
-`git add --patch` effectively runs `add --interactive`, but bypasses the initial command menu and directly jumps to the patch subcommand.
-
-`git commit --patch` effectively runs `git add --patch` first, immediately followed by `git commit`.
-
-You can also interactively reset (`git reset --patch`), which can be handy on occasion (if you've ever spent time painstakingly setting up a patch only to press `y` by mistake and add a hunk that you didn't want, and then had to reset the index and start again. I have several of those t-shirts).
+You can also interactively *reset* an index: `git reset --patch` (a useful command to know, especially if you've ever spent time painstakingly setting up a patch only to press `y` by mistake and add a hunk that you didn't want, and then had to reset the index and start again. I have several of those t-shirts).
 
 # The Patch Prompt
 
@@ -56,6 +38,20 @@ e - manually edit the current hunk
 The ones you will mostly use are `y`, `n`, `q`, `s`, and `a`. If you're new to this command then learn these commands, because this is 80% of the value in using the command. I'll blog about the `e` option, which can useful in some situations, another day.
 
 To test the command out, use a test git repository. Trying out a new command on a real repository with real changes can make us nervous about using the command. Go create a `gitdemo` directory somewhere and get familiar with patching.
+
+# Singlekeys
+
+You can configure Git to accept a single key (i.e. skipping the need to hit enter at each prompt).[^1]
+
+```sh
+$ git config --global interactive.singlekey true
+```
+
+On Ubuntu you'll need to install `libterm-readkey-perl`.[^2]
+
+```sh
+$ sudo apt-get install libterm-readkey-perl
+```
 
 [^1]: https://git-scm.com/docs/git-config#git-config-interactivesingleKey
 [^2]: https://superuser.com/a/817688

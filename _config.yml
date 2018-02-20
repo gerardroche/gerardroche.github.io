@@ -37,10 +37,7 @@ description: A blog about stuff.
 email: gerard@gerardroche.com
 
 author:
-  name: Gerard Roche # Used by feed
-  # email: authoremail@example.com # Used by feed
-  # uri: uri # Used by feed
-  # twitter: my_twitter_username_for_author
+  name: Gerard Roche
   twitter: gerardroche
 
 twitter:

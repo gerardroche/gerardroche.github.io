@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% seo %}
+{% seo %}
     <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
@@ -13,24 +13,25 @@
   <body>
     <div class="site">
 
-      <div class="site-header">
-          <a href="/">Gerard Roche</a>
-          <a class="extra" href="/about-me/">About me</a>
-      </div>
+      <header class="site-header">
+        <h1><a href="/">@gerardroche</a></h1>
+        <ul>
+          <li>
+            <a href="/about-me/">About me</a>
+          </li>
+        </ul>
+      </header>
 
-      <main class="site-content" aria-label="Content">
-        <div class="wrapper">
-          {{ content }}
-        </div>
+      <hr>
+
+      <main aria-label="Content">
+        {{ content }}
       </main>
 
+      <hr>
+
       <footer class="site-footer">
-        <ul>
-          <li><a href="https://github.com/{{ site.github.username }}">github.com/{{ site.github.username }}</a></li>
-          <li><a href="https://twitter.com/{{ site.twitter.username }}">twitter.com/{{ site.twitter.username }}</a></li>
-          <li><a href="{{ "/feed.xml" | relative_url }}">Subscribe via RSS</a></li>
-          <li>Copyright Gerard Roche &copy; {{ site.time | date: '%Y' }}</li>
-        </ul>
+        <p>Be notified of new posts. <a href="{{ "/feed.xml" | relative_url }}">Subscribe to the RSS feed.</a><p>
       </footer>
 
     </div>

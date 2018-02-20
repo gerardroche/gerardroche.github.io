@@ -1,0 +1,35 @@
+/*
+
+Example output of syntax highlighting HTML:
+
+<div class="language-sh highlighter-rouge">
+  <div class="highlight">
+    <pre class="highlight">
+      <code>
+        <span class="nv">$ </span>git <span class="nt">--version</span>
+        git version 2.14.1
+        <span class="nv">$ </span>lsb_release <span class="nt">-ds</span>
+        Ubuntu 17.10
+      </code>
+    </pre>
+  </div>
+</div>
+
+*/
+
+pre {
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    color: #24292e;
+    font-size: 85%;
+    overflow: auto;
+    padding: 16px;
+}
+
+p code {
+    background-color: #1b1f231a;
+    border-radius: 3px;
+    font-size: 85%;
+    margin: 0;
+    padding: 0.2em 0.4em;
+}
