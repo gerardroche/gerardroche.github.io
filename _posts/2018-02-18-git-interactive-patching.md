@@ -1,10 +1,13 @@
-The `git add --patch` command allows you to *interactively* add hunks to the index. It effectively runs `add --interactive`, but bypasses the initial command menu and directly jumps to the patch subcommand.
+---
+tags: git
+---
+The `git add --patch` command *interactively* add hunks to the index. It effectively runs `git add --interactive`, but bypasses the initial command menu and directly jumps to the patch subcommand.
 
-If you want to commit a patch use `git commit --patch`, which effectively runs `git add --patch` first, immediately followed by `git commit`.
+If you know that you want to commit after adding a patch, run `git commit --patch`. This effectively runs `git add --patch` first, immediately followed by `git commit`.
 
-You can also interactively *reset* an index: `git reset --patch` (a useful command to know, especially if you've ever spent time painstakingly setting up a patch only to press `y` by mistake and add a hunk that you didn't want, and then had to reset the index and start again. I have several of those t-shirts).
+You can also interactively *reset* an index (`git reset --patch`). This is useful command to know, especially if you've ever painstakingly setup a patch only to press `y` by mistake and add a hunk that you didn't want, and then had to reset the index and start again. I have several of those t-shirts.
 
-# The Patch Prompt
+## `git add --patch`
 
 The patch prompt can be intimidating, but everything is easy when you know how.
 
@@ -39,19 +42,24 @@ The ones you will mostly use are `y`, `n`, `q`, `s`, and `a`. If you're new to t
 
 To test the command out, use a test git repository. Trying out a new command on a real repository with real changes can make us nervous about using the command. Go create a `gitdemo` directory somewhere and get familiar with patching.
 
-# Singlekeys
+## Making `--patch` respond to single keystrokes
 
-You can configure Git to accept a single key (i.e. skipping the need to hit enter at each prompt).[^1]
+By default `--patch` commands wait for you to press `Enter` at each prompt after you've answered the question `Stage this hunk [y,n,q,a,d,/,s,e,?]?`. To skip the need to press enter, set `interactive.singlekey` to `true`.[^1] [^2]
 
 ```sh
 $ git config --global interactive.singlekey true
 ```
 
-On Ubuntu you'll need to install `libterm-readkey-perl`.[^2]
+On Ubuntu you'll need to install `libterm-readkey-perl`.[^3]
 
 ```sh
 $ sudo apt-get install libterm-readkey-perl
 ```
 
+## Resources
+
+* [Git Tools - Interactive Staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging)
+
 [^1]: https://git-scm.com/docs/git-config#git-config-interactivesingleKey
-[^2]: https://superuser.com/a/817688
+[^2]: https://stackoverflow.com/a/32546377
+[^3]: https://superuser.com/a/817688
