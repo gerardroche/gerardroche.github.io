@@ -1,7 +1,7 @@
 ---
 tags: neovintageous sublime-text vim
 ---
-[NeoVintageous 1.4.0](https://github.com/NeoVintageous/NeoVintageous) has been released. The main highlights of this release are:
+[NeoVintageous 1.4.0](https://github.com/NeoVintageous/NeoVintageous) has been released, the main highlights of this release are:
 
 ## Vim Documentation Out-of-the-Box
 
@@ -39,9 +39,8 @@ The other big feature for this release is the ability to map to Sublime Text com
 
 Suppose, for example, you want to map `,m` to the *Goto Symbol in Project* command, which is available out-of-the-box in Sublime Text via the `goto_symbol_in_project` command. You can map to any command by **camel casing** it, **upper-casing the first letter**, and **appending `<CR>`** (create the mapping in your vintageousrc file, you can open it via the Command Palette "NeoVintageous: Open My vintageousrc File"):
 
-```vim
+```viml
 let mapleader=,
-
 nnoremap <leader>m :GotoSymbolInProject<CR>
 ```
 
@@ -49,9 +48,8 @@ You need to reload the mappings, you can do that via the Command Palette "NeoVin
 
 You can also creating mappings for custom commands. Suppose, for example, you want to map `,f` to *Goto Symbol in File*, and `,ep` to *Open Preferences*:
 
-```vim
+```viml
 let mapleader=,
-
 nnoremap <leader>f :GotoSymbolInFile<CR>
 nnoremap <leader>ep :OpenPreferences<CR>
 ```
@@ -88,7 +86,7 @@ See `:h vintageousrc` for the full documentation.
 
 If you prefer not to enable the ctrl-keys (via the `'vintageous_use_ctrl_keys'` setting), you can map window commands to your *mapleader* key. Then, instead of using the `CTRL` key, you can use your *mapleader*. *Note: the bar character (`|`) needs to be escaped in mappings.*
 
-```vim
+```viml
 let mapleader=,
 
 " Window resize mapleader aliases.
@@ -102,25 +100,12 @@ The mappings above mean you can resize groups equally (`,=`), vertically (`,|`),
 
 ### Mapping to Plugin Commands
 
-You can map pretty much any command you like, including commands provided by other plugins. For example, the [Test](https://github.com/gerardroche/sublime-test) plugin provides commands that unifies running testing tool commands:
+You can map pretty much any Sublime Text command, including commands provided by third party plugins. For example, the [Test](https://github.com/gerardroche/sublime-test) plugin provides commands for running your tests:
 
-```vim
-" See https://github.com/gerardroche/sublime-test.
-" See https://github.com/gerardroche/sublime-phpunit.
+```viml
 nnoremap <leader>t :TestNearest<CR>
 nnoremap <leader>T :TestFile<CR>
 nnoremap <leader>a :TestSuite<CR>
 nnoremap <leader>l :TestLast<CR>
 nnoremap <leader>gg :TestVisit<CR>
-```
-
-Or, if you prefer to use a testing tool like [PHPUnitKit](https://github.com/gerardroche/sublime-test) directly, you map directly to those commands:
-
-```vim
-" See https://github.com/gerardroche/sublime-phpunit.
-nnoremap <leader>t :PhpunitTestNearest<CR>
-nnoremap <leader>T :PhpunitTestFile<CR>
-nnoremap <leader>a :PhpunitTestSuite<CR>
-nnoremap <leader>l :PhpunitTestLast<CR>
-nnoremap <leader>gg :PhpunitTestVisit<CR>
 ```

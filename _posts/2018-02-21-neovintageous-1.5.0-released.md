@@ -1,7 +1,7 @@
 ---
 tags: neovintageous sublime-text vim
 ---
-[NeoVintageous 1.5.0](https://github.com/NeoVintageous/NeoVintageous) has been released. The main highlights of this release are:
+[NeoVintageous 1.5.0](https://github.com/NeoVintageous/NeoVintageous) has been released, the main highlights of this release are:
 
 ## Support for super-keys
 
@@ -17,30 +17,21 @@ You can now map super-keys (`<D-...>`), also known as command-keys on OSX, and w
 
 Suppose, for example, you want to map `<D-i>` to the *Goto Symbol in Project* command, which is available out-of-the-box in Sublime Text via the `goto_symbol_in_project` command. You can map to any command by **camel casing** it, **upper-casing the first letter**, and **appending `<CR>`** (create the mapping in your vintageousrc file, you can open it via the Command Palette "NeoVintageous: Open My vintageousrc File"):
 
-```vim
+```viml
 nnoremap <D-i> :GotoSymbolInProject<CR>
 ```
 
 You need to reload the mappings, you can do that via the Command Palette "NeoVintageous: Reload My vintageousrc File".
 
-Another example, is mapping `<D-n>` to run the nearest test using the command provided by the [Test](https://github.com/gerardroche/sublime-test) plugin.
+Another example, is mapping `<D-n>` to run the nearest test (requires the [Test](https://github.com/gerardroche/sublime-test) plugin):
 
-```vim
-" See https://github.com/gerardroche/sublime-test.
-" See https://github.com/gerardroche/sublime-phpunit.
+```viml
 nnoremap <D-n> :TestNearest<CR>
 ```
 
-Or, if you prefer to use a testing tool like [PHPUnitKit](https://github.com/gerardroche/sublime-test) directly, you map directly to those commands:
+Note: Currently only `a-zA-Z` super keys are implemented e.g. `<D-i>`, `<D-I>`, `<D-o>`, etc.
 
-```vim
-" See https://github.com/gerardroche/sublime-phpunit.
-nnoremap <D-n> :PhpunitTestNearest<CR>
-```
-
-Note: currently only `a-zA-Z` super keys are implemented e.g. `<D-i>`, `<D-I>`, `<D-o>`, etc.
-
-Note: operating systems make extensive use of the super-keys for desktop commands. If you find a super-key is not working in Sublime Text, then it's probably bound to a desktop command, and if that's the case then ST won't receive the key event. You can check if ST is receiving the event by running `sublime.log_input(True)` in the console (`Menu > View > Show Console`). If it's not receiving the event, then you need to clear whatever desktop command the key is bound to. If you use Ubuntu see [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps).
+Note: Operating systems make extensive use of the super-keys for desktop commands. If you find a super-key is not working in Sublime Text, then it's probably bound to a desktop command, and if that's the case then ST won't receive the key event. You can check if ST is receiving the event by running `sublime.log_input(True)` in the console (`Menu > View > Show Console`). If it's not receiving the event, then you need to clear whatever desktop command the key is bound to. If you use Ubuntu see [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps).
 
 See `:h vintageousrc` for the full documentation.
 
@@ -58,9 +49,8 @@ A toggle side bar command is now provided out-of-the-box. When you want to use a
 
 Suppose, for example, you want to map `,d` to toggle the sidebar when you are in normal mode (create the mapping in your vintageousrc file, you can open it via the Command Palette "NeoVintageous: Open My vintageousrc File"):
 
-```vim
+```viml
 let mapleader=,
-
 nnoremap <leader>d :NeovintageousToggleSideBar<CR>
 ```
 
@@ -84,7 +74,7 @@ Next, you need to create a keybinding to enable the ability to toggle the side b
 
 See `:h vintageousrc` for the full documentation.
 
-# Misc. Additions
+## Misc. Additions
 
 * Support for SublimeLinter goto to error `]l` and `[l` (see `:h unimpaired`)
 * Support for GitGutter goto change `]c` and `[c` (see `:h unimpaired`)
@@ -93,7 +83,7 @@ See `:h vintageousrc` for the full documentation.
 * Added `:edit {file}`
 * Added `:sp[lit] [file]` (requires Origami plugin, see `:h neovintageous`)
 
-# Recursive Mappings Removed
+## Recursive Mappings Removed
 
 The recursive mapping commands `:map`, `:nmap`, `:omap`, `:smap`, and `:vmap`, have been removed, and will emit warnings when used. Use the non-recursive mapping commands instead. Here is a table of the old and new non-recursive mapping commands:
 

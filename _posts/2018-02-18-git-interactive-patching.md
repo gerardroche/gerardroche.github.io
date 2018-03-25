@@ -44,22 +44,18 @@ To test the command out, use a test git repository. Trying out a new command on 
 
 ## Making `--patch` respond to single keystrokes
 
-By default `--patch` commands wait for you to press `Enter` at each prompt after you've answered the question `Stage this hunk [y,n,q,a,d,/,s,e,?]?`. To skip the need to press enter, set `interactive.singlekey` to `true`.[^1] [^2]
+By default, `--patch` commands wait for you to press `Enter` at each prompt i.e. after you've answered the question: `Stage this hunk [y,n,q,a,d,/,s,e,?]?`. To skip the need to press enter, enable [`interactive.singlekey`](https://git-scm.com/docs/git-config#git-config-interactivesingleKey):
 
 ```sh
 $ git config --global interactive.singlekey true
 ```
 
-On Ubuntu you'll need to install `libterm-readkey-perl`.[^3]
+[On Ubuntu](https://superuser.com/a/817688) you'll need to install `libterm-readkey-perl`:
 
 ```sh
 $ sudo apt-get install libterm-readkey-perl
 ```
 
-## Resources
+## Further reading
 
-* [Git Tools - Interactive Staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging)
-
-[^1]: https://git-scm.com/docs/git-config#git-config-interactivesingleKey
-[^2]: https://stackoverflow.com/a/32546377
-[^3]: https://superuser.com/a/817688
+* [Interactive Staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging)
