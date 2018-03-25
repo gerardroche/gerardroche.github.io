@@ -5,25 +5,12 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header>
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
     <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-  </div>
-
-  <footer>
-
-    <!--
-    <div class="tags">
-      <ul>
-      {% for tag in page.tags %}
-        <li><a href="">{{ tag | escape }}</a></li>
-      {% endfor %}
-      </ul>
-    </div>
-    -->
 
     <hr>
 
@@ -32,23 +19,23 @@ layout: default
       <p>Have a question about this post, or anything else?<br>Ask away on <a href="https://twitter.com/gerardroche" target="_blank">Twitter</a>.</p>
     </div>
 
-    <hr>
-
-    <div class="recent-posts">
-      <h2>Recent posts</h2>
-      <ul>
-        {% for post in site.posts limit:4 %}
-          {% if post.url != page.url or found_current_post %}
-            {% if forloop.index < 4 or found_current_post %}
-              <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
-            {% endif %}
-          {% else %}
-            {% assign found_current_post = true %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
-  </footer>
+  </div>
 
 </article>
+
+<hr>
+
+<div class="recent-posts">
+  <h2>Recent posts</h2>
+  <ul>
+    {% for post in site.posts limit:4 %}
+      {% if post.url != page.url or found_current_post %}
+        {% if forloop.index < 4 or found_current_post %}
+          <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> <time datetime="{{ page.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
+        {% endif %}
+      {% else %}
+        {% assign found_current_post = true %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

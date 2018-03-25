@@ -4,5 +4,8 @@
 
 @import "reset";
 @import "style";
-@import "pygments";
+
+/* temporarily disable because colorscheme doesn't look good */
+/*@import "pygments";*/
+
 @import "highlight";

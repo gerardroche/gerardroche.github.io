@@ -17,19 +17,26 @@ Example output of syntax highlighting HTML:
 
 */
 
-pre, .highlight pre {
-    background-color: #f6f8fa;
-    border-radius: 3px;
-    color: #24292e;
-    font-size: 85%;
+pre {
+    background: rgba(0,0,0,.05);
     overflow: auto;
-    padding: 16px;
+    padding: 20px;
+    margin: 40px 0;
+    font-size: 80%;
+}
+
+pre, pre code {
+    font-family: Menlo,Monaco,"Courier New",Courier,monospace;
+}
+
+.highlight pre {
+    background: rgba(0,0,0,.05);
 }
 
 code.highlighter-rouge {
-    background-color: rgba(27, 31, 35, 0.05);
-    border-radius: 3px;
-    font-size: 85%;
+    background: rgba(230, 230, 230, 0.87);
+    border-radius: 4px;
+    font-size: 80%;
     margin: 0;
-    padding: 0.2em 0.4em;
+    padding: 0.2em 0.5em;
 }
