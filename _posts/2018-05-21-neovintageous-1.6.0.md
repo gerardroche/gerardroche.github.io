@@ -23,7 +23,7 @@ When a mapping doesn't end in a carriage-return the Command-line is invoked with
 NeoVintageous 1.6.0 improves on mapping commands by supporting arguments:
 
 ```
-noremap <leader>gr :PermuteLines operation=reverse
+noremap <leader>gr :PermuteLines operation=reverse<CR>
 ```
 
 This maps to the Sublime Text command *Permute Lines: Reverse*, which can be run via the Menu: `Edit > Permute Lines > Reverse`.
@@ -51,7 +51,7 @@ command: show_overlay {"overlay": "goto", "show_files": true}
 Too convert it to a mapping:
 
 ```
-noremap <leader>p :ShowOverlay overlay=goto show_files=true
+noremap <leader>p :ShowOverlay overlay=goto show_files=true<CR>
 ```
 
 ## Color scheme support for search highlighting
