@@ -1,24 +1,20 @@
 ---
 tags: neovintageous sublime-text vim
 ---
-[NeoVintageous 1.4.0](https://github.com/NeoVintageous/NeoVintageous) has been released, the main highlights of this release are:
+[NeoVintageous 1.4.0](https://github.com/NeoVintageous/NeoVintageous) has been released and includes mapping commands, and a help system with full Vim documentation.
 
 ## Vim Documentation Out-of-the-Box
 
-You can now lookup help via the `:help {subject}` command (see `:help neovintageous`).
-
-You can also lookup documentation for out-of-the-box plugins:
+You can now lookup help with the `:help {subject}` command (see `:help nv` for NeoVintageous help). Documentation for all of the out-of-the-box plugins is available too:
 
 * `:help abolish`
 * `:help commentary`
 * `:help surround`
 * `:help unimpaired`
 
-To jump to a subject, position the cursor on a tag (e.g. `|bars|`, `'option'`) and hit `CTRL-]`.
+To jump to a subject, position the cursor on a tag (e.g. `|bars|`, `'option'`) and hit `CTRL-]`. Jump backwards and forwards by pressing `CTRL-O` and `CTRL-I`.
 
-Jump backwards and forwards by pressing `CTRL-O` and `CTRL-I`.
-
-It is possible to go directly to whatever you want help on, by giving an argument to the `:help` command. Prepend something to specify the context. Suppose, for example, you want to know what the `gc` command does, you can lookup `:help gc`. If you want to know what it does in visual mode, lookup `:help v_gc` (prepend `v_`).
+It's possible to go directly to whatever you want, by giving a *subject* to the `:help` command. A prefix can specify the context:
 
 WHAT | PREPEND | EXAMPLE
 ---- | ------- | -------
@@ -31,7 +27,7 @@ Vim command argument | `-` | `:help -r`
 Option | `'` | `:help 'textwidth'`
 Regular expression | `/` | `:help /[`
 
-Keep in mind that feature-parity with Vim is an ongoing effort. The Vim docs are provided in full without modifications (see `:help neovintageous` for Neovintageous specific differences).
+Keep in mind that feature-parity with Vim is an ongoing effort. The Vim docs are provided in full without modifications (see `:help nv` for Neovintageous specific differences).
 
 ## Mapping Commands
 
@@ -109,3 +105,5 @@ nnoremap <leader>a :TestSuite<CR>
 nnoremap <leader>l :TestLast<CR>
 nnoremap <leader>gg :TestVisit<CR>
 ```
+
+There are many more details in the [release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.4.0).

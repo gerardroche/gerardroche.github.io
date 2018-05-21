@@ -1,11 +1,11 @@
 ---
 tags: neovintageous sublime-text vim
 ---
-[NeoVintageous 1.5.0](https://github.com/NeoVintageous/NeoVintageous) has been released, the main highlights of this release are:
+[NeoVintageous 1.5.0](https://github.com/NeoVintageous/NeoVintageous) has been released and includes support for super-keys, command-line search history, command-line editing commands, and a toggle side bar command.
 
 ## Support for super-keys
 
-You can now map super-keys (`<D-...>`), also known as command-keys on OSX, and window-keys on Windows (disabled by default).
+You can now map super-keys (`<D-...>`), also known as command-keys on OSX, and window-keys on Windows. Super-keys are disabled by default.
 
 `Menu > Preferences > Settings`
 
@@ -96,3 +96,5 @@ Recursive command  (removed) | Non-recursive command
 `vmap` | `vnoremap`
 
 The recursive mappings were removed, because they were not implemented as recursive mappings, and removing them now in preference of the non-recursive mappings may prevent some potential problems in the future if the recursive mapping commands are ever implemented.
+
+There are many more details in the [release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.5.0).
