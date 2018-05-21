@@ -42,7 +42,7 @@ Now you when you run a command, it will print information about it in the consol
 command: permute_lines {"operation": "reverse"}
 ```
 
-Or the *Goto Anything...* command, which can be run via the menu: `Goto > Goto Anything`; it will print:
+Or the *Goto Anything...* command, which can be run via the menu: `Goto > Goto Anything`, will print:
 
 ```
 command: show_overlay {"overlay": "goto", "show_files": true}
