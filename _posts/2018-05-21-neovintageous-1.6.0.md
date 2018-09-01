@@ -62,12 +62,6 @@ Search highlighting has been improved with incremental match, current match, and
 
 Searches supporting the new highlighting include `/`, `?`, `*`, and `#`.
 
-The highlighting can be customised using these scopes:
-
-* `nv_search_inc`
-* `nv_search_current`
-* `nv_search_occurrence`
-
 Use a color scheme override to customise them. For example if you want to customise the the default Monokai color scheme, then create a file named `Monokai.sublime-color-scheme` in your User directory (find it via the menu `Preferences > Browse Packages`), then create the custom rules:
 
 ```
@@ -75,17 +69,17 @@ Use a color scheme override to customise them. For example if you want to custom
     "rules":
     [
         {
-            "scope": "nv_search_inc",
+            "scope": "neovintageous_search_inc",
             "background": "#a1efe4",
             "foreground": "#272822"
         },
         {
-            "scope": "nv_search_current",
+            "scope": "neovintageous_search_cur",
             "background": "#a1efe4",
             "foreground": "#272822"
         },
         {
-            "scope": "nv_search_occurrence",
+            "scope": "neovintageous_search_occ",
             "background": "#e6db74",
             "foreground": "#272822"
         }
