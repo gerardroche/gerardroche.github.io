@@ -4,33 +4,22 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-{% seo %}
+    {% seo %}
     <title>{{ page.title }}</title>
 
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     {% feed_meta %}
+    <link rel="shortcut icon" href="/assets/favicon.ico">
   </head>
   <body>
-    <div class="site">
+    <div>
 
-      <header class="site-header">
-        <h1><a href="/">@gerardroche</a></h1>
-        <ul>
-          <li>
-            <a href="/about-me/">About me</a>
-          </li>
-        </ul>
-      </header>
+      {% include sidebar.html %}
 
-      <main aria-label="Content">
+      <div class="content container">
         {{ content }}
-      </main>
 
-      <hr>
-
-      <footer class="site-footer">
-        <p>Be notified of new posts. <a href="{{ "/feed.xml" | relative_url }}">Subscribe to the RSS feed.</a><p>
-      </footer>
+      </div>
 
     </div>
   </body>

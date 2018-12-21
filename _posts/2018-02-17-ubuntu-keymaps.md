@@ -30,7 +30,7 @@ $ gsettings list-recursively | grep unmaximize
 org.gnome.desktop.wm.keybindings unmaximize ['<Super>Down', '<Alt>F5', '<Super>j']
 ```
 
-Sometimes a keymap that you want to use is bound to another command. You'll need to clear the old keymap for the new keymap to work e.g. suppose we want to map "<Super>n", but it's currently mapped to toggle an active notification, then we need to clear it before setting out new keymap.
+Sometimes a keymap that you want to use is bound to another command. You'll need to clear the old keymap for the new keymap to work e.g. suppose we want to map `<Super>`, but it's currently mapped to toggle an active notification, then we need to clear it before setting out new keymap.
 
 ```
 gsettings set org.gnome.shell.keybindings focus-active-notification "[]"

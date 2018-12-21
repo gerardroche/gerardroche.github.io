@@ -1,7 +1,10 @@
 ---
 tags: neovintageous sublime-text vim
+title: NeoVintageous 1.5.0
+redirect_from:
+  - /2018/02/21/neovintageous-1.5.0-released/
 ---
-[NeoVintageous 1.5.0](https://github.com/NeoVintageous/NeoVintageous) has been released and includes support for super-keys, command-line search history, command-line editing commands, and a toggle side bar command.
+NeoVintageous [1.5.0](https://github.com/NeoVintageous/NeoVintageous) has been released and includes support for super-keys, command-line search history, command-line editing commands, and a toggle side bar command.
 
 ## Support for super-keys
 

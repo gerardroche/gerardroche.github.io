@@ -164,6 +164,5 @@ You've learned how to harness Git's prompt power. Go forth and create awesome.
 * [Git in Bash](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash)
 * [Git in Zsh](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh)
 * [Git in Powershell](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Powershell)
-
-[^1]: http://man7.org/linux/man-pages/man1/bash.1.html#PARAMETERS
-[^2]: http://man7.org/linux/man-pages/man1/bash.1.html#PROMPTING
+* [Bash PARAMETERS](http://man7.org/linux/man-pages/man1/bash.1.html#PARAMETERS)
+* [Bash PROMPTING](http://man7.org/linux/man-pages/man1/bash.1.html#PROMPTING)

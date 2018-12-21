@@ -1,7 +1,8 @@
 ---
 tags: neovintageous sublime-text vim
+title: NeoVintageous 1.7.0
 ---
-[NeoVintageous 1.7.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0) has been released and includes configurable search highlighting, and a port of vim highlightedyank.
+NeoVintageous [1.7.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0) has been released and includes configurable search highlighting, and a port of vim highlightedyank.
 
 ## HighlightedYank
 

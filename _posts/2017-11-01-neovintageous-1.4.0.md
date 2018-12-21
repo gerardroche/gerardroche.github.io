@@ -1,7 +1,10 @@
 ---
 tags: neovintageous sublime-text vim
+title: NeoVintageous 1.4.0
+redirect_from:
+  - /2017/11/01/neovintageous-1.4.0-released/
 ---
-[NeoVintageous 1.4.0](https://github.com/NeoVintageous/NeoVintageous) has been released and includes mapping commands, and a help system with full Vim documentation.
+NeoVintageous [1.4.0](https://github.com/NeoVintageous/NeoVintageous) has been released and includes mapping commands, and a help system with full Vim documentation.
 
 ## Vim Documentation Out-of-the-Box
 

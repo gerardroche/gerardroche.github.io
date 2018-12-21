@@ -1,0 +1,14 @@
+@import "hyde/poole";
+@import "hyde/syntax";
+@import "hyde/hyde";
+
+.sidebar .sidebar-about img {
+    height: 3.25rem;
+    width: 3.25rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.questions {
+    @extend .related;
+}

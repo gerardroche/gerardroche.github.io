@@ -8,8 +8,10 @@ lang: en_IE
 timezone: UTC
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jemoji
 kramdown:
   show_warnings:  true
 defaults:
@@ -45,3 +47,9 @@ twitter:
 
 github:
   username: gerardroche
+
+stackoverflow:
+  user: 934739/gerardroche
+
+packagecontrol:
+  author: gerardroche
