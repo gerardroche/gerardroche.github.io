@@ -34,7 +34,7 @@ defaults:
     values:
       layout: "post"
 
-url: http://blog.gerardroche.com
+url: https://blog.gerardroche.com
 title: ":zap: KAPOW"
 description: A blog about stuff.
 email: gerard@gerardroche.com
