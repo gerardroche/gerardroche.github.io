@@ -3,7 +3,7 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous 1.8.0
 ---
 
-The main highlight of the [1.8.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.8.0) release is the change to how scrolling with `CTRL-d` and `CTRL-u` works. This has been a long standing issue and it's nice to finally deliver a [fix](https://github.com/NeoVintageous/NeoVintageous/commit/eb4608631bc0d19b6c784e476ffa19151e0f2e56).
+The main highlight of the [1.8.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.8.0) release is the change to how scrolling with `CTRL-D` and `CTRL-U` works. This has been a long standing issue and it's nice to finally deliver a [fix](https://github.com/NeoVintageous/NeoVintageous/commit/eb4608631bc0d19b6c784e476ffa19151e0f2e56).
 
 command |   action
 ------- | --------

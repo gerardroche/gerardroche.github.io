@@ -1,41 +1,34 @@
 It's useful to customise your command-line prompt to show information about the current directory's Git repository. This can be as simple or complex as you want, but there are generally a few key pieces of information that most people want, like the current branch, and the status of the working directory. What most people *don't know*, is that Git provides a function out-of-the-box for generating most of the information you'll ever need.
 
-## TL;DR
+## tl;dr
 
-Put this in your `~/.bashrc`:
+Put this in your `~/.bashrc` and when you’re inside a git-controlled project your prompt will show git information:
 
-```
+```sh
 GIT_PS1_DESCRIBE_STYLE="contains"
 GIT_PS1_SHOWCOLORHINTS="y"
 GIT_PS1_SHOWDIRTYSTATE="y"
 GIT_PS1_SHOWSTASHSTATE="y"
 GIT_PS1_SHOWUNTRACKEDFILES="y"
 GIT_PS1_SHOWUPSTREAM="verbose name git"
-
 PROMPT_COMMAND='__git_ps1 "\u@\h:\w" " \$ "'
 ```
 
-Now when you’re anywhere inside a git-controlled project your prompt will look similar to this:
-
-![A command prompt with all the bells and whistles](/assets/2018-07-22-tldr.png)
+![A screenshot of a command prompt with git information](/assets/2018-07-22-tldr.png)
 
 ## The Command Prompt
 
-There are a number of bash environment variables that relate to the command prompt ("PS" stands for "Prompt Statement"):
+There are a number of bash environment variables that relate to the command prompt *("PS" stands for "Prompt Statement")*:
 
-* `PS0` - The value of this variable is expanded and displayed by interactive shells after reading a command and before the command is executed.
-
-* `PS1` - The value of this variable is expanded and used as the primary prompt string (this is generally the prompt you see when you open your terminal). The default is `$`, unless you are the superuser, in which case it is `#`.
-
-* `PS2` - The value of this variable is expanded and used as the secondary prompt string. The default is `>`.
-
-* `PS3` - The value of this variable is used as the prompt for the select command.
-
-* `PS4` - The value of this variable is expanded and the value is printed before each command bash displays during an execution trace (`set -x`). The first character is replicated multiple times, as necessary, to indicate multiple levels of indirection. The default is `+`.
-
-* `PROMPT_COMMAND` - If set, the value is executed as a command prior to issuing each primary prompt.
-
-* `PROMPT_DIRTRIM` - If set to a number greater than zero, the value is used as the number of trailing directory components to retain when expanding the `\w` and  `\W`  prompt string escapes. Characters removed are replaced with an ellipsis.
+variable | description
+-------- | -----------
+`PS0` | The value of this variable is expanded and displayed by interactive shells after reading a command and before the command is executed.
+`PS1` | The value of this variable is expanded and used as the primary prompt string (this is generally the prompt you see when you open your terminal). The default is `$`, unless you are the superuser, in which case it is `#`.
+`PS2` | The value of this variable is expanded and used as the secondary prompt string. The default is `>`.
+`PS3` | The value of this variable is used as the prompt for the select command.
+`PS4` | The value of this variable is expanded and the value is printed before each command bash displays during an execution trace (`set -x`). The first character is replicated multiple times, as necessary, to indicate multiple levels of indirection. The default is `+`.
+`PROMPT_COMMAND` | If set, the value is executed as a command prior to issuing each primary prompt.
+`PROMPT_DIRTRIM` | If set to a number greater than zero, the value is used as the number of trailing directory components to retain when expanding the `\w` and  `\W`  prompt string escapes. Characters removed are replaced with an ellipsis.
 
 ## Modifying the Primary Prompt
 
@@ -56,7 +49,7 @@ $ PS1='\w\n\$ '
 
 See [backslash-escaped special characters](http://man7.org/linux/man-pages/man1/bash.1.html#PROMPTING) for a list of all special backslash-escaped characters.
 
-### If-else
+### if-else
 
 If-else statements can be used, for example to indicate the exit status of the most recently executed command. The following prints "(error)" if the most recently executed command fails:
 
