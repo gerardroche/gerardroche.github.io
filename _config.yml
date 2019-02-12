@@ -20,7 +20,10 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: assets/zap.png
+      image:
+        path: assets/zap.png
+        width: 128
+        height: 128
   -
     scope:
       path: ""
