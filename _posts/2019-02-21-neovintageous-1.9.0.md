@@ -1,0 +1,58 @@
+---
+tags: neovintageous sublime-text vim
+title: NeoVintageous 1.9.0
+---
+
+NeoVintageous [1.9.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0) has landed. This release brings builtin support for jumping to diffs, opening and closing folds, countable newlines, and surround enhancements.
+
+## Jumping to diffs
+
+This is the first release to ship with builtin support for jumping to diffs (added in Sublime [build 3189](https://www.sublimetext.com/3dev)). For previous builds you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter) plugin.
+
+command | action
+------- | --------
+]c | jump forwards to the next start of a change. When a count is used, do it that many times.
+[c | jump backwards to the previous start of a change. When a count is used, do it that many times.
+
+## Fold commands
+
+You can now open and close all or individual folds:
+
+command | action
+------- | ------
+zo | open one fold under the cursor
+zc | close one fold under the cursor
+zM | Close all folds
+zR | Open all folds
+
+## Countable newlines
+
+Using a count when beginning newlines now enters a multiple cursor:
+
+command | action
+------- | ------
+o | Begin a new line below the cursor and insert text, repeat \[count\] times.
+O | Begin a new line above the cursor and insert text, repeat \[count\] times.
+
+## Surround enhancements
+
+A new surround line command, `yss{target}`, allows you to operate on the current line, ignoring leading whitespace.
+
+The targets **b**, **B**, **r**, and **a** are now aliases for **)**, **}**, **]**, and **>**.
+
+Old text | Command | New text
+-------- | ------- | --------
+`Hello w*orld!` | `yss}` | `{Hello world!}`
+`Hello w*orld!` | `yssB` | `{Hello world!}`
+`'Hello w*orld!'` | `cs')` | `"Hello w*orld!"`
+`(Hello w*orld!)` | `cs'b` | `(Hello w*orld!)`
+`Hello w*orld!` | `ysiw)` | `Hello (world)!`
+`Hello w*orld!` | `ysiwb` | `Hello (world)!`
+
+## Further reading
+
+* `:h [c`
+* `:h ]c`
+* `:h fold-commands`
+* `:h surround`
+* `:h vintageousrc`
