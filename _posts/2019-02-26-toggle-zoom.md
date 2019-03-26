@@ -17,9 +17,15 @@ let mapleader=,
 nnoremap <leader>. :ToggleZoomPane<CR>
 ```
 
+You can use the "fraction" argument to specify how big or small the minimised panes should be, I like them as small as possible without disappearing. *You will need to restart Sublime for the fraction amount take effect.*
+
+```viml
+nnoremap <leader>. :ToggleZoomPane fraction=0.98<CR>
+```
+
 ## Further reading
 
-* `:h mapleader`
-* `:h neovintageous`
+* `:help nv`
+* `:help mapleader`
 * [Follow my leader](http://vimcasts.org/blog/2014/02/follow-my-leader/)
 * [Working with windows](http://vimcasts.org/episodes/working-with-windows/)

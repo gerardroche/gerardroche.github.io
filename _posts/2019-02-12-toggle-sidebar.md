@@ -3,7 +3,7 @@ tags: neovintageous sublime-text vim
 title: Toggle Side Bar
 ---
 
-Since NeoVintageous 1.5.0 you've been able to toggle the sidebar using a mapping of your choice. I'm going to show you how to do that.
+I'm going to show you how to create a sidebar toggle mapping in NeoVintagous.
 
 ## \<leader\>d
 
@@ -15,7 +15,7 @@ In your vintageousrc file:
 
 ```viml
 let mapleader=,
-nnoremap <leader>d :NeovintageousToggleSideBar<CR>
+nnoremap <leader>d :Neovintageous action=toggle_side_bar<CR>
 ```
 
 In your key bindings:
@@ -24,7 +24,8 @@ In your key bindings:
 [
     {
         "keys": [",", "d"],
-        "command": "neovintageous_toggle_side_bar",
+        "command": "neovintageous",
+        "args": { "action": "toggle_side_bar" },
         "context": [
             { "key": "control", "operand": "sidebar_tree" }
         ]
@@ -46,9 +47,9 @@ h, j, k, and l | navigate side bar
 
 ## Further reading
 
-* `:h nv`
-* `:h vintageousrc`
-* `:h mapping`
+* `:help nv`
+* `:help nv-rc`
+* `:help mapping`
 * [Command Palette](http://docs.sublimetext.info/en/latest/extensibility/command_palette.html#command-palette)
 * [Follow my leader](http://vimcasts.org/blog/2014/02/follow-my-leader/)
 * [Key Bindings](https://www.sublimetext.com/docs/3/key_bindings.html)
