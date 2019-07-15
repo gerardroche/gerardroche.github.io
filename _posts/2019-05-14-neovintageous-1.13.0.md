@@ -43,7 +43,7 @@ command | description
 `={motion}` | re-indent `{motion}` lines
 `==` | re-indent `[count]` lines
 
-For example, to indent the current paragraph press `>}` and to re-indent it press `=}`. You can use any motion e.g. `>G` to indent from here to end of the file.
+For example, to indent the current paragraph press `>}` and to re-indent it press `=}`. You can use any motion e.g. `>G` to indent from here to the end of the file.
 
 Instead of using a motion you can visually select the text and press `>`, `<`, or `=` to shift rightwards, shift leftwards, or re-indent.
 
@@ -56,7 +56,7 @@ vnoremap <D-[> <lt>gv
 vnoremap <D-]> >gv
 ```
 
-The `<D-..>` key is the **super-key**, also known as a command-key on OSX, and a window-key on Windows.
+The `<D-..>` key is the **super-key**, also known as command-key on OSX, and window-key on Windows.
 
 Super-keys are disabled by default, use the command palette "**Toggle SUPER keys**" to enable them. Also note that super-keys are sometimes shadowed by OS specific key bindings, this would mean that Sublime won't receive those key events, in which case you'll need remove the OS specific key binding so that Sublime receives the key event for that key binding.
 
