@@ -27,7 +27,7 @@ character | algorithm
 
 For example, **cru** on a lowercase word is slightly easier to type than the equivalent **gUiw**.
 
-Some algorithms, such as **cr-** (dash-case) and **cr.** (dot.case), are listed as "not usually reversible". The reason is because **-** (dash) and **.** (dot) are not "keyword characters", so they are treated as breaking a word. For example, "key_word" is a single keyword., whereas the dash-case version, "key-word", is treated as two keywords, "key" and "word".
+Some algorithms, such as **cr-** (dash-case) and **cr.** (dot.case), are listed as "not usually reversible". The reason is because **-** (dash) and **.** (dot) are not "keyword characters", so they are treated as breaking a word. For example, "key_word" is a single keyword, whereas the dash-case version, "key-word", is treated as two keywords, "key" and "word".
 
 ## 2. Commentary
 
@@ -53,7 +53,7 @@ This plugin highlights a yanked region immediately after being yanked. The **dur
 
 **Multiple Cursors** is a port of [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors).
 
-Once you've started a multiple cursor you can use visual mode commands, for instance, `I`, `c`, `d`, `s`, `x`, `y`, work without issue.
+Once you've started a multiple cursor you can use visual mode commands, for instance, `I`, `c`, `d`, `s`, `x`, `y`.
 
 command | description
 ------- | -----------
@@ -63,7 +63,7 @@ command | description
 `<C-p>` or `k` | Remove current match and go back on previous.
 `<Esc>` or `J` | Quit and enter normal mode.
 
-You can go to normal mode by pressing `v`. Once in normal mode you can use normal mode commands, for instance, `i`, `ciw`, `d$`, `p`, `yiw`, work without issue.
+You can go to normal mode by pressing `v`. Once in normal mode you can use normal mode commands, for instance, `i`, `ciw`, `d$`, `p`, `yiw`.
 
 At any time, you can press `<Esc>` or `J` to exit back to normal mode. This behaviour can be configured to work similar to pressing `v`. This is useful if you want to go back to normal mode and still be able to operate on all the cursors.
 
@@ -74,6 +74,8 @@ At any time, you can press `<Esc>` or `J` to exit back to normal mode. This beha
     "vintageous_multi_cursor_exit_from_visual_mode": false,
 }
 ```
+
+The control keys, such as `<C-n>`, `<C-x>`, `<C-p>`, are disabled by default. You can enable them via the Command Palette command **NeoVintageous: Toggle CTRL keys**.
 
 ## 5. Surround
 
