@@ -25,15 +25,15 @@ character | algorithm
 `<space>` | space case (not usually reversible)
 `t` | Title Case (not usually reversible)
 
-For example, **cru** on a lowercase word is a slightly easier to type equivalent to **gUiw**.
+For example, **cru** on a lowercase word is slightly easier to type than the equivalent **gUiw**.
 
 Some algorithms, such as **cr-** (dash-case) and **cr.** (dot.case), are listed as "not usually reversible". The reason is because **-** (dash) and **.** (dot) are not "keyword characters", so they are treated as breaking a word. For example, "key_word" is a single keyword., whereas the dash-case version, "key-word", is treated as two keywords, "key" and "word".
 
 ## 2. Commentary
 
-**Commentary** is a port of [vim-commentary](https://github.com/tpope/vim-commentary). This adds several commands to make it easier to comment, uncomment, and toggle comments.
+**Commentary** is a port of [vim-commentary](https://github.com/tpope/vim-commentary). It adds several commands that make it easier to comment, uncomment, and toggle comments.
 
-Use **gcc** to comment out a line (takes a count), **gc** to comment out the target of a motion (for example **gcap** to comment out a paragraph and **gcG** to comment to the end of file), and **gc** in visual mode to comment out the selection. All of the commands actually **toggle** the comment on and off.
+Use **gcc** to comment out a line (takes a count), **gc** to comment out the target of a motion (for example, **gcap** to comment out a paragraph, **gcG** to comment to the end of file), and **gc** in visual mode to comment out the selection. All of the commands actually **toggle** the comment.
 
 command | description
 ------- | ------------
@@ -63,11 +63,9 @@ command | description
 `<C-p>` or `k` | Remove current match and go back on previous.
 `<Esc>` or `J` | Quit and enter normal mode.
 
-You can go to normal mode by pressing `v`. Once in normal mode you can use normal mode commands, for instance, `ciw`, `d$`, `p`, `yiw`, work without issue.
+You can go to normal mode by pressing `v`. Once in normal mode you can use normal mode commands, for instance, `i`, `ciw`, `d$`, `p`, `yiw`, work without issue.
 
-At any time, you can press `<Esc>` or `J` to exit back to normal mode.
-
-The behaviour of exiting to normal mode can be configured. For instance, you can make it work like pressing `v`. This is useful if you want to go back to normal mode and still be able to operate on all the cursors.
+At any time, you can press `<Esc>` or `J` to exit back to normal mode. This behaviour can be configured to work similar to pressing `v`. This is useful if you want to go back to normal mode and still be able to operate on all the cursors.
 
 **Menu > Preferences > Settings**
 
@@ -111,7 +109,7 @@ old text | command | new text
 `if *x>3 {` | `ysW(` | `if ( x>3 ) {`
 `my $str = *whee!;` | `vllllS'` | `my $str = 'whee!';`
 
-The **Surround** plugin is very powerful and has many more commands, see the [surround documentation](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/surround.txt) for more examples. You can also access the documentation via the ex command `:help surround`.
+The **Surround** plugin is very powerful and has many more features than shown above, see the [surround documentation](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/surround.txt) for more examples. You can also access documentation via the ex command `:help surround`.
 
 ## 6. Unimpaired
 
@@ -169,11 +167,11 @@ On | Off | Toggle | Option
 
 Just like regular text objects, these mappings can be used either with operators expecting a motion, such as `d` or `c`, as well as in visual mode.
 
-The `iI` mapping is mostly included for completeness, it's effectively a synonym for `ii`.
-
 command | description
 ------- | -----------
 `ai` | An Indentation level and line above.
 `ii` | Inner Indentation level (no line above).
 `aI` | An Indentation level and lines above/below.
 `iI` | Inner Indentation level (no lines above/below).
+
+The `iI` mapping is mostly included for completeness, it's effectively a synonym for `ii`.
