@@ -86,7 +86,7 @@ The control keys, such as `<C-n>`, `<C-x>`, `<C-p>`, are disabled by default. Yo
 It's easiest to explain with examples. Press `cs"'` inside
 
 ```
-"Hello world!"
+[Hello] world!
 ```
 
 to change it to
@@ -95,10 +95,28 @@ to change it to
 'Hello world!'
 ```
 
-Press `cs'<q>` inside the quotes to change it to
+Now press `cs'<q>` to change it to
 
 ```
 <q>Hello world!</q>
+```
+
+To go full circle, press `cst"` to get
+
+```
+"Hello world!"
+```
+
+To remove the delimiters entirely, press `ds"`
+
+```
+Hello world!
+```
+
+Now with the cursor on "Hello", press `ysiw]` (`iw` is a text object).
+
+```
+[Hello] world!
 ```
 
 Consider the following examples (an asterisk denotes the cursor position).

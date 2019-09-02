@@ -2,16 +2,15 @@
 tags: neovintageous sublime-text vim
 title: NeoVintageous 1.7.0
 ---
-NeoVintageous [1.7.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0) has been released and includes configurable search highlighting, and a port of vim highlightedyank.
+NeoVintageous [1.7.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0) has been released and includes **configurable search highlighting**, and a **port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank)**.
 
-## HighlightedYank
+## Highlighted Yank
 
-The highlightedyank plugin is a port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank). It makes your yanked regions apparent. It's enabled by default and is highly configurable.
+**Highlighted Yank** is a port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank).
 
 ![Highlightedyank demo](/assets/2018-09-02-highlightedyank.gif)
 
-
-The plugin can be disabled:
+Highlighted Yank can be disabled:
 
 ```
 {
@@ -19,15 +18,8 @@ The plugin can be disabled:
 }
 ```
 
-The default style is **fill**. It can be set to **outline**, **underline**, **squiggly_underline**, and **stippled_underline**.
 
-```
-{
-    "highlightedyank_style": "fill"
-}
-```
-
-The duration is configurable:
+The **duration** of the highlighted region is configurable:
 
 ```
 {
@@ -35,7 +27,15 @@ The duration is configurable:
 }
 ```
 
-To customise the colors, create a color scheme override: for example if you have the default Monokai color scheme enabled - create a file named **Monokai.sublime-color-scheme** in the Sublime Text User directory (**Menu > Preferences > Browse Packages...**), and create the styles using the "highlightedyank" scope:
+The **style** of the highlighted region is configurable, valid values are `outline`, `underline`, `squiggly_underline`, and `stippled_underline`:
+
+```
+{
+    "highlightedyank_style": "fill"
+}
+```
+
+The **color** of the highlighted region is configurable, for instance, you can create a color scheme override:
 
 ```
 {
