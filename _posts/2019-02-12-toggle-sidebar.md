@@ -13,7 +13,7 @@ In my example below I'm going to map to `<leader>d`, where my "`mapleader`" is a
 
 In your vintageousrc file:
 
-```viml
+```vim
 let mapleader=,
 nnoremap <leader>d :Neovintageous action=toggle_side_bar<CR>
 ```
@@ -39,11 +39,10 @@ It's as simple as that.
 
 command | description
 ---------- | -----------
-ctrl-k ctrl-b | toggle side bar
-ctrl-0 | give the focus to the side bar
-Esc | return the focus to the view
-Arrow keys | navigate side bar
-h, j, k, and l | navigate side bar
+`ctrl-k` `ctrl-b` | toggle side bar
+`ctrl-0` | give the focus to the side bar
+`Esc` | return the focus to the view
+`h`, `j`, `k`, `l`, and arrow keys | navigate side bar
 
 ## Further reading
 

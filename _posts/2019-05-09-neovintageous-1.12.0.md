@@ -3,7 +3,7 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous 1.12.0
 ---
 
-NeoVintageous [1.12.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.12.0) is out. The highlights of this release are new visual bell styles, multiple cursor enhancements, visual block enhancements, new ex mode commands, new motions, and lots of bug fixes.
+NeoVintageous 1.12.0 has just been released. The highlights of this release are new visual bell styles, multiple cursor enhancements, visual block enhancements, new ex mode commands, new motions, and lots of bug fixes.
 
 ## Visual Bells
 
@@ -48,44 +48,56 @@ New commands include `v` (translate to visual), `V` (translate to visual line), 
 
 There are four new ex mode commands:
 
-* `:noh[lsearch]`
-* `:g[lobal]/{pattern}/d[elete]`
-* `:sil[ent] {command}`
-* `:his[tory]`
+### :nohlsearch
 
-**:nohlsearch**
+```vim
+:noh[lsearch]
+```
 
-Stop the highlighting for the `'hlsearch'` option. It's automatically turned back on when using a search command.
+Stop the highlighting for the `'hlsearch'` option. It's automatically turned back on when using a search command and like all ex mode commands is mappable:
 
-All ex mode commands are mappable, for example:
-
-```viml
+```vim
 nnoremap <C-l> :nohlsearch<CR>
 ```
 
-Note that ctrl keys are disabled by default, use the command palette "Toggle CTRL keys" to enable them.
+Note that Ctrl keys are disabled by default, you can use the Command Palette to toggle them on and off:
 
-**:\[range\]global/{pattern}/delete**
-
-Execute the Ex command `:delete` on the lines within `[range]` where `{pattern}` matches.
-
-
-For example, to delete all lines that start with a digit:
-
+```console
+NeoVintageous: Toggle CTRL keys
 ```
+
+### :global
+
+```vim
+:[range]g[lobal]/{pattern}/d[elete]
+```
+
+Execute the Ex command `:delete` on the lines within `[range]` where `{pattern}` matches. For example, to delete all lines that start with a digit:
+
+```vim
 :g/^[0-9]/d
 ```
 
-**:silent {command}**
+### :silent
 
-Execute commands silently.
+```vim
+:sil[ent] {command}
+```
 
-For example, use it to map commands that have output you want to ignore (support for `%` in shell commands is new in this release too):
+Execute commands silently. For example, use it to map commands that have output you want to ignore (support for `%` in shell commands is new in this release too):
 
-```viml
+```vim
 nnoremap <leader>gs :!git status<CR>
 nnoremap <leader>ga :silent !git add %<CR>
 ```
+
+### :history
+
+```vim
+:his[tory]
+```
+
+Print the history of last entered commands.
 
 ## Other notable changes
 
@@ -101,4 +113,4 @@ nnoremap <leader>ga :silent !git add %<CR>
 ## Further reading
 
 * `:help nv`
-* [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md#1120---2019-05-09).
+* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.12.0)

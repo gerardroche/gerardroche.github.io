@@ -3,13 +3,13 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous 1.16.0
 ---
 
-NeoVintageous [1.16.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.16.0) is out. The highlights of this release are enhanced mapping support, new pasting commands, and side bar navigation.
+NeoVintageous 1.16.0 has just been released. The highlights of this release are enhanced mapping support, new pasting commands, and side bar navigation.
 
 ## Enhancement mappings
 
 Mappings now support leading and trailing sequences when mapping to commands, for example all of the following mappings are now valid:
 
-```
+```vim
 nnoremap <leader>sp vip:sort u<CR>
 nnoremap <leader>sy vi]:sort u<CR>vi]y<Esc>
 vnoremap <leader>s :sort u<CR>
@@ -43,4 +43,4 @@ new alias | key | description
 ## Further reading
 
 * `:help nv`
-* [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md#1160---2019-06-05).
+* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.16.0)

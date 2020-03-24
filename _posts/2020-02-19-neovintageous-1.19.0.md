@@ -3,78 +3,109 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous 1.19.0
 ---
 
-NeoVintageous 1.19.0 is now [released](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.19.0). The highlights are **vim modeline**, better **marks**, new **shell commands**, more **options**, **keys**, and new **aliases**.
+NeoVintageous 1.19.0 is now released. The highlights are the new vim modeline feature, improved marks, new shell commands, new options, new keys, and new aliases.
 
-There are two notable changes in this release:
+## Ch-ch-ch-ch-Changes
 
-* `'winaltkeys'` option is now "**menu**" by default.
-* `'ignorecase'` option is now **false** by default.
+There are two notable changes:
 
-To change the options back to the previous default open your RC file and add:
+1. The `'ignorecase'` option is now **false** by default.
+2. The `'winaltkeys'` option is now "**menu**" by default.
 
-```
-set winaltkeys=yes
+To change the options back to the previous defaults open your RC file and add:
+
+```vim
 set ignorecase
+set winaltkeys=yes
 ```
 
 ## Vim modeline
 
 The new vim modeline feature allows you to automatically set options with the `:set` command when you start editing a file. It is enabled by default and replaces the now removed sublime-specific modelines feature.
 
-A contrived example is to add the following to the top of a file which will ensure the file always loads with **textwidth=30**, **tabstop=2** (**tab size**) and the **number** option enabled *(gutter line numbers)*:
+A contrived example is to add the following to the top of a file which will ensure the file always loads with `textwidth=30`, `tabstop=2` (`tab size`) and the `number` (gutter line numbers) option enabled:
 
-```
+```py
 # vim: tw=30 ts=2 nu
 ```
 
-A modeline can be prefixed by any text: `// vim: ...`
+A modeline can be prefixed by any text (usually a comment):
 
-All of the following options are supported: *'autoindent'*, *'belloff'*, *'hlsearch'*, *'ignorecase'*, *'incsearch'*, *'list'*, *'magic'*, *'menu'*, *'minimap'*, *'modeline'*, *'modelines'*, *'number'*, *'sidebar'*, *'spell'*, *'statusbar'*, *'winaltkeys'*, *'wrap'*, *'wrapscan'*.
+```php
+// vim: tw=30 ts=2 nu
+```
+
+All of the following options are supported: `'autoindent'`, `'belloff'`, `'hlsearch'`, `'ignorecase'`, `'incsearch'`, `'list'`, `'magic'`, `'menu'`, `'minimap'`, `'modeline'`, `'modelines'`, `'number'`, `'sidebar'`, `'spell'`, `'statusbar'`, `'winaltkeys'`, `'wrap'`, `'wrapscan'`.
 
 See `:help modeline` for detailed documentation.
 
 ## Marks
 
-The most significant improvement to marks is how they now adjust their position with edits. To set a mark at the current cursor position (does not move the cursor, this is not a motion command): **m{a-z}**.
+The most significant improvement to marks is how they now adjust their position with edits. To set a mark at the current cursor position (does not move the cursor, this is not a motion command):
+
+```
+m{a-z}
+```
 
 Jumping to a mark can be done in two ways:
 
 1. With \` (backtick): The cursor is positioned at the specified location and the motion is exclusive.
 2. With ' (single quote): The cursor is positioned on the first non-blank character in the line of the specified location and the motion is linewise.
 
-For example, set mark "t" (**mt**), and then you can jump to the mark with **\`t** or **'t**.
+For example, set mark "t":
+
+```
+mt
+```
+
+And then you can jump to the mark with
+
+```
+`t
+```
+
+or
+
+```
+'t
+```
 
 ## New shell commands
 
-**`:[range]r[ead] !{cmd}`**
+
+### :read
+
+```vim
+:[range]r[ead] !{cmd}
+```
 
 Execute `{cmd}` and insert its standard output below the cursor or the specified line. `{cmd}` is executed like with `:!{cmd}`. For example to insert the output from `:!ls` below the current line:
 
-```
+```vim
 :read !ls
 ```
 
 And to put it below line 9:
 
-```
+```vim
 :9read !ls
 ```
 
-The shell command `:!{cmd}` can be configured, the default is `$SHELL` or "sh", and on Windows "cmd.exe":
+The shell that is used in the command part (`:!{cmd}`) can be configured, the default is `$SHELL` or "sh" and on Windows it's "cmd.exe":
 
-```
+```vim
 set shell=/bin/bash
 ```
 
-To ***start*** a *new* shell run `:shell`. The program used to start the shell can be configured by the setting `vintageous_terminal` (note that this is a setting, not an option, settings are normal ST settings **Menu > Preferences > Settings**), to use **gnome-terminal**:
+To start a new shell use the `:shell` command, the program used to start the shell can be configured with the `vintageous_terminal` setting e.g. to use GNOME Terminal update your settings with:
 
-```
+```json
 {
     "vintageous_terminal": "gnome-terminal"
 }
 ```
 
-## Options
+## New options
 
 Several new options are available:
 
@@ -84,11 +115,9 @@ option | default
 `'tabstop'` `'ts'` | `tab_size` sublime setting
 `'expandtabs'` `'et'` | `translate_tabs_to_spaces` sublime setting
 
-## Keys
+## New keys
 
-All of the new keys can now be mapped!
-
-New keys:
+All of the new keys can be mapped!
 
 * `<C-bs>` alias to `h`
 * `<C-home>` alias to `gg`
@@ -122,6 +151,6 @@ New keys:
 
 ## Further reading
 
-* [Changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md#1190---2020-02-19).
 * `:help nv`
 * `:help modeline`
+* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.19.0)

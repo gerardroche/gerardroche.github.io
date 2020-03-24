@@ -3,7 +3,7 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous 1.13.0
 ---
 
-NeoVintageous [1.13.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.13.0) is out. The highlights of this release are [more multiple cursor enhancements](/2019/05/09/neovintageous-1.12.0/), indentation commands enhancements, and new search motions.
+NeoVintageous 1.13.0 has just been released. The highlights of this release are [more multiple cursor enhancements](/2019/05/09/neovintageous-1.12.0/), indentation commands enhancements, and new search motions.
 
 ## Multiple cursors
 
@@ -49,7 +49,7 @@ Instead of using a motion you can visually select the text and press `>`, `<`, o
 
 Here's a great [five minute Vimcast](http://vimcasts.org/episodes/indentation-commands/) that covers indentation command basics. Note that the vimscript features mentioned in the Vimcast are not supported, and the suggested mappings need to be formatted as follows:
 
-```viml
+```vim
 nnoremap <D-[> <lt><lt>
 nnoremap <D-]> >>
 vnoremap <D-[> <lt>gv
@@ -58,7 +58,13 @@ vnoremap <D-]> >gv
 
 The `<D-..>` key is the **super-key**, also known as command-key on OSX, and window-key on Windows.
 
-Super-keys are disabled by default, use the command palette "**Toggle SUPER keys**" to enable them. Also note that super-keys are sometimes shadowed by OS specific key bindings, this would mean that Sublime won't receive those key events, in which case you'll need remove the OS specific key binding so that Sublime receives the key event for that key binding.
+The super-keys are disabled by default, use the Command Palette to enable them:
+
+```console
+NeoVintageous: Toggle SUPER keys
+```
+
+Also note that super-keys are sometimes shadowed by OS specific key bindings, this would mean that Sublime won't receive those key events, in which case you'll need remove the OS specific key binding so that Sublime receives the key event for that key binding.
 
 ## New motions
 
@@ -77,4 +83,4 @@ Both `gn` and `gN`, like all motions, support operators like `c` and `d` too e.g
 ## Further reading
 
 * `:help nv`
-* [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md#1130---2019-05-14).
+* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.13.0)

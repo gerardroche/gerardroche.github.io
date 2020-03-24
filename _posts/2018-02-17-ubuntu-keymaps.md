@@ -9,20 +9,20 @@ There are several ways to configure keymaps in Ubuntu. You can use the out-of-th
 
 List keymaps.
 
-```sh
+```terminal
 $ gsettings list-recursively | grep toggle-fullscreen
 org.gnome.desktop.wm.keybindings toggle-fullscreen @as []
 ```
 
 Let's use `<Super>u` to toggle full screen.
 
-```sh
+```terminal
 $ gsettings set org.gnome.desktop.wm.keybindings  toggle-fullscreen "['<Super>u']"
 ```
 
 The value is generally expected to be an array, which means we can bind multiple keymaps to the same command. The benefits of this is that you may want to add a keymap to a command and keep the defaults too.
 
-```sh
+```terminal
 $ gsettings list-recursively | grep unmaximize
 org.gnome.desktop.wm.keybindings unmaximize ['<Super>Down', '<Alt>F5']
 $ gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down', '<Alt>F5', '<Super>j']"
@@ -32,13 +32,13 @@ org.gnome.desktop.wm.keybindings unmaximize ['<Super>Down', '<Alt>F5', '<Super>j
 
 Sometimes a keymap that you want to use is bound to another command. You'll need to clear the old keymap for the new keymap to work e.g. suppose we want to map `<Super>`, but it's currently mapped to toggle an active notification, then we need to clear it before setting out new keymap.
 
-```
+```terminal
 gsettings set org.gnome.shell.keybindings focus-active-notification "[]"
 ```
 
 You can do interesting things like mapping the `Capslock` to `Esc` (if you like that sort of thing).
 
-```
+```terminal
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
 ```
 
@@ -46,7 +46,7 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
 
 Keeping your keymaps reusable across systems can be as straight forward as a shell script, perhaps [keep it under source control alongside your dotfiles](https://github.com/gerardroche/dotfiles/blob/master/src/bin/configure-ubuntu-keybindings). Here's an sample of some keymaps I use in a reusable script.
 
-```sh
+```terminal
 #!/bin/sh
 set -e
 echo -n "configuring keybindings... "

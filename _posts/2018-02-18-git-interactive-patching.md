@@ -1,6 +1,7 @@
 ---
 tags: git
 ---
+
 The `git add --patch` command *interactively* add hunks to the index. It effectively runs `git add --interactive`, but bypasses the initial command menu and directly jumps to the patch subcommand.
 
 If you know that you want to commit after adding a patch, run `git commit --patch`. This effectively runs `git add --patch` first, immediately followed by `git commit`.
@@ -13,15 +14,16 @@ The patch prompt can be intimidating, but everything is easy when you know how.
 
 When you run `git add --patch` (`git add -p` for short), you get prompted with the first hunk (if any), and git waits for response to a question:
 
-```
-Stage this hunk [y,n,q,a,d,/,s,e,?]?
+```terminal
+$ Stage this hunk [y,n,q,a,d,/,s,e,?]?
 ```
 
 Do you want to add this hunk to the index? Our options are the comma-delimited list in the square brackets: `[y,n,q,a,d,/,s,e,?]`.
 
 What do they mean? You can press `?` (which is one of the options) for help. Git will display something like this:
 
-```
+```terminal
+$ Stage this hunk [y,n,q,a,d,/,s,e,?]?
 y - stage this hunk
 n - do not stage this hunk
 q - quit; do not stage this hunk or any of the remaining ones
@@ -46,13 +48,13 @@ To test the command out, use a test git repository. Trying out a new command on 
 
 By default, `--patch` commands wait for you to press `Enter` at each prompt i.e. after you've answered the question: `Stage this hunk [y,n,q,a,d,/,s,e,?]?`. To skip the need to press enter, enable [`interactive.singlekey`](https://git-scm.com/docs/git-config#git-config-interactivesingleKey):
 
-```sh
+```terminal
 $ git config --global interactive.singlekey true
 ```
 
 [On Ubuntu](https://superuser.com/a/817688) you'll need to install `libterm-readkey-perl`:
 
-```sh
+```terminal
 $ sudo apt-get install libterm-readkey-perl
 ```
 

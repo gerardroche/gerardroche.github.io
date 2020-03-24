@@ -3,9 +3,9 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous 1.17.0
 ---
 
-NeoVintageous [1.17.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.17.0) is out. The highlights of this release are **Indent Object** enhancement, **Unimpaired** enhancements, **spell checking** commands, new options, and **`:set {option}`** support for the neovintageousrc file.
+NeoVintageous 1.17.0 has just been released. The highlights of this release are indent object enhancements, unimpaired enhancements, new spell checking commands, new options, and support for `:set {option}` in the neovintageousrc file.
 
-## :set {option}
+## :set
 
 `:set {option}` is now supported in the neovintageousrc file.
 
@@ -30,7 +30,7 @@ option | description
 `'wrap'` | enable text wrapping
 `'wrapscan'` | searches wrap around the end of the file e.g. applies to `*`, `#`, `n`, `N` (searches), and `]c` and `[c` (jump to diffs)
 
-## Indent object additions
+## Indent object enhancements
 
 command | description
 ------- | -----------
@@ -39,7 +39,7 @@ command | description
 `vaI` | (text-object) an indentation level and lines above/below
 `viI` | (text-object) inner indentation level (no lines above/below)
 
-## Unimpaired additions
+## Unimpaired enhancements
 
 command | description
 ------- | -----------
@@ -77,4 +77,4 @@ alias | command | description
 ## Further reading
 
 * `:help nv`
-* [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md#1170---2019-07-11).
+* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.17.0)

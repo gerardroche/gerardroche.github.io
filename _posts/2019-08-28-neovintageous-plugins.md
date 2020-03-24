@@ -3,13 +3,15 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous Plugins
 ---
 
-By default, NeoVintageous includes a number of bundled plugins. Each plugin offers additional functionality and features beyond the features of Vim. Let's take a look at those plugins and the features that they offer.
+NeoVintageous includes a number of bundled plugins by default. Each plugin offers additional functionality beyond the features of Vim. Let's take a look at some the features.
 
-## 1. Abolish
+## Abolish
 
-**Abolish** is a port of [vim-abolish](https://github.com/tpope/vim-abolish). Tim Pope describes it as *"three superficially unrelated plugins in one that share a common theme: working with variants of a word."*
+Abolish is a port of [vim-abolish](https://github.com/tpope/vim-abolish), Tim Pope, the author, describes it as
 
-The port supports **case mutating algorithms**. Each algorithm can be applied to a *word under the cursor* using the **cr** mapping (mnemonic: CoeRce) followed by one of the following characters:
+> Three superficially unrelated plugins in one that share a common theme: working with variants of a word.
+
+The NeoVintageous port currently only supports the **"case mutating algorithms"**. Each algorithm can be applied to a word under the cursor using the **cr** mapping **(mnemonic: CoeRce)** followed by one of the following characters:
 
 character | algorithm
 --------- | ---------
@@ -25,15 +27,27 @@ character | algorithm
 `<space>` | space case (not usually reversible)
 `t` | Title Case (not usually reversible)
 
-For example, **cru** on a lowercase word is slightly easier to type than the equivalent **gUiw**.
+For example:
 
-Some algorithms, such as **cr-** (dash-case) and **cr.** (dot.case), are listed as "not usually reversible". The reason is because **-** (dash) and **.** (dot) are not "keyword characters", so they are treated as breaking a word. For example, "key_word" is a single keyword, whereas the dash-case version, "key-word", is treated as two keywords, "key" and "word".
+```
+cru
+```
 
-## 2. Commentary
+On a lowercase word to make it uppercase is slightly easier to type than the equivalent:
 
-**Commentary** is a port of [vim-commentary](https://github.com/tpope/vim-commentary). It adds several commands that make it easier to comment, uncomment, and toggle comments.
+```
+gUiw
+```
 
-Use **gcc** to comment out a line (takes a count), **gc** to comment out the target of a motion (for example, **gcap** to comment out a paragraph, **gcG** to comment to the end of file), and **gc** in visual mode to comment out the selection. All of the commands actually **toggle** the comment.
+### Coercion reversibility
+
+Some algorithms, such as `cr-` (dash-case) and `cr.` (dot.case), are listed as "not usually reversible". The reason is because `-` (dash) and `.` (dot) are not "keyword characters", so they are treated as breaking a word. For example, "key_word" is a single keyword, whereas the dash-case version, "key-word", is treated as two keywords, "key" and "word".
+
+## Commentary
+
+Commentary is a port of [vim-commentary](https://github.com/tpope/vim-commentary), it adds several commands that make it easier to comment, uncomment, and toggle comments.
+
+Use **gcc** to comment out a line (takes a count), **gc** to comment out the target of a motion (for example, **gcap** to comment out a paragraph, **gcG** to comment to the end of file), and **gc** in visual mode to comment out the selection. All of the commands toggle the comment.
 
 command | description
 ------- | ------------
@@ -41,19 +55,17 @@ command | description
 `gc{motion}` | Comment or uncomment lines that \{motion\} moves over.
 `{Visual}gc` | Comment or uncomment the highlighted lines.
 
-## 3. Highlighted Yank
+## Highlighted Yank
 
-**Highlighted Yank** is a port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank).
+Highlighted Yank is a port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank).
 
 > Make the yanked region apparent!
 
-This plugin highlights a yanked region immediately after being yanked. The **duration** and **style** is configurable, see the [1.7.0 Release Notes](/2018/09/02/neovintageous-1.7.0/) for a guide.
+This plugin highlights a yanked region immediately after being yanked. The **duration** and **style** is configurable, see the [1.7.0 Release Notes](/2018/09/02/neovintageous-1.7.0/) for a detailed guide.
 
-## 4. Multiple Cursors
+## Multiple Cursors
 
-**Multiple Cursors** is a port of [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors).
-
-Once you've started a multiple cursor you can use visual mode commands, for instance, `I`, `c`, `d`, `s`, `x`, `y`.
+Multiple Cursors is a port of [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors).
 
 command | description
 ------- | -----------
@@ -62,6 +74,8 @@ command | description
 `<C-x>` or `l` | Skip next match.
 `<C-p>` or `k` | Remove current match and go back on previous.
 `<Esc>` or `J` | Quit and enter normal mode.
+
+Once you've started a multiple cursor you can use visual mode commands, for instance, `I`, `c`, `d`, `s`, `x`, `y`.
 
 You can go to normal mode by pressing `v`. Once in normal mode you can use normal mode commands, for instance, `i`, `ciw`, `d$`, `p`, `yiw`.
 
@@ -75,47 +89,51 @@ At any time, you can press `<Esc>` or `J` to exit back to normal mode. This beha
 }
 ```
 
-The control keys, such as `<C-n>`, `<C-x>`, `<C-p>`, are disabled by default. You can enable them via the Command Palette command **NeoVintageous: Toggle CTRL keys**.
+The control keys, such as `<C-n>`, `<C-x>`, `<C-p>`, are disabled by default. You can enable them via the Command Palette:
 
-## 5. Surround
+```console
+NeoVintageous: Toggle CTRL keys
+```
 
-**Surround** is a port of [vim-surround](https://github.com/tpope/vim-surround).
+## Surround
+
+Surround is a port of [vim-surround](https://github.com/tpope/vim-surround).
 
 > Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 
 It's easiest to explain with examples. Press `cs"'` inside
 
-```
+```html
 [Hello] world!
 ```
 
 to change it to
 
-```
+```html
 'Hello world!'
 ```
 
 Now press `cs'<q>` to change it to
 
-```
+```html
 <q>Hello world!</q>
 ```
 
 To go full circle, press `cst"` to get
 
-```
+```html
 "Hello world!"
 ```
 
 To remove the delimiters entirely, press `ds"`
 
-```
+```html
 Hello world!
 ```
 
 Now with the cursor on "Hello", press `ysiw]` (`iw` is a text object).
 
-```
+```html
 [Hello] world!
 ```
 
@@ -129,11 +147,11 @@ old text | command | new text
 `if *x>3 {` | `ysW(` | `if ( x>3 ) {`
 `my $str = *whee!;` | `vllllS'` | `my $str = 'whee!';`
 
-The **Surround** plugin is very powerful and has many more features than shown above, see the [surround documentation](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/surround.txt) for more examples. You can also access documentation via the ex command `:help surround`.
+The Surround plugin is very powerful and has many more features than shown above, see the [surround documentation](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/surround.txt) for more examples. You can also access documentation via the ex command `:help surround`.
 
-## 6. Unimpaired
+## Unimpaired
 
-**Unimpaired** is a port of [vim-unimpaired](https://github.com/tpope/vim-unimpaired).
+Unimpaired is a port of [vim-unimpaired](https://github.com/tpope/vim-unimpaired).
 
 > Much of unimpaired.vim was extracted from my vimrc when I noticed a pattern: complementary pairs of mappings.
 
@@ -163,7 +181,7 @@ command | description
 
 **Option toggling**
 
-> The mnemonic for y is that if you tilt it a bit it looks like a switch.
+The mnemonic for y is that if you tilt it a bit it looks like a switch.
 
 On | Off | Toggle | Option
 -- | --- | ------ | ------
@@ -179,11 +197,9 @@ On | Off | Toggle | Option
 `[ot` | `]ot` | `yot` | `'sidebar'`
 `[ow` | `]ow` | `yow` | `'wrap'`
 
-## 7. Indent Object
+## Indent Object
 
-**Indent Object** is a port of [vim-indent-object](https://github.com/michaeljsmith/vim-indent-object).
-
-> defines a new text object, based on indentation levels. This is very useful in languages such as Python, in which the syntax defines scope in terms of indentation. Using the objects defined in this plugin, an entire if structure can be quickly selected.
+Indent Object is a port of [vim-indent-object](https://github.com/michaeljsmith/vim-indent-object). It defines a new text object, based on indentation levels. This is very useful in languages such as Python, in which the syntax defines scope in terms of indentation. Using the objects defined in this plugin, an entire if structure can be quickly selected.
 
 Just like regular text objects, these mappings can be used either with operators expecting a motion, such as `d` or `c`, as well as in visual mode.
 
@@ -195,3 +211,7 @@ command | description
 `iI` | Inner Indentation level (no lines above/below).
 
 The `iI` mapping is mostly included for completeness, it's effectively a synonym for `ii`.
+
+## Further reading
+
+* `:help nv`

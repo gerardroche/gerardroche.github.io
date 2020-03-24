@@ -12,14 +12,14 @@ I map it to `<leader>.` in NeoVintageous, but you're obviously free to choose yo
 
 I like `,` as my "mapleader", because it's just so easy to type. Mapping to `<leader>.` lets me toggle zoom very fast.
 
-```viml
+```vim
 let mapleader=,
 nnoremap <leader>. :ToggleZoomPane<CR>
 ```
 
-You can use the "fraction" argument to specify how big or small the minimised panes should be, I like them as small as possible without disappearing. *You will need to restart Sublime for the fraction amount take effect.*
+You can use the "fraction" argument to specify how big or small the minimised panes should be, I like them as small as possible without disappearing. You will need to restart Sublime for the fraction amount take effect.
 
-```viml
+```vim
 nnoremap <leader>. :ToggleZoomPane fraction=0.98<CR>
 ```
 

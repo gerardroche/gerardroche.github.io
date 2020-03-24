@@ -2,7 +2,8 @@
 tags: neovintageous sublime-text vim
 title: NeoVintageous 1.7.0
 ---
-NeoVintageous [1.7.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0) has been released and includes **configurable search highlighting**, and a **port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank)**.
+
+NeoVintageous 1.7.0 has been released and includes **configurable search highlighting**, and a **port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank)**.
 
 ## Highlighted Yank
 
@@ -12,7 +13,7 @@ NeoVintageous [1.7.0](https://github.com/NeoVintageous/NeoVintageous/releases/ta
 
 Highlighted Yank can be disabled:
 
-```
+```json
 {
     "highlightedyank": false
 }
@@ -21,7 +22,7 @@ Highlighted Yank can be disabled:
 
 The **duration** of the highlighted region is configurable:
 
-```
+```json
 {
     "highlightedyank_duration": 1000
 }
@@ -29,7 +30,7 @@ The **duration** of the highlighted region is configurable:
 
 The **style** of the highlighted region is configurable, valid values are `outline`, `underline`, `squiggly_underline`, and `stippled_underline`:
 
-```
+```json
 {
     "highlightedyank_style": "fill"
 }
@@ -37,7 +38,7 @@ The **style** of the highlighted region is configurable, valid values are `outli
 
 The **color** of the highlighted region is configurable, for instance, you can create a color scheme override:
 
-```
+```json
 {
     "rules":
     [
@@ -56,7 +57,7 @@ Searches that support highlighting include `/`, `?`, `*`, and `#`.
 
 There are three search states: **current**, **incremental** (the match as you type the search), and **occurrences**. Each state can be configured individually. They can be set to **fill**, **outline**, **underline**, **squiggly_underline**, and **stippled_underline**.
 
-```
+```json
 {
     "neovintageous_search_cur_style": "fill",
     "neovintageous_search_inc_style": "fill",
@@ -67,7 +68,7 @@ There are three search states: **current**, **incremental** (the match as you ty
 
 To customise the colors of each state, create a color scheme override: for example if you have the default Monokai color scheme enabled - create a file named **Monokai.sublime-color-scheme** in the Sublime Text User directory (**Menu > Preferences > Browse Packages...**), and create the styles using the "neovintageous_search_*" scopes:
 
-```
+```json
 {
     "rules":
     [
@@ -89,3 +90,8 @@ To customise the colors of each state, create a color scheme override: for examp
     ]
 }
 ```
+
+## Further reading
+
+* `:help nv`
+* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0)

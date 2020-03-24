@@ -3,13 +3,11 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous 1.14.0
 ---
 
-NeoVintageous [1.14.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.14.0) is out.
+NeoVintageous 1.14.0 has just been released. This release adds support for mapping `super+[` (`<D-[>`) and `super+]` (`<D-]`).
 
-This release added support for mapping `super+[` (`<D-[>`) and `super+]` (`<D-]`).
+You can, for example, use them to indent, unindent, and retain visual mode when an operation is executed in visual mode:
 
-You could for example use them to indent and unindent, and retain visual mode when operation is executed in visual mode:
-
-```viml
+```vim
 nnoremap <D-[> <lt><lt>
 nnoremap <D-]> >>
 vnoremap <D-[> <lt>gv
@@ -31,4 +29,4 @@ The super-keys are disabled by default, you can enable them by editing your sett
 ## Further reading
 
 * `:help nv`
-* [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md#1140---2019-05-14).
+* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.14.0)
