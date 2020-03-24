@@ -1,5 +1,6 @@
 @import "hyde/poole";
 @import "hyde/syntax";
+@import "hyde/syntax-dark";
 @import "hyde/hyde";
 
 .sidebar .sidebar-about img {
@@ -12,3 +13,7 @@
 // .questions {
 //     @extend .related;
 // }
+
+.highlight { background-color: #263238; }
+code.highlighter-rouge { background: #f6f6f6; }
+tbody tr:nth-child(odd) td code.highlighter-rouge { background: #f1f1f1; }
