@@ -35,8 +35,8 @@ Key Sequence               | Description
 `S{char}<Enter>`           | Go to the previous occurrence of `{char}`
 `s<Enter>`                 | Repeat the last Sneak.
 `S<Enter>`                 | Repeat the last Sneak, in reverse direction.
-`;`                        | Go to the [count]th next match
-`,` or `\`                   | Go to the [count]th previous match
+`;`                        | Go to the \[count\]th next match
+`,` or `\`                   | Go to the \[count\]th previous match
 `{operator}z{char}{char}`  | Perform {operator} from the cursor to the next occurrence of `{char}{char}`
 `{operator}Z{char}{char}`  | Perform {operator} from the cursor to the previous occurrence of `{char}{char}`
 
@@ -50,8 +50,8 @@ Key Sequence             | Description
 `Z{char}<Enter>`           | Go to the previous occurrence of `{char}`
 `s<Enter>`                 | Repeat the last Sneak.
 `Z<Enter>`                 | Repeat the last Sneak, in reverse direction.
-`;`                        | Go to the [count]th next match
-`,` or `\`                 | Go to the [count]th previous match
+`;`                        | Go to the \[count\]th next match
+`,` or `\`                 | Go to the \[count\]th previous match
 
 ## Mapping jj and jk to escape
 
@@ -77,6 +77,7 @@ Tip: maping for editing the rc file!
 ```vim
 nnoremap <leader>en :Neovintageous action=open_rc_file<CR>
 ```
+
 ## Further reading
 
 * `:help nv`
