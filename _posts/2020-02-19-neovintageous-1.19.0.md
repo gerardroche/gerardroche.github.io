@@ -21,21 +21,46 @@ set winaltkeys=yes
 
 ## Vim modeline
 
-The new vim modeline feature allows you to automatically set options with the `:set` command when you start editing a file. It is enabled by default and replaces the now removed sublime-specific modelines feature.
+The new vim modeline feature allows you to automatically set options with the `:set` command.
 
-A contrived example is to add the following to the top of a file which will ensure the file always loads with `textwidth=30`, `tabstop=2` (`tab size`) and the `number` (gutter line numbers) option enabled:
+It's easiest to illustrate with an example. For example, if you add the following modeline to the top or bottom of your file:
 
 ```py
 # vim: tw=30 ts=2 nu
 ```
 
-A modeline can be prefixed by any text (usually a comment):
+It will ensure the file is always loaded with `textwidth=30`, `tabstop=2` (tab size) and the `number` option (gutter line numbers) enabled.
+
+A modeline can be prefixed by any text, usually a comment.
 
 ```php
 // vim: tw=30 ts=2 nu
 ```
 
-All of the following options are supported: `'autoindent'`, `'belloff'`, `'hlsearch'`, `'ignorecase'`, `'incsearch'`, `'list'`, `'magic'`, `'menu'`, `'minimap'`, `'modeline'`, `'modelines'`, `'number'`, `'sidebar'`, `'spell'`, `'statusbar'`, `'winaltkeys'`, `'wrap'`, `'wrapscan'`.
+The following options are supported:
+
+```vim
+'autoindent'
+'belloff'
+'hlsearch'
+'ignorecase'
+'incsearch'
+'list'
+'magic'
+'menu'
+'minimap'
+'modeline'
+'modelines'
+'number'
+'sidebar'
+'spell'
+'statusbar'
+'winaltkeys'
+'wrap'
+'wrapscan'
+```
+
+Modeline is enabled by default and replaces sublime-specific modelines.
 
 See `:help modeline` for detailed documentation.
 
