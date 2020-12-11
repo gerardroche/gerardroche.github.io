@@ -45,7 +45,7 @@ To make searches case-sensitive turn the `'ignorecase'` option off:
 
 ### Typed search flags can overrule options
 
-When the `\c` flag is used in a search pattern, the whole pattern is handled as though `'ignorecase'` is on and the actual value of `'ignorecase'` is ignored. In other words, the `\c` flag means ignore case in search patterns.
+When the `\c` flag is used in a search pattern, the whole pattern is handled as though `'ignorecase'` is on and the actual value of `'ignorecase'` is ignored. In other words the `\c` flag means ignore case in search patterns.
 
 ```vim
 /fizz\c
@@ -56,7 +56,7 @@ When the `\c` flag is used in a search pattern, the whole pattern is handled as 
 |fizz| |FIZZ| |fIzZ| |FiZZ|
 ```
 
-When the `\C` flag (uppercase) is used in a search pattern, the whole pattern is handled as though `'ignorecase'` is off and the actual value of `'ignorecase'` is ignored. In other words, make search patterns case-sensitive.
+When the `\C` flag (uppercase) is used in a search pattern, the whole pattern is handled as though `'ignorecase'` is off and the actual value of `'ignorecase'` is ignored. In other words make search patterns case-sensitive.
 
 ```vim
 /fizz\C
@@ -73,7 +73,7 @@ When the `\C` flag (uppercase) is used in a search pattern, the whole pattern is
 :s[ubstitute]/{pattern}/{string}/[flags]
 ```
 
-When the `i` flag is used in a substitution command, the search pattern is handled as though `'ingorecase'` is on and the actual value of `'ignorecase'` is ignored. In other words, the `i` flag means ignore case in the search pattern.
+When the `i` flag is used in a substitution command, the search pattern is handled as though `'ingorecase'` is on and the actual value of `'ignorecase'` is ignored. In other words the `i` flag means ignore case in the search pattern.
 
 ```vim
 :%s/foo/bar/gi
@@ -84,7 +84,7 @@ foo FOO fOO    ->    bar bar bar
 foo FOO fOO    ->    bar bar bar
 ```
 
-When the `I` flag (uppercase) is used in a substitution command, the search pattern is handled as though `'ingorecase'` is off and the actual value of `'ignorecase'` is ignored. In other words, make the pattern case-sensitive.
+When the `I` flag (uppercase) is used in a substitution command, the search pattern is handled as though `'ingorecase'` is off and the actual value of `'ignorecase'` is ignored. In other words make the pattern case-sensitive.
 
 ```vim
 :%s/foo/bar/gI
@@ -105,7 +105,7 @@ TIP: The `g` flag in a substitution command causes the command to replace all oc
 
 The `'smartcase'` option overrides the `'ignorecase'` option if the search pattern contains upper case characters. It's only used when the search pattern is typed and `'ignorecase'` option is on.  For example, it's used for the commands "/", "?", "n", "N", ":g" and ":s". It's not used for "\*", "#".
 
-When `'ignorecase'` and `'smartcase'` are both on, lower case search patterns are handled as though `'ingorecase'` is on. In other words, ignore case in the search pattern.
+When `'ignorecase'` and `'smartcase'` are both on, lower case search patterns are handled as though `'ingorecase'` is on. In other words ignore case in the search pattern.
 
 ```vim
 :set ignorecase
@@ -121,7 +121,7 @@ When `'ignorecase'` and `'smartcase'` are both on, lower case search patterns ar
 |fizz| |FIZZ| |fIzZ| |FiZZ|
 ```
 
-When `'ignorecase'` and `'smartcase'` are both on, search patterns that contain an upper case characters are handled as though `'ingorecase'` is off. In other words, the search pattern is case-sensitive.
+When `'ignorecase'` and `'smartcase'` are both on, search patterns that contain an upper case characters are handled as though `'ingorecase'` is off. In other words the search pattern is case-sensitive.
 
 ```vim
 /fIzZ
