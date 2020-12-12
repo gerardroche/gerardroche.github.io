@@ -70,7 +70,7 @@ When the `\C` flag (uppercase) is used in a search pattern, the whole pattern is
 ### Typed substitution flags can overrule options
 
 ```vim
-:s[ubstitute]/{pattern}/{string}/[flags]
+:[range]s[ubstitute]/{pattern}/{string}/[flags]
 ```
 
 When the `i` flag is used in a substitution command, the search pattern is handled as though `'ignorecase'` is on and the actual value of `'ignorecase'` is ignored. In other words the `i` flag means ignore case in search patterns.
@@ -134,4 +134,4 @@ fizz FIZZ |fIzZ| FiZZ
 
 ## Summary
 
-Turning on `'ignorecase'` and `'smartcase'` makes case-sensitive and case-insensitive searches a cinch. To ignore case, use lower case, otherwise use at least one upper case character. And if you really need to do a case-sensitive lower case search, use the appropriate flag: `/fizz\C`, `:%s/foo/bar/gI`.
+Turning on `'ignorecase'` and `'smartcase'` makes case-sensitive and case-insensitive searches a cinch. To ignore case, use lower case, otherwise use at least one upper case character. And if you really need to do a case-sensitive lower case search use the appropriate flags: `/fizz\C`, `:%s/foo/bar/gI`.
