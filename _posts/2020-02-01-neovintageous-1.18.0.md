@@ -16,17 +16,7 @@ command | description
 `[n` | Go to the previous SCM conflict marker.  Try `[n` inside a conflict.
 `]n` | Go to the next SCM conflict marker. Try `]n` inside a conflict.
 
-Tip: Try also the jump-to-diff commands
-
-```
-[c
-```
-
-and
-
-```
-]c
-```
+{% include tip.html content="Try jump-to-diff commands `[c` and `]c`" %}
 
 ## Visual block enhancements
 
@@ -38,7 +28,6 @@ You can enter multiple cursor mode from visual block mode by pressing `CTRL-n` (
 
 The substitute command now accepts a case sensitive flag `I`. For example to replace all patterns matching "foo" (case sensitive) with "bar":
 
-
 ```vim
 :%s/foo/bar/gI
 ```
@@ -49,7 +38,7 @@ To do the same replacement case insensitive:
 :%s/foo/bar/gi
 ```
 
-Tip: The `g` flag replaces all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line.
+{% include tip.html content="The `g` flag in substitution commands tells the command to replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line." %}
 
 The substitute command is case sensitive by default. This is controlled by the `'ignorecase'` option. To change the default open your runtime configuration file and add:
 

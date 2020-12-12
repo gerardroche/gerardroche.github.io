@@ -73,7 +73,7 @@ When the `\C` flag (uppercase) is used in a search pattern, the whole pattern is
 :s[ubstitute]/{pattern}/{string}/[flags]
 ```
 
-When the `i` flag is used in a substitution command, the search pattern is handled as though `'ignorecase'` is on and the actual value of `'ignorecase'` is ignored. In other words the `i` flag means ignore case in the search pattern.
+When the `i` flag is used in a substitution command, the search pattern is handled as though `'ignorecase'` is on and the actual value of `'ignorecase'` is ignored. In other words the `i` flag means ignore case in search patterns.
 
 ```vim
 :%s/foo/bar/gi
@@ -84,7 +84,7 @@ foo FOO fOO    ->    bar bar bar
 foo FOO fOO    ->    bar bar bar
 ```
 
-When the `I` flag (uppercase) is used in a substitution command, the search pattern is handled as though `'ignorecase'` is off and the actual value of `'ignorecase'` is ignored. In other words make the pattern case-sensitive.
+When the `I` flag (uppercase) is used in a substitution command, the search pattern is handled as though `'ignorecase'` is off and the actual value of `'ignorecase'` is ignored. In other words make search patterns case-sensitive.
 
 ```vim
 :%s/foo/bar/gI
@@ -95,7 +95,7 @@ foo FOO fOO    ->    bar FOO fOO
 foo FOO fOO    ->    bar FOO fOO
 ```
 
-TIP: The `g` flag in a substitution command causes the command to replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line.
+{% include tip.html content="The `g` flag in substitution commands tells the command to replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line." %}
 
 ## The 'smartcase' option
 
@@ -103,7 +103,7 @@ TIP: The `g` flag in a substitution command causes the command to replace all oc
 'smartcase' 'scs' 'nosmartcase' 'noscs'
 ```
 
-The `'smartcase'` option overrides the `'ignorecase'` option if the search pattern contains upper case characters. It's only used when the search pattern is typed and `'ignorecase'` option is on.  For example, it's used for the commands "/", "?", "n", "N", ":g" and ":s". It's not used for "\*", "#".
+The `'smartcase'` option overrules the `'ignorecase'` option if the search pattern contains upper case characters. It's only used when the search pattern is typed and `'ignorecase'` option is on.  For example, it's used for the commands "/", "?", "n", "N", ":g" and ":s". It's not used for "\*", "#".
 
 When `'ignorecase'` and `'smartcase'` are both on, lower case search patterns are handled as though `'ignorecase'` is on. In other words ignore case in the search pattern.
 
