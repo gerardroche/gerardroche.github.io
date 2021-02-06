@@ -4,7 +4,7 @@ liquid:
 sass:
   style: compressed
 strict_front_matter: true
-lang: en_IE
+lang: en
 timezone: UTC
 plugins:
   - jekyll-feed
