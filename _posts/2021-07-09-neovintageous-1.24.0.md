@@ -33,7 +33,7 @@ CTRL-W V
 
 Like `:split` but split vertically. See `:help CTRL-W_v` for more details.
 
-## `:inoremap {lhs} {rhs}` support
+## `:inoremap {lhs} {rhs}`
 
 Map the key sequence `{lhs}` to `{rhs}` for the modes where the map command applies.  Disallow mapping of `{rhs}`, to avoid nested and recursive mappings.  Often used to redefine a command.
 
