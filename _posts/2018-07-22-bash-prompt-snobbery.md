@@ -2,9 +2,7 @@ It's useful to customise your command-line prompt to show information about the 
 
 ## TL;DR
 
-Put the following in your `~/.bashrc` file and when you’re inside a git-controlled project your prompt will show git information like this:
-
-![A screenshot of a command prompt with git information](/assets/2018-07-22-tldr.png)
+Put the following in your bash configuration e.g. `~/.bashrc`:
 
 ```sh
 GIT_PS1_DESCRIBE_STYLE="describe"
@@ -15,6 +13,10 @@ GIT_PS1_SHOWUNTRACKEDFILES="y"
 GIT_PS1_SHOWUPSTREAM="verbose name git"
 PROMPT_COMMAND='__git_ps1 "\u@\h:\w" " \$ "'
 ```
+
+Now when you’re inside a git-controlled project your prompt will show git information:
+
+![A screenshot of a command prompt with git information](/assets/2018-07-22-tldr.png)
 
 ## The Command Prompt
 
