@@ -3,53 +3,54 @@ tags: php
 title: PHP-CS-Fixer Pre-Commit Hook
 ---
 
-Running coding standard checks before committing code can save you a lot of time triaging CI failures. This is a good use-case for using Git pre-commit hooks. Let's take a look at how to implement checks in a Git pre-commit hook.
+Automatically executing a code style check before commits can save you time. You can use a git hook to automatically run scripts before a commit.
 
-## Installing a Hook
+In this post I'll show you how to setup [PHP Coding Standards Fixer](https://github.com/FriendsOfPhp/PHP-CS-Fixer) to automatically run before a commit. If the check fails, the commit will abort. You can bypass checks with `git commit --no-verify`.
 
-Hooks can installed locally or globally. The hooks are all stored in the hooks subdirectory of the Git directory. In most projects, that's `.git/hooks`, but you can set a custom location by setting [`core.hooksPath`](https://git-scm.com/docs/git-config#Documentation/git-config.txt-corehooksPath):
+## Setup the Git hooks location
 
-```sh
-mkdir ~/.githooks
-git config core.hooksPath ~/.githooks
-```
+Hooks can installed local for a current repository or globally for all repositories. The hooks are all stored in the `hooks` subdirectory of the Git directory. In most projects that's `.git/hooks`. You can set a custom location by setting [`core.hooksPath`](https://git-scm.com/docs/git-config#Documentation/git-config.txt-corehooksPath).
 
-To set a global hooks path:
+
+Set hooks path globally for all repositories:
 
 ```sh
 git config --global core.hooksPath ~/.githooks
 ```
 
-Let's create a hook that print "Hello world" before commits:
 
-Create the hook script:
+Set hooks path for local repository:
 
 ```sh
-echo "Hello world" > ~/.githooks/pre-commit
+git config core.hooksPath ~/.githooks
 ```
 
-Make sure the file is executable:
+## A simple example hook
+
+Create a pre-commit script that prints "Hello world".
+
+```sh
+echo 'echo "Hello world"' > ~/.githooks/pre-commit
+```
+
+Make sure the script is executable.
 
     chmod 744 ~/.githooks/pre-commit
 
-The hook is invoked by `git-commit` and  will print "Hello world":
+Now when you commit "Hello world" will be printed.
 
 ```sh
-$ git commit -m ":zap: KAPOW"
+$ git commit -m "commit message"
 Hello world
 ```
 
-Hooks can be bypassed with the `--no-verify` option:
-
-```sh
-git commit --no-verify
-```
+## Hook exit status
 
 When a hook script exits with a non-zero status from this script causes the `git commit` command to abort before creating a commit. The Git documentation provides a list of possible hooks you can use: [Git Hooks documentation](https://git-scm.com/docs/githooks#_hooks).
 
-Printing Hello world is not particularly exciting or useful. Let's take a look at something more useful: running a php-cs-fixer check before committing.
+## Setup PHP-CS-Fixer
 
-## PHP Coding Standards Fixer
+Printing Hello world is not particularly exciting or useful. Let's take a look at something more useful: running a php-cs-fixer check before committing.
 
 > The [PHP Coding Standards Fixer](https://github.com/FriendsOfPhp/PHP-CS-Fixer) (PHP CS Fixer) tool fixes your code to follow standards; whether you want to follow PHP coding standards as defined in the PSR-1, PSR-2, etc., or other community driven ones like the Symfony one.
 
