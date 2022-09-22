@@ -10,7 +10,7 @@ command |   action
 `ctrl-d` | scroll window downwards in the buffer
 `ctrl-u` | scroll window upwards in the buffer
 
-Note that the `ctrl` keys are disabled by default (this will change in [v2.0.0](https://github.com/NeoVintageous/NeoVintageous/issues/404)), to enable the keys update your settings.
+Note that the `ctrl` keys are ~~disabled by default (this will change in [v2.0.0](https://github.com/NeoVintageous/NeoVintageous/issues/404))~~ (now enabled by default) [^1], to enable the keys update your settings.
 
 **Menu > Preferences > Settings**:
 
@@ -27,3 +27,6 @@ Note that the `ctrl` keys are disabled by default (this will change in [v2.0.0](
 * `:help ctrl-u`
 * `:help nv-options`
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.8.0)
+
+[^1]:
+    [NeoVintageous Ctrl keys](/2022/09/22/neovintageous-ctrl-keys/)
