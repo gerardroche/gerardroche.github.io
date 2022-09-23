@@ -1,0 +1,12 @@
+---
+layout: page
+title: Tags
+---
+
+<div class="tags">
+{% for tag in site.tags %}
+  <a href="/tags/{{ tag[0] }}">{{ tag[0] }}</a>
+  <span> {{ tag[1].size }}</span>
+  <br />
+{% endfor %}
+</div>
