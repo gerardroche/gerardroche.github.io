@@ -39,6 +39,7 @@ sass:
 kramdown:
   show_warnings:  true
 plugins:
+  - jekyll-archives
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
@@ -66,3 +67,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+jekyll-archives:
+  enabled: ['tags']
+  permalinks:
+    tag: '/tags/:name/'

@@ -8,6 +8,11 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  <div class="tags">
+    {% for tag in page.tags %}
+      <a href="/tags/{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+  </div>
 </article>
 
 <div class="questions">

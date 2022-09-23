@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>Posts with {{ page.type }} '{{ page.title }}'</h1>
+
+<div class="posts">
+  <ul class="related-posts">
+    {% for post in page.posts %}
+      <li>
+        <h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            <small>
+              <time datetime="{{ page.date | date_to_xmlschema }}">
+                {{ post.date | date_to_string  }}
+              </time>
+            </small>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
