@@ -3,13 +3,15 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous Super keys
 ---
 
-All "super"[^1] keys in NeoVintageous are disabled by default. You can toggle them on and off via the Command Palette, press <kbd>Ctrl+Shift+P</kbd> and select:
+All "super" keys in NeoVintageous are disabled by default. You can toggle them on and off via the Command Palette, press <kbd>Ctrl+Shift+P</kbd> and select:
 
 ```
 NeoVintageous: Toggle SUPER keys
 ```
 
 The key notation for super keys is `<D-...>`.
+
+Super keys are sometimes referred to as command-keys on OSX and window-keys on Windows.
 
 ## Case sensitivity
 
@@ -27,4 +29,7 @@ You can debug Sublime key events by running `sublime.log_input(True)` in the con
 
 ---
 
-[^1]: Super keys are sometimes referred to as command-keys on OSX and window-keys on Windows.
+## Further reading
+
+* `:help neovintageous`
+* `:help <D-`

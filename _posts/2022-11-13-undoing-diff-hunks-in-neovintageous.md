@@ -12,22 +12,16 @@ let mapleader=,
 nnoremap <leader>hu :RevertHunk<CR>
 ```
 
-To edit your RC file, open it via the Command Palette command.
+You can edit your rc file via the Command Palette command: **NeoVintageous: Open RC File**.
 
-```
-NeoVintageous: Open RC File
-```
-
-To reload your RC file, use the Command Palette command.
-
-```
-NeoVintageous: Reload RC File
-```
+You can reload your rc file via the Command Palette command: **NeoVintageous: Reload RC File**.
 
 ## Jumping to diffs
 
-You can jump to the next and previous diff with the commands `]c` and `[c`.[^1] A count can also be used, e.g., `2]c`.
+Support for jumping to diffs was added in Sublime build 3189. In previous builds, you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter) plugin. You can jump to the next and previous diff with the commands `]c` and `[c`.
 
----
+## Further reading
 
-[^1]: Support for jumping to diffs was added in Sublime build 3189. In previous builds, you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter) plugin.
+* `:help neovintageous`
+* `:help [c`
+* `:help ]c`

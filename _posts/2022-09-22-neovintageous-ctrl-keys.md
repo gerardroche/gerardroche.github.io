@@ -18,3 +18,8 @@ In Vim, the case of `{char}` in `<C-{char}>` does not matter; thus `<C-A>` and `
 ## Configuration
 
 You can configure the key handler to ignore selected keys. The selected keys will fallback to Sublime. Read the [key handling](/2022/09/22/neovintageous-key-handler/) post for details.
+
+## Further reading
+
+* `:help neovintageous`
+* `:help <C-`
