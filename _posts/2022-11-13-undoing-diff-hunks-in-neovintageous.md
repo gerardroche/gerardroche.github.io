@@ -18,7 +18,9 @@ To reload your rc file use the command palette: **Reload RC File**.
 
 ## Jumping to diffs
 
-Support for jumping to diffs was added in Sublime build 3189. In previous builds, you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter) plugin. You can jump to the next and previous diff with the commands `]c` and `[c`.
+You can jump to the next or previous diff with the commands `]c` and `[c`.
+
+Support for jumping to diffs was added in Sublime build 3189. In previous versions you needed [Git Gutter](https://github.com/jisaacks/GitGutter).
 
 ## Further reading
 
