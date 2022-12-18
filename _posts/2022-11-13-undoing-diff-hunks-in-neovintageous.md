@@ -12,9 +12,9 @@ let mapleader=,
 nnoremap <leader>hu :RevertHunk<CR>
 ```
 
-You can edit your rc file via the Command Palette command: **NeoVintageous: Open RC File**.
+To edit your rc file use the command palette: **Open RC File**.
 
-You can reload your rc file via the Command Palette command: **NeoVintageous: Reload RC File**.
+To reload your rc file use the command palette: **Reload RC File**.
 
 ## Jumping to diffs
 
