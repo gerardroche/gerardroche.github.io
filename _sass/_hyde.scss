@@ -54,6 +54,10 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
   background: #eee;
 }
 
+.posts .year {
+  color: #968bd2;;
+}
+
 .tags {
   margin-top: 1rem;
 }
@@ -61,7 +65,8 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
 .tag {
   margin: 10px 0;
 }
-.tags a {
+
+.tag a {
   display: inline-block;
   background-color: #ddf4ff;
   color: #0969da;
@@ -73,8 +78,12 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
   transition-duration: 200ms;
 }
 
-.tags a:hover {
+.tag a:hover {
   background-color: #0969da;
   color: #fff;
+  text-decoration: none;
+}
+
+a.kapow {
   text-decoration: none;
 }
