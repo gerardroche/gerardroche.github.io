@@ -33,20 +33,34 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
 
 .tip .tip-heading { float: left; margin-right: .3rem;}
 
-.questions {
-  padding-top: 2rem;
-  padding-bottom: 1.5rem;
-  border-top: 1px solid #eee;
+.questions, .related, .notified, .links {
+  border-top: 1px solid #ddd;
+  border-bottom: none;
+  padding: 2rem 0 1.5rem 0;
+  margin: 0;
 }
 
-.notified {
-  padding-top: 1rem;
+.icon-links a {
+  display: inline-block;
+  margin: 0;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.sidebar .icon-links a:hover {
+  background: #333;
+}
+
+.links .icon-links a:hover {
+  background: #eee;
 }
 
 .tags {
   margin-top: 1rem;
 }
 
+.tag {
+  margin: 10px 0;
+}
 .tags a {
   display: inline-block;
   background-color: #ddf4ff;
