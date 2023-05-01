@@ -33,7 +33,7 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
 
 .tip .tip-heading { float: left; margin-right: .3rem;}
 
-.questions, .related, .notified, .links {
+.questions, .related, .notified, .external {
   border-top: 1px solid #ddd;
   border-bottom: none;
   padding: 2rem 0 1.5rem 0;
@@ -50,7 +50,7 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
   background: #333;
 }
 
-.links .icon-links a:hover {
+.external .icon-links a:hover {
   background: #eee;
 }
 
@@ -86,4 +86,8 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
 
 a.kapow {
   text-decoration: none;
+}
+
+.related-posts li small {
+  color: #595959;
 }
