@@ -3,6 +3,18 @@
 @import "hyde/syntax-dark";
 @import "hyde/hyde";
 
+a {
+  color: #217ABA;
+}
+
+blockquote {
+  color: #757575;
+}
+
+a.kapow {
+  text-decoration: none;
+}
+
 .sidebar .sidebar-about img {
     height: 3.25rem;
     width: 3.25rem;
@@ -77,22 +89,6 @@
 .related-posts li small,
 .post time{
   color: #595959;
-}
-
-a {
-  color: #217ABA;
-}
-
-a.kapow {
-  text-decoration: none;
-}
-
-p a {
-  // color: #165A8D;
-}
-
-blockquote {
-  color: #757575;
 }
 
 .highlight {

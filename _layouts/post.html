@@ -10,7 +10,9 @@ layout: default
   </div>
   <div class="tags">
     {% for tag in page.tags %}
-      <a href="/tags/{{ tag }}">{{ tag }}</a>
+      <span class="tag">
+        <a href="/tags/{{ tag }}">{{ tag }}</a>
+      </span>
     {% endfor %}
   </div>
 </article>
