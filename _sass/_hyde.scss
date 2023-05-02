@@ -84,10 +84,15 @@ tbody tr:nth-child(odd) td code.highlighter-rouge {
   text-decoration: none;
 }
 
-a.kapow {
-  text-decoration: none;
+.related-posts li small,
+.post time{
+  color: #595959;
 }
 
-.related-posts li small {
-  color: #595959;
+a {
+  color: #217ABA;
+}
+
+a.kapow {
+  text-decoration: none;
 }
