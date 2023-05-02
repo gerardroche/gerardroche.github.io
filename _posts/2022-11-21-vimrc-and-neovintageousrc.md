@@ -7,7 +7,7 @@ In Neovintageous the vimrc file is named "neovintageousrc". This file contains c
 
 You can edit the file using the Command Palette command: **NeoVintageous: Open RC File** and reload it using **NeoVintageous: Reload RC File**.
 
-### Options
+## Options
 
 At the time of writing, all of the following options are supported:
 

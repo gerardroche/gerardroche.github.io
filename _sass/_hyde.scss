@@ -10,16 +10,6 @@
     vertical-align: middle;
 }
 
-.highlight {
-  background-color: #263238;
-}
-code.highlighter-rouge {
-  background: #f6f6f6;
-}
-tbody tr:nth-child(odd) td code.highlighter-rouge {
-  background: #f1f1f1;
-}
-
 .tip {
   background-color: #dff0d8;
   color: #3c763d;
@@ -95,4 +85,28 @@ a {
 
 a.kapow {
   text-decoration: none;
+}
+
+p a {
+  // color: #165A8D;
+}
+
+blockquote {
+  color: #757575;
+}
+
+.highlight {
+  background-color: #263238;
+}
+
+a code.highlighter-rouge {
+  color: #1F74B2;
+}
+
+code.highlighter-rouge {
+  background: #f6f6f6;
+}
+
+tbody tr:nth-child(odd) td code.highlighter-rouge {
+  background: #f1f1f1;
 }
