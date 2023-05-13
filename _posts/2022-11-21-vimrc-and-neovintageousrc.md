@@ -28,7 +28,7 @@ Run `:help '{option}'` for help on individual options.
 
 ## Key mapping
 
-The following key mapping commands are supported:
+The following key mapping commands are supported (nested and recursive mappings are not currently supported):
 
 - `:noremap {lhs} {rhs}`
 - `:nnoremap {lhs} {rhs}`
@@ -36,21 +36,16 @@ The following key mapping commands are supported:
 - `:snoremap {lhs} {rhs}`
 - `:vnoremap {lhs} {rhs}`
 
-Nested and recursive mappings are not currently supported.
 
-### Key mapping examples
-
-Map `<C-l>` to the ex command `:nohlsearch`:
+For example, to map `<C-l>` to the ex command `:nohlsearch`:
 
     noremap <C-l> :nohlsearch<CR>
 
-Sublime Text commands are supported, Just mix-case the command.
-
-Map `<D-i>` to the `goto_symbol_in_project` command:
+Mapping directly to Sublime Text commands is supported too. Convert the command to mix-case. For example to map `<D-i>` to the `goto_symbol_in_project` command:
 
     noremap <D-i> :GotoSymbolInProject<CR>
 
-You may need to enable [super keys](/2022/09/22/neovintageous-super-keys/) for `<D-i>` to work.
+Note that you may need to enable [super keys](/2022/09/22/neovintageous-super-keys/) for `<D-i>` super-key to work in this example.
 
 ### Key mapping command arguments
 
