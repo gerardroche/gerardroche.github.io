@@ -26,6 +26,12 @@ You can set options in your neovintageousrc file with the `set` command. Here ar
 
 Run `:help '{option}'` for help on individual options.
 
+## Leader key
+
+The `<leader>` is supported. The default is `\`, Personally I prefer to use `,` instead:
+
+    let mapleader=,
+
 ## Key mapping
 
 The following key mapping commands are supported (nested and recursive mappings are not currently supported):
@@ -45,41 +51,26 @@ Mapping directly to Sublime Text commands is supported too. Convert the command 
 
     noremap <D-i> :GotoSymbolInProject<CR>
 
-Note that you may need to enable [super keys](/2022/09/22/neovintageous-super-keys/) for `<D-i>` super-key to work in this example.
+Note that you may need to [enable super keys](/2022/09/22/neovintageous-super-keys/) for `<D-i>` super-key to work in this example.
 
 ### Key mapping command arguments
 
-You can pass arguments to commands as space separated parameters in the format `argument=value`.
-
-Map `<C-f>` to the `show_overlay` command:
+You can pass arguments to commands as space separated parameters in the format `arg=value`. For example to map `<C-f>` to the `show_overlay` command with the arguments `overlay=goto` and `text=@`:
 
     nnoremap <C-f> :ShowOverlay overlay=goto text=@<CR>
 
-### Key mapping to shell commands
+### Key mapping shell commands
 
-You can map to shell commands with the ex command `!`.
-
-Map `<leader>gs` to `git status`:
+You can map to shell commands through the ex command `!`. For example, to map `<leader>gs` to `git status`:
 
     nnoremap <leader>gs :!git status<CR>
 
-To ignore output, use the `:silent` command:
-
-Map `<leader>ga` to `git add {current view file}` and ignore any output:
+To ignore any output, prefix with the `:silent` command. For example, to map `<leader>ga` to `git add {current-file}` **and ignore any output**:
 
     nnoremap <leader>ga :silent !git add %<CR>
 
-## Leader key
-
-The `<leader>` is supported. The default is `\` but I prefer to use `,` instead:
-
-    let mapleader=,
+Neat and quiet powerful isn't it.
 
 ## Further reading
 
-* [My neovintageousrc](https://raw.githubusercontent.com/gerardroche/sublimefiles/master/User/.neovintageousrc)
-* `:help mapping`
-* `:help neovintageous`
-* `:help neovintageousrc`
-* `:help nv-options`
-* `:help nv-settings`
+* `:help nv`
