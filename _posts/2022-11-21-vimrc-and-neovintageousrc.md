@@ -28,7 +28,7 @@ Run `:help '{option}'` for help on individual options.
 
 ## Leader key
 
-The `<leader>` is supported. The default is `\`, Personally I prefer to use `,` instead:
+The `<leader>` key is supported. The default is `\`. Personally I prefer to use `,`:
 
     let mapleader=,
 
