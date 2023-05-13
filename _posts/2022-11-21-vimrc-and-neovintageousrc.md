@@ -3,7 +3,7 @@ tags: neovintageous sublime-text vim
 title: The Neovintageous vimrc file
 ---
 
-In Neovintageous the vimrc file is named "neovintageousrc". This file contains contains initialisation commands and is loaded when Sublime Text starts.
+In Neovintageous the vimrc file is named "neovintageousrc". The file contains initialisation commands and is loaded when Sublime Text starts.
 
 You can edit the file using the Command Palette command: **NeoVintageous: Open RC File** and reload it using **NeoVintageous: Reload RC File**.
 
