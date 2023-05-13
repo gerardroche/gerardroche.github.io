@@ -34,7 +34,7 @@ The `<leader>` key is supported. The default is `\`. Personally I prefer to use 
 
 ## Key mapping
 
-The following key mapping commands are supported (nested and recursive mappings are not currently supported):
+The following key mapping commands are supported:
 
 - `:noremap {lhs} {rhs}`
 - `:nnoremap {lhs} {rhs}`
