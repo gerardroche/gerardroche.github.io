@@ -3,9 +3,15 @@ tags: neovintageous sublime-text vim
 title: The Neovintageous vimrc file
 ---
 
-In Neovintageous the vimrc file is named "neovintageousrc". The file contains initialisation commands and is loaded when Sublime Text starts.
+In Neovintageous a vimrc file is called a *neovintageousrc* file. This file contains initialisation commands and it is loaded every time Sublime Text starts.
 
-You can edit the file using the Command Palette command: **NeoVintageous: Open RC File** and reload it using **NeoVintageous: Reload RC File**.
+You can edit the neovintageousrc file using the Command Palette:
+
+**NeoVintageous: Open RC File**
+
+And to reload it:
+
+**NeoVintageous: Reload RC File**
 
 ## Options
 
@@ -13,9 +19,7 @@ At the time of writing, all of the following options are supported:
 
 `autoindent`, `belloff`, `expandtabs`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber,`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`
 
-You can set options in your neovintageousrc file.
-
-Here are two that I can't live without:
+You can set options in your neovintageousrc file. Here are two that I can't live without:
 
     set ignorecase
     set smartcase
