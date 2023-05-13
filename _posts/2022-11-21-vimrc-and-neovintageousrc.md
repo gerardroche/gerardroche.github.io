@@ -19,12 +19,12 @@ At the time of writing, all of the following options are supported:
 
 `autoindent`, `belloff`, `expandtabs`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber,`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`
 
-You can set options in your neovintageousrc file. Here are two that I can't live without:
+You can set options in your neovintageousrc file with the `set` command. Here are two that I can't live without:
 
     set ignorecase
     set smartcase
 
-See `:help '{option}'` for help on individual options.
+Run `:help '{option}'` for help on individual options.
 
 ## Key mapping
 
