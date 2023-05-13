@@ -51,7 +51,7 @@ Mapping directly to Sublime Text commands is supported too. Convert the command 
 
     noremap <D-i> :GotoSymbolInProject<CR>
 
-Note that you may need to [enable super keys](/2022/09/22/neovintageous-super-keys/) for `<D-i>` super-key to work in this example.
+Note that you may need to [enable super keys](/2022/09/22/neovintageous-super-keys/) for the `<D-i>` super-key to work in this example.
 
 ### Key mapping command arguments
 
@@ -61,11 +61,11 @@ You can pass arguments to commands as space separated parameters in the format `
 
 ### Key mapping shell commands
 
-You can map to shell commands through the ex command `!`. For example, to map `<leader>gs` to `git status`:
+You can map to shell commands through the ex command `:!`. For example, to map `<leader>gs` to `git status`:
 
     nnoremap <leader>gs :!git status<CR>
 
-To ignore any output, prefix with the `:silent` command. For example, to map `<leader>ga` to `git add {current-file}` **and ignore any output**:
+To ignore any output, prefix the `rhs` with `:silent`. For example, to map `<leader>ga` to `git add {current-file}` **and ignore any output**:
 
     nnoremap <leader>ga :silent !git add %<CR>
 
