@@ -11,7 +11,7 @@ Vim's [help pages](https://vimhelp.org) are distributed with NeoVintageous and a
 :help
 ```
 
-The help pages are provided unmodified so it's important to remember when referencing them that NeoVintageous is an emulation of Vim and may not yet implement that particular feature. Some differences and features specific to Sublime Text are in thier own help page:
+The help pages are provided unmodified so it's important to remember when referencing them that NeoVintageous is an emulation of Vim and may not yet implement that particular feature. Some features and differences specific to Sublime Text are in their own help page:
 
 ```vim
 :help nv
