@@ -25,7 +25,7 @@ You can configure the key handler to ignore selected keys. The selected keys wil
 
 Operating systems make extensive use of the super-keys. If you find a super-key is not working, the key might be bound to a desktop command. Sublime won't receive the key event if the key is bound to a desktop command.
 
-You can debug Sublime key events by running `sublime.log_input(True)` in the console: **Menu > View > Show Console**. If Sublime is not receiving the key event, then you will need to clear whatever desktop command the key is bound to. If you use Ubuntu the post [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps) may help.
+You can debug Sublime key events by running `sublime.log_input(True)` in the console: **Menu > View > Show Console**. If Sublime is not receiving the key event, then you will need to clear whatever desktop command the key is bound to. If you use Ubuntu the post [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps/) may help.
 
 ---
 
