@@ -66,6 +66,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  -
+    scope:
+      path: "google*.html"
+    values:
+      sitemap: false
 
 collections:
   archive-tags:
