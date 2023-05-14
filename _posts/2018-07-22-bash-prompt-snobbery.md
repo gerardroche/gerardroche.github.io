@@ -16,7 +16,7 @@ PROMPT_COMMAND='__git_ps1 "\u@\h:\w" " \$ "'
 
 Now when you’re inside a git-controlled project your prompt will show git information:
 
-![A screenshot of a command prompt with git information](/assets/2018-07-22-tldr.png)
+![A screenshot of a command prompt with git information](/assets/2018-07-22-tldr.webp)
 
 ## The Command Prompt
 
@@ -68,7 +68,7 @@ Color codes are surrounded with [escape sequences](https://unix.stackexchange.co
 $ PS1='\w $(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) '
 ```
 
-![A git command prompt with error status](/assets/2018-07-22-prompt-command.png)
+![A git command prompt with error status](/assets/2018-07-22-prompt-command.webp)
 
 
 ## The Git Prompt
@@ -95,7 +95,7 @@ The function can be used directly as command-substitution in `PS1`:
 $ PS1='\u@\h:\w$(__git_ps1) \$ '
 ```
 
-![A basic git command prompt](/assets/2018-07-22-git-prompt.png)
+![A basic git command prompt](/assets/2018-07-22-git-prompt.webp)
 
 ### Using PROMPT_COMMAND for a slightly faster prompt
 
@@ -114,7 +114,7 @@ And you can use if-else statements and color codes:
 $ PROMPT_COMMAND='__git_ps1 "\u@\h:\w" " $(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) "'
 ```
 
-![A git command prompt with error status](/assets/2018-07-22-prompt-command.png)
+![A git command prompt with error status](/assets/2018-07-22-prompt-command.webp)
 
 ## A complete example
 
@@ -128,7 +128,7 @@ GIT_PS1_SHOWUPSTREAM="verbose name git"
 PROMPT_COMMAND='__git_ps1 "\u@\h:\w" " $(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) "'
 ```
 
-![A fully configured git command prompt](/assets/2018-07-22-prompt-config.png)
+![A fully configured git command prompt](/assets/2018-07-22-prompt-config.webp)
 
 ## My own prompt
 
@@ -144,7 +144,7 @@ GIT_PS1_SHOWUPSTREAM="verbose name git"
 PROMPT_COMMAND='__git_ps1 "╭─ \w" "\n╰$(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) " " ⎇  %s"'
 ```
 
-![My command prompt](/assets/2018-07-22-my-prompt.png)
+![My command prompt](/assets/2018-07-22-my-prompt.webp)
 
 
 ## Further reading

@@ -3,7 +3,7 @@ tags: neovintageous sublime-text vim
 title: The NeoVintageous help pages
 ---
 
-![Chris O'Dowd in the IT Crowd (2006)](/assets/2023-05-14-chris-o-dowd-in-the-it-crowd.jpg)
+![Chris O'Dowd in the IT Crowd (2006)](/assets/2023-05-14-chris-o-dowd-in-the-it-crowd.webp)
 
 Vim's [help pages](https://vimhelp.org) are distributed with NeoVintageous and are accessible in the same way you would access them in Vim:
 

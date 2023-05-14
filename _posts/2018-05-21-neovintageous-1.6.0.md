@@ -60,7 +60,7 @@ noremap <leader>p :ShowOverlay overlay=goto show_files=true<CR>
 
 Search highlighting has been improved with incremental match, current match, and occurrences, all syntax highlighted. Here's what the current match and occurrences look like in the default Monokai color scheme:
 
-![Search highlighting](/assets/2018-05-21-search-highlighting.png)
+![Search highlighting](/assets/2018-05-21-search-highlighting.webp)
 
 Searches supporting the new highlighting include `/`, `?`, `*`, and `#`.
 
