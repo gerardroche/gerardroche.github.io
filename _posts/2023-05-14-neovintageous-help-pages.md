@@ -36,7 +36,7 @@ Help pages for ported plugins are also provided unmodified:
 :help unimpaired
 ```
 
-NeoVintageous specific plugin help pages:
+NeoVintageous specific plugin help pages are also available:
 
 ```vim
 :help highlightedyank
