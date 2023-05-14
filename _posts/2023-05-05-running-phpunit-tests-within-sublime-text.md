@@ -3,7 +3,7 @@ tags: sublime-text phpunit php
 title: Running PHPUnit tests within Sublime Text
 ---
 
-![](/assets/dont-panic.jpg)
+!["Don't Panic" printed in large friendly letters](/assets/dont-panic.jpg)
 
 Being able to run tests from within Sublime Text is a productivity win. PHPUnitKit is a package with all the features you will ever need.
 
