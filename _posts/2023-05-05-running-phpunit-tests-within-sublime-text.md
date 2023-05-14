@@ -5,7 +5,7 @@ title: Running PHPUnit tests within Sublime Text
 
 !["Don't Panic" printed in large friendly letters](/assets/dont-panic.webp)
 
-Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you practice Test Driven Development. PHPUnitKit has the features you will ever need to test at the speed of thought.
+Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you practice Test Driven Development. PHPUnitKit has all the features you will ever need to test at the speed of thought.
 
 ## What can PHPUnitKit do?
 
