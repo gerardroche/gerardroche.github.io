@@ -5,7 +5,7 @@ title: Running PHPUnit tests within Sublime Text
 
 !["Don't Panic" printed in large friendly letters](/assets/dont-panic.webp)
 
-Being able to run tests from within Sublime Text is a productivity win. PHPUnitKit is a package with all the features you will ever need.
+Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you practice Test Driven Development. PHPUnitKit has the features you will ever need to test at the speed of thought.
 
 ## What can PHPUnitKit do?
 
@@ -76,6 +76,31 @@ When a test fails, PHPUnit tries its best to provide as much context to help ide
 
 ![Test Failures](/assets/2023-05-05-test-failures.webp)
 
-## Wrapping up
+## Support for ParaTest
 
-PHPUnitKit is a great way to streamline your testing game. Give it a go and start testing at the speed of thought.
+> The objective of ParaTest is to support parallel testing in PHPUnit.
+> &mdash; [ParaTest](https://github.com/paratestphp/paratest)
+
+To enable support for ParaTest open your Settings and set `phpunit.paratest` to `true`:
+
+```json
+    "phpunit.paratest": true
+```
+
+This tells PHPUnitKit to use the ParaTest test runner if it exists or fallback to the default.
+
+## Useful default options
+
+Running your tests with Code Coverage reporting enabled can be slow which is why I always disable it by default in Sublime Text and use the "no-coverage" toggle command to turn it on when I need it. This helps keep my test runs speedy by default. Open your Settings and add:
+
+```json
+    "phpunit.options": {
+        "no-coverage": true
+    }
+```
+
+Toggle it with the **Toggle Option --no-coverage** command. Now you can run your tests at high speed and generate coverage when you need it.
+
+## Wrapping it up
+
+PHPUnitKit is a great way to streamline your test game. I hope this short introduction has convinced you to give it a go.
