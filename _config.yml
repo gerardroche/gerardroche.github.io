@@ -76,3 +76,7 @@ collections:
   archive-tags:
     output: true
     permalink: /tags/:name/
+
+exclude:
+  - bin/
+  - Makefile
