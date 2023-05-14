@@ -1,6 +1,7 @@
-all: imagemin gentags
+all: genassets gentags
 
-imagemin:
+genassets:
+	rm -r assets/*
 	imagemin _assets/* -o assets/
 	svgo --config svgo.config.js -rf _assets -o assets
 	cp assets/zap.svg _includes/zap-svg.html
