@@ -15,7 +15,14 @@ a.kapow {
   text-decoration: none;
 }
 
-.sidebar .sidebar-about img {
+.sidebar .sidebar-about svg {
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+.sidebar .sidebar-about img,
+.sidebar .sidebar-about svg {
     height: 3.25rem;
     width: 3.25rem;
     display: inline-block;
