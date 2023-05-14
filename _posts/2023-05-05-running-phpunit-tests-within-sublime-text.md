@@ -54,27 +54,27 @@ Command                 | Description
 
 Go ahead and open a PHP file and run the **Test Suite** command. This will run the entire test suite and output the results in a Sublime Text panel.
 
-![](/assets/2023-05-05-test-suite.webp)
+![Test Suite](/assets/2023-05-05-test-suite.webp)
 
 You can run the entire test suite from any PHP file but what about running a single test case? PHPUnitKit has you covered. Go ahead and open a test case and run **Test File**.
 
-![](/assets/2023-05-05-test-file.webp)
+![Test File](/assets/2023-05-05-test-file.webp)
 
 You can actually run the test case from the class under test, you don't even need the test case open. Go ahead and switch to the Class Under Test: **Test Switch**. Now run **Test File** again.
 
-![](/assets/2023-05-05-test-file-again.webp)
+![Test File](/assets/2023-05-05-test-file-again.webp)
 
 Neat isn't it.
 
 How about running a single test method? Open a test case. Put your cursor on a test method and run **Test Nearest**. The cursor only needs to be *near* the test method and you can use a multiple-cursor.
 
-![](/assets/2023-05-05-test-nearest.webp)
+![Test Nearest](/assets/2023-05-05-test-nearest.webp)
 
 ## Jumping to failures
 
 When a test fails, PHPUnit tries its best to provide as much context to help identify the problem. You can jump forward and backward through failure stack traces with <kbd>F4</kbd> and <kbd>SHIFT+F4</kbd>.
 
-![](/assets/2023-05-05-test-failures.webp)
+![Test Failures](/assets/2023-05-05-test-failures.webp)
 
 ## Wrapping up
 
