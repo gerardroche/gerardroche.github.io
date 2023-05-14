@@ -91,7 +91,7 @@ This tells PHPUnitKit to use the ParaTest test runner if it exists or fallback t
 
 ## Useful default options
 
-Running your tests with Code Coverage reporting enabled can be slow which is why I always disable it by default in Sublime Text and use the "no-coverage" toggle command to turn it on when I need it. This helps keep my test runs speedy by default. Open your Settings and add:
+Running your tests with Code Coverage reporting enabled can be slow which is why I always disable it by default in Sublime Text and use the "no-coverage" toggle command to turn it on when I need it. This helps keep my test runs speedy. Open your Settings and add:
 
 ```json
     "phpunit.options": {
