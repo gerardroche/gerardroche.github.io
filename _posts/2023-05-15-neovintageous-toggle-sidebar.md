@@ -45,7 +45,7 @@ Then add a key binding via **Menu > Preferences > Key Bindings**:
 },
 ```
 
-Now you can toggle with <kbd>CTRL-d</kbd>, but suppose you prefer to use your leader key e.g. `<leader>d`. This is the mapping I use. My leader is always set to **,** (comma) because **,** is my right hand and **d** is my left hand so it's a quick one-two key sequence. Create a mapping and reload your rc file:
+Now you can toggle with <kbd>CTRL-d</kbd>, but suppose you prefer to use your leader key e.g. `<leader>d`. This is the mapping I use. My leader is always set to **,** (comma) because it's my right hand and **d** is my left hand so it's a quick one-two key sequence. Create a mapping and reload your rc file:
 
 ```vim
 let mapleader=,
