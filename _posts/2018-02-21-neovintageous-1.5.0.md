@@ -11,7 +11,7 @@ NeoVintageous 1.5.0 has been released and includes support for super-keys, comma
 
 You can now map super-keys (`<D-...>`), also known as command-keys on OSX, and window-keys on Windows. The super-keys are disabled by default.
 
-**Menu > Preferences > Settings:**
+**Menu > Preferences > Settings**
 
 ```json
 {
@@ -46,6 +46,8 @@ The Command-line editing commands have been added: `<C-b>`, `<C-e>`, `<C-h>`, `<
 Also, a popular request, `CTRL-C` and `CTRL-[` now exit Command-line mode.
 
 ## Toggle Side Bar
+
+**The NeoVintageous toggle sidebar feature has been updated, see [](/2023/05/14/neovintageous-toggle-sidebar/) for more details.**
 
 A toggle side bar command is now provided out-of-the-box. When you want to use a toggle side bar mapping it's recommended to use this command, because it will receive fixes and functionality tuned specially for Neovintageous.
 

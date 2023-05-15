@@ -26,17 +26,15 @@ Installation is straight forward. Install via [Package Control](https://packagec
 
 Add your preferred key bindings via Menu &gt; Preferences &gt; Key Bindings:
 
-```json
-[
-    { "keys": ["ctrl+shift+a"], "command": "phpunit_test_suite" },
-    { "keys": ["ctrl+shift+c"], "command": "phpunit_test_cancel" },
-    { "keys": ["ctrl+shift+f"], "command": "phpunit_test_file" },
-    { "keys": ["ctrl+shift+l"], "command": "phpunit_test_last" },
-    { "keys": ["ctrl+shift+n"], "command": "phpunit_test_nearest" },
-    { "keys": ["ctrl+shift+r"], "command": "phpunit_test_results" },
-    { "keys": ["ctrl+shift+s"], "command": "phpunit_test_switch" },
-    { "keys": ["ctrl+shift+v"], "command": "phpunit_test_visit" },
-]
+```js
+{ "keys": ["ctrl+shift+a"], "command": "phpunit_test_suite" },
+{ "keys": ["ctrl+shift+c"], "command": "phpunit_test_cancel" },
+{ "keys": ["ctrl+shift+f"], "command": "phpunit_test_file" },
+{ "keys": ["ctrl+shift+l"], "command": "phpunit_test_last" },
+{ "keys": ["ctrl+shift+n"], "command": "phpunit_test_nearest" },
+{ "keys": ["ctrl+shift+r"], "command": "phpunit_test_results" },
+{ "keys": ["ctrl+shift+s"], "command": "phpunit_test_switch" },
+{ "keys": ["ctrl+shift+v"], "command": "phpunit_test_visit" },
 ```
 
 ## Running tests
@@ -83,8 +81,8 @@ When a test fails, PHPUnit tries its best to provide as much context to help ide
 
 To enable support for ParaTest open your Settings and set `phpunit.paratest` to `true`:
 
-```json
-    "phpunit.paratest": true
+```js
+    "phpunit.paratest": true,
 ```
 
 This tells PHPUnitKit to use the ParaTest test runner if it exists or fallback to the default.
@@ -93,10 +91,10 @@ This tells PHPUnitKit to use the ParaTest test runner if it exists or fallback t
 
 Running your tests with Code Coverage enabled can be slow which is why I always disable it by default in Sublime Text and use the "no-coverage" toggle command to turn it on when I need it. This helps keep my tests speedy. Open your Settings and add:
 
-```json
+```js
     "phpunit.options": {
         "no-coverage": true
-    }
+    },
 ```
 
 Toggle it with the **Toggle Option --no-coverage** command. Now you can run your tests at high speed and generate coverage when you need it.
