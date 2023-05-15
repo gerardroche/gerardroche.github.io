@@ -67,7 +67,7 @@ Then add a key binding via **Menu > Preferences > Key Bindings**:
 
 ## Why a mapping AND key binding?
 
-The reason you need create both a mapping *and* a key binding is because the key binding is for when the side bar has focus. This is a special context that you don't need to worry about it for regular mappings.
+The reason you need both a mapping *and* a key binding is because the key binding is for when the *side bar* has focus. This is a special context that you don't need to worry about for regular mappings.
 
 ## Wrapping it up
 
