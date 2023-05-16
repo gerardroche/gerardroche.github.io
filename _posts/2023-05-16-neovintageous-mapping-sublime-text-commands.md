@@ -9,7 +9,7 @@ NeoVintageous's mapping features are very powerful. Did you know that you can ma
 
 To map to a Sublime Text command, you need to map the command as PascalCase. For example, to map the key **m** to **Goto Symbol in Project**, the command in Sublime Text is `goto_symbol_in_project`, [create a mapping and reload your rc file](/2022/11/21/vimrc-and-neovintageousrc/):
 
-```
+```vim
 nnoremap m :GotoSymbolInProject<CR>
 ```
 
@@ -34,7 +34,7 @@ command: show_overlay {"overlay": "goto", "text": "@"}
 
 Create a mapping and reload your rc file:
 
-```
+```vim
 nnoremap m :ShowOverlay overlay=goto text=@<CR>
 ```
 
