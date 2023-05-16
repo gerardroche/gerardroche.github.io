@@ -3,23 +3,13 @@ tags: neovintageous sublime-text vim
 title: The Neovintageous vimrc file
 ---
 
-In Neovintageous a vimrc file is called a *neovintageousrc* file. This file contains initialisation commands and it is loaded every time Sublime Text starts.
-
-You can edit the neovintageousrc file using the Command Palette:
-
-**NeoVintageous: Open RC File**
-
-And to reload it:
-
-**NeoVintageous: Reload RC File**
+In Neovintageous a vimrc file is called a neovintageousrc file. The file contains initialisation commands and is loaded every time Sublime Text starts. To edit the neovintageousrc file use the Command Palette **NeoVintageous: Open RC File** and reload it with **NeoVintageous: Reload RC File**.
 
 ## Options
 
-At the time of writing, all of the following options are supported:
+The following options are supported: `autoindent`, `belloff`, `expandtabs`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber,`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`.
 
-`autoindent`, `belloff`, `expandtabs`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber,`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`
-
-You can set options in your neovintageousrc file with the `set` command. Here are two that I can't live without:
+You can set options with the `:set {option}` command. Here are two examples that I can't live without:
 
     set ignorecase
     set smartcase
@@ -28,19 +18,13 @@ Run `:help '{option}'` for help on individual options.
 
 ## Leader key
 
-The `<leader>` key is supported. The default is `\`. Personally I prefer to use `,`:
+The `<leader>` key is supported. The default is backslash, but I like a comma:
 
     let mapleader=,
 
 ## Key mapping
 
-The following key mapping commands are supported:
-
-- `:noremap {lhs} {rhs}`
-- `:nnoremap {lhs} {rhs}`
-- `:onoremap {lhs} {rhs}`
-- `:snoremap {lhs} {rhs}`
-- `:vnoremap {lhs} {rhs}`
+The following key mapping commands are supported: `:noremap`, `:nnoremap`, `:onoremap`, `:snoremap`, `:vnoremap`
 
 
 For example, to map `<C-l>` to the ex command `:nohlsearch`:
