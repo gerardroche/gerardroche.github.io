@@ -15,7 +15,7 @@ nnoremap m :GotoSymbolInProject<CR>
 
 Now you can press **m** and the **Goto Symbol in Project** overlay will open. This is a quick way to search for any symbol across an entire project. It's available via *Menu &gt; Goto &gt; Goto Symbol in Project*.
 
-But where do I find the underlying commands?
+**But where do I find the underlying commands?**
 
 Open the Sublime Text Console via Menu &gt; View &gt; Show Console and enable command logging via `sublime.log_commands(True)`:
 
