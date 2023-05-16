@@ -13,7 +13,7 @@ To map to a Sublime Text command, you need to map the command as PascalCase. For
 nnoremap m :GotoSymbolInProject<CR>
 ```
 
-Now you can press **m** and the **Goto Symbol in Project** overlay will open. This is a quick way to search for a symbol across your entire project. It's available via *Menu &gt; Goto &gt; Goto Symbol in Project*.
+Now you can press **m** and the **Goto Symbol in Project** overlay will open. This is a quick way to search for any symbol across an entire project. It's available via *Menu &gt; Goto &gt; Goto Symbol in Project*.
 
 But where do I find the underlying commands?
 
