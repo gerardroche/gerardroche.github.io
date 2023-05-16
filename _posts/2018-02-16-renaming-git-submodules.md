@@ -1,6 +1,7 @@
 ---
 tags: git
 ---
+
 Renaming a Git submodules since Git 1.8.5 is one command:
 
 ```terminal
