@@ -19,11 +19,11 @@ Now you can press **m** and the **Goto Symbol in Project** overlay will open. Th
 
 Open the Sublime Text Console via Menu &gt; View &gt; Show Console and enable command logging via `sublime.log_commands(True)`:
 
-![Sublime Text Console logging](/assets/enable-console-logging-1.webp)
+![Sublime Text Console logging](/assets/2023-05-16-enable-console-logging-1.webp)
 
 Now Sublime Text will log all commands to the console:
 
-![Sublime Text Console logging](/assets/enable-console-logging-2.webp)
+![Sublime Text Console logging](/assets/2023-05-16-enable-console-logging-2.webp)
 
 
 Sublime Text will log the command and all necessary parameters to create a mapping. For example, when you run **Menu &gt; Goto &gt; Goto Symbol**, Sublime Text will print:
