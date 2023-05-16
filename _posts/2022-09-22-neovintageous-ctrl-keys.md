@@ -3,7 +3,7 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous Ctrl keys
 ---
 
-All control keys in NeoVintageous are enabled by default. You can toggle them on and off via the Command Palette, press <kbd>Ctrl+Shift+P</kbd> and select:
+All ctrl keys in NeoVintageous are enabled by default. You can toggle them on and off via the Command Palette, press <kbd>CTRL+SHIFT+P</kbd> and select:
 
 ```
 NeoVintageous: Toggle CTRL keys
@@ -18,8 +18,3 @@ In Vim, the case of `{char}` in `<C-{char}>` does not matter; thus `<C-A>` and `
 ## Configuration
 
 You can configure the key handler to ignore selected keys. The selected keys will fallback to Sublime. Read the [key handling](/2022/09/22/neovintageous-key-handler/) post for details.
-
-## Further reading
-
-* `:help neovintageous`
-* `:help <C-`

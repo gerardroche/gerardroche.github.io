@@ -9,7 +9,6 @@ NeoVintageous 1.29.0 has been released.  The highlights are file type specific m
 
 File type specific mappings are now supported. This is not a standard Vim feature but is a much requested feature.
 
-
 The following will only activate for `*.go` files:
 
     nnoremap FileType go gd :LspSymbolDefinition<CR>
@@ -35,4 +34,3 @@ Asynchronous file saving has been disabled by default. This was due to a regress
 ## Further reading
 
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.29.0)
-* `:help nv`

@@ -25,7 +25,6 @@ Old text | Command | New text ~
 
 A t is a pair of HTML or XML tags.
 
-
 Old text | Command | New text ~
 -------- | ------- | ----------
 `<div>he|llo</div>` | `cit` | `<div>|</div>` (insert mode)
@@ -34,7 +33,6 @@ Old text | Command | New text ~
 `<div>he|llo</div>` | `dit` | `|` (normal mode)
 `<div>he|llo</div>` | `yit` | `<div>|hello</div>` (inner content yanked)
 `<div>he|llo</div>` | `yat` | `<div>|hello</div>` (outer content yanked)
-
 
 In surround, if t or < is used, NeoVintageous waits for an HTML/XML tag to insert.
 
@@ -73,7 +71,6 @@ Old text | Command | New text ~
 ## Further reading
 
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.27.0)
-* `:help nv`
 * `:help surround`
 * `:help text-objects`
 * `:help various-motions`
