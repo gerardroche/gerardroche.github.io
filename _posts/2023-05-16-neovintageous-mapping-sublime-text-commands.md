@@ -40,4 +40,4 @@ nnoremap m :ShowOverlay overlay=goto text=@<CR>
 
 ## Wrapping it up
 
-Mapping to Sublime Text commands opens up a world of possibilities to up your NeoVintageous game. Map your most common operations and build from there.
+Mapping to Sublime Text commands opens up a world of possibilities. Up your NeoVintageous game. Map your most common operations and build from there.
