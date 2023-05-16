@@ -3,7 +3,7 @@ tags: sublime-text
 title: Sesame - A Sublime Text plugin
 ---
 
-![Ali Baba overhearing one of the thieves saying "Open Sesame"](/assets/open-sesame.webp)
+![Ali Baba overhearing one of the thieves saying "Open Sesame"](/assets/2023-05-19-open-sesame.webp)
 
 Of all [my Sublime Text plugins](https://packagecontrol.io/browse/authors/gerardroche), [Sesame](https://packagecontrol.io/packages/Sesame) is my favourite. But only a few people use it. At the time of writing it only has [500 downloads](https://packagecontrol.io/packages/Sesame).
 
@@ -73,7 +73,7 @@ symfony
 
 Here is what Sesame will look like in Sublime Text:
 
-![Open Sesame command](/assets/open-sesame-command.webp)
+![Open Sesame command](/assets/2023-05-19-open-sesame-command.webp)
 
 ## Projects and Folders
 
