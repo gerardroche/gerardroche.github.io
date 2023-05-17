@@ -78,5 +78,6 @@ collections:
     permalink: /tags/:name/
 
 exclude:
-  - bin/
   - Makefile
+  - bin/
+  - svgo.config.js
