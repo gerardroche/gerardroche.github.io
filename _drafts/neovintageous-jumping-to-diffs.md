@@ -1,4 +1,4 @@
 ---
 tags: neovintageous sublime-text vim
-title: NeoVintageous - Revert Hunk mapping
+title: NeoVintageous - Jumping to Diffs
 ---
