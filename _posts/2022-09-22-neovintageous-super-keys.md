@@ -3,24 +3,24 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous Super keys
 ---
 
-All "super" keys in NeoVintageous are disabled by default. You can toggle them on and off via the Command Palette, press <kbd>CTRL+SHIFT+P</kbd> and select:
+["Super" keys](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)) are disabled by default in NeoVintageous. You can enable them via the Command Palette **NeoVintageous: Toggle SUPER keys**. Super keys are more commonly labelled as a Windows key, or Command key (⌘) on Mac.
 
+The key notation in Vim is `<D-...>`. For example, [create a mapping](/2023/05/16/neovintageous-mapping-sublime-text-commands/):
+
+```vim
+noremap <D-i> :GotoSymbolInProject<CR>
 ```
-NeoVintageous: Toggle SUPER keys
-```
 
-The key notation for super keys is `<D-...>`. Super keys are sometimes referred to as command-keys on OSX and window-keys on Windows.
+## Case Sensitivity
 
-## Case sensitivity
+In Vim, `<D-A>` and `<D-a>` are equal i.e. the case of `{char}` in `<D-{char}>` does not matter.  But Sublime Text is case-sensitive. Using the <kbd>SHIFT</kbd> key produces different key events for `<D-a>`. The advantage is that, unlike Vim, in Sublime Text you can create mappings for both `<D-A>` and `<D-a>`.
 
-In Vim, the case of `{char}` in `<D-{char}>` does not matter; thus `<D-A>` and `<D-a>` are equivalent.  But in Sublime the case of `{char}` is case-sensitive, using the <kbd>SHIFT</kbd> key will produce a different key event. The advantage is that you can have mappings for both `<D-A>` and `<D-a>` and not just one or the other.
+## Key Handler
 
-## Configuration
-
-You can configure the key handler to ignore selected keys. The selected keys will fallback to Sublime. Read the [key handling](/2022/09/22/neovintageous-key-handler/) post for details.
+You can configure the key handler to ignore selected super keys. Read [key handling in NeoVintageous](/2022/09/22/neovintageous-key-handler/).
 
 ## Troubleshooting
 
-Operating systems make extensive use of the super-keys. If you find a super-key is not working, the key might be bound to a desktop command. Sublime won't receive the key event if the key is bound to a desktop command.
+Operating systems make extensive use of super keys. When you find a super key is not working, the might be "shadowed" by a desktop key binding. In that case, Sublime Text won't be receiving the key event.
 
-You can debug Sublime key events by running `sublime.log_input(True)` in the console: **Menu > View > Show Console**. If Sublime is not receiving the key event, then you will need to clear whatever desktop command the key is bound to. If you use Ubuntu the post [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps/) may help.
+Debug the event by running `sublime.log_input(True)` in the console. Open the Sublime Text Console via Menu &gt; View &gt; Show Console. If Sublime Text is not receiving the key event, you will need to clear the desktop key binding. If you use Ubuntu reading [Ubuntu Keymaps](/2018/02/17/ubuntu-keymaps/) may help.

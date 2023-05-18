@@ -77,7 +77,7 @@ Here is what Sesame will look like in Sublime Text:
 
 ## Projects and Folders
 
-In Sesame, projects and folders are pretty much the same thing. The only difference is Sesame will use a Sublime Text project file to open the project if it finds one in the folder.
+In Sesame, projects and folders are pretty much the same thing. The only difference is Sesame will use a Sublime Text [project](https://www.sublimetext.com/docs/projects.html) file to open the project if it finds one in the folder.
 
 ## Multiple Projects Paths
 
