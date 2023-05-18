@@ -1,5 +1,4 @@
 ---
 tags: neovintageous sublime-text vim
-title: NeoVintageous ex :write
+title: NeoVintageous - Jumping to conflicts
 ---
-
