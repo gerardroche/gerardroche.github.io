@@ -106,19 +106,19 @@ If you need to set different depths for each path you use a dict:
 
 By default, Sesame will include all projects. You can filter the list to show only version controlled projects or exclude version controlled projects.
 
-```
+```js
 "sesame.vcs": null, // default
 ```
 
 Will include versioned and non-versioned. This is the default.
 
-```
+```js
 "sesame.vcs": true,
 ```
 
 Will include versioned.
 
-```
+```js
 "sesame.vcs": false,
 ```
 

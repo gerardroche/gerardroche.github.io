@@ -7,7 +7,7 @@ title: NeoVintageous - Goto Symbol
 
 You can go to any symbol in a project via *Menu &gt; Goto &gt; Goto Symbol in Project* but why work so hard. [Create a mapping](/2022/11/21/vimrc-and-neovintageousrc/):
 
-```
+```vim
 noremap <D-i> :GotoSymbolInProject<CR>
 ```
 
@@ -15,7 +15,7 @@ Unlike many of my mappings, Here I use `noremap` instead of `nnoremap`. `noremap
 
 You can go to any symbol in a current file via *Menu &gt; Goto &gt; Goto Symbol*:
 
-```
+```vim
 noremap <D-I> :ShowOverlay overlay=goto text=@<CR>
 ```
 

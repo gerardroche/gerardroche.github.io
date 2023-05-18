@@ -1,5 +1,5 @@
 ---
-tags: neovintageous sublime-text vim
+tags: neovintageous sublime-text vim git
 title: NeoVintageous - Jumping to Diffs
 ---
 
