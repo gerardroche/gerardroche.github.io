@@ -53,7 +53,7 @@ $ cd ~/projects && tree -L 2
 8 directories, 0 files
 ```
 
-With a projects depth is set to 2 it will yield 8 projects:
+With a projects depth is set to 2 it yields 8 projects:
 
 ```
 laravel/framework
@@ -63,7 +63,7 @@ sebastianbergmann/phpunit
 symfony/symfony
 ```
 
-With a projects depth of 1 it will yield 3 projects:
+With a projects depth of 1 it yields 3 projects:
 
 ```
 laravel
@@ -71,13 +71,13 @@ sebastianbergmann
 symfony
 ```
 
-Here is what Sesame will look like in Sublime Text:
+Here is what Sesame looks like in Sublime Text:
 
 ![Open Sesame command](/assets/2023-05-19-open-sesame-command.webp)
 
 ## Projects and Folders
 
-In Sesame, projects and folders are pretty much the same thing. The only difference is Sesame will use a Sublime Text [project](https://www.sublimetext.com/docs/projects.html) file to open the project if it finds one in the folder.
+In Sesame, projects and folders mean the same thing. The only difference is that Sesame will use a Sublime Text [project file](https://www.sublimetext.com/docs/projects.html) to open the project/folder if it finds one at the base of the folder.
 
 ## Multiple Projects Paths
 
@@ -102,6 +102,28 @@ If you need to set different depths for each path you use a dict:
 ],
 ```
 
+## Filters
+
+By default, Sesame will include all projects. You can filter the list to show only version controlled projects or exclude version controlled projects.
+
+```
+"sesame.vcs": null, // default
+```
+
+Will include versioned and non-versioned. This is the default.
+
+```
+"sesame.vcs": true,
+```
+
+Will include versioned.
+
+```
+"sesame.vcs": false,
+```
+
+Will exclude versioned.
+
 ## Wrapping it up
 
-I can't tell how much I use this little plugin. Opening, adding, removing, switching... I do it countless times a day. I would be lost without Sesame. Give it a go. It's magical.
+I can't you tell how much I use this little plugin. Opening, adding, removing, switching... I do it countless times a day. I would be lost without Sesame. Give it a go. It's magical.

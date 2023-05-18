@@ -15,7 +15,7 @@ noremap <D-i> :GotoSymbolInProject<CR>
 
 ## Case Sensitivity
 
-In Vim, `<D-A>` and `<D-a>` are equal i.e. the case of `{char}` in `<D-{char}>` does not matter.  But in Sublime Text all the keys are case-sensitive, using the <kbd>shift</kbd> key produces different key events. The advantage is that, unlike Vim, in Sublime Text you can create mappings for both `<D-A>` and `<D-a>`.
+In Vim, `<D-A>` and `<D-a>` are equal i.e. the case of `{char}` in `<D-{char}>` doesn't matter. But in Sublime Text all the keys are case-sensitive, using the <kbd>shift</kbd> key produces different key events. The advantage is that, unlike Vim, in Sublime Text you can create mappings for both `<D-A>` and `<D-a>`.
 
 ## Key Handler
 
