@@ -3,6 +3,8 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous Super keys
 ---
 
+![Superman (1978)](/assets/superman.webp)
+
 ["Super" keys](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)) are disabled by default in NeoVintageous. You can enable them via the Command Palette **NeoVintageous: Toggle SUPER keys**. Super keys are more commonly labelled as a Windows key, or Command key (⌘) on Mac.
 
 The key notation in Vim is `<D-...>`. For example, [create a mapping](/2023/05/16/neovintageous-mapping-sublime-text-commands/):
@@ -13,7 +15,7 @@ noremap <D-i> :GotoSymbolInProject<CR>
 
 ## Case Sensitivity
 
-In Vim, `<D-A>` and `<D-a>` are equal i.e. the case of `{char}` in `<D-{char}>` does not matter.  But in Sublime Text the keys are case-sensitive. Using the <kbd>SHIFT</kbd> key produces different key events for `<D-a>`. The advantage is that, unlike Vim, in Sublime Text you can create mappings for both `<D-A>` and `<D-a>`.
+In Vim, `<D-A>` and `<D-a>` are equal i.e. the case of `{char}` in `<D-{char}>` does not matter.  But in Sublime Text the keys are case-sensitive, using the <kbd>SHIFT</kbd> key produces different key events. The advantage is that, unlike Vim, in Sublime Text you can create mappings for both `<D-A>` and `<D-a>`.
 
 ## Key Handler
 
