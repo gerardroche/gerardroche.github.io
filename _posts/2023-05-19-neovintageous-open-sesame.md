@@ -36,7 +36,7 @@ Set the location of your projects and add your preferred key bindings.
 
 ## Projects Depth
 
-The default depth is 2 which means Sesame will look for projects two levels deep. For example, consider the following structure:
+The default depth is 2, which means Sesame will look for projects two levels deep. For example, consider the following structure:
 
 ```terminal
 $ cd ~/projects && tree -L 2

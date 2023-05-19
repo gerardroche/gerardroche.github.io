@@ -5,7 +5,7 @@ title: NeoVintageous - Mapping Sublime Text commands
 
 ![The Goonies (1985)](/assets/2023-05-16-the-goonies-map.webp)
 
-NeoVintageous's mapping features are very powerful. Did you know that you can map to any Sublime Text command? You can even map to plugins and your own custom commands.
+NeoVintageous's mapping features are powerful. Did you know that you can map to any Sublime Text command? You can even map to plugins and custom commands.
 
 To map to a Sublime Text command, you need to map the command as PascalCase. For example, to map the key **m** to **Goto Symbol in Project**, the command in Sublime Text is `goto_symbol_in_project`, [create a mapping and reload your rc file](/2022/11/21/vimrc-and-neovintageousrc/):
 
@@ -13,7 +13,7 @@ To map to a Sublime Text command, you need to map the command as PascalCase. For
 nnoremap m :GotoSymbolInProject<CR>
 ```
 
-Now you can press **m** and the **Goto Symbol in Project** overlay will open. This is a quick way to search for any symbol across an entire project. It's available via *Menu &gt; Goto &gt; Goto Symbol in Project*.
+Now you can press **m** and the **Goto Symbol in Project** overlay will open. It is a quick way to search for any symbol in an entire project. It is available via *Menu &gt; Goto &gt; Goto Symbol in Project*.
 
 **But where do I find the underlying commands?**
 

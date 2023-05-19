@@ -3,7 +3,7 @@ tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
 ---
 
-[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme that comes bundled with Sublime Text. It's similar but better.
+[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme bundled with Sublime Text. It's similar but better.
 
 > PHP
 
@@ -19,7 +19,7 @@ title: MonokaiFree - A Sublime Text color scheme
 
 ## Making it your own
 
-Did you know that you can customise your color scheme? For example, to customise the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme`. The following settings will change the cursor color to be a bright yellow, squares the cursor and selections, and makes the line highlight a blue tint:
+Did you know that you can customize your color scheme? For example, to customize the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme`. The following settings will change the cursor color to bright yellow, square the cursor and selections, and make the line highlight a blue tint:
 
 ```json
 {
