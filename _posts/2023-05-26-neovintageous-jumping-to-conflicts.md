@@ -1,6 +1,6 @@
 ---
-tags: neovintageous vim sublime-text git
-title: NeoVintageous - Jumping to conflicts
+tags: neovintageous sublime-text vim git
+title: NeoVintageous - Jumping to Conflicts
 ---
 
 ![Quantum Leap (1989)](/assets/quantum-leap.webp)
