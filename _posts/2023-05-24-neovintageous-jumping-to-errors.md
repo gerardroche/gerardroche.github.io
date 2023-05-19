@@ -9,7 +9,7 @@ title: NeoVintageous - Jumping to Errors
 
 Command | Description
 :------ | :----------
-<kbd>[l</kbd> | Jump to the previous error.
-<kbd>]l</kbd> | Jump to the next error.
+<kbd>[l</kbd> | Jump backward to the previous error.
+<kbd>]l</kbd> | Jump forward to the next error.
 
 With a count, it means jump that many times e.g. `3]l` jumps to the third error. If a count is greater than the number of errors it will jump to the last error. A status message is displayed if there are no more errors.

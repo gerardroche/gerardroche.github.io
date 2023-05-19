@@ -9,8 +9,8 @@ NeoVintageous has two commands for jumping to SCM conflicts. These are part of t
 
 Command | Description
 :------ | :----------
-<kbd>[n</kbd> | Go to the previous SCM conflict marker or diff/patch.
-<kbd>]n</kbd> | Go to the next SCM conflict marker or diff/patch.
+<kbd>[n</kbd> | Jump backward to previous SCM conflict marker or diff/patch.
+<kbd>]n</kbd> | Jump forward to next SCM conflict marker or diff/patch.
 
 **What are SCM conflict markers?**
 
