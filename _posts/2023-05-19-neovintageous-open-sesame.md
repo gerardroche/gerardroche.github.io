@@ -126,4 +126,4 @@ Will exclude versioned.
 
 ## Wrapping it up
 
-I can't you tell how much I use this little plugin. Opening, adding, removing, switching... I do it countless times a day. I would be lost without Sesame. Give it a go. It's magical.
+I can't you tell how much I use this little plugin. Opening, adding, removing, switching... I do it countless times a day. I would be lost without it. Give it a go. It's magical.
