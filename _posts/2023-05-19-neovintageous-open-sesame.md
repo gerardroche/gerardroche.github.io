@@ -9,7 +9,7 @@ Of all [my Sublime Text plugins](https://packagecontrol.io/browse/authors/gerard
 
 "Sesame" is play on the phrase "[Open Sesame](https://en.wikipedia.org/wiki/Open_sesame)". A magical phrase in the story of "[Ali Baba and the Forty Thieves](https://en.wikipedia.org/wiki/Ali_Baba_and_the_Forty_Thieves)" from Antoine Galland's version of [One Thousand and One Nights](https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights). It opens the mouth of a cave in which forty thieves have hidden a treasure.
 
-So what does Sesame do? Sesame is quick way to open, add, switch, and remove projects or folders.
+So what does Sesame do? Sesame is quick way to open, add, switch, and remove projects/folders.
 
 ## Installation
 
@@ -53,7 +53,7 @@ $ cd ~/projects && tree -L 2
 8 directories, 0 files
 ```
 
-With a projects depth is set to 2 it yields 8 projects:
+With a projects depth set to 2 it yields 8 projects:
 
 ```
 laravel/framework
@@ -63,7 +63,7 @@ sebastianbergmann/phpunit
 symfony/symfony
 ```
 
-With a projects depth of 1 it yields 3 projects:
+With a projects depth set to 1 it yields 3 projects:
 
 ```
 laravel
