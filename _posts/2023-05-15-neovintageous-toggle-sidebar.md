@@ -13,7 +13,7 @@ If you want to toggle the side bar with the key **m**, [create a mapping and rel
 nnoremap m :Neovintageous action=toggle_side_bar<CR>
 ```
 
-Then add a key binding via **Menu > Preferences > Key Bindings** (this is for when the side bar has focus):
+Then add a key binding via **Menu → Preferences → Key Bindings** (this is for when the side bar has focus):
 
 ```js
 {
@@ -34,7 +34,7 @@ Create a mapping and reload your rc file:
 nnoremap <C-d> :Neovintageous action=toggle_side_bar<CR>
 ```
 
-Then add a key binding via **Menu > Preferences > Key Bindings**:
+Then add a key binding via **Menu → Preferences → Key Bindings**:
 
 ```js
 {
@@ -54,7 +54,7 @@ nnoremap <leader>d :Neovintageous action=toggle_side_bar<CR>
 
 {% include note.html content="The default mapleader is **/** (slash)." %}
 
-Then add a key binding via **Menu > Preferences > Key Bindings**:
+Then add a key binding via **Menu → Preferences → Key Bindings**:
 
 ```js
 {

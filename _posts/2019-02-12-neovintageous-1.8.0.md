@@ -12,7 +12,7 @@ command |   action
 
 Note that the `ctrl` keys are ~~disabled by default (this will change in [v2.0.0](https://github.com/NeoVintageous/NeoVintageous/issues/404))~~ (now enabled by default) [^1], to enable the keys update your settings.
 
-**Menu > Preferences > Settings**:
+**Menu → Preferences → Settings**
 
 ```json
 {

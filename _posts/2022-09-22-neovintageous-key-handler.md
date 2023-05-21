@@ -5,7 +5,7 @@ title: NeoVintageous key handler
 
 By default NeoVintageous handles all keys. You can ignore selected keys, in which case the handling of those keys will fallback to Sublime.
 
-You can configure key handling via the `vintageous_handle_keys` setting. Settings are accessed via the **Preferences > Settings** menu item. Let's look at some examples.
+You can configure key handling via the `vintageous_handle_keys` setting. Settings are accessed via **Menu → Preferences → Settings**. Let's look at some examples.
 
 If you want to ignore `<C-f>`:
 
@@ -43,7 +43,7 @@ For example to disable `<C-u>` in insert mode and `<C-f>` in visual mode:
 
 ## Troubleshooting
 
-You can debug Sublime key events by running `sublime.log_input(True)` in the console: **Menu > View > Show Console**. If Sublime is not receiving the key event, you will need to clear the existing key bind.
+You can debug Sublime key events by running `sublime.log_input(True)` in the console: **Menu → View → Show Console**. If Sublime is not receiving the key event, you will need to clear the existing key bind.
 
 ## Further reading
 

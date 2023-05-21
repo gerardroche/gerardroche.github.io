@@ -9,7 +9,7 @@ NeoVintageous 1.15.0 has just been released. The highlights for this release is 
 
 Insert mode by default means that NeoVintageous will enter insert mode when opening or switching views or when the window receives focus and is **not** in visual mode. The reason for that last qualification is so that visual mode selections are retained when the window loses focus.
 
-**Menu > Preferences > Settings:**
+**Menu → Preferences → Settings:**
 
 ```json
 {

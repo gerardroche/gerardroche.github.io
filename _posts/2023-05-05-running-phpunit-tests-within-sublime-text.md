@@ -24,7 +24,7 @@ Installation is straight forward. Install via [Package Control](https://packagec
 
 ## Setup
 
-Add your preferred key bindings via Menu &gt; Preferences &gt; Key Bindings:
+Add your preferred key bindings via Menu → Preferences → Key Bindings:
 
 ```js
 { "keys": ["ctrl+shift+a"], "command": "phpunit_test_suite" },

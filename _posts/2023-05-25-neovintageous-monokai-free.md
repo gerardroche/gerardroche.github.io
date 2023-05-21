@@ -19,7 +19,7 @@ title: MonokaiFree - A Sublime Text color scheme
 
 ## Making it your own
 
-Did you know that you can customize your color scheme? For example, to customize the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme` or select **Menu &gt; Preferences &gt; Customize Color Scheme**. The following settings will change the cursor color to bright yellow, square the cursor and selections, and make the line highlight a blue tint:
+Did you know that you can customize your color scheme? For example, to customize the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme` or select **Menu → Preferences → Customize Color Scheme**. The following settings will change the cursor color to bright yellow, square the cursor and selections, and make the line highlight a blue tint:
 
 ```json
 {

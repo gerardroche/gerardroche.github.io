@@ -13,11 +13,11 @@ To map to a Sublime Text command, you need to map the command as PascalCase. For
 nnoremap m :GotoSymbolInProject<CR>
 ```
 
-Now you can press **m** and the **Goto Symbol in Project** overlay will open. It is a quick way to search for any symbol in an entire project. It is available via *Menu &gt; Goto &gt; Goto Symbol in Project*.
+Now you can press **m** and the **Goto Symbol in Project** overlay will open. It is a quick way to search for any symbol in an entire project. It is available via *Menu → Goto → Goto Symbol in Project*.
 
 **But where do I find the underlying commands?**
 
-Open the Sublime Text Console via Menu &gt; View &gt; Show Console and enable command logging via `sublime.log_commands(True)`:
+Open the Sublime Text Console via Menu → View → Show Console and enable command logging via `sublime.log_commands(True)`:
 
 ![Sublime Text Console logging](/assets/2023-05-16-enable-console-logging-1.webp)
 
@@ -26,7 +26,7 @@ Now Sublime Text will log all commands to the console:
 ![Sublime Text Console logging](/assets/2023-05-16-enable-console-logging-2.webp)
 
 
-Sublime Text will log the command and all necessary parameters to create a mapping. For example, when you run **Menu &gt; Goto &gt; Goto Symbol**, Sublime Text will print:
+Sublime Text will log the command and all necessary parameters to create a mapping. For example, when you run **Menu → Goto → Goto Symbol**, Sublime Text will print:
 
 ```
 command: show_overlay {"overlay": "goto", "text": "@"}

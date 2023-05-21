@@ -7,7 +7,7 @@ NeoVintageous 1.21.0 has been released. The highlights are a port of [vim-sneak]
 
 ## vim-sneak
 
-Sneak is a port of [vim-sneak](https://github.com/justinmk/vim-sneak) and is disabled by default (you can configure settings via **Menu > Preferences > Settings**):
+Sneak is a port of [vim-sneak](https://github.com/justinmk/vim-sneak) and is disabled by default (you can configure settings via **Menu → Preferences → Settings**):
 
 ```json
 {
@@ -55,7 +55,7 @@ Key Sequence             | Description
 
 ## Mapping jj and jk to escape
 
-There are two new settings that simplify mapping `jj` and `jk` to escape (you can configure settings via **Menu > Preferences > Settings**):
+There are two new settings that simplify mapping `jj` and `jk` to escape (you can configure settings via **Menu → Preferences → Settings**):
 
 ```json
 {

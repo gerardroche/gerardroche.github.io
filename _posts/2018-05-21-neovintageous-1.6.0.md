@@ -32,7 +32,7 @@ This maps to the Sublime Text command *Permute Lines: Reverse*, which can be run
 
 To discover commands and their arguments, enable the Sublime Text command logger. Run the following command in the console.
 
-**Menu > View > Show Console**:
+**Menu → View → Show Console**
 
 ```console
 sublime.log_commands(True)
@@ -64,7 +64,7 @@ Search highlighting has been improved with incremental match, current match, and
 
 Searches supporting the new highlighting include `/`, `?`, `*`, and `#`.
 
-Use a color scheme override to customise them. For example if you want to customise the the default Monokai color scheme, then create a file named `Monokai.sublime-color-scheme` in your User directory (find it via the menu `Preferences > Browse Packages`), then create the custom rules:
+Use a color scheme override to customise them. For example if you want to customise the the default Monokai color scheme, then create a file named `Monokai.sublime-color-scheme` in your User directory (find it via the Menu → Preferences → Browse Packages), then create the custom rules:
 
 ```json
 {

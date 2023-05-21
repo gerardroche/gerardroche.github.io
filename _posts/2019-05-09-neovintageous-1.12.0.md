@@ -9,7 +9,7 @@ NeoVintageous 1.12.0 has just been released. The highlights of this release are 
 
 There are three bell styles: **view**, **views**, **blink** (default), and two color schemes: **light** and **dark** (default).
 
-You can configure settings via `Menu > Preferences > Settings` or by the Command Palette. To use the command palette:
+You can configure settings via Menu → Preferences → Settings or by the Command Palette. To use the command palette:
 
 1. Press `Ctrl+Shift+P`
 2. Select the "Preferences: Settings" command

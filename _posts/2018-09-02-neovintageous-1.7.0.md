@@ -66,7 +66,7 @@ There are three search states: **current**, **incremental** (the match as you ty
 
 ```
 
-To customise the colors of each state, create a color scheme override: for example if you have the default Monokai color scheme enabled - create a file named **Monokai.sublime-color-scheme** in the Sublime Text User directory (**Menu > Preferences > Browse Packages...**), and create the styles using the "neovintageous_search_*" scopes:
+To customise the colors of each state, create a color scheme override: for example if you have the default Monokai color scheme enabled - create a file named **Monokai.sublime-color-scheme** in the Sublime Text User directory (**Menu → Preferences → Browse Packages...**), and create the styles using the "neovintageous_search_*" scopes:
 
 ```json
 {

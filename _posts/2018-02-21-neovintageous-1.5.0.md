@@ -11,7 +11,7 @@ NeoVintageous 1.5.0 has been released and includes support for super-keys, comma
 
 You can now map super-keys (`<D-...>`), also known as command-keys on OSX, and window-keys on Windows. The super-keys are disabled by default.
 
-**Menu > Preferences > Settings**
+**Menu → Preferences → Settings**
 
 ```json
 {
@@ -35,7 +35,7 @@ nnoremap <D-n> :TestNearest<CR>
 
 Note: Currently only `a-zA-Z` super keys are implemented e.g. `<D-i>`, `<D-I>`, `<D-o>`, etc.
 
-Note: Operating systems make extensive use of the super-keys for desktop commands. If you find a super-key is not working in Sublime Text, then it's probably bound to a desktop command, and if that's the case then ST won't receive the key event. You can check if ST is receiving the event by running `sublime.log_input(True)` in the console (`Menu > View > Show Console`). If it's not receiving the event, then you need to clear whatever desktop command the key is bound to. If you use Ubuntu see [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps/).
+Note: Operating systems make extensive use of the super-keys for desktop commands. If you find a super-key is not working in Sublime Text, then it's probably bound to a desktop command, and if that's the case then ST won't receive the key event. You can check if ST is receiving the event by running `sublime.log_input(True)` in the console (Menu → View → Show Console). If it's not receiving the event, then you need to clear whatever desktop command the key is bound to. If you use Ubuntu see [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps/).
 
 ## Command-line editing and search history
 
@@ -71,7 +71,7 @@ NeoVintageous: Reload My vintageousrc File
 
 Next, you need to create a keybinding to enable the ability to toggle the side bar when the side bar has focus.
 
-**Menu > Preferences > Key Bindings:**
+**Menu → Preferences → Key Bindings**
 
 ```json
 {

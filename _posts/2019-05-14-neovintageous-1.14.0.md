@@ -14,7 +14,7 @@ vnoremap <D-[> <lt>gv
 vnoremap <D-]> >gv
 ```
 
-The super-keys are disabled by default, you can enable them by editing your settings via `Menu > Preferences > Settings` or by the Command Palette. To use the command palette:
+The super-keys are disabled by default, you can enable them by editing your settings via Menu → Preferences → Settings or by the Command Palette. To use the command palette:
 
 1. Press `Ctrl+Shift+P`
 2. Select the "Preferences: Settings" command

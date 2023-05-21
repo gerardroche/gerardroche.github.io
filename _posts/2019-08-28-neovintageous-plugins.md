@@ -81,7 +81,7 @@ You can go to normal mode by pressing `v`. Once in normal mode you can use norma
 
 At any time, you can press `<Esc>` or `J` to exit back to normal mode. This behaviour can be configured to work similar to pressing `v`. This is useful if you want to go back to normal mode and still be able to operate on all the cursors.
 
-**Menu > Preferences > Settings**
+**Menu → Preferences → Settings**
 
 ```json
 {
