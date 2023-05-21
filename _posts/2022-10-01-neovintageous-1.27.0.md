@@ -44,7 +44,7 @@ Old text | Command | New text ~
 `he|llo` | `ysiw<div>` | `|<div>hello</div>`
 `<div>he|llo</div>` | `dst` | `|hello`
 
-You may specify attributes here and they will be stripped from the closing tag. If replacing a tag, its attributes are kept in the new tag. End your input with > to discard the those attributes.
+You may specify attributes here and they will be stripped from the closing tag. If replacing a tag, its attributes are kept in the new tag. End your input with `>` to discard the those attributes.
 
 Old text | Command | New text ~
 -------- | ------- | ----------

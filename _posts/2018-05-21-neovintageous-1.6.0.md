@@ -27,8 +27,7 @@ NeoVintageous 1.6.0 improves on mapping commands by supporting arguments **(adva
 noremap <leader>gr :PermuteLines operation=reverse<CR>
 ```
 
-
-This maps to the Sublime Text command *Permute Lines: Reverse*, which can be run via the menu: `Edit > Permute Lines > Reverse`.
+This maps to the Sublime Text command *Permute Lines: Reverse*, which can be run via the menu: `Edit → Permute Lines → Reverse`.
 
 To discover commands and their arguments, enable the Sublime Text command logger. Run the following command in the console.
 
@@ -44,7 +43,7 @@ Now you when you run a command, it will print information about it in the consol
 command: permute_lines {"operation": "reverse"}
 ```
 
-Or the *Goto Anything...* command, which can be run via the menu: `Goto > Goto Anything`, will print:
+Or the *Goto Anything...* command, which can be run via the menu: `Goto → Goto Anything`, will print:
 
 ```console
 command: show_overlay {"overlay": "goto", "show_files": true}
