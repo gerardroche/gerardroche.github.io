@@ -1,4 +1,4 @@
 ---
-tags: neovintageous sublime-text vim php phpunit
+tags: neovintageous sublime-text phpunit
 title: NeoVintageous - PHPUnit
 ---

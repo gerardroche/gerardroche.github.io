@@ -1,4 +1,4 @@
 ---
 tags: neovintageous sublime-text vim
-title: NeoVintageous - Multiple cursors
+title: NeoVintageous - Multiple Cursors
 ---

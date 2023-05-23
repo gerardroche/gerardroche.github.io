@@ -1,6 +1,6 @@
 ---
 tags: neovintageous sublime-text vim git
-title: NeoVintageous - the only keys I ignore
+title: NeoVintageous - The only keys I disable
 ---
 
 
