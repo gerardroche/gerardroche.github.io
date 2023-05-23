@@ -3,18 +3,14 @@ tags: neovintageous sublime-text vim
 title: NeoVintageous Ctrl keys
 ---
 
-All ctrl keys in NeoVintageous are enabled by default. You can toggle them on and off via the Command Palette, press <kbd>CTRL+SHIFT+P</kbd> and select:
+Ctrl keys in NeoVintageous are enabled by default. You can toggle them via the Command Palette **NeoVintageous: Toggle CTRL keys**.
 
-```
-NeoVintageous: Toggle CTRL keys
-```
+The key notation in Vim in `<C-...>` e.g. `<C-l>`.
 
-The key notation for control keys is `<C-...>`.
+## Case Sensitivity
 
-## Case sensitivity
+In Vim, `<D-A>` and `<D-a>` are equal i.e. the case of `{char}` in `<D-{char}>` doesn't matter. But in Sublime Text all the keys are case-sensitive, using the <kbd>shift</kbd> key produces different key events. The advantage is that, unlike Vim, in Sublime Text you can create mappings for both `<D-A>` and `<D-a>`.
 
-In Vim, the case of `{char}` in `<C-{char}>` does not matter; thus `<C-A>` and `<C-a>` are equivalent.  But in Sublime the case of `{char}` is case-sensitive, using the <kbd>SHIFT</kbd> key will produce a different key event. The advantage is that you can have mappings for both `<C-A>` and `<C-a>` and not just one or the other.
+## Key Handler
 
-## Configuration
-
-You can configure the key handler to ignore selected keys. The selected keys will fallback to Sublime. Read the [key handling](/2022/09/22/neovintageous-key-handler/) post for details.
+You can configure the key handler to ignore selected keys. Read the [NeoVintageous Key Handler](/2022/09/22/neovintageous-key-handler/).
