@@ -21,4 +21,4 @@ noremap <D-I> :ShowOverlay overlay=goto text=@<CR>
 
 For this mapping I use the uppercase `<D-I>` key. Keys are case-sensitive in Sublime Text i.e. using the <kbd>shift</kbd> key produces different key events.
 
-Read [NeoVintageous Super Keys](/2022/09/22/neovintageous-super-keys/#case-sensitivity) for help on super key usage.
+Read [NeoVintageous Super Keys](/2022/09/22/neovintageous-super-keys/) for help on super key usage.
