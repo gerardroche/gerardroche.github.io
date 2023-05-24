@@ -1,4 +1,4 @@
 ---
 tags: neovintageous sublime-text vim
-title: NeoVintageous - ex :nohlsearch
+title: NeoVintageous - :nohlsearch
 ---
