@@ -7,7 +7,7 @@ In Neovintageous a vimrc file is called a neovintageousrc file. The file contain
 
 ## Options
 
-The following options are supported: `autoindent`, `belloff`, `expandtabs`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber,`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`.
+The following options are supported: `autoindent`, `belloff`, `expandtab`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber,`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`.
 
 You can set options with the `:set {option}` command. Here are two examples that I can't live without:
 

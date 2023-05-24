@@ -5,7 +5,7 @@ title: NeoVintageous 1.22.0
 
 NeoVintageous 1.22.0 has been released. The highlights are some minor enhancements and support for ST4.
 
-## 'scrolloff' option
+## 'scrolloff' 'so' option
 
 Sublime Text build 4075 a new setting `scroll_context_lines` allows setting a number of context lines to show when scrolling to reveal. This affects all selection changes, like selection dragging, page-up/page-do and moving the caret.
 
@@ -13,7 +13,7 @@ Sublime Text build 4075 a new setting `scroll_context_lines` allows setting a nu
 :set scrolloff=8
 ```
 
-## 'relativenumber' option
+## 'relativenumber' 'rnu' option
 
 Sublime Text build 4075 a new setting `relative_line_numbers` will draw each line number as the distance from the current line.
 

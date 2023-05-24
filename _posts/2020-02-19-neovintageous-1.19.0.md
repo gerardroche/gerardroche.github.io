@@ -140,6 +140,8 @@ option | default
 `'tabstop'` `'ts'` | `tab_size` sublime setting
 `'expandtabs'` `'et'` | `translate_tabs_to_spaces` sublime setting
 
+**`'expandtabs'` has since been renamed `'expandtab'`**
+
 ## New keys
 
 All of the new keys can be mapped!
