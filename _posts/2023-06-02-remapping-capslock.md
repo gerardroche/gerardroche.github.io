@@ -11,7 +11,7 @@ Do you use your CapsLock? Perhaps you like shouting at people. If you're a Vim u
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
 ```
 
-If decide you don't like it, reset it:
+If you decide you don't like it, reset it:
 
 ```sh
 gsettings reset org.gnome.desktop.input-sources xkb-options
