@@ -3,7 +3,7 @@ tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
 ---
 
-[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme bundled with Sublime Text. It's similar but better.
+[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme that is bundled with Sublime Text. It's similar but better.
 
 > PHP
 
