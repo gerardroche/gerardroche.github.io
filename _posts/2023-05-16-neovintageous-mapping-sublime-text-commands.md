@@ -38,6 +38,6 @@ Create a mapping and reload your rc file:
 nnoremap m :ShowOverlay overlay=goto text=@<CR>
 ```
 
-## Wrapping it up
+## Wrapping up
 
 Mapping to Sublime Text commands opens up a world of possibilities. Up your NeoVintageous game. Map your most common operations and build from there.

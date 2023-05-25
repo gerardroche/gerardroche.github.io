@@ -69,7 +69,7 @@ Then add a key binding via **Menu → Preferences → Key Bindings**:
 
 The reason you need both a mapping *and* a key binding is because the key binding is for when the side bar has focus. This is a special context that you don't need to worry about for regular mappings.
 
-## Wrapping it up
+## Wrapping up
 
 A side bar toggle is a great way to free up screen real estate. Pair it with an [Origami Toggle Zoom](/2019/02/26/toggle-zoom/) mapping for a great way to focus on immediate coding problems.
 

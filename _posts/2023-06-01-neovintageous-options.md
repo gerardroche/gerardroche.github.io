@@ -13,7 +13,7 @@ Boolean | Can only be on or off.
 Number | Has a numeric value.
 String | Has a string value.
 
-Besides changing options with the ":set" command for the current view, you can also set options when Sublime Text starts via a neovintageousrc file. Read the [NeoVintageous vimrc file](/2022/11/21/vimrc-and-neovintageousrc/).
+Besides changing options with the ":set" command for the current view, you can also set options when Sublime Text starts via a neovintageousrc file. See the [NeoVintageous vimrc file](/2022/11/21/vimrc-and-neovintageousrc/).
 
 ## Setting options
 
@@ -70,6 +70,8 @@ Boolean.
 Default is "".
 
 String ("" and "all").
+
+Specifies for which events the visual bell will not be rung. Useful if you don't like the visual bell.
 
 ```vim
 :set belloff=

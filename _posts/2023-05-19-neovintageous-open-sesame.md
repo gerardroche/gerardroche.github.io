@@ -124,6 +124,6 @@ Will include versioned.
 
 Will exclude versioned.
 
-## Wrapping it up
+## Wrapping up
 
 I can't tell you how much I use this little plugin. Opening, adding, removing, switching... I do it countless times a day. I would be lost without it. Give it a go. It's magical.

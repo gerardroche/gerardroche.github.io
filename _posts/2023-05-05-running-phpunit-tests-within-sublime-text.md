@@ -99,6 +99,6 @@ Running your tests with Code Coverage enabled can be slow which is why I always 
 
 Toggle it with the **Toggle Option --no-coverage** command. Now you can run your tests at high speed and generate coverage when you need it.
 
-## Wrapping it up
+## Wrapping up
 
 PHPUnitKit is a great way to streamline your test game. I hope this short introduction has convinced you to give it a go.
