@@ -39,4 +39,4 @@ Read [NeoVintageous - Options](/2023/06/01/neovintageous-options/).
 
 ## Wrapping up
 
-I personally prefer the active "view" flash. The full view single flash is more comfortable. I use the [MonokaiFree](/2023/05/25/neovintageous-monokai-free/) which is enhanced to support NeoVintageous better than the Monokai color scheme bundled with Sublime Text. Check it out if you use Monokai. I think you'll like it.
+I personally prefer the active "view" flash. The full view single flash is more comfortable. I use the [MonokaiFree](/2023/05/25/monokai-free-a-sublime-text-color-scheme/) which is enhanced to support NeoVintageous better than the Monokai color scheme bundled with Sublime Text. Check it out if you use Monokai. I think you'll like it.
