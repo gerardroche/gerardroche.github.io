@@ -18,7 +18,7 @@ With a count, it means jump that many times e.g. `3]c` jumps to the third change
 
 `'wrapscan'` applies to search commands like <kbd>/</kbd> (search), <kbd>?</kbd> (reverse search), <kbd>*</kbd> (search word under cursor), <kbd>#</kbd> (search word under cursor reverse), <kbd>[s</kbd> (next misspelled word), <kbd>]s</kbd> (previous misspelled word).
 
-You can turn off:
+You can turn it off:
 
 ```vim
 :set nowrapscan
