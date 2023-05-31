@@ -13,17 +13,15 @@ Boolean | Can only be on or off.
 Number | Has a numeric value.
 String | Has a string value.
 
-Besides changing options with the ":set" command for the current view, you can also set options when Sublime Text starts via a neovintageousrc file. See the [NeoVintageous vimrc file](/2022/11/21/vimrc-and-neovintageousrc/).
+Besides changing options with the ":set" command for the current view, you can also set options when Sublime Text starts via the [neovintageousrc file](/2022/11/21/vimrc-and-neovintageousrc/).
 
 ## Setting options
 
-Show current value of option:
+Show current value of option (the value is shown in the status bar):
 
 ```vim
 :set number?
 ```
-
-The value is shown in the status bar.
 
 Turn option on:
 
@@ -51,6 +49,8 @@ Set option:
 ```
 
 ## NeoVintageous Options
+
+Some options "proxy" to Sublime Text settings. To set the default for a proxied option you must set the setting in Sublime Text. All other options defaults can be set in the neovintageousrc file.
 
 ### 'autoindent' option
 
@@ -373,7 +373,7 @@ set nowrapscan
 
 ## Wrapping up
 
-NeoVintageous's defaults are usually good. I have the following set in my neovintageousrc file:
+I have the following set in my neovintageousrc file:
 
 ```vim
 set ignorecase
@@ -381,24 +381,10 @@ set nominimap
 set smartcase
 ```
 
-I also set the following Sublime Text settings proxies:
-
-`'expandtab'`:
+I also set the following settings:
 
 ```js
 "translate_tabs_to_spaces": true,
-```
-
-`'textwidth'`:
-
-```js
 "wrap_width": 80,
-```
-
-`'scrolloff'`:
-
-```js
 "scroll_context_lines": 8,
-````
-
-Set the defaults for option proxies in Sublime Text via Menu → Preferences → Settings.
+```
