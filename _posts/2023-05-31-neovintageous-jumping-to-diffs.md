@@ -36,7 +36,7 @@ You can toggle it:
 :set wrapscan!
 ```
 
-Display the current value in the status bar:
+And display the current value in the status bar:
 
 ```vim
 :set wrapscan?
