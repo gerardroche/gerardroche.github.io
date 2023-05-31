@@ -5,11 +5,9 @@ title: Sesame - A Sublime Text plugin
 
 ![Ali Baba overhearing one of the thieves saying "Open Sesame"](/assets/2023-05-19-open-sesame.webp)
 
-Of all [my Sublime Text plugins](https://packagecontrol.io/browse/authors/gerardroche), [Sesame](https://packagecontrol.io/packages/Sesame) is my favourite. But only a few people use it. At the time of writing it only has [500 downloads](https://packagecontrol.io/packages/Sesame).
+[Sesame](https://packagecontrol.io/packages/Sesame) is my favourite Sublime Text plugin. Sesame is quick way to open, add, switch, and remove projects and folders.
 
-"Sesame" is play on the phrase "[Open Sesame](https://en.wikipedia.org/wiki/Open_sesame)". A magical phrase in the story of "[Ali Baba and the Forty Thieves](https://en.wikipedia.org/wiki/Ali_Baba_and_the_Forty_Thieves)" from Antoine Galland's version of [One Thousand and One Nights](https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights). It opens the mouth of a cave in which forty thieves have hidden a treasure.
-
-So what does Sesame do? Sesame is quick way to open, add, switch, and remove projects/folders.
+The name "Sesame" is a play on the phrase "[Open Sesame](https://en.wikipedia.org/wiki/Open_sesame)". A magical phrase in the story of "[Ali Baba and the Forty Thieves](https://en.wikipedia.org/wiki/Ali_Baba_and_the_Forty_Thieves)" from Antoine Galland's version of [One Thousand and One Nights](https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights). It opens the mouth of a cave in which forty thieves have hidden a treasure.
 
 ## Installation
 
