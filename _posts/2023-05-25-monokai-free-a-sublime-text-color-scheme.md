@@ -20,7 +20,7 @@ title: MonokaiFree - A Sublime Text color scheme
 ## Making it your own
 
 > Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
-> &mdash; [Sublime Text Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
+> &mdash; [Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
 
 For example, the following settings make:
 
