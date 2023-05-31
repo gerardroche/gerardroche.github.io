@@ -3,7 +3,7 @@ tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
 ---
 
-[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme that is bundled with Sublime Text. It's similar but better.
+[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme bundled with Sublime Text.
 
 > PHP
 
@@ -19,7 +19,17 @@ title: MonokaiFree - A Sublime Text color scheme
 
 ## Making it your own
 
-Did you know that you can customize your color scheme? For example, to customize the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme` or select **Menu → Preferences → Customize Color Scheme**. The following settings will change the cursor color to bright yellow, square the cursor and selections, and make the line highlight a blue tint:
+> Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
+> &mdash; [Sublime Text Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
+
+For example, the following settings make:
+
+- the cursor color a bright yellow
+- the caret style square
+- the selections style square
+- the line highlight a tint of blue
+
+**Menu → Preferences → Customize Color Scheme**.
 
 ```json
 {
@@ -38,7 +48,3 @@ Did you know that you can customize your color scheme? For example, to customize
 ```
 
 ![Robert Llewellyn in Red Dwarf (1988)](/assets/red-dwarf-kryten.webp)
-
-## Further reading
-
-- [Sublime Text Color Schemes Customization](https://www.sublimetext.com/docs/color_schemes.html#customization)
