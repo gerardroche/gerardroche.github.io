@@ -5,7 +5,7 @@ title: NeoVintageous - Jumping to Diffs
 
 ![Back to the Future Part II (1989)](/assets/back-to-the-future-part-ii.webp)
 
-NeoVintageous has two commands for jumping to diffs:
+NeoVintageous has two vim commands for jumping to diffs:
 
 Command | Description
 :------ | :----------

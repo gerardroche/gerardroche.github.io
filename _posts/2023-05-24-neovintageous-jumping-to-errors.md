@@ -5,7 +5,7 @@ title: NeoVintageous - Jumping to Errors
 
 ![Red Dwarf - Terrorform (1992)](/assets/red-dwarf.webp)
 
-[SublimeLinter](https://packagecontrol.io/search/SublimeLinter) is a code linting framework for Sublime Text. NeoVintageous provides two commands that can be used to jump to lint errors:
+[SublimeLinter](https://packagecontrol.io/search/SublimeLinter) is a code linting framework for Sublime Text. NeoVintageous has two vim commands for jumping to SublimeLinter lint errors:
 
 Command | Description
 :------ | :----------

@@ -5,7 +5,7 @@ title: NeoVintageous - Jumping to Misspelled Words
 
 ![Young Frankenstein (1974)](/assets/young-frankenstein.webp)
 
-NeoVintageous has two commands to jump to misspelled words:
+NeoVintageous has two vim commands for jumping to misspelled words:
 
 Command | Description
 :------ | :----------

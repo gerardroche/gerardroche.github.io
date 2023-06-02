@@ -5,7 +5,7 @@ title: NeoVintageous - Jumping to Conflicts
 
 ![Quantum Leap (1989)](/assets/quantum-leap.webp)
 
-NeoVintageous has two commands for jumping to SCM conflicts. These are part of the Unimpaired plugin bundled with NeoVintageous:
+NeoVintageous has two vim commands for jumping to SCM conflicts. These are part of the Unimpaired plugin bundled with NeoVintageous:
 
 Command | Description
 :------ | :----------
