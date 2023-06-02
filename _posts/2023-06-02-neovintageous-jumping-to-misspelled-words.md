@@ -16,9 +16,9 @@ With a count, it means jump that many times e.g. `3]s` jumps to the third misspe
 
 ## `'wrapscan'`
 
-`'wrapscan'` applies to search commands like <kbd>/</kbd> (search), <kbd>?</kbd> (reverse search), <kbd>*</kbd> (search word under cursor), <kbd>#</kbd> (and reverse), <kbd>[s</kbd> (next misspelled word), <kbd>]s</kbd> (and previous).
+`'wrapscan'` applies to search commands like `/` (search), `?` (reverse search), `*` (search word under cursor), `#` (in reverse), `[s` (next misspelled word), `]s` (previous misspelled word).
 
-You can turn off:
+You can turn it off:
 
 ```vim
 :set nowrapscan
@@ -36,7 +36,7 @@ You can toggle it:
 :set wrapscan!
 ```
 
-Display the current value in the status bar:
+And display the current value in the status bar:
 
 ```vim
 :set wrapscan?
