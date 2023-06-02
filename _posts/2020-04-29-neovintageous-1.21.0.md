@@ -1,5 +1,5 @@
 ---
-tags: neovintageous sublime-text vim
+tags: vim sublime-text neovintageous
 title: NeoVintageous 1.21.0
 ---
 

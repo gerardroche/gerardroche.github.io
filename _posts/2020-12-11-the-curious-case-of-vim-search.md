@@ -1,5 +1,5 @@
 ---
-tags: neovintageous sublime-text vim search
+tags: vim sublime-text neovintageous search
 title: The curious case of Vim search
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: neovintageous sublime-text vim git
+tags: vim sublime-text neovintageous git
 title: NeoVintageous - Toggle Inline Diffs
 ---
 

@@ -1,5 +1,5 @@
 ---
-tags: neovintageous sublime-text vim
+tags: vim sublime-text neovintageous
 title: NeoVintageous 1.4.0
 redirect_from:
   - /2017/11/01/neovintageous-1.4.0-released/

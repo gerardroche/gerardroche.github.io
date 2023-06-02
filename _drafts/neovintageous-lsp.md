@@ -1,4 +1,4 @@
 ---
-tags: neovintageous sublime-text vim
+tags: vim sublime-text neovintageous
 title: NeoVintageous - LSP
 ---
