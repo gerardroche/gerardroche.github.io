@@ -16,7 +16,7 @@ With a count, it means jump that many times e.g. `3]s` jumps to the third misspe
 
 ## `'wrapscan'`
 
-`'wrapscan'` applies to search commands like <kbd>/</kbd> (search), <kbd>?</kbd> (reverse search), <kbd>*</kbd> (search word under cursor), <kbd>#</kbd> (search word under cursor reverse), <kbd>[s</kbd> (next misspelled word), <kbd>]s</kbd> (previous misspelled word).
+`'wrapscan'` applies to search commands like <kbd>/</kbd> (search), <kbd>?</kbd> (reverse search), <kbd>*</kbd> (search word under cursor), <kbd>#</kbd> (and reverse), <kbd>[s</kbd> (next misspelled word), <kbd>]s</kbd> (and previous).
 
 You can turn off:
 
