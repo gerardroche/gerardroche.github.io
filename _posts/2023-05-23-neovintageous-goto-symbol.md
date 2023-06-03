@@ -11,7 +11,7 @@ You can go to any symbol in a project via *Menu → Goto → Goto Symbol in Proj
 noremap <D-i> :GotoSymbolInProject<CR>
 ```
 
-Unlike many of my mappings, Here I use `noremap` instead of `nnoremap`. `noremap` applies to Normal, Visual, and Operator modes. `nnoremap` only applies to Normal mode. See `:help map-commands`.
+Unlike many of my sublime vim mappings, Here I use `noremap` instead of `nnoremap`. `noremap` applies to Normal, Visual, and Operator modes. `nnoremap` only applies to Normal mode. See `:help map-commands`.
 
 You can go to any symbol in a current file via *Menu → Goto → Goto Symbol*:
 

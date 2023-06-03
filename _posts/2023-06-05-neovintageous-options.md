@@ -5,7 +5,7 @@ title: NeoVintageous - Options
 
 ![Rounders (1998)](/assets/rounders.webp)
 
-NeoVintageous supports a number of Vim options. These options come in three forms:
+NeoVintageous supports a number of vim options. These options come in three forms:
 
 Type | Description
 :--- | :----------

@@ -3,7 +3,7 @@ tags: vim sublime-text neovintageous
 title: NeoVintageous key handler
 ---
 
-By default NeoVintageous handles all keys. You can ignore selected keys, in which case the handling of those keys will fallback to Sublime.
+By default NeoVintageous handles all input keys. You can ignore selected keys, in which case the handling of those keys will fallback to Sublime.
 
 You can configure key handling via the `vintageous_handle_keys` setting. Settings are accessed via **Menu → Preferences → Settings**. Let's look at some examples.
 
