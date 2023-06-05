@@ -3,7 +3,9 @@ tags: git
 title: git open - A shell script
 ---
 
-[`git open`](https://github.com/paulirish/git-open/) is a fantastic tool. I use it so much I assign it valuable bash alias real-estate:
+![Ghost in the Shell (1995)](/assets/ghost-in-the-shell.webp)
+
+[`git open`](https://github.com/paulirish/git-open/) is a fantastic tool. I use it so much it has valuable bash real-estate:
 
 ```sh
 alias o='git open'
@@ -27,10 +29,10 @@ An issue, if your branches use a naming convention of issues/#123:
 git open --issue
 ```
 
-A specific remote branch:
+And even a specific remote branch:
 
 ```sh
 git open upstream master
 ```
 
-It's a surprisingly useful tool. Check it out.
+It's a surprisingly useful simple tool. Check it out. I think you'll like it.

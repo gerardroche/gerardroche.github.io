@@ -15,12 +15,14 @@ title: My Sublime Text Setup
 ## Vim
 
 - NeoVintageous & Origami
-- NeoVintageousColemak
-- NeoVintageousDvorak
 - NeoVintageousFiles
 - NeoVintageousHighlightLine
 - NeoVintageousLineNumbers
 - NeoVintageousToggle
+
+## Goto Project
+
+- Sesame
 
 ## Linting
 
@@ -31,32 +33,27 @@ title: My Sublime Text Setup
 - SublimeLinter-php
 - SublimeLinter-php-cs-fixer
 
-## Project management
+## Documentation
 
-- Sesame
+- GotoDocumentation
 
 ## Side Bar Tools
 
 - SideBarTools
 
-## Documentation
-
-- GotoDocumentation
-
-## Markdown previews
+## Markdown
 
 - MarkdownPreview
 
 ## Git
 
 - GitOpen
-- GitOpenModified
 - GitSavvy
 
 ## PHP
 
 - GotoPhpManual
-- PHP Completions Kit
+- PHPCompletionsKit
 - PHPGrammar
 - PHPSnippets
 - PHPUnitCompletions
@@ -80,7 +77,3 @@ title: My Sublime Text Setup
 - SublimeTextAPICompletions
 - ToggleDebugMode
 - UnitTesting & Test
-
-## Honourable mentions
-
-- GotoDefinitionSplit

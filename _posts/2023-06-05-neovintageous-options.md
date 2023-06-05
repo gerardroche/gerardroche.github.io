@@ -5,7 +5,7 @@ title: NeoVintageous - Options
 
 ![Rounders (1998)](/assets/rounders.webp)
 
-NeoVintageous supports a number of vim options. These options come in three forms:
+NeoVintageous is a sublime vim emulation plugin.  NeoVintageous supports a number of vim options.  These options come in three forms:
 
 Type | Description
 :--- | :----------
@@ -13,50 +13,104 @@ Boolean | Can only be on or off.
 Number | Has a numeric value.
 String | Has a string value.
 
-Besides changing options with the ":set" command for the current view, you can also set options when Sublime Text starts via the [neovintageousrc file](/2022/11/21/vimrc-and-neovintageousrc/).
+Besides changing options with the ":set" command in an active view, you can set options at startup via a neovintageousrc file, NeoVintageous's answer to the vimrc file.
 
 ## Setting options
 
-Show current value of option (the value is shown in the status bar):
-
-```vim
-:set number?
-```
-
-Turn option on:
+Turn an option on:
 
 ```vim
 :set number
 ```
 
-Turn option off:
+Turn an option off:
 
 ```vim
 :set nonumber
 ```
 
-Toggle option:
+Toggle it:
 
 ```vim
 :set number!
-:set invnumber
 ```
 
-Set option:
+Set an option:
 
 ```vim
 :set winaltkeys=menu
 ```
 
-## NeoVintageous Options
+Show the current value in the status bar:
 
-Some options "proxy" to Sublime Text settings. To set the default for a proxied option you must set the setting in Sublime Text. All other options defaults can be set in the neovintageousrc file.
+```vim
+:set number?
+```
 
-### 'autoindent' option
+Now that you know how to set options.  Let's take a look at what vim options are supported by NeoVintageous.  The premier vim engine for Sublime!
 
-Proxies to the Sublime Text setting `auto_indent`.
+## NeoVintageous Vim Options
 
-Boolean.
+### Help
+
+To lookup help for an option:
+
+```vim
+:help 'option'
+```
+
+Or the shorthand:
+
+```vim
+:h 'option'
+```
+
+For example to see the help page for the `'smartcase'` option:
+
+```vim
+:h 'smartcase'
+```
+
+Read [how to use neovintageous vim help pages](/2023/05/14/neovintageous-help-pages/) for a short introduction to vim help pages.
+
+### Defaults
+
+Some options are aliased to Sublime Text settings.  To set the defaults for aliased options you must set the setting in Sublime Text.  All other options can be initialized in your neovintageousrc file.
+
+### Supported options
+
+Option | Type
+:----- | :---
+`'autoindent'` | `boolean`
+`'belloff'` | `string`
+`'expandtab'` | `boolean`
+`'hlsearch'` | `boolean`
+`'ignorecase'` | `boolean`
+`'incsearch'` | `boolean`
+`'list'` | `boolean`
+`'magic'` | `boolean`
+`'menu'` | `boolean`
+`'minimap'` | `boolean`
+`'modeline'` | `boolean`
+`'modelines'` | `number`
+`'number'` | `boolean`
+`'relativenumber'` | `boolean`
+`'scrolloff'` | `number`
+`'shell'` | `string`
+`'sidebar'` | `boolean`
+`'sidescrolloff'` | `number`
+`'smartcase'` | `boolean`
+`'spell'` | `boolean`
+`'statusbar'` | `boolean`
+`'tabstop'` | `number`
+`'textwidth'` | `number`
+`'winaltkeys'` | `string`
+`'wrap'` | `boolean`
+`'wrapscan'` | `boolean`
+
+#### 'autoindent' boolean option
+
+Calculates indentation automatically when pressing enter.  Alias of `auto_indent` setting.
 
 ```vim
 :set autoindent
@@ -65,13 +119,9 @@ Boolean.
 :set noai
 ```
 
-### 'belloff' option
+#### 'belloff' string option
 
-Default is "".
-
-String ("" and "all").
-
-Specifies for which events the visual bell will not be rung. Useful if you don't like the visual bell.
+Specifies for which events the visual bell will not be rung.  Useful if you don't like the visual bell. Default is "". Valid values are "" or "all".
 
 ```vim
 :set belloff=
@@ -80,11 +130,9 @@ Specifies for which events the visual bell will not be rung. Useful if you don't
 :set bo=all
 ```
 
-### 'expandtab' option
+#### 'expandtab' boolean option
 
-Proxies to the Sublime Text setting `translate_tabs_to_spaces`.
-
-Boolean.
+Set to true to insert spaces when tab is pressed.  Alias of `translate_tabs_to_spaces` setting.
 
 ```vim
 :set expandtab
@@ -93,11 +141,9 @@ Boolean.
 :set noet
 ```
 
-### 'hlsearch' option
+#### 'hlsearch' boolean option
 
-Default is on.
-
-Boolean.
+When there is a previous search pattern, highlight all its matches. Default is on.
 
 ```vim
 :set hlsearch
@@ -106,11 +152,23 @@ Boolean.
 :set nohls
 ```
 
-### 'ignorecase' option
+Use the vim command `:nohlsearch` to clear search highlighting.  Try mapping it to `<C-l>` for quick access:
 
-Default is off.
+```vim
+nnoremap <C-l> :nohlsearch<CR>
+```
 
-Boolean.
+It's also possible customize the colors and styles for search highlighting. Read the [NeoVintageous 1.7.0](/2018/09/02/neovintageous-1.7.0/) release notes for a short guide.
+
+#### 'ignorecase' boolean option
+
+Ignore case in search patterns.  Default is off.
+
+Also see `'smartcase'`.
+
+Can be overruled by using "\c" or "\C" in the pattern.
+
+Read [the curious case of sublime vim search](/2020/12/11/the-curious-case-of-vim-search/) for a short introduction on understanding `'ignorecase'` and `'smartcase'`.
 
 ```vim
 :set ignorecase
@@ -119,11 +177,11 @@ Boolean.
 :set noic
 ```
 
-### 'incsearch' option
+#### 'incsearch' boolean option
 
-Default is on.
+While typing a search command, show where the pattern, as it was typed so far, matches.  The matched string is highlighted.  If the pattern is invalid or not found, nothing is shown.  Default is on.
 
-Boolean.
+Note that the match will be shown, but the cursor will return to its original position when no match is found and when pressing `<Esc>`.  You still need to finish the search command with `<Enter>` to move the cursor to the match.
 
 ```vim
 :set incsearch
@@ -132,59 +190,66 @@ Boolean.
 :set nois
 ```
 
-### 'list' option
+#### 'list' boolean option
 
-Proxies to the Sublime Text setting `draw_white_space` where **on** is equal to `["all"]` and **off** is equal to `["selection", "none"]`.
+Controls when white space is drawn. Any of the following options may be combined.  Alias of `draw_white_space` setting.
 
-Boolean.
+State | Description
+:---- | :----------
+**On**  | Equal to `["all"]` in `draw_white_space` setting
+**Off** | Equal to `["selection", "none"]` in `draw_white_space` setting
 
 ```vim
 :set list
 :set nolist
 ```
 
-### 'magic' option
+To quickly toggle `'list'` use the unimpaired plugin option toggle `yol`.
 
-Default is on.
+#### 'magic' boolean option
 
-Boolean.
+Changes the special characters that can be used in search patterns. Default is on.
 
 ```vim
 :set magic
 :set nomagic
 ```
 
-### 'menu' option
+#### 'menu' boolean option
 
-Default is on.
-
-Boolean.
-
-Not in Vim.
+Toggle visibility of the menu.  This is specific to Sublime.
 
 ```vim
 :set menu
 :set nomenu
 ```
 
-### 'minimap' option
+#### 'minimap' boolean option
 
-Default is on.
-
-Boolean.
-
-Not in Vim.
+Toggle visibility of the minimap.  This is specific to Sublime.
 
 ```vim
 :set minimap
 :set nominimap
 ```
 
-### 'modeline' option
+#### 'modeline' boolean option
 
-Default is on.
+Modelines are a way to automatically set options. When a view is loaded a number of lines at the beginning and end of the file are checked for "set" commands.
 
-Boolean.
+If `'modeline'` is on `'modelines'` gives the number of lines that is checked for set commands.  If `'modeline'` is off or `'modelines'` is zero no lines are checked.  Default is on.  See `:help modeline`.
+
+1st form example:
+
+```vim
+vim:noai:list ts=4 tw=77
+```
+
+2nd form example:
+
+```vim
+vim: set noai list ts=4 tw=75:
+```
 
 ```vim
 set modeline
@@ -193,22 +258,19 @@ set nomodeline
 set noml
 ```
 
-### 'modelines' option
+#### 'modelines' number option
 
-Default is 5.
+If `'modeline'` is on `'modelines'` gives the number of lines that is checked for set commands.  If `'modeline'` is off or `'modelines'` is zero no lines are checked.  Default is 5.  See `:help modeline`.
 
-Number.
 
 ```vim
 :set modelines=5
 :set mls=5
 ```
 
-### 'number' option
+#### 'number' boolean option
 
-Proxies to the Sublime Text setting `line_numbers`.
-
-Boolean.
+Draw line numbers in the gutter.  Alias of `line_numbers` setting.
 
 ```vim
 :set number
@@ -217,11 +279,11 @@ Boolean.
 :set nonumber
 ```
 
-### 'relativenumber' option
+To quickly toggle `'number'` use the unimpaired plugin option toggle `yon`.
 
-Proxies to the Sublime Text setting `relative_line_numbers`.
+#### 'relativenumber' boolean option
 
-Boolean.
+Draw each line number as the distance from the current line.  Alias of `relative_line_numbers` setting.
 
 ```vim
 :set relativenumber
@@ -230,56 +292,50 @@ Boolean.
 :set nornu
 ```
 
-### 'scrolloff' option
+To quickly toggle `'relativenumber'` use the unimpaired plugin option toggle `yor`.
 
-Proxies to the Sublime Text setting `scroll_context_lines`.
+To auto disable relative numbers in Insert mode, install the [NeoVintageous Line Number](https://packagecontrol.io/packages/NeoVintageousLineNumbers) plugin.
 
-Number.
+#### 'scrolloff' number option
+
+Minimal number of screen lines to keep above and below the cursor.  This affects all selection changes, like selection dragging, page-up/page-down and moving the caret.  Alias of `scroll_context_lines` setting.
 
 ```vim
 :set scrolloff=8
 :set so=8
 ```
 
-### 'shell' option
+#### 'shell' string option
 
-Default is `$SHELL` or "sh", Win32: "cmd.exe".
-
-String.
+Name of the shell to use for `!` and `:!` commands.  This option cannot be set from a modeline.  Default is `$SHELL` or "sh", Win32: "cmd.exe".
 
 ```vim
 :set shell=/bin/bash
 ```
 
-### 'sidebar' option
+#### 'sidebar' boolean option
 
-Default is on.
-
-Boolean.
-
-Not in Vim.
+Toggle visibility of the sidebar.  This is specific to Sublime.  Default is on.
 
 ```vim
 :set sidebar
 :set nosidebar
 ```
 
-### 'sidescrolloff' option
+#### 'sidescrolloff' number option
 
-Default is 5.
-
-Number.
+The minimal number of screen columns to keep to the left and to the right of the cursor if `'nowrap'` is set.  Default is 5.
 
 ```vim
 :set sidescrolloff=5
 :set siso=5
 ```
 
-### 'smartcase' option
+#### 'smartcase' boolean option
 
-Default is off.
+Override the `'ignorecase'` option if the search pattern contains upper case characters.  Only used when the search pattern is typed and `'ignorecase'` option is on.  Used for the commands `/`, `?`, `n`, `N`, `:g` and `:s`.  Default is off.
 
-Boolean.
+Read [the curious case of vim search](/2020/12/11/the-curious-case-of-vim-search/) for a short introduction on understanding `'ignorecase'` and `'smartcase'`.
 
 ```vim
 set smartcase
@@ -288,57 +344,53 @@ set nosmartcase
 set noscs
 ```
 
-### 'spell' option
+#### 'spell' boolean option
 
-Proxies to the Sublime Text setting `spell_check`.
-
-Boolean.
+When on spell checking will be done.  Alias of `spell_check` setting.
 
 ```vim
 set spell
 set nospell
 ```
 
-### 'statusbar' option
+#### 'statusbar' boolean option
 
-Default is on.
-
-Boolean.
-
-Not in Vim.
+Toggle visibility of the status bar.  This is specific to Sublime.  Default is on.
 
 ```vim
 :set statusbar
 :set nostatusbar
 ```
 
-### 'tabstop' option
+#### 'tabstop' number option
 
-Proxies to the Sublime Text setting `tab_size`.
-
-Number.
+The number of spaces a tab is considered equal to.  Alias of `tab_size` setting.
 
 ```vim
 :set tabstop=4
 :set ts=4
 ```
 
-### 'textwidth' option
+#### 'textwidth' number option
 
-Proxies to the Sublime Text setting `wrap_width`.
-
-Number.
+Set to a value other than 0 to force wrapping at that column rather than the window width.  Alias of `wrap_width` setting.
 
 ```vim
 :set textwidth=80
 :set ts=80
 ```
 
-### 'winaltkeys' option
+#### 'winaltkeys' option
 
-Default is "menu".
+Some GUI versions allow the access to menu entries by using the ALT key in combination with a character that appears underlined in the menu.  This conflicts with the use of the ALT key for mappings and entering special characters.  This option tells what to do:
 
-String ("no", "yes", "menu").
+Setting | Description
+:------ | :----------
+no | Don't use ALT keys for menus.  ALT key combinations can be mapped, but there is no automatic handling.
+yes | ALT key handling is done by the windowing system.  ALT key combinations cannot be mapped.
+menu | Using ALT in combination with a character that is a menu shortcut key, will be handled by the windowing system.  Other keys can be mapped.
+
+Default is menu.
 
 ```vim
 :set winaltkeys=menu
@@ -349,31 +401,31 @@ String ("no", "yes", "menu").
 :set wak=yes
 ```
 
-### 'wrap' option
+#### 'wrap' boolean option
 
-Proxies to the Sublime Text setting `word_wrap`.
-
-Boolean.
+Disables horizontal scrolling if enabled.  This option changes how text is displayed.  It doesn't change the text in the buffer, see `'textwidth'` for that.  Alias of `word_wrap` setting.
 
 ```vim
 set wrap
 set nowrap
 ```
 
-### 'wrapscan' option
+To quickly toggle `'wrap'` use the unimpaired plugin option toggle `yow`.
 
-Default is on.
+#### 'wrapscan' boolean option
 
-Boolean.
+Searches wrap around the end of the file.  Default is on.
 
 ```vim
 set wrapscan
 set nowrapscan
 ```
 
-## Wrapping up
+## My setup
 
-I have the following set in my neovintageousrc file:
+I have the following vim options set in my vimrc file:
+
+Command Palette → Open RC File
 
 ```vim
 set ignorecase
@@ -381,7 +433,9 @@ set nominimap
 set smartcase
 ```
 
-I also set the following settings:
+And I have the following settings:
+
+Menu → Preferences → Settings
 
 ```js
 "translate_tabs_to_spaces": true,
