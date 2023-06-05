@@ -17,13 +17,13 @@ You can install Sesame via [Package Control](https://packagecontrol.io/packages/
 
 Set the location of your projects and add your preferred key bindings.
 
-**Menu → Preferences → Settings**
+Menu → Preferences → Settings
 
 ```js
 "sesame.path": "~/projects",
 ```
 
-**Menu → Preferences → Key Bindings**
+Menu → Preferences → Key Bindings
 
 ```js
 { "keys": ["ctrl+alt+o"], "command": "sesame_open" },

@@ -29,7 +29,7 @@ For example, the following settings make:
 - the selections style square
 - the line highlight a tint of blue
 
-**Menu → Preferences → Customize Color Scheme**
+Menu → Preferences → Customize Color Scheme
 
 ```json
 {
