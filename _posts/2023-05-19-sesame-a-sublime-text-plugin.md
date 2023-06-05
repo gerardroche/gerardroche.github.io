@@ -1,6 +1,8 @@
 ---
 tags: sublime-text
 title: Sesame - A Sublime Text plugin
+redirect_from:
+    - /2023/05/19/neovintageous-open-sesame/
 ---
 
 ![Ali Baba overhearing one of the thieves saying "Open Sesame"](/assets/2023-05-19-open-sesame.webp)
