@@ -192,7 +192,7 @@ Note that the match will be shown, but the cursor will return to its original po
 
 #### 'list' boolean option
 
-Controls when white space is drawn. Any of the following options may be combined.  Alias of `draw_white_space` setting.
+Controls when white space is drawn.  Alias of `draw_white_space` setting.
 
 State | Description
 :---- | :----------
@@ -237,7 +237,7 @@ Toggle visibility of the minimap.  This is specific to Sublime.
 
 Modelines are a way to automatically set options. When a view is loaded a number of lines at the beginning and end of the file are checked for "set" commands.
 
-If `'modeline'` is on `'modelines'` gives the number of lines that is checked for set commands.  If `'modeline'` is off or `'modelines'` is zero no lines are checked.  Default is on.  See `:help modeline`.
+If `'modeline'` is on `'modelines'` gives the number of lines that is checked for set commands.  If `'modeline'` is off or `'modelines'` is zero no lines are checked.  Default is on.  See `modeline`.
 
 1st form example:
 
@@ -260,7 +260,7 @@ set noml
 
 #### 'modelines' number option
 
-If `'modeline'` is on `'modelines'` gives the number of lines that is checked for set commands.  If `'modeline'` is off or `'modelines'` is zero no lines are checked.  Default is 5.  See `:help modeline`.
+If `'modeline'` is on `'modelines'` gives the number of lines that is checked for set commands.  If `'modeline'` is off or `'modelines'` is zero no lines are checked.  Default is 5.  See `modeline`.
 
 
 ```vim
@@ -355,7 +355,7 @@ set nospell
 
 #### 'statusbar' boolean option
 
-Toggle visibility of the status bar.  This is specific to Sublime.  Default is on.
+Toggle visibility of the status bar.  This is specific to Sublime.
 
 ```vim
 :set statusbar
@@ -421,11 +421,9 @@ set wrapscan
 set nowrapscan
 ```
 
-## My setup
+## My sublime setup
 
-I have the following vim options set in my vimrc file:
-
-Command Palette → Open RC File
+I have the following vim options set in my neovintageousrc file:
 
 ```vim
 set ignorecase
@@ -433,12 +431,12 @@ set nominimap
 set smartcase
 ```
 
-And I have the following settings:
-
-Menu → Preferences → Settings
+And the following settings:
 
 ```js
 "translate_tabs_to_spaces": true,
 "wrap_width": 80,
 "scroll_context_lines": 8,
 ```
+
+I hope this enhances your sublime vim experience. Take it easy my friends.
