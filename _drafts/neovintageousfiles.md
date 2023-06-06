@@ -1,4 +1,4 @@
 ---
 tags: vim sublime-text neovintageous
-title: NeoVintageousFiles - A Sublime Text plugin
+title: NeoVintageous Files - A Sublime Text plugin
 ---
