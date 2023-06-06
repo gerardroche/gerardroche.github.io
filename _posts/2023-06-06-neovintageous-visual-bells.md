@@ -9,11 +9,9 @@ NeoVintageous supports three types of visual bell: a highlighted line *blink*, a
 
 Setting | Description
 :------ | :----------
-`blink` | Highlighted link blink.
+`blink` | Highlighted line blink.
 `view`  | Active view flash.
 `views` | Visible views flash.
-
-You can set it via the setting `vintageous_bell`.
 
 Menu → Preferences → Settings
 
@@ -34,3 +32,5 @@ Command Palette → NeoVintageous: Open RC File
 ```vim
 :set belloff=all
 ```
+
+Command Palette → NeoVintageous: Reload RC File
