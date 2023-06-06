@@ -30,7 +30,7 @@ If you don't like visual bells, you can disable them.
 Command Palette → NeoVintageous: Open RC File
 
 ```vim
-:set belloff=all
+set belloff=all
 ```
 
 Command Palette → NeoVintageous: Reload RC File
