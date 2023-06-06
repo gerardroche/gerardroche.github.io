@@ -3,7 +3,7 @@ tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
 ---
 
-[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme bundled with Sublime Text.
+[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme.
 
 > PHP
 
@@ -17,6 +17,12 @@ title: MonokaiFree - A Sublime Text color scheme
 
 ![Monokai Javascript](/assets/monokai-javascript.webp)
 
+## Adaptive theme
+
+Try it with the Adaptive theme for a more immersive experience.
+
+Menu → Preferences → Select Theme → Adaptive
+
 ## Making it your own
 
 > Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
@@ -24,8 +30,8 @@ title: MonokaiFree - A Sublime Text color scheme
 
 For example, the following settings make:
 
-- the cursor color a bright yellow
-- the caret style square
+- the cursor color a vibrant yellow
+- the block caret style square
 - the selections style square
 - the line highlight a tint of blue
 
