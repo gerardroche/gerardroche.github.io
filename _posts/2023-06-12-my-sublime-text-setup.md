@@ -1,43 +1,36 @@
 ---
 tags: sublime-text
-title: My Sublime Text Setup
+title: My Sublime Text setup
 ---
+
+![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
 
 ## Package Control
 
-Package Control is the Sublime Text package manager.  It's bundled with Sublime Text, but you need to explicitly install it:
+Package Control is the package manager bundled with Sublime Text.
 
-```
-Menu → Install Package Control
-```
+**Menu → Install Package Control**
 
-Once installed you can install any package from the [default channel](https://packagecontrol.io).
+Once installed you can install any package from [packagecontrol.io](https://packagecontrol.io).
 
-```
-Command Palette → Package Control: Install Package
-```
+**Command Palette → Package Control: Install Package**
 
 ## Look and Feel
 
-- [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) - An enhanced version of the Monokai color scheme.
-- [FileIcons](https://packagecontrol.io/packages/FileIcons) - Adds specific, colored icons for most file types for the sidebar.
+- [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) - An enhanced Monokai color scheme.
+- [FileIcons](https://packagecontrol.io/packages/FileIcons) - Colored icons for files in the sidebar.
 
-I use the Adaptive theme bundled with Sublime.
+I use the **Adaptive** theme.
 
-```
 Menu → Preferences → Select Theme → Adaptive
-```
 
-And have the following color scheme [customizations](/2023/05/25/monokai-free-a-sublime-text-color-scheme/):
+And I have the following [customizations](/2023/05/25/monokai-free-a-sublime-text-color-scheme/):
 
-- make cursor color a vibrant yellow
-- make the block caret style square
-- make selections style square
-- make line highlight a tint of blue
+- make the carets yellow
+- make the block caret and selections style square
+- make line highlight blue
 
-```
 Menu → Preferences → Customize Color Scheme
-```
 
 ```json
 {
@@ -57,16 +50,16 @@ Menu → Preferences → Customize Color Scheme
 
 ## Vim
 
-- [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous)
-- [NeoVintageousHighlightLine](https://packagecontrol.io/packages/NeoVintageousHighlightLine)
-- [NeoVintageousLineNumbers](https://packagecontrol.io/packages/NeoVintageousLineNumbers)
+- [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous) - An advanced vim engine.
+- [NeoVintageousHighlightLine](https://packagecontrol.io/packages/NeoVintageousHighlightLine) - Auto disable highlight line in insert and visual mode.
+- [NeoVintageousLineNumbers](https://packagecontrol.io/packages/NeoVintageousLineNumbers) - Auto disable relative line numbers in insert mode.
 - [NeoVintageousToggle](https://packagecontrol.io/packages/NeoVintageousToggle)
 
 ## Goto project
 
-- [Sesame](https://packagecontrol.io/packages/Sesame)
+- [Sesame](https://packagecontrol.io/packages/Sesame) - A quick way to open, add, switch, and remove projects.
 
-Sesame is a quick way to open, add, switch, and remove projects and folders.  It's by far my favourite plugin.  Read [sesame - a sublime text plugin](/2023/05/19/sesame-a-sublime-text-plugin/) for a short introduction on how to use it.
+This is by far my favourite plugin.  Read [sesame - a sublime text plugin](/2023/05/19/sesame-a-sublime-text-plugin/) for a short guide on usage and how it works.
 
 ## Linting
 
@@ -74,20 +67,18 @@ Sesame is a quick way to open, add, switch, and remove projects and folders.  It
 - [SublimeLinter-eslint](https://packagecontrol.io/packages/SublimeLinter-eslint)
 - [SublimeLinter-flake8](https://packagecontrol.io/packages/SublimeLinter-flake8)
 - [SublimeLinter-mypy](https://packagecontrol.io/packages/SublimeLinter-mypy)
-- [SublimeLinter-php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer) - Pending [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16) and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15) support.
+- [SublimeLinter-php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer) - Pending [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16) support and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15) support.
 - [SublimeLinter-php](https://packagecontrol.io/packages/SublimeLinter-php)
 
 ## Documentation
 
 - [GotoDocumentation](https://packagecontrol.io/packages/GotoDocumentation)
 
-I use `f1` as my help keymap.
+I use `f1` for my help keymap.
 
-```
 Menu → Preferences → Key Bindings
-```
 
-*The context selector exclusion is for GotoPHPManual, see the PHP section.*
+*The context selector is to support GotoPHPManual, see the PHP section.*
 
 ```js
 {
@@ -104,17 +95,17 @@ Menu → Preferences → Key Bindings
 },
 ```
 
-## Side Bar Tools
+## Side Bar
 
-- [SideBarTools](https://packagecontrol.io/packages/SideBarTools)
+- [SideBarTools](https://packagecontrol.io/packages/SideBarTools) - Some useful tools to add to your sidebar context menu.
 
 ## Markdown
 
-- [MarkdownPreview](https://packagecontrol.io/packages/SideBarTools)
+- [MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview) - Preview your markdown files in your browser.
 
 ## Git
 
-- [GitOpen](https://packagecontrol.io/packages/GitOpen)
+- [GitOpen](https://packagecontrol.io/packages/GitOpen) - `git-open` integration
 - [GitSavvy](https://packagecontrol.io/packages/GitSavvy)
 
 ## PHP
@@ -124,7 +115,7 @@ Menu → Preferences → Key Bindings
 - [PHPGrammar](https://packagecontrol.io/packages/PHPGrammar)
 - [PHPSnippets](https://packagecontrol.io/packages/PHPSnippets)
 - [PHPUnitCompletions](https://packagecontrol.io/packages/PHPUnit%20Completions)
-- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit) and [Test](https://packagecontrol.io/packages/Test)
+- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit) and [Test](https://packagecontrol.io/packages/Test) - PHPUnit Support.
 - [LaravelTestingCompletions](https://packagecontrol.io/packages/LaravelTestingCompletions)
 - [TailwindCSSCompletions](https://github.com/gerardroche/sublime-tailwind-css-completions) - Not available in pc.
 
@@ -152,7 +143,7 @@ Menu → Preferences → Key Bindings
 
 ## Settings
 
-Here are some of settings. These will not suit everybody, but they might help you discover some settings that you didn't know about.
+Here are some of my settings. These will not suit everybody, but they might help you discover some that you didn't know about.
 
 Menu → Preferences → Settings
 
@@ -214,3 +205,5 @@ Menu → Preferences → Settings
     "vintageous_use_ctrl_keys": true,
     "vintageous_use_super_keys": true,
 ```
+
+I hope this has been helpful. What are your questions? Please open issues about problems installing or using any of the packages. Or even to just let me know about the packages I've missed. Take it easy my friends.

@@ -30,10 +30,9 @@ Menu → Preferences → Select Theme → Adaptive
 
 For example, the following settings make:
 
-- the cursor color a vibrant yellow
-- the block caret style square
-- the selections style square
-- the line highlight a tint of blue
+- make the carets yellow
+- the block caret and selections style square
+- make line highlight blue
 
 Menu → Preferences → Customize Color Scheme
 
