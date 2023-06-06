@@ -1,6 +1,7 @@
 ---
 tags: git
 title: git open - A shell script
+unpublished: true
 ---
 
 ![Ghost in the Shell (1995)](/assets/ghost-in-the-shell.webp)

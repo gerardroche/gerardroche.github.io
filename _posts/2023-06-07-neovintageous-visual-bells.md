@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Visual Bells
+unpublished: true
 ---
 
 ![Vanilla Sky (2001)](/assets/vanilla-sky.webp)
@@ -15,7 +16,7 @@ Setting | Description
 
 You can set it via the setting `vintageous_bell`.
 
-**Menu → Preferences → Settings**
+Menu → Preferences → Settings
 
 ```js
 "vintageous_bell": "view",
@@ -29,7 +30,7 @@ There are two color schemes, "dark" and "light".
 
 If you don't like visual bells, you can disable them.
 
-**Command Palette → NeoVintageous: Open RC File**
+Command Palette → NeoVintageous: Open RC File
 
 ```vim
 :set belloff=all

@@ -1,11 +1,12 @@
 ---
 tags: sublime-text git
 title: GitOpen - A Sublime Text plugin
+unpublished: true
 ---
 
 ![Ghost in the Shell (1995)](/assets/ghost-in-the-shell-2.webp)
 
-[GitOpen](https://packagecontrol.io/packages/GitOpen) is a Sublime Text plugin that provides integration for [git-open](https://github.com/paulirish/git-open/).
+[Git Open](https://packagecontrol.io/packages/GitOpen) is a Sublime Text plugin that provides integration for [git-open](https://github.com/paulirish/git-open/).
 
 There are three commands:
 
