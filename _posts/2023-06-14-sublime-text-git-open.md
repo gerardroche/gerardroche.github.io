@@ -1,7 +1,6 @@
 ---
 tags: sublime-text git
 title: GitOpen - A Sublime Text plugin
-unpublished: true
 ---
 
 ![Ghost in the Shell (1995)](/assets/ghost-in-the-shell-2.webp)
