@@ -51,6 +51,7 @@ Menu → Preferences → Customize Color Scheme
 ## Vim
 
 - [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous) - An advanced vim engine.
+- [NeoVintageousFiles](https://packagecontrol.io/packages/NeoVintageousFiles) - Side bar and overlay file commands.
 - [NeoVintageousHighlightLine](https://packagecontrol.io/packages/NeoVintageousHighlightLine) - Auto disable highlight line in insert and visual mode.
 - [NeoVintageousLineNumbers](https://packagecontrol.io/packages/NeoVintageousLineNumbers) - Auto disable relative line numbers in insert mode.
 - [NeoVintageousToggle](https://packagecontrol.io/packages/NeoVintageousToggle)
