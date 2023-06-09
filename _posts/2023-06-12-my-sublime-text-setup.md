@@ -60,16 +60,44 @@ Menu → Preferences → Customize Color Scheme
 
 - [Sesame](https://packagecontrol.io/packages/Sesame) - A quick way to open, add, switch, and remove projects.
 
-This is by far my favourite plugin.  Read [sesame - a sublime text plugin](/2023/05/19/sesame-a-sublime-text-plugin/) for a short guide on usage and how it works.
+This is by far my favourite plugin.  Read [sesame - a sublime text plugin](/2023/05/19/sesame-a-sublime-text-plugin/) for a quick guide on how it works.
 
 ## Linting
 
-- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
+- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) - A code linting framework.
 - [SublimeLinter-eslint](https://packagecontrol.io/packages/SublimeLinter-eslint)
 - [SublimeLinter-flake8](https://packagecontrol.io/packages/SublimeLinter-flake8)
 - [SublimeLinter-mypy](https://packagecontrol.io/packages/SublimeLinter-mypy)
 - [SublimeLinter-php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer) - Pending [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16) support and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15) support.
 - [SublimeLinter-php](https://packagecontrol.io/packages/SublimeLinter-php)
+
+Here are some of my SublimeLinter settings.
+
+Command Palette → Preferences: SublimeLinter Settings
+
+
+```json
+{
+    "debug": false,
+    "highlights.demote_while_editing": "all",
+    "lint_mode": "save",
+    "delay": 3,
+    "no_column_highlights_line": false,
+    "show_hover_line_report": false,
+    "show_hover_region_report": false,
+    "show_marks_in_minimap": false,
+    "styles": [
+        {
+            "icon": "x",
+            "mark_style": "fill",
+        },
+        {
+            "icon": "x",
+            "mark_style": "fill",
+        }
+    ],
+}
+```
 
 ## Documentation
 
@@ -107,7 +135,6 @@ Menu → Preferences → Key Bindings
 ## Git
 
 - [GitOpen](https://packagecontrol.io/packages/GitOpen) - `git-open` integration
-- [GitSavvy](https://packagecontrol.io/packages/GitSavvy)
 
 ## PHP
 
@@ -118,19 +145,21 @@ Menu → Preferences → Key Bindings
 - [PHPUnitCompletions](https://packagecontrol.io/packages/PHPUnit%20Completions)
 - [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit) and [Test](https://packagecontrol.io/packages/Test) - PHPUnit Support.
 - [LaravelTestingCompletions](https://packagecontrol.io/packages/LaravelTestingCompletions)
-- [TailwindCSSCompletions](https://github.com/gerardroche/sublime-tailwind-css-completions) - Not available in pc.
+- [TailwindCSSCompletions](https://github.com/gerardroche/sublime-tailwind-css-completions) - Not available in package control.
 
 ## Window splitting
 
 - [Origami](https://packagecontrol.io/packages/Origami)
 - [GotoDefinitionSplit](https://packagecontrol.io/packages/GotoDefinitionSplit)
 
+NeoVintageous has support for window splitting when Origami is installed. For example, `CTRL-W s` split horizontally, `CTRL-W v` split vertically, and `CTRL-W n` split new view.
+
 ## Syntaxes
 
 - [ApacheConf](https://packagecontrol.io/packages/ApacheConf)
 - [Sass](https://packagecontrol.io/packages/Sass)
 - [Terraform](https://packagecontrol.io/packages/Terraform)
-- [Tmux](https://github.com/gerardroche/sublime-tmux) - Not available in pc.
+- [Tmux](https://github.com/gerardroche/sublime-tmux) - Not available in package control.
 - [Vue Syntax Highlight](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight)
 
 ## Package development
