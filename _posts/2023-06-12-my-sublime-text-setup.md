@@ -18,7 +18,7 @@ Once installed you can install any package from [packagecontrol.io](https://pack
 ## Look and Feel
 
 - [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) - An enhanced Monokai color scheme.
-- [FileIcons](https://packagecontrol.io/packages/FileIcons) - Colored icons for files in the sidebar.
+- [FileIcons](https://packagecontrol.io/packages/FileIcons) - Colored icons for the sidebar.
 
 I use the **Adaptive** theme.
 
@@ -54,7 +54,7 @@ Menu → Preferences → Customize Color Scheme
 - [NeoVintageousFiles](https://packagecontrol.io/packages/NeoVintageousFiles) - Side bar and overlay file commands.
 - [NeoVintageousHighlightLine](https://packagecontrol.io/packages/NeoVintageousHighlightLine) - Auto disable highlight line in insert and visual mode.
 - [NeoVintageousLineNumbers](https://packagecontrol.io/packages/NeoVintageousLineNumbers) - Auto disable relative line numbers in insert mode.
-- [NeoVintageousToggle](https://packagecontrol.io/packages/NeoVintageousToggle)
+- [NeoVintageousToggle](https://packagecontrol.io/packages/NeoVintageousToggle) - Toggle NeoVintageous on and off.
 
 ## Goto project
 
@@ -138,14 +138,14 @@ Menu → Preferences → Key Bindings
 
 ## PHP
 
-- [GotoPhpManual](https://packagecontrol.io/packages/GotoPhpManual)
-- [PHPCompletionsKit](https://packagecontrol.io/packages/PHP%20Completions%20Kit)
-- [PHPGrammar](https://packagecontrol.io/packages/PHPGrammar)
-- [PHPSnippets](https://packagecontrol.io/packages/PHPSnippets)
-- [PHPUnitCompletions](https://packagecontrol.io/packages/PHPUnit%20Completions)
-- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit) and [Test](https://packagecontrol.io/packages/Test) - PHPUnit Support.
-- [LaravelTestingCompletions](https://packagecontrol.io/packages/LaravelTestingCompletions)
-- [TailwindCSSCompletions](https://github.com/gerardroche/sublime-tailwind-css-completions) - Not available in package control.
+- [GotoPhpManual](https://packagecontrol.io/packages/GotoPhpManual) - Jump to manual for symbol under cursor.
+- [PHPCompletionsKit](https://packagecontrol.io/packages/PHP%20Completions%20Kit) - PHP completions.
+- [PHPGrammar](https://packagecontrol.io/packages/PHPGrammar) - PHP smart macros and enhancements.
+- [PHPSnippets](https://packagecontrol.io/packages/PHPSnippets) - PHP snippets.
+- [PHPUnitCompletions](https://packagecontrol.io/packages/PHPUnit%20Completions) - PHPUnit completions.
+- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit) and [Test](https://packagecontrol.io/packages/Test) - Read [running tests from within Sublime](/2023/05/05/running-phpunit-tests-within-sublime-text/).
+- [LaravelTestingCompletions](https://packagecontrol.io/packages/LaravelTestingCompletions) - Laravel testing completions.
+- [TailwindCSSCompletions](https://github.com/gerardroche/sublime-tailwind-css-completions) - Tailwind CSS completions. Not available in package control.
 
 ## Window splitting
 
@@ -236,6 +236,6 @@ Menu → Preferences → Settings
     "vintageous_use_super_keys": true,
 ```
 
-Some of these settings might seem weird. For example, no line numbers, really? Yes.  I use NeoVintageous and the command `yon` or `con` to toggle line numbers on when I need them.  I don't like inline errors or show definitions because they get in the way, but I use NeoVintageous [jump-to-error](https://blog.gerardroche.com/2023/05/24/neovintageous-jumping-to-errors/) commands.
+Some of these settings might seem weird. For example, no line numbers, really? Yes.  I use NeoVintageous and the command `yon` or `con` to toggle line numbers on when I need them.  I don't like inline errors or show definitions because they get in the way, but I use NeoVintageous [jump-to-error](/2023/05/24/neovintageous-jumping-to-errors/) commands.
 
 I hope this has been helpful. What are your questions? Please open issues about problems installing or using any of the packages. Or even to just let me know about the packages I've missed. Take it easy my friends.
