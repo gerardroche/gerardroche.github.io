@@ -107,7 +107,7 @@ I use `f1` for my help keymap.
 
 Menu → Preferences → Key Bindings
 
-*The context selector is to support GotoPHPManual, see the PHP section.*
+*The context selector is to support GotoPHPManual.*
 
 ```js
 {
