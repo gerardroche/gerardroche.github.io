@@ -236,4 +236,6 @@ Menu → Preferences → Settings
     "vintageous_use_super_keys": true,
 ```
 
+Some of these settings might seem weird. For example, no line numbers, really? Yes.  I use NeoVintageous and the command `yon` or `con` to toggle line numbers on when I need them.  I don't like inline errors or show definitions because they get in the way, but I use NeoVintageous [jump-to-error](https://blog.gerardroche.com/2023/05/24/neovintageous-jumping-to-errors/) commands.
+
 I hope this has been helpful. What are your questions? Please open issues about problems installing or using any of the packages. Or even to just let me know about the packages I've missed. Take it easy my friends.
