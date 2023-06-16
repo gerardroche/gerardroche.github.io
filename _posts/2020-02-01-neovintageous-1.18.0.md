@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.18.0
-last_modified_at: 2023-06-16T10:42:00+01:00
+last_modified_at: 2023-06-16T10:52:00+01:00
 ---
 
 NeoVintageous 1.18.0 has just been released. The highlights of this release are sessions, unimpaired enhancements, visual block enhancements, search enhancements, and :substitute enhancements.

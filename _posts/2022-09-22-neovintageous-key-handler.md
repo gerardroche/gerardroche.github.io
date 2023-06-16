@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous key handler
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-16T10:52:00+01:00
 ---
 
 By default NeoVintageous handles all input keys. You can ignore selected keys, in which case the handling of those keys will fallback to Sublime.

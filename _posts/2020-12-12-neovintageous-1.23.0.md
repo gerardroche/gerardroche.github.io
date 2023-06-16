@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.23.0
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-16T10:52:00+01:00
 ---
 
 NeoVintageous 1.23.0 has been released. The highlights are granular control of keys, ctrl keys are on by default, new split view and jump to definition command, and other minor enhancements.

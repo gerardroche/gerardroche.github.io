@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.19.0
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-16T10:52:00+01:00
 ---
 
 NeoVintageous 1.19.0 has just been released. The highlights are the new vim modeline feature, improved marks, new shell commands, new options, new keys, and new aliases.

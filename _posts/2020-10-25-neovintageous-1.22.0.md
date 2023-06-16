@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.22.0
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-16T10:52:00+01:00
 ---
 
 NeoVintageous 1.22.0 has been released. The highlights are some minor enhancements and support for ST4.

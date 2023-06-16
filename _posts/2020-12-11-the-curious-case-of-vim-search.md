@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous search
 title: The curious case of Vim search
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-16T10:52:00+01:00
 ---
 
 In Vim, search commands can be case-sensitive, case-insensitive, and well... they can be a little more complicated. Luckily there are only two options we need to understand: `'ignorecase'` and `'smartcase'`.
