@@ -1,6 +1,7 @@
 ---
 tags: sublime-text
 title: My Sublime Text setup
+last_modified_at: 2023-06-16T03:44:00+01:00
 ---
 
 ![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
