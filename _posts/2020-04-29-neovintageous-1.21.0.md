@@ -8,7 +8,9 @@ NeoVintageous 1.21.0 has been released. The highlights are a port of [vim-sneak]
 
 ## vim-sneak
 
-Sneak is a port of [vim-sneak](https://github.com/justinmk/vim-sneak) and is disabled by default (you can configure settings via **Menu → Preferences → Settings**):
+Sneak is a port of [vim-sneak](https://github.com/justinmk/vim-sneak) and is disabled by default.
+
+Menu → Preferences → Settings
 
 ```json
 {
@@ -20,7 +22,9 @@ When enabled Sneak provides a way to move quickly and precisely to locations tha
 
 To use Sneak, type "s" followed by exactly two characters:
 
-    s{char}{char}
+```vim
+s{char}{char}
+```
 
 To go to the next match press `;` and to go to the previous match press `\`.
 
