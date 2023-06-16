@@ -40,8 +40,6 @@ For example to disable `<C-u>` in insert mode and `<C-f>` in visual mode:
 }
 ```
 
----
-
 ## Troubleshooting
 
 You can debug Sublime key events by running `sublime.log_input(True)` in the console: **Menu → View → Show Console**. If Sublime is not receiving the key event, you will need to clear the existing key bind.
