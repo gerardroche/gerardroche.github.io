@@ -1,3 +1,8 @@
+---
+tags: git
+last_modified_at: 2023-06-16T09:35:00+01:00
+---
+
 It's useful to customise your command-line prompt to show information about the current directory's Git repository. This can be as simple or complex as you want, but there are generally a few key pieces of information that most people want, like the current branch and the status of the working directory. Let's take a look at how to get started.
 
 ## TL;DR
@@ -145,7 +150,6 @@ PROMPT_COMMAND='__git_ps1 "╭─ \w" "\n╰$(if test $? = 0;then echo "\$";else
 ```
 
 ![My command prompt](/assets/2018-07-22-my-prompt.webp)
-
 
 ## Further reading
 
