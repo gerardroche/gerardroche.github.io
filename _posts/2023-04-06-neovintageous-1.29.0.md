@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.29.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.29.0 has been released.  The highlights are file type specific mappings, other minor enhancements, fixes, and performance improvements.

@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.24.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.24.0 has been released. This was a small release. The highlights are support for window splitting in the latest version of Origami and support for the `:inoremap` command.

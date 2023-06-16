@@ -1,6 +1,7 @@
 ---
 tags: ubuntu
 title: Fix laggy key presses
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Halt and Catch Fire (2014 - 2017)](/assets/halt-and-catch-fire.webp)

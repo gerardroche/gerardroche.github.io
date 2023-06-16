@@ -1,5 +1,6 @@
 ---
 tags: vim sublime-text neovintageous
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 If you're anything like me, then you probably open a zillion windows in all kinds of layouts, all at the same time. But sometimes you just need to focus on one window to get in **[the zone](https://www.brainpickings.org/2014/12/05/peter-turchi-a-muse-a-maze-book-flow/)**.

@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Errors
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Red Dwarf - Terrorform (1992)](/assets/red-dwarf.webp)

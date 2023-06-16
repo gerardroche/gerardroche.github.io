@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous git
 title: NeoVintageous - Jumping to Diffs
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Back to the Future Part II (1989)](/assets/back-to-the-future-part-ii.webp)

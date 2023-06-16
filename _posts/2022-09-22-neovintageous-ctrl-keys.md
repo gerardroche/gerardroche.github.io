@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous Ctrl keys
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 Ctrl keys in NeoVintageous are enabled by default. You can toggle them via the Command Palette **NeoVintageous: Toggle CTRL keys**.

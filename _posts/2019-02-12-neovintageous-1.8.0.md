@@ -28,6 +28,7 @@ Note that the `ctrl` keys are ~~disabled by default (this will change in [v2.0.0
 * `:help nv-options`
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.8.0)
 
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 [^1]:

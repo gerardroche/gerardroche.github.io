@@ -57,6 +57,7 @@ set noignorecase
 Some basic support for search modifiers is now supported. Modifiers allow search patterns to be prefixed with "modes" to override the `'magic'` option.
 
 modifier | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 -------- | -----------
 `\m` | `'magic'` on for the following chars in the pattern.
 `\M` | `'magic'` off for the following chars in the pattern.

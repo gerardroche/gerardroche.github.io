@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: The NeoVintageous toggle sidebar
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Fender guitar toggle switch](/assets/2023-05-15-fender-toggle-switch.webp)

@@ -31,6 +31,7 @@ Pasting before the cursor now also works in multiple cursor mode, as does yank!
 ## New aliases
 
 new alias | key | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 --------- | --- | -----------
 `<C-h>` | `h` | \[count\] characters to the left
 `<PageDown>` | `<C-f>` | scroll window \[count\] pages Forwards (downwards)

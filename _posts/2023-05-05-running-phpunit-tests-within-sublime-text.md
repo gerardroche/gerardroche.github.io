@@ -1,6 +1,7 @@
 ---
 tags: sublime-text phpunit php
 title: Running PHPUnit tests within Sublime Text
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you like Test Driven Development. PHPUnit Kit has all the features you will ever need to run PHPUnit tests from within Sublime Text.

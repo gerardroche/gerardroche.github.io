@@ -67,6 +67,7 @@ There are two new settings that simplify mapping `jj` and `jk` to escape (you ca
 ## Removed commands
 
 Old | New
+last_modified_at: 2023-06-16T03:46:00+01:00
 --- | ---
 `neovintageous_open_my_rc_file` | `neovintageous` `{'action': 'open_rc_file'}`
 `neovintageous_reload_my_rc_file` | `neovintageous` `{'action': 'reload_rc_file'}`

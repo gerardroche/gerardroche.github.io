@@ -41,6 +41,7 @@ A new surround line command, `yss{target}`, allows you to operate on the current
 The targets **b**, **B**, **r**, and **a** are now aliases for **)**, **}**, **]**, and **>**.
 
 Old text | Command | New text
+last_modified_at: 2023-06-16T03:46:00+01:00
 -------- | ------- | --------
 `Hello w*orld!` | `yss}` | `{Hello world!}`
 `Hello w*orld!` | `yssB` | `{Hello world!}`

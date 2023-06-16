@@ -1,6 +1,7 @@
 ---
 tags: php
 title: PHP-CS-Fixer Pre-Commit Hook
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 Automatically executing a code style check before commits can save you time. You can use a git hook to automatically run scripts before a commit.

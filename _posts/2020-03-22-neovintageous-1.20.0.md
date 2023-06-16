@@ -207,6 +207,7 @@ Commands that generate output now reuse the same output panel, can be closed by 
 Show all buffers.
 
 indicator | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 --------- | -----------
 **`%`** | the buffer in the current window
 **`a`** | active buffer indicator

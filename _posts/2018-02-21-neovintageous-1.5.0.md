@@ -99,6 +99,7 @@ Next, you need to create a keybinding to enable the ability to toggle the side b
 The recursive mapping commands `:map`, `:nmap`, `:omap`, `:smap`, and `:vmap`, have been removed, and will emit warnings when used. Use the non-recursive mapping commands instead. Here is a table of the old and new non-recursive mapping commands:
 
 Recursive command  (removed) | Non-recursive command
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---------------------------- | ---------------------
 `map` | `noremap`
 `nmap` | `nnoremap`

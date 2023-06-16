@@ -1,6 +1,7 @@
 ---
 tags: git
 title: git open - A shell script
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Ghost in the Shell (1995)](/assets/ghost-in-the-shell.webp)

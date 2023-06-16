@@ -36,6 +36,7 @@ command | description
 ## New aliases
 
 new alias | key | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 --------- | --- | -----------
 `<C-Down>` | `j` | \[count\] lines downward
 `<C-Up>` | `k` | \[count\] lines upward

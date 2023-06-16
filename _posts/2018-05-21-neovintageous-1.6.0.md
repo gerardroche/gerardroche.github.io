@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.6.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 NeoVintageous 1.6.0 has been released and includes mapping command arguments, enhanced search highlighting, buffer commands, more Unimpaired commands, and lots of bug fixes.
 

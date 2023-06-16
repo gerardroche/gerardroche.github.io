@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.11.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.11.0 has just been released. A good milestone of 80% test code coverage, yay! The highlights of this release are enhanced mapping support, marks in ranges, and toggle Super and Ctrl key commands.

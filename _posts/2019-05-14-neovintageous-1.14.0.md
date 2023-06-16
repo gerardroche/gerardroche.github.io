@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.14.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.14.0 has just been released. This release adds support for mapping `super+[` (`<D-[>`) and `super+]` (`<D-]`).

@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Misspelled Words
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Young Frankenstein (1974)](/assets/young-frankenstein.webp)

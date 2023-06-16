@@ -10,6 +10,7 @@ NeoVintageous 1.10.0 has just been released. The highlights in this release incl
 Four new scrolling commands have been added. All horizontal scrolling commands only work when `'word_wrap'` is off. You can toggle word wrapping with the **Unimpaired** command `cow` ([mnemonic](https://www.brainpickings.org/2011/03/03/joshua-foer-moonwalking-with-einstein/): "change option wrap").
 
 command | action
+last_modified_at: 2023-06-16T03:46:00+01:00
 ------- | --------
 `zl` or `z<Right>` | Move the view on the text \[count\] characters to the right.
 `zh` or `z<Left>` | Move the view on the text \[count\] characters to the left.

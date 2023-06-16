@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Mapping Sublime Text commands
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![The Goonies (1985)](/assets/2023-05-16-the-goonies-map.webp)

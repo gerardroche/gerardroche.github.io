@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Revert Hunk
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Back to the Future (1985)](/assets/back-to-the-future.webp)

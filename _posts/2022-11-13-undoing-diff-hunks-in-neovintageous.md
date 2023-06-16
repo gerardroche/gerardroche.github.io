@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous git
 title: Undoing diff hunks in NeoVintageous
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 The ability to revert a diff hunk was added in Sublime Text 4.  You can access it through the Command Palette and the Context Menu i.e. right mouse click.

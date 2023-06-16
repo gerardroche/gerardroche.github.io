@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Visual Bells
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Vanilla Sky (2001)](/assets/vanilla-sky.webp)

@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Edit neovintageousrc
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Wonder Boys (2000)](/assets/2023-05-17-wonder-boys.webp)

@@ -34,6 +34,7 @@ One change that might impact some users is that all NeoVintageous commands that 
 Here are some some examples of changed commands:
 
 Old | New
+last_modified_at: 2023-06-16T03:46:00+01:00
 --- | ---
 `_enter_normal_mode` | `nv_enter_normal_mode`
 `_enter_insert_mode` | `nv_enter_insert_mode`

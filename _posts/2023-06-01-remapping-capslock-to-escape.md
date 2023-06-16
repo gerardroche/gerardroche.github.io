@@ -1,6 +1,7 @@
 ---
 tags: ubuntu
 title: Remapping CapsLock to Escape
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Office Space (1999)](/assets/office-space.webp)

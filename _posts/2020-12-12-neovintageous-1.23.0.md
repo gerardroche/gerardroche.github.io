@@ -61,6 +61,7 @@ A new setting has been added for Sneak plugin to support control of case sensiti
 ```
 
 Value | Description
+last_modified_at: 2023-06-16T03:46:00+01:00
 ----- | -----------
 `0` | Always case-sensitive
 `1` | Case sensitivity is determined by `'ignorecase'` and `'smartcase'`.

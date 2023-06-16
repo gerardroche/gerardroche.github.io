@@ -204,6 +204,7 @@ Indent Object is a port of [vim-indent-object](https://github.com/michaeljsmith/
 Just like regular text objects, these mappings can be used either with operators expecting a motion, such as `d` or `c`, as well as in visual mode.
 
 command | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 ------- | -----------
 `ai` | An Indentation level and line above.
 `ii` | Inner Indentation level (no line above).

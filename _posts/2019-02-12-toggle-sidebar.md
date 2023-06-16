@@ -40,6 +40,7 @@ It's as simple as that.
 ## Related key bindings
 
 command | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---------- | -----------
 `ctrl-k` `ctrl-b` | toggle side bar
 `ctrl-0` | give the focus to the side bar

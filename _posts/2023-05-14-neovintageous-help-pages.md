@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: The NeoVintageous help pages
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Chris O'Dowd in the IT Crowd (2006)](/assets/2023-05-14-chris-o-dowd-in-the-it-crowd.webp)

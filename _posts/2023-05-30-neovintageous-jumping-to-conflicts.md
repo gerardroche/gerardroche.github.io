@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous git
 title: NeoVintageous - Jumping to Conflicts
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![Quantum Leap (1989)](/assets/quantum-leap.webp)

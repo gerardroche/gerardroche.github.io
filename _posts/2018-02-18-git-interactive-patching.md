@@ -1,5 +1,6 @@
 ---
 tags: git
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 The `git add --patch` command *interactively* add hunks to the index. It effectively runs `git add --interactive`, but bypasses the initial command menu and directly jumps to the patch subcommand.

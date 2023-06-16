@@ -62,6 +62,7 @@ command | description
 ## New aliases
 
 alias | command | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 ----- | ------- | -----------
 `<A-...>` | `<M-...>` | ALT keys
 `<Del>` | `x` | delete \[count\] characters under and after the cursor

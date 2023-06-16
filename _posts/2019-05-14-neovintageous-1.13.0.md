@@ -35,6 +35,7 @@ command | description
 All shift and indent commands now support multiple cursors, visual blocks, and always finish with the cursor on the first non-blank. The commands include:
 
 command | description
+last_modified_at: 2023-06-16T03:46:00+01:00
 ------- | -----------
 `>{motion}` | shift `{motion}` lines rightwards
 `>>` | shift `[count]` lines rightwards

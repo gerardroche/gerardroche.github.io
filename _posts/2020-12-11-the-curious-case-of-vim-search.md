@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous search
 title: The curious case of Vim search
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 

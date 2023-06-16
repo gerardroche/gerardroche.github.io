@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Reveal in Side Bar
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 ![The Prestige (2006)](/assets/2023-05-18-the-prestige.webp)
