@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: My Sublime Text setup
-last_modified_at: 2023-06-16T03:44:00+01:00
+last_modified_at: 2023-06-16T10:55:00+01:00
 ---
 
 ![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
@@ -19,7 +19,7 @@ Once installed you can install any package from [packagecontrol.io](https://pack
 ## Look and Feel
 
 - [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) - An enhanced Monokai color scheme.
-- [FileIcons](https://packagecontrol.io/packages/FileIcons) - Colored icons for the sidebar.
+- [FileIcons](https://packagecontrol.io/packages/FileIcons) - Color icons for the sidebar.
 
 I use the **Adaptive** theme.
 
