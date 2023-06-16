@@ -1,15 +1,16 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.15.0
+last_modified_at: 2023-06-16T10:38:00+01:00
 ---
 
 NeoVintageous 1.15.0 has just been released. The highlights for this release is ability to have insert mode by default, pasting and yanking enhancements, and some polish with new aliases.
 
 ## Insert mode by default
 
-Insert mode by default means that NeoVintageous will enter insert mode when opening or switching views or when the window receives focus and is **not** in visual mode. The reason for that last qualification is so that visual mode selections are retained when the window loses focus.
+Insert mode by default means that NeoVintageous will enter insert mode when opening or switching views or when the window receives focus and is not in visual mode. The reason for that last qualification is so that visual mode selections are retained when the window loses focus.
 
-**Menu → Preferences → Settings:**
+Menu → Preferences → Settings
 
 ```json
 {
@@ -21,17 +22,15 @@ Insert mode by default means that NeoVintageous will enter insert mode when open
 
 You can now put a count when pasting before the cursor:
 
-```
+```vim
 [count]P
 ```
-
 
 Pasting before the cursor now also works in multiple cursor mode, as does yank!
 
 ## New aliases
 
 new alias | key | description
-last_modified_at: 2023-06-16T03:46:00+01:00
 --------- | --- | -----------
 `<C-h>` | `h` | \[count\] characters to the left
 `<PageDown>` | `<C-f>` | scroll window \[count\] pages Forwards (downwards)
