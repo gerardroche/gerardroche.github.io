@@ -12,7 +12,11 @@ Command | Description
 <kbd>[s</kbd> | Jump backward to the previous misspelled word.
 <kbd>]s</kbd> | Jump forward to the next misspelled word.
 
-With a count, it means jump that many times e.g. `3]s` jumps to the third misspelled word. `'wrapscan'` applies.
+Both of those take a preceding count.
+
+With a count, it means jump that many times: `3]s` jumps to the third misspelled word.
+
+`'wrapscan'` applies.
 
 ## `'wrapscan'`
 

@@ -12,6 +12,8 @@ Command | Description
 <kbd>[n</kbd> | Jump backward to previous SCM conflict marker or diff/patch.
 <kbd>]n</kbd> | Jump forward to next SCM conflict marker or diff/patch.
 
+Both of those take a preceding count.
+
 **What are SCM conflict markers?**
 
 SCM conflict markers are those pesky sections that you have to resolve when you get a merge conflict:
