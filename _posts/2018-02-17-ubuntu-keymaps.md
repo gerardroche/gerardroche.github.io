@@ -1,7 +1,8 @@
 ---
 tags: ubuntu
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-16T09:18:00+01:00
 ---
+
 There are several ways to configure keymaps in Ubuntu. You can use the out-of-the-box GUI, you can install `dconf-editor` (`sudo apt-get install dconf-tools`) to be able to view and edit them, or use the `gsettings` command line tool. The `gsettings` command opens up the possibility of keeping your keymaps under source control via custom shell scripts.
 
 ## gsettings
