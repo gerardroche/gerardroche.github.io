@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.13.0
+last_modified_at: 2023-06-16T10:33:00+01:00
 ---
 
 NeoVintageous 1.13.0 has just been released. The highlights of this release are [more multiple cursor enhancements](/2019/05/09/neovintageous-1.12.0/), indentation commands enhancements, and new search motions.
@@ -35,7 +36,6 @@ command | description
 All shift and indent commands now support multiple cursors, visual blocks, and always finish with the cursor on the first non-blank. The commands include:
 
 command | description
-last_modified_at: 2023-06-16T03:46:00+01:00
 ------- | -----------
 `>{motion}` | shift `{motion}` lines rightwards
 `>>` | shift `[count]` lines rightwards
@@ -61,9 +61,7 @@ The `<D-..>` key is the **super-key**, also known as command-key on OSX, and win
 
 The super-keys are disabled by default, use the Command Palette to enable them:
 
-```console
-NeoVintageous: Toggle SUPER keys
-```
+**Command Palette → NeoVintageous: Toggle SUPER keys**
 
 Also note that super-keys are sometimes shadowed by OS specific key bindings, this would mean that Sublime won't receive those key events, in which case you'll need remove the OS specific key binding so that Sublime receives the key event for that key binding.
 
@@ -79,7 +77,7 @@ Supported searches include:
 * `*` search occurrence forward
 * `#` search occurrence backward
 
-Both `gn` and `gN`, like all motions, support operators like `c` and `d` too e.g. `cgn`, `dgn`.
+Both `gn` and `gN`, like all motions, support operators like `c` and `d` too: `cgn`, `dgn`.
 
 ## Further reading
 
