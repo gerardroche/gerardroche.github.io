@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-16T07:46:00+01:00
 ---
 
 [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme.
@@ -43,9 +43,8 @@ Menu → Preferences → Customize Color Scheme
     "globals": {
         "caret": "yellow",
         "block_caret": "yellow",
-        "block_caret_corner_style": "square",
         "line_highlight": "#66d9ef44",
-        "selection_border_width": "1",
+        "block_caret_corner_style": "square",
         "selection_corner_style": "square"
     },
     "rules": []

@@ -1,4 +1,6 @@
-all: genassets gentags
+all: genassets gentags updatelastmod
+	git add .
+	git status
 
 genassets:
 	rm -r assets/*
@@ -13,3 +15,6 @@ genassets:
 
 gentags:
 	bin/gentags
+
+updatelastmod:
+	bin/updatelastmod
