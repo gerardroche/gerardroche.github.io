@@ -3,6 +3,7 @@ tags: vim sublime-text neovintageous
 title: NeoVintageous 1.4.0
 redirect_from:
   - /2017/11/01/neovintageous-1.4.0-released/
+last_modified_at: 2023-06-16T09:29:00+01:00
 ---
 
 NeoVintageous 1.4.0 has just been released. The highlights are a new help system (including full Vim documentation) and the ability to map to built-in Sublime Text commands or user commands.
@@ -42,7 +43,6 @@ To jump to a subject, position the cursor on a tag (e.g. `|bars|`, `'option'`) a
 It is possible to go directly to whatever you want help on, by giving an argument to the `:help` command. Prepend something to specify the context:
 
 WHAT | PREPEND | EXAMPLE
-last_modified_at: 2023-06-16T03:46:00+01:00
 ---- | ------- | -------
 Normal mode command | | `:help x`
 Visual mode command | `v_` | `:help v_x`
