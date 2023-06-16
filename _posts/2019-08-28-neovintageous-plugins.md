@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous Plugins
+last_modified_at: 2023-06-16T10:46:00+01:00
 ---
 
 NeoVintageous includes a number of bundled plugins by default. Each plugin offers additional functionality beyond the features of Vim. Let's take a look at some the features.
@@ -204,7 +205,6 @@ Indent Object is a port of [vim-indent-object](https://github.com/michaeljsmith/
 Just like regular text objects, these mappings can be used either with operators expecting a motion, such as `d` or `c`, as well as in visual mode.
 
 command | description
-last_modified_at: 2023-06-16T03:46:00+01:00
 ------- | -----------
 `ai` | An Indentation level and line above.
 `ii` | Inner Indentation level (no line above).

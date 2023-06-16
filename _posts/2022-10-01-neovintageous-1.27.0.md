@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.27.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.27.0 has been released.  The highlights are surround function, surround tag, surround `S{char}` now works in visual line mode, `%` improvements, and jumps like `*`, `#`, now accept a count.
@@ -64,7 +65,6 @@ Old text | Command | New text ~
 Finding the next item in this line after or under the cursor and jump to its match now works in comments and works correctly for HTML tags.
 
 Old text | Command | New text ~
-last_modified_at: 2023-06-16T03:46:00+01:00
 -------- | ------- | ----------
 `<d|iv>hello</div>` | `%` | `<div>hello<|/div>`
 `<div>hello<|/div>` | `%` | `<|div>hello</div>`

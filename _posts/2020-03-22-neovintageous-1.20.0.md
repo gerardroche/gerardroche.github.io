@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.20.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.20.0 has just been released. The highlights are search enhancements including a new `'smartcase'` option and `'ignorecase'` flags, new text objects, and command-line output improvements.
@@ -207,7 +208,6 @@ Commands that generate output now reuse the same output panel, can be closed by 
 Show all buffers.
 
 indicator | description
-last_modified_at: 2023-06-16T03:46:00+01:00
 --------- | -----------
 **`%`** | the buffer in the current window
 **`a`** | active buffer indicator

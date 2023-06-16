@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.23.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.23.0 has been released. The highlights are granular control of keys, ctrl keys are on by default, new split view and jump to definition command, and other minor enhancements.
@@ -61,7 +62,6 @@ A new setting has been added for Sneak plugin to support control of case sensiti
 ```
 
 Value | Description
-last_modified_at: 2023-06-16T03:46:00+01:00
 ----- | -----------
 `0` | Always case-sensitive
 `1` | Case sensitivity is determined by `'ignorecase'` and `'smartcase'`.

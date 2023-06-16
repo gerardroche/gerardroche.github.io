@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.19.0
+last_modified_at: 2023-06-16T03:46:00+01:00
 ---
 
 NeoVintageous 1.19.0 has just been released. The highlights are the new vim modeline feature, improved marks, new shell commands, new options, new keys, and new aliases.
@@ -135,7 +136,6 @@ To start a new shell use the `:shell` command, the program used to start the she
 Several new options are available:
 
 option | default
-last_modified_at: 2023-06-16T03:46:00+01:00
 ------ | -------
 `'textwidth'` `'tw'` | `wrap_width` sublime setting
 `'tabstop'` `'ts'` | `tab_size` sublime setting

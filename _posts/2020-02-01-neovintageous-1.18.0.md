@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.18.0
+last_modified_at: 2023-06-16T10:42:00+01:00
 ---
 
 NeoVintageous 1.18.0 has just been released. The highlights of this release are sessions, unimpaired enhancements, visual block enhancements, search enhancements, and :substitute enhancements.
@@ -57,7 +58,6 @@ set noignorecase
 Some basic support for search modifiers is now supported. Modifiers allow search patterns to be prefixed with "modes" to override the `'magic'` option.
 
 modifier | description
-last_modified_at: 2023-06-16T03:46:00+01:00
 -------- | -----------
 `\m` | `'magic'` on for the following chars in the pattern.
 `\M` | `'magic'` off for the following chars in the pattern.
