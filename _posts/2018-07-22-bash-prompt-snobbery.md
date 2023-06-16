@@ -1,6 +1,7 @@
 ---
 tags: git
-last_modified_at: 2023-06-16T09:35:00+01:00
+title: Bash Prompt Snobbery
+last_modified_at: 2023-06-16T10:59:00+01:00
 ---
 
 It's useful to customise your command-line prompt to show information about the current directory's Git repository. This can be as simple or complex as you want, but there are generally a few key pieces of information that most people want, like the current branch and the status of the working directory. Let's take a look at how to get started.
