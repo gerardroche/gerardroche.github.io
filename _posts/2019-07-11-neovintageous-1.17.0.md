@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.17.0
+last_modified_at: 2023-06-16T10:42:00+01:00
 ---
 
 NeoVintageous 1.17.0 has just been released. The highlights of this release are indent object enhancements, unimpaired enhancements, new spell checking commands, new options, and support for `:set {option}` in the neovintageousrc file.
@@ -62,7 +63,6 @@ command | description
 ## New aliases
 
 alias | command | description
-last_modified_at: 2023-06-16T03:46:00+01:00
 ----- | ------- | -----------
 `<A-...>` | `<M-...>` | ALT keys
 `<Del>` | `x` | delete \[count\] characters under and after the cursor
