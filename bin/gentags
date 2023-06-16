@@ -16,6 +16,6 @@ for post in _posts/*.md; do
 done
 
 for tag in $TAGS; do
-    echo "---\nlayout: tag\n---" > "_archive-tags/$tag.html"
+    echo "---\nlayout: tag\nlast_modified_at: \n---" > "_archive-tags/$tag.html"
     echo "Generated tag file: '$tag'"
 done
