@@ -1,6 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.9.0
+last_modified_at: 2023-06-16T10:10:00+01:00
 ---
 
 NeoVintageous [1.9.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0) has landed. This release brings builtin support for jumping to diffs, opening and closing folds, countable newlines, and surround enhancements.
@@ -41,7 +42,6 @@ A new surround line command, `yss{target}`, allows you to operate on the current
 The targets **b**, **B**, **r**, and **a** are now aliases for **)**, **}**, **]**, and **>**.
 
 Old text | Command | New text
-last_modified_at: 2023-06-16T03:46:00+01:00
 -------- | ------- | --------
 `Hello w*orld!` | `yss}` | `{Hello world!}`
 `Hello w*orld!` | `yssB` | `{Hello world!}`
