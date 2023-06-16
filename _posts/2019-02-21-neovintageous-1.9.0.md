@@ -1,14 +1,14 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.9.0
-last_modified_at: 2023-06-16T10:10:00+01:00
+last_modified_at: 2023-06-16T10:30:00+01:00
 ---
 
-NeoVintageous [1.9.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0) has landed. This release brings builtin support for jumping to diffs, opening and closing folds, countable newlines, and surround enhancements.
+NeoVintageous [1.9.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0) has landed. This release brings built-in support for jumping to diffs, opening and closing folds, countable newlines, and surround enhancements.
 
 ## Jumping to diffs
 
-This is the first release to ship with builtin support for jumping to diffs (added in Sublime [build 3189](https://www.sublimetext.com/3dev)). For previous builds you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter) plugin.
+This is the first release to ship with built-in support for jumping to diffs (added in Sublime [build 3189](https://www.sublimetext.com/3dev)). For previous builds you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter) plugin.
 
 command | action
 ------- | --------
@@ -37,7 +37,7 @@ command | action
 
 ## Surround enhancements
 
-A new surround line command, `yss{target}`, allows you to operate on the current line, ignoring leading whitespace.
+A new surround line command, `yss{target}`, allows you to operate on the current line, ignoring leading white-space.
 
 The targets **b**, **B**, **r**, and **a** are now aliases for **)**, **}**, **]**, and **>**.
 
