@@ -1,0 +1,83 @@
+#!/bin/sh
+#
+# Copyright (C) 2023 Gerard Roche
+#
+# This file is part of This program.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with This program.  If not, see <https://www.gnu.org/licenses/>.
+
+set -e
+
+unset CDPATH
+
+IFS='
+'
+
+readonly VERBOSE=
+
+verbose() {
+    if test -n "$VERBOSE"; then
+        echo "$*"
+    fi
+}
+
+update_last_modified_at() {
+    verbose "    Updating last_modified_at $1"
+    sed -i 's/^\(last_modified_at\:\).*$/\1 '"$(date +%Y-%m-%dT%H:%M:%S%:z)"'/g' "$1"
+}
+
+update_changed_file() {
+    file="$1"
+
+    # The dirty check is intentionally done before the file is updated.
+    is_dirty="$(git diff --name-only --diff-filter=ACMRTUXB "$file")"
+
+    update_last_modified_at "$file"
+
+    # Add the updated last modified at change to staging area.
+    if test -n "$is_dirty"; then
+        echo "file is dirty, add the last_modified_at change to continue."
+        git add -p "$file"
+    else
+        git add "$file"
+    fi
+}
+
+process_changed_file() {
+    file="$1"
+    verbose "Processing changed file $file"
+    update_changed_file "$file"
+
+    tags="$(grep "tags: " "$file" | sed 's/^tags: //;s/ /\n/g')"
+    verbose "File tags >>>$tags<<<"
+    for tag in $tags; do
+        verbose "  Processing updated tag $tag"
+        update_changed_file "_archive-tags/$tag.html"
+    done
+}
+
+run_last_modified_at_updater() {
+    changed_files=$(git diff --staged --name-only --diff-filter=ACMRTUXB)
+    for changed_file in $changed_files; do
+        case "$changed_file" in
+            *.md|*.html)
+                process_changed_file "$changed_file"
+                ;;
+        esac
+    done
+}
+
+bin/gentags
+run_last_modified_at_updater
+

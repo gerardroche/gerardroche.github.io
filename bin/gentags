@@ -16,6 +16,9 @@ for post in _posts/*.md; do
 done
 
 for tag in $TAGS; do
-    echo "---\nlayout: tag\nlast_modified_at: \n---" > "_archive-tags/$tag.html"
-    echo "Generated tag file: '$tag'"
+    tag_file="_archive-tags/$tag.html"
+    test ! -f "$tag_file" || continue
+    echo "---\nlayout: tag\nlast_modified_at: $(date +%Y-%m-%dT%H:%M:%S%:z)\n---" > "$tag_file"
+    echo "Generated new tag file: $tag_file"
+    # TODO if new tag is generated update the last modified at for index tags.html page
 done
