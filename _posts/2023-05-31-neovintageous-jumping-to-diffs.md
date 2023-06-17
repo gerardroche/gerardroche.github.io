@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous git
 title: NeoVintageous - Jumping to Diffs
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-17T02:36:47+01:00
 ---
 
 ![Back to the Future Part II (1989)](/assets/back-to-the-future-part-ii.webp)
@@ -15,13 +15,24 @@ Command | Description
 
 Both of those take a preceding count.
 
-With a count, it means jump that many times: `3]c` jumps to the third change.
+With a count, it means jump that many times: `3]c` jump to the third change.
 
-`'wrapscan'` applies, which means searches wrap around the end of the file. `'wrapscan'` is enabled by default.
+The `'wrapscan'` option applies.
+
+The `'wrapscan'` option is enabled by default and means searches wrap around the end of the file.
 
 ## `'wrapscan'`
 
-`'wrapscan'` applies to search commands like <kbd>/</kbd> (search), <kbd>?</kbd> (reverse search), <kbd>*</kbd> (search word under cursor), <kbd>#</kbd> (search word under cursor reverse), <kbd>[s</kbd> (next misspelled word), <kbd>]s</kbd> (previous misspelled word).
+`'wrapscan'` applies to search commands like:
+
+Command | Description
+:------ | :----------
+`/` | Search.
+`?` | Reverse search.
+`*` | Search word under cursor.
+`#` | In reverse.
+`[s` | Next misspelled word.
+`]s` | Previous misspelled word.
 
 You can turn it off:
 
@@ -35,7 +46,7 @@ You can turn it on:
 :set wrapscan
 ```
 
-You can toggle it:
+Toggle it:
 
 ```vim
 :set wrapscan!
