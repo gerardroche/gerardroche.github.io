@@ -1,48 +1,49 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous key handler
-last_modified_at: 2023-06-16T10:52:00+01:00
+last_modified_at: 2023-06-17T13:20:02+01:00
 ---
 
-By default NeoVintageous handles all input keys. You can ignore selected keys, in which case the handling of those keys will fallback to Sublime.
+By default NeoVintageous handles all input keys.  You can tell NeoVintageous to ignore selected keys, in which case those keys will fallback to Sublime.  Let's look at some examples.
 
-You can configure key handling via the `vintageous_handle_keys` setting. Settings are accessed via **Menu → Preferences → Settings**. Let's look at some examples.
+If you want NeoVintageous to ignore `CTRL-F12`.
 
-If you want to ignore `<C-f>`:
+Menu → Preferences → Settings
 
-```json
-{
-    "vintageous_handle_keys": {
-        "<C-f>": false
-    }
-}
+```js
+"vintageous_handle_keys": {
+    "<C-f12>": false,
+},
 ```
 
-If you want to ignore keys for specific modes, use one of the available mode prefixes. No prefix implies all modes.
+If you want to ignore keys for specific modes, use a mode prefix.
 
-```
-n_ - Normal
-i_ - Insert
-v_ - Visual
-V_ - Visual line
-b_ - Visual block
-s_ - Select
+Prefix | Mode
+:----- | :---
+n_ | Normal
+i_ | Insert
+v_ | Visual
+V_ | Visual line
+b_ | Visual block
+s_ | Select/Multiple-Cursor
+
+No prefix implies all modes.
+
+For example, consider the following setting
+
+```js
+"vintageous_handle_keys": {
+    "<C-f12>": false,
+    "i_<C-u>": false,
+    "v_<C-f>": false,
+},
 ```
 
-For example to disable `<C-u>` in insert mode and `<C-f>` in visual mode:
-
-```json
-{
-    "vintageous_handle_keys": {
-        "i_<C-u>": false,
-        "v_<C-f>": false,
-    }
-}
-```
+The `<C-F12>` key is ignored for all modes, `<C-u>` is ignored only in insert mode and `<C-f>` is ignored in visual mode.
 
 ## Troubleshooting
 
-You can debug Sublime key events by running `sublime.log_input(True)` in the console: **Menu → View → Show Console**. If Sublime is not receiving the key event, you will need to clear the existing key bind.
+You can debug Sublime key events by running `sublime.log_input(True)` in the console: Menu → View → Show Console. If Sublime is not receiving a key event, you may need to unbind an existing shortcut. For example, your OS might have a shortcut bound to that key so sublime isn't receiving the input.
 
 ## Further reading
 
