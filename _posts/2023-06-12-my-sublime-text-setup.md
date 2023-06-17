@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: My Sublime Text setup
-last_modified_at: 2023-06-17T02:02:13+01:00
+last_modified_at: 2023-06-17T02:30:56+01:00
 ---
 
 ![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
@@ -240,4 +240,5 @@ Some of these settings might seem weird.  For example, no line numbers, really? 
 
 I hope this has been helpful.  What are your questions? Please open issues about problems installing or using any of the packages.  Or even to just let me know about the packages I've missed.  Take it easy my friends.
 
-[^1]: https://en.wikipedia.org/wiki/Function_key
+[^1]:
+    https://en.wikipedia.org/wiki/Function_key
