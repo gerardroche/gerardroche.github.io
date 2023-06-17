@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Misspelled Words
-last_modified_at: 2023-06-17T02:34:52+01:00
+last_modified_at: 2023-06-17T02:36:53+01:00
 ---
 
 ![Young Frankenstein (1974)](/assets/young-frankenstein.webp)
@@ -15,9 +15,11 @@ Command | Description
 
 Both of those take a preceding count.
 
-With a count, it means jump that many times: `3]s` jumps to the third misspelled word.
+With a count, it means jump that many times: `3]s` jump to the third misspelled word.
 
 The `'wrapscan'` option applies.
+
+The `'wrapscan'` option is enabled by default and means searches wrap around the end of the file.
 
 ## `'wrapscan'`
 
