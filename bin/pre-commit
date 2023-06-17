@@ -33,14 +33,15 @@ verbose() {
 }
 
 update_last_modified_at() {
-    verbose "    Updating last_modified_at $1"
+    verbose "  Updating last_modified_at"
     sed -i 's/^\(last_modified_at\:\).*$/\1 '"$(date +%Y-%m-%dT%H:%M:%S%:z)"'/g' "$1"
 }
 
 update_changed_file() {
     file="$1"
+    verbose "  Updating changed file $file"
 
-    # The dirty check is intentionally done before the file is updated.
+    # The is dirty check is intentionally done before the file is updated.
     is_dirty="$(git diff --name-only --diff-filter=ACMRTUXB "$file")"
 
     update_last_modified_at "$file"
@@ -57,14 +58,19 @@ update_changed_file() {
 process_changed_file() {
     file="$1"
     verbose "Processing changed file $file"
+
     update_changed_file "$file"
 
-    tags="$(grep "tags: " "$file" | sed 's/^tags: //;s/ /\n/g')"
-    verbose "File tags >>>$tags<<<"
-    for tag in $tags; do
-        verbose "  Processing updated tag $tag"
-        update_changed_file "_archive-tags/$tag.html"
-    done
+    # Only update the tag archives for change types like added, deleted, renamed.
+    should_update_tag_archive="$(git diff --name-only  --diff-filter=ADR --cached  "$file")"
+    if test -n "$should_update_tag_archive"; then
+        tags="$(grep "tags: " "$file" | sed 's/^tags: //;s/ /\n/g')"
+        for tag in $tags; do
+            verbose "    Updating $tag tag archive"
+            update_changed_file "_archive-tags/$tag.html"
+        done
+    fi
+
 }
 
 run_last_modified_at_updater() {
