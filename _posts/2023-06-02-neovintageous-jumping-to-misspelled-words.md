@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Misspelled Words
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-17T02:34:52+01:00
 ---
 
 ![Young Frankenstein (1974)](/assets/young-frankenstein.webp)
@@ -17,11 +17,20 @@ Both of those take a preceding count.
 
 With a count, it means jump that many times: `3]s` jumps to the third misspelled word.
 
-`'wrapscan'` applies.
+The `'wrapscan'` option applies.
 
 ## `'wrapscan'`
 
-`'wrapscan'` applies to search commands like `/` (search), `?` (reverse search), `*` (search word under cursor), `#` (in reverse), `[s` (next misspelled word), `]s` (previous misspelled word).
+`'wrapscan'` applies to search commands like:
+
+Command | Description
+:------ | :----------
+`/` | Search.
+`?` | Reverse search.
+`*` | Search word under cursor.
+`#` | In reverse.
+`[s` | Next misspelled word.
+`]s` | Previous misspelled word.
 
 You can turn it off:
 
@@ -35,7 +44,7 @@ You can turn it on:
 :set wrapscan
 ```
 
-You can toggle it:
+Toggle it:
 
 ```vim
 :set wrapscan!
