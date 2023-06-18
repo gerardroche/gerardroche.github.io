@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: My Sublime Text setup
-last_modified_at: 2023-06-17T02:30:56+01:00
+last_modified_at: 2023-06-18T14:43:16+01:00
 ---
 
 ![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
@@ -38,7 +38,7 @@ Menu → Preferences → Customize Color Scheme
     "globals": {
         "caret": "yellow",
         "block_caret": "yellow",
-        "line_highlight": "#66d9ef44",
+        "line_highlight": "#66d9ef22",
         "block_caret_corner_style": "square",
         "selection_corner_style": "square"
     },
@@ -177,7 +177,8 @@ Here are some of my settings.  These will not suit everybody, but they might hel
 
 Menu → Preferences → Settings
 
-```js
+```json
+{
     "draw_white_space": [
         "leading_mixed",
         "selection",
@@ -234,9 +235,43 @@ Menu → Preferences → Settings
     "vintageous_terminal": "gnome-terminal",
     "vintageous_use_ctrl_keys": true,
     "vintageous_use_super_keys": true,
+}
 ```
 
 Some of these settings might seem weird.  For example, no line numbers, really? Yes.  I use NeoVintageous and the command `yon` or `con` to toggle line numbers on when I need them.  I don't like inline errors or show definitions because they get in the way, but I use NeoVintageous [jump-to-error](/2023/05/24/neovintageous-jumping-to-errors/) commands.
+
+Settings apply to all syntaxes, for example find in files, so I make sure it defaults to not draw white space.  You may want to add other defaults like no wrapping.
+
+Menu → Preferences → Settings - Syntax Specific (when find in files is open)
+
+```json
+{
+    "word_wrap": false,
+    "draw_white_space": [],
+}
+```
+
+You can do the same with other syntaxes, like Markdown.
+
+```json
+{
+    "draw_centered": false,
+    "spell_check": true,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": false
+}
+```
+
+CSS.
+
+
+```json
+{
+    "tab_size": 2
+}
+```
 
 I hope this has been helpful.  What are your questions? Please open issues about problems installing or using any of the packages.  Or even to just let me know about the packages I've missed.  Take it easy my friends.
 
