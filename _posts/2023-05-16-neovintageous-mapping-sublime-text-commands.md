@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Mapping Sublime Text commands
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-06-22T20:07:54+01:00
 ---
 
 ![The Goonies (1985)](/assets/2023-05-16-the-goonies-map.webp)
@@ -39,6 +39,4 @@ Create a mapping and reload your rc file:
 nnoremap m :ShowOverlay overlay=goto text=@<CR>
 ```
 
-## Wrapping up
-
-Mapping to Sublime Text commands opens up a world of possibilities. Up your NeoVintageous game. Map your most common operations and build from there.
+Mapping to Sublime Text commands opens up a world of possibilities.  Up your NeoVintageous game.  Map your most common operations and build from there.  Take it easy my friends.
