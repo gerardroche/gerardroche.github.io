@@ -15,6 +15,15 @@ a.kapow {
   text-decoration: none;
 }
 
+.sidebar-about .heading {
+  margin-bottom: .5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  font-family: "Abril Fatface", serif;
+  font-size: 3.25rem;
+}
+
 .sidebar .sidebar-about svg {
   max-width: 100%;
   margin: 0 0 1rem;
