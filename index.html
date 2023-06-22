@@ -19,7 +19,7 @@ layout: default
           <h2>
             <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
               <small>
-                <time datetime="{{ page.date | date_to_xmlschema }}">
+                <time datetime="{{ post.date | date_to_xmlschema }}">
                   {{ post.date | date: "%B %-d"  }}
                 </time>
               </small>
