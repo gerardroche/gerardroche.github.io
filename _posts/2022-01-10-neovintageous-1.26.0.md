@@ -1,12 +1,12 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.26.0
-last_modified_at: 2023-06-28T22:22:54+01:00
+last_modified_at: 2023-06-28T22:28:20+01:00
 ---
 
 NeoVintageous 1.26.0 has been released.  The highlights are new text objects and multiple cursor improvements.
 
-## New text objects
+## New vim text objects
 
 New text objects inspired by [vim-targets](https://github.com/NeoVintageous/NeoVintageous/issues/781):
 
@@ -58,7 +58,7 @@ LaTeX: `ci$` to change an inline equation when the cursor `|` is located as in t
 
 Python: `ci,` to change a list element or function argument in the examples `def f(a, |b=c, d) and [12, 3|4, 56]`.
 
-## Multiple cursor operations
+## Vim multiple cursor operations
 
 Operations like paste are now more flexible in multiple cursor modes.  Here are some examples (pipe character is the current cursor position).
 
@@ -124,5 +124,5 @@ You do some very fancy time-saving operations on a multiple cursor.
 
 ## Further reading
 
-* `:help nv`
+* `:help neovintageous`
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.26.0)
