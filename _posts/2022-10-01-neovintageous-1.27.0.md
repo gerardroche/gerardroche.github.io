@@ -1,18 +1,18 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.27.0
-last_modified_at: 2023-06-16T10:52:00+01:00
+last_modified_at: 2023-06-28T22:27:42+01:00
 ---
 
-NeoVintageous 1.27.0 has been released.  The highlights are surround function, surround tag, surround `S{char}` now works in visual line mode, `%` improvements, and jumps like `*`, `#`, now accept a count.
+NeoVintageous 1.27.0 has been released.  The highlights are surround function, surround tag, surround `S{char}` now works in visual line mode, `%` improvements, and jumps like `*`, `#` now accept a count.
 
-## Surround plugin enhancements
+## Vim surround plugin enhancements
 
-> This plugin is a tool for dealing with pairs of "surroundings."  Examples
+Vim surround is a tool for dealing with pairs of "surroundings."  Examples
 of surroundings include parentheses, quotes, and HTML tags.  They are
 closely related to what Vim refers to as `text-objects`.
 
-### Functions
+### Vim surround functions
 
 If f, F, or `<C-F>` is used, NeoVintageous waits for a function name to insert.  The target text will be wrapped in a function call. If f is used, the text is wrapped with () parentheses; F adds additional spaces inside the parentheses. `<C-F>` inserts the function name inside the parentheses.
 
@@ -22,9 +22,9 @@ Old text | Command | New text ~
 "hello" | `ysiWFprint<cr>` | `print( "hello" )`
 "hello" | `ysiW<C-f>print<cr>` | `(print "hello")`
 
-### Tags
+### Vim surround tags
 
-A t is a pair of HTML or XML tags.
+A `t` is a pair of HTML or XML tags.
 
 Old text | Command | New text ~
 -------- | ------- | ----------
@@ -35,7 +35,7 @@ Old text | Command | New text ~
 `<div>he|llo</div>` | `yit` | `<div>|hello</div>` (inner content yanked)
 `<div>he|llo</div>` | `yat` | `<div>|hello</div>` (outer content yanked)
 
-In surround, if t or < is used, NeoVintageous waits for an HTML/XML tag to insert.
+In surround, if `t` or `<` is used, NeoVintageous waits for an HTML/XML tag to insert.
 
 Old text | Command | New text ~
 -------- | ------- | ----------
@@ -60,7 +60,7 @@ Old text | Command | New text ~
 `<div class="x">he|llo</div>` | `cst<C-t>li>` | `|<li>\nhello\n</li>`
 `<div class="x">he|llo</div>` | `cst<C-t>li<CR>` | `|<li class="x">\nhello\n</li>`
 
-### Jump improvements
+### Vim next item jump command improvements
 
 Finding the next item in this line after or under the cursor and jump to its match now works in comments and works correctly for HTML tags.
 
@@ -72,6 +72,7 @@ Old text | Command | New text ~
 ## Further reading
 
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.27.0)
+* `:help neovintageous`
 * `:help surround`
 * `:help text-objects`
 * `:help various-motions`
