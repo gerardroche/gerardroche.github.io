@@ -3,16 +3,16 @@ tags: vim sublime-text neovintageous
 title: NeoVintageous 1.5.0
 redirect_from:
   - /2018/02/21/neovintageous-1.5.0-released/
-last_modified_at: 2023-06-16T09:32:00+01:00
+last_modified_at: 2023-06-29T22:36:26+01:00
 ---
 
 NeoVintageous 1.5.0 has been released and includes support for super-keys, command-line search history, command-line editing commands, and a toggle side bar command.
 
-## Support for super-keys
+## Support for vim super-keys
 
-You can now map super-keys (`<D-...>`), also known as command-keys on OSX, and window-keys on Windows. The super-keys are disabled by default.
+You can now map super-keys (`<D-...>`), also known as command-keys on OSX, or window-keys on Windows. Super-keys are disabled by default.
 
-**Menu → Preferences → Settings**
+Menu → Preferences → Settings
 
 ```json
 {
@@ -20,23 +20,29 @@ You can now map super-keys (`<D-...>`), also known as command-keys on OSX, and w
 }
 ```
 
-For example, if you want to map `<D-i>` to the *Goto Symbol in Project* command, which is available out-of-the-box in Sublime Text via the `goto_symbol_in_project` command. You can map to any command by **camel casing** it, **upper-casing the first letter**, and **appending `<CR>`** (create the mapping in your vintageousrc file, you can open it via the Command Palette "NeoVintageous: Open My vintageousrc File"):
+{% include note.html content="In newer versions the super keys can be toggled via Command Palette → NeoVintageous: Toggle Super Keys." %}
+
+For example, to map `<D-i>` to the Goto Symbol in Project command, which is available out-of-the-box in Sublime (the `goto_symbol_in_project` command).
 
 ```vim
 nnoremap <D-i> :GotoSymbolInProject<CR>
 ```
 
-You need to reload the mappings, you can do that via the Command Palette "NeoVintageous: Reload My vintageousrc File".
+You can map to any command by PascalCasing it.
 
-Another example, is mapping `<D-n>` to run the nearest test (requires the [Test](https://github.com/gerardroche/sublime-test) plugin):
+Append `<CR>` to indicate pressing the enter key.
+
+Another example, is mapping `<D-n>` to run the nearest test (requires the [Test](https://github.com/gerardroche/sublime-test) package):
 
 ```vim
 nnoremap <D-n> :TestNearest<CR>
 ```
 
-Note: Currently only `a-zA-Z` super keys are implemented e.g. `<D-i>`, `<D-I>`, `<D-o>`, etc.
+Currently only `a-zA-Z` super keys are implemented e.g. `<D-i>`, `<D-I>`, `<D-o>`, etc.
 
-Note: Operating systems make extensive use of the super-keys for desktop commands. If you find a super-key is not working in Sublime Text, then it's probably bound to a desktop command, and if that's the case then ST won't receive the key event. You can check if ST is receiving the event by running `sublime.log_input(True)` in the console (Menu → View → Show Console). If it's not receiving the event, then you need to clear whatever desktop command the key is bound to. If you use Ubuntu see [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps/).
+**Troubleshooting**
+
+Operating systems make extensive use of the super-keys for desktop commands. If you find a super-key is not working in Sublime Text, then it's probably bound to a desktop command, and if that's the case then ST won't receive the key event. You can check if ST is receiving the event by running `sublime.log_input(True)` in the console (Menu → View → Show Console). If it's not receiving the event, then you need to clear whatever desktop command the key is bound to. If you use Ubuntu see [Ubuntu keymaps](/2018/02/17/ubuntu-keymaps/).
 
 ## Command-line editing and search history
 
@@ -48,7 +54,7 @@ Also, a popular request, `CTRL-C` and `CTRL-[` now exit Command-line mode.
 
 ## Toggle Side Bar
 
-**The NeoVintageous toggle sidebar feature has been updated, see [](/2023/05/14/neovintageous-toggle-sidebar/) for more details.**
+**The NeoVintageous toggle sidebar feature has been updated, see [Toggle SideBar enhancements](/2023/05/14/neovintageous-toggle-sidebar/) for more details.**
 
 A toggle side bar command is now provided out-of-the-box. When you want to use a toggle side bar mapping it's recommended to use this command, because it will receive fixes and functionality tuned specially for Neovintageous.
 
