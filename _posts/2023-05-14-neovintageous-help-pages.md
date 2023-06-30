@@ -1,33 +1,44 @@
 ---
 tags: vim sublime-text neovintageous
 title: The NeoVintageous help pages
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-07-01T00:11:44+01:00
 ---
 
 ![Chris O'Dowd in the IT Crowd (2006)](/assets/2023-05-14-chris-o-dowd-in-the-it-crowd.webp)
 
-Vim's [help pages](https://vimhelp.org) are distributed with NeoVintageous and are accessible in the same way you would access them in Vim:
+Vim's [help pages](https://vimhelp.org) are distributed unmodified in NeoVintageous and are accessed in the same way as Vim.
 
 ```vim
 :help
 ```
 
-The help pages are provided unmodified so it's important to remember when referencing them that NeoVintageous is an emulation of Vim and may not yet implement that particular feature. Some features and differences specific to Sublime Text are in their own help page:
+The help pages are provided unmodified so it's important to remember when using them that NeoVintageous may not yet implement that particular feature.  Some differences are documented own help page.
 
 ```vim
-:help nv
+:help neovintageous
 ```
 
-It's possible to go to whatever you want help on, by giving an argument to the `:help` command. Here are a few examples:
+Additionally, it's possible to jump to a specific help tag.
 
 ```vim
-:help operator
+:help {subject}
+```
+
+Here are some examples:
+
+```vim
 :help c
+:help w
+:help ^
+:help $
+:help aw
+:help ctrl-w_s
+:help operator
+:help word-motions
 :help text-objects
-:help iw
 ```
 
-Help pages for ported plugins are also provided unmodified:
+Vim help pages for some of the ported plugins are also provided unmodified.
 
 ```vim
 :help abolish
@@ -37,9 +48,10 @@ Help pages for ported plugins are also provided unmodified:
 :help unimpaired
 ```
 
-NeoVintageous specific plugin help pages are also available:
+The most valuable command inside the help pages is the jump to tag command.  Position the cursor on a tag (e.g. `|bars|`) and hit `CTRL-]`.
 
-```vim
-:help highlightedyank
-:help multiple-cursors
-```
+The other two useful commands are jump back and jump forward, `CTRL-O` and `CTRL-I` respectively.
+
+Lastly, the shorthand for `:help` is `:h`.  In Vim docs this is usually written as `:h[elp]`.  The square brackets which indicates the optional part of the ex command.
+
+I hope this has been helpful.  Take it easy my friends.
