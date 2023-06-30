@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
-last_modified_at: 2023-06-16T08:02:00+01:00
+last_modified_at: 2023-07-01T00:36:27+01:00
 ---
 
 [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme.
@@ -18,17 +18,18 @@ last_modified_at: 2023-06-16T08:02:00+01:00
 
 ![Monokai Javascript](/assets/monokai-javascript.webp)
 
-## Making it your own
+## Theme
 
-Try it with the Adaptive theme for a more immersive experience.
+Try Monokai with the Adaptive theme for a more immersive experience.
 
 Menu → Preferences → Select Theme → Adaptive
+
+## Making it your own
 
 Override some global settings, for example, the following settings make:
 
 - the caret yellow
 - the block caret and selections style square
-- the line highlight blue
 
 Menu → Preferences → Customize Color Scheme
 
@@ -38,7 +39,6 @@ Menu → Preferences → Customize Color Scheme
     "globals": {
         "caret": "yellow",
         "block_caret": "yellow",
-        "line_highlight": "#66d9ef44",
         "block_caret_corner_style": "square",
         "selection_corner_style": "square"
     },
@@ -47,3 +47,5 @@ Menu → Preferences → Customize Color Scheme
 ```
 
 ![Robert Llewellyn in Red Dwarf (1988)](/assets/red-dwarf-kryten.webp)
+
+I hope this has been helpful.  Take it easy my friends.
