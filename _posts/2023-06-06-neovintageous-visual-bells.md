@@ -1,29 +1,32 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Visual Bells
-last_modified_at: 2023-06-17T02:40:58+01:00
+last_modified_at: 2023-07-01T00:31:52+01:00
 ---
 
 ![Vanilla Sky (2001)](/assets/vanilla-sky.webp)
 
-NeoVintageous supports three types of visual bell.
+NeoVintageous supports three types of vim visual bell.
 
 Type | Description
 :------ | :----------
-blink (default) | Highlighted line blink.
+blink | Highlighted line blink (default).
 view  | Active view flash.
 views | Visible views flash.
-
-There are two color schemes, "dark" and "light".
 
 Menu → Preferences → Settings
 
 ```js
-"vintageous_bell": "view",
-"vintageous_bell_color_scheme": "dark",
-````
+"vintageous_bell": "blink",
+```
 
-And if you don't like visual bells, you can disable them.
+There are two colour schemes, a "dark" (default) and "light".
+
+```js
+"vintageous_bell_color_scheme": "dark",
+```
+
+To disable visual bells, set the `'belloff'` option to "all".
 
 Command Palette → NeoVintageous: Open RC File
 
