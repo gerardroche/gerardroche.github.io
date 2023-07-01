@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: The NeoVintageous help pages
-last_modified_at: 2023-07-01T00:11:44+01:00
+last_modified_at: 2023-07-01T21:18:08+01:00
 ---
 
 ![Chris O'Dowd in the IT Crowd (2006)](/assets/2023-05-14-chris-o-dowd-in-the-it-crowd.webp)
@@ -52,6 +52,6 @@ The most valuable command inside the help pages is the jump to tag command.  Pos
 
 The other two useful commands are jump back and jump forward, `CTRL-O` and `CTRL-I` respectively.
 
-Lastly, the shorthand for `:help` is `:h`.  In Vim docs this is usually written as `:h[elp]`.  The square brackets which indicates the optional part of the ex command.
+Lastly, the shorthand for `:help` is `:h`.  In Vim this is usually written as `:h[elp]`.  The square brackets indicate the optional part of the ex command.
 
 I hope this has been helpful.  Take it easy my friends.
