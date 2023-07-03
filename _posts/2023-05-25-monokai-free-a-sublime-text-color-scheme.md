@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
-last_modified_at: 2023-07-03T11:31:42+01:00
+last_modified_at: 2023-07-03T19:05:00+01:00
 ---
 
 [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme.
@@ -20,13 +20,9 @@ last_modified_at: 2023-07-03T11:31:42+01:00
 
 And many more.
 
-## Scheme
+## Enable Monokai
 
 Menu → Select Color Scheme
-
-or
-
-Command Palette → UI: Select Color Scheme
 
 ## Theme
 
@@ -59,3 +55,8 @@ Menu → Preferences → Customize Color Scheme
 ![Robert Llewellyn in Red Dwarf (1988)](/assets/red-dwarf-kryten.webp)
 
 I hope this has been helpful.  Take it easy my friends.
+
+## Resources
+
+* [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree)
+* [Sublime Text Color Scheme Documentation](https://www.sublimetext.com/docs/color_schemes.html)
