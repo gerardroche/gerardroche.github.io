@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
-last_modified_at: 2023-07-01T00:36:27+01:00
+last_modified_at: 2023-07-03T11:31:42+01:00
 ---
 
 [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai color scheme.
@@ -17,6 +17,16 @@ last_modified_at: 2023-07-01T00:36:27+01:00
 > Javascript
 
 ![Monokai Javascript](/assets/monokai-javascript.webp)
+
+And many more.
+
+## Scheme
+
+Menu → Select Color Scheme
+
+or
+
+Command Palette → UI: Select Color Scheme
 
 ## Theme
 
