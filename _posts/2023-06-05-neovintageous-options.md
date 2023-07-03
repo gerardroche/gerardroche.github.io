@@ -1,12 +1,12 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Options
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-07-03T19:09:53+01:00
 ---
 
 ![Rounders (1998)](/assets/rounders.webp)
 
-NeoVintageous is a sublime vim emulation plugin.  NeoVintageous supports a number of vim options.  These options come in three forms:
+NeoVintageous is a sublime text vim emulation plugin.  NeoVintageous supports a number of vim options.  These options come in three forms:
 
 Type | Description
 :--- | :----------
