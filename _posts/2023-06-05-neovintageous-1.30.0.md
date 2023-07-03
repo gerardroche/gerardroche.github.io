@@ -1,10 +1,12 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.30.0
-last_modified_at: 2023-07-01T18:06:55+01:00
+last_modified_at: 2023-07-03T19:08:57+01:00
 ---
 
-NeoVintageous 1.30.0 has been released.  This was more of a polishing release than big feature release.  Highlights include improvements to the neovintageousrc file, multiple cursors, and session persistence.
+NeoVintageous 1.30.0 has been released.  This is more of a polishing release than big feature release.
+
+Highlights include improvements to the neovintageousrc file format, multiple cursors improvements, and session persistence improvements.
 
 ## Vim neovintageousrc format improvements
 
@@ -57,8 +59,8 @@ The last search pattern is now persisted on restarts.
 
 Three new keys have been add `n` (next), `q` (skip), and `Q` (remove).  These compliment the existing keys `CTRL-n`, `CTRL-x`, `CTRL-p`, or `j`, `l`, and `k`.
 
-## Further reading
+## Resources
 
 * `:help neovintageous`
 * `:help multiple-cursors`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.30.0)
+* [1.30.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.30.0)
