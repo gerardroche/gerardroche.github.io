@@ -1,16 +1,16 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.31.0
-last_modified_at: 2023-07-13T04:18:41+01:00
+last_modified_at: 2023-07-13T09:02:59+01:00
 ---
 
 NeoVintageous 1.31.0 has been released.  Highlights include new and improved window commands, marks, goto file commands, and an advanced reveal in side bar command.
 
 ## Sublime Text Vim window commands
 
-Most window commands require [origami](https://packagecontrol.io/packages/Origami) to work properly.  Origami is a great a plugin for managing windows.  [I highly recommend it](/2023/06/12/my-sublime-text-setup/).  NeoVintageous uses origami for many of its window splitting vim commands.
+Most window commands require [origami](https://packagecontrol.io/packages/Origami) to work properly.  Origami is a great a plugin for managing windows.  [I highly recommend it](/2023/06/12/my-sublime-text-setup/).
 
-**Vim window splitting commands**
+**Vim window splitting**
 
 ```
 CTRL-W s
@@ -54,7 +54,7 @@ Like `CTRL-^`, edit alternate file, except the alternate file is opened in a spl
 
 ## Sublime Text vim marks
 
-You can now view all marks via `:marks`.
+To view all marks: `:marks`
 
     mark line  col file/text
      a     11    0 /home/code/fizz.txt
