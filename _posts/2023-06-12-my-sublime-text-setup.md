@@ -1,12 +1,12 @@
 ---
 tags: sublime-text
 title: My Sublime Text setup
-last_modified_at: 2023-07-13T16:53:43+01:00
+last_modified_at: 2023-07-13T16:55:33+01:00
 ---
 
 ![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
 
-We all want to the secret sauce, but it's the usual suspects.
+We all want to know the secret sauce, but it's the usual suspects.
 
 ## Package Control
 
