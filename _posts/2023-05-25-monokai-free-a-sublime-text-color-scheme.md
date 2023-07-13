@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
-last_modified_at: 2023-07-13T01:57:00+01:00
+last_modified_at: 2023-07-13T08:33:13+01:00
 ---
 
 [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai colour scheme.
@@ -20,22 +20,43 @@ last_modified_at: 2023-07-13T01:57:00+01:00
 
 And many more.
 
-## Enable Monokai
+## Adaptive Theme
 
-Menu → Select Color Scheme
-
-## Theme
-
-Try Monokai with the Adaptive theme for a more immersive experience.
+Try the Adaptive theme.
 
 Menu → Preferences → Select Theme → Adaptive
 
-## Making it your own
+## Font options
 
-Override some global settings, for example, the following settings make:
+Menu → Preferences → Settings
 
-- the caret yellow
-- the block caret and selections style square
+```js
+"font_options": [
+    "no_bold",
+    "no_italic"
+],
+```
+
+## Alternative font
+
+Try an alternative font like [Fira Code](https://github.com/tonsky/FiraCode).
+
+```sh
+sudo apt-get install fonts-firacode
+```
+
+Menu → Preferences → Settings
+
+```js
+"font_face": "Fira Code",
+"font_options": [
+    "subpixel_antialias"
+],
+```
+
+If you want enable antialias instead, add in font_options: `"gray_antialias"`. [^1]
+
+## Custom settings
 
 Menu → Preferences → Customize Color Scheme
 
@@ -60,3 +81,6 @@ I hope this has been helpful.  Take it easy my friends.
 
 * [Monokai Color Scheme](https://packagecontrol.io/packages/MonokaiFree)
 * [Sublime Text Color Scheme Documentation](https://www.sublimetext.com/docs/color_schemes.html)
+
+[^1]:
+    https://github.com/tonsky/FiraCode/wiki/Sublime-Text-Instructions
