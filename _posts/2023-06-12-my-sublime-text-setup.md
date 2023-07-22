@@ -1,36 +1,34 @@
 ---
 tags: sublime-text
 title: My Sublime Text setup
-last_modified_at: 2023-07-13T16:55:33+01:00
+last_modified_at: 2023-07-22T22:23:27+01:00
 ---
 
 ![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
 
-We all want to know the secret sauce, but it's the usual suspects.
+We all want to know what's in the secret sauce.
 
 ## Package Control
 
-Package Control is the package manager bundled with Sublime Text.  Once installed you can install any package from [packagecontrol.io](https://packagecontrol.io).
+Package Control is the Sublime Text package manager, but it needs to be installed.
 
 **Menu → Install Package Control**
 
+Once installed you can install any package from [packagecontrol.io](https://packagecontrol.io).
 
-**Command Palette → Package Control: Install Package**
+To install a package open open command palette.
+
+Command Palette → Package Control: Install Package
 
 ## Look and Feel
 
-- [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) - An enhanced Monokai color scheme.
-- [FileIcons](https://packagecontrol.io/packages/FileIcons) - File icons for the sidebar.
+I use an enhanced Monokai color scheme, [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree), and [FileIcons](https://packagecontrol.io/packages/FileIcons) for nicer sidebar icons. MonokaiFree offers a more consistent, polished version of the bundled Monokai color scheme, and plugin package support.
 
-I use the **Adaptive** theme.
+I use the built-in Adaptive theme.
 
 Menu → Preferences → Select Theme → Adaptive
 
-And I have the following [color scheme customizations](/2023/05/25/monokai-free-a-sublime-text-color-scheme/):
-
-- make the caret yellow
-- make the block caret and selections style square
-- make line highlight blue
+I like a yellow block cursor and square selections.
 
 Menu → Preferences → Customize Color Scheme
 
@@ -40,9 +38,9 @@ Menu → Preferences → Customize Color Scheme
     "globals": {
         "caret": "yellow",
         "block_caret": "yellow",
-        "line_highlight": "#66d9ef22",
+        "block_caret_border": "yellow",
         "block_caret_corner_style": "square",
-        "selection_corner_style": "square"
+        "selection_corner_style": "square",
     },
     "rules": []
 }
@@ -52,64 +50,104 @@ Menu → Preferences → Customize Color Scheme
 
 ## Vim
 
+I love Vim, but I've never been able to switch to it fully. Enter [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous), the advanced vim emulation layer for Sublime. NeoVintageous is my [weapon of choice](https://www.youtube.com/watch?v=wCDIYvFmgW8).
+
 - [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous) - An advanced vim engine for sublime.
-- [NeoVintageousFiles](https://packagecontrol.io/packages/NeoVintageousFiles) - Single key side bar and overlay file commands.
+
+I also use a number of optional NeoVintageous plugins.
+
+- [NeoVintageousFiles](https://packagecontrol.io/packages/NeoVintageousFiles) - Single key side bar and overlay commands.
 - [NeoVintageousHighlightLine](https://packagecontrol.io/packages/NeoVintageousHighlightLine) - Auto disable highlight line in insert and visual mode.
 - [NeoVintageousLineNumbers](https://packagecontrol.io/packages/NeoVintageousLineNumbers) - Auto disable relative line numbers in insert mode.
 - [NeoVintageousToggle](https://packagecontrol.io/packages/NeoVintageousToggle) - Toggle NeoVintageous on and off.
 
+Some features in NeoVintageous require third party plugins. For instance, various window splitting commands require [Origami](https://packagecontrol.io/packages/Origami) and the [jump to error](/2023/05/24/neovintageous-jumping-to-errors/) commands require [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter).
+
+Here are my settings.
+
+Menu → Preferences → Settings
+
+```js
+"vintageous_bell": "view",
+"vintageous_enable_sneak": true,
+"vintageous_handle_keys": {
+    "<C-f12>": false,
+    "<S-f1>": false,
+    "<S-tab>": false,
+    "<f1>": false,
+    "i_<C-u>": false
+},
+"vintageous_sneak_use_ic_scs": 1,
+"vintageous_terminal": "gnome-terminal",
+"vintageous_use_ctrl_keys": true,
+"vintageous_use_super_keys": true,
+"scroll_context_lines": 8,
+```
+
+Here is a snippet of some useful mappings from my [neovintageousrc file](/2022/11/21/vimrc-and-neovintageousrc/):
+
+```viml
+set ignorecase
+set nominimap
+set smartcase
+
+let mapleader=,
+
+nnoremap <leader><leader> :Neovintageous action=reveal_side_bar<CR>
+nnoremap <leader>d :Neovintageous action=toggle_side_bar<CR>
+nnoremap <leader>en :Neovintageous action=open_rc_file<CR>
+nnoremap <leader>ga :silent !git add %<CR>
+nnoremap <leader>gd :ToggleInlineDiff<CR>
+nnoremap <leader>hu :RevertHunk<CR>
+nnoremap <leader>oo :GitOpen<CR>
+nnoremap <leader>r :reg<CR>
+nnoremap <leader>sr :SublimeLinterLineReport<CR>
+nnoremap <leader>st :SublimeLinterPanelToggle<CR>
+noremap <C-l> :nohlsearch<CR>
+noremap <C-s> :w<CR>
+noremap <D-I> :ShowOverlay overlay=goto text=@<CR>
+noremap <D-i> :GotoSymbolInProject<CR>
+
+" Easy insertion of a trailing ;
+nnoremap ;; <Esc>A;<Esc>;
+
+" Yank and paste using system clipboard.
+noremap <leader>y "+y
+noremap <leader>Y "+Y
+noremap <leader>p "+p
+noremap <leader>P "+P
+
+" Sorting.
+nnoremap <leader>s) vi):sort u<CR>
+nnoremap <leader>s] vi]:sort u<CR>
+nnoremap <leader>si vii:sort u<CR>
+nnoremap <leader>sp vip:sort u<CR>
+nnoremap <leader>ss vip:sort u<CR>
+vnoremap <leader>s :sort u<CR>
+
+" Origami: https://packagecontrol.io/packages/Origami
+nnoremap <leader>. :ToggleZoomPane fraction=0.98<CR>
+```
+
 ## Goto project
 
-- [Sesame](https://packagecontrol.io/packages/Sesame) - A quick way to open, add, switch, and remove projects.
-
-This is by far my favourite plugin.  Read [sesame - a sublime text plugin](/2023/05/19/sesame-a-sublime-text-plugin/) for a quick guide on how it works.
+I use [Sesame](https://packagecontrol.io/packages/Sesame) to quickly open, add, switch, and remove projects and folders. This is by far my favourite plugin.  Read [Sesame - A Sublime Text Plugin](/2023/05/19/sesame-a-sublime-text-plugin/) for a short guide on how it works.
 
 ## Linting
 
-- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) - A code linting framework.
+I use [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) for linting. SublimeLinter is a comprehensive code linting framework. Here are some of the linters I use:
+
 - [SublimeLinter-eslint](https://packagecontrol.io/packages/SublimeLinter-eslint) - [ESLint](https://github.com/eslint/eslint) linter.
 - [SublimeLinter-flake8](https://packagecontrol.io/packages/SublimeLinter-flake8) - [Flake8](https://flake8.pycqa.org/en/latest/) linter.
 - [SublimeLinter-mypy](https://packagecontrol.io/packages/SublimeLinter-mypy) - [MyPy](https://mypy-lang.org/) linter.
 - [SublimeLinter-php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer) - [PHP-CS-Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) linter.  *Pending [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16) support and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15) support.*
 - [SublimeLinter-php](https://packagecontrol.io/packages/SublimeLinter-php) - [PHP](https://www.php.net/) linter.
 
-Here are some of my SublimeLinter settings.
-
-Command Palette → Preferences: SublimeLinter Settings
-
-
-```json
-{
-    "debug": false,
-    "highlights.demote_while_editing": "all",
-    "lint_mode": "save",
-    "delay": 3,
-    "no_column_highlights_line": false,
-    "show_hover_line_report": false,
-    "show_hover_region_report": false,
-    "show_marks_in_minimap": false,
-    "styles": [
-        {
-            "icon": "x",
-            "mark_style": "fill",
-        },
-        {
-            "icon": "x",
-            "mark_style": "fill",
-        }
-    ],
-}
-```
-
 ## Documentation
 
-- [GotoDocumentation](https://packagecontrol.io/packages/GotoDocumentation) - Jump to documentation for the current keyword.
-
-I use <kbd>F1</kbd> as my jump key because the <kbd>F1</kbd> key has become universally associated with help.[^1]
+I use [GotoDocumentation](https://packagecontrol.io/packages/GotoDocumentation) for jumping to documentation for the current keyword. I like <kbd>F1</kbd> as my jump key. The <kbd>F1</kbd> key has become universally associated with help.[^1]
 
 Menu → Preferences → Key Bindings
-
-*The context selector is for GotoPHPManual support.*
 
 ```js
 {
@@ -125,6 +163,8 @@ Menu → Preferences → Key Bindings
     ]
 },
 ```
+
+*The context selector exclusion is to support GotoPHPManual.*
 
 ## Side Bar
 
@@ -151,10 +191,8 @@ Menu → Preferences → Key Bindings
 
 ## Window splitting
 
-- [Origami](https://packagecontrol.io/packages/Origami) - Layout management.
-- [GotoDefinitionSplit](https://packagecontrol.io/packages/GotoDefinitionSplit) - Split definition in group.
-
-NeoVintageous has support for window splitting when Origami is installed.  For example, `CTRL-W s` split horizontally, `CTRL-W v` split vertically, and `CTRL-W n` split new view.
+- [Origami](https://packagecontrol.io/packages/Origami) - Window layout management.
+- [GotoDefinitionSplit](https://packagecontrol.io/packages/GotoDefinitionSplit) - Split definition in a side-by-side group.
 
 ## Syntaxes
 
@@ -175,52 +213,63 @@ NeoVintageous has support for window splitting when Origami is installed.  For e
 
 ## Settings
 
-Here are some of my settings.  These will not suit everybody, but they might help you discover some that you didn't know about.
+Here are my settings.  These will not suit everybody, but they might help you discover some that you didn't know about.
 
 Menu → Preferences → Settings
 
 ```json
 {
+
+    "animation_enabled": false,
+    "caret_extra_bottom": 0,
+    "caret_extra_top": 0,
+    "fade_fold_buttons": false,
+    "file_tab_style": "square",
+    "fold_buttons": false,
+    "inactive_sheet_dimming": false,
+    "mouse_wheel_switches_tabs": false,
+    "relative_line_numbers": true,
+    "save_on_focus_lost": true,
+    "scroll_context_lines": 8,
+    "show_build": true,
+    "show_git_status_in_status_bar": false,
+    "show_indentation": false,
+    "show_line_column": "compact",
+    "show_rel_path": true,
+    "show_sidebar_button": false,
+    "show_syntax": false,
+    "show_tab_close_buttons": false,
+
+    "color_scheme": "MonokaiFree.sublime-color-scheme",
+    "theme": "Adaptive.sublime-theme",
+
+    "font_face": "Cascadia Code",
+    "font_options": ["gray_antialias", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09", "ss10", "ss19", "ss20"],
+
     "draw_white_space": [
         "leading_mixed",
         "selection",
         "trailing",
         "isolated"
     ],
-    "ensure_newline_at_eof_on_save": true,
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "trim_automatic_white_space": true,
-    "trim_trailing_white_space_on_save": true,
-    "wrap_width": 80,
 
-    "animation_enabled": false,
-    "caret_extra_bottom": 0,
-    "caret_extra_top": 0,
-    "caret_style": "solid",
-    "enable_tab_scrolling": false,
-    "fold_buttons": false,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
-    "line_numbers": false,
-    "overlay_scroll_bars": "enabled",
-    "relative_line_numbers": true,
-    "remember_full_screen": true,
-    "save_on_focus_lost": true,
-    "scroll_context_lines": 8,
-    "tree_animation_enabled": false,
+    "indent_guide_options":
+    [
+    ],
 
-    "auto_complete_commit_on_tab": true,
+    "rulers":
+    [
+    ],
+
     "auto_complete_cycle": true,
     "auto_complete_trailing_symbols": true,
     "auto_complete_use_history": true,
     "auto_complete_with_fields": true,
 
-    "show_definitions": false,
-    "show_errors_inline": false,
-    "show_git_status_in_status_bar": false,
-    "show_legacy_color_schemes": false,
-    "show_tab_close_buttons": false,
+    "phpunit.options":
+    {
+        "no-coverage": true,
+    },
 
     "vintage_ctrl_keys": true,
     "vintage_start_in_command_mode": true,
@@ -240,42 +289,11 @@ Menu → Preferences → Settings
 }
 ```
 
-Some of these settings might seem weird.  For example, no line numbers, really? Yes.  I use NeoVintageous and the command `yon` or `con` to toggle line numbers on when I need them.  I don't like inline errors or show definitions because they get in the way, but I use NeoVintageous [jump-to-error](/2023/05/24/neovintageous-jumping-to-errors/) commands.
+Some of these settings might seem weird. For example, no line numbers, no animations, hardly anything in the status bar, really? Yes. I very much like a clear screen.
 
-Settings apply to all syntaxes, for example find in files, so I make sure it defaults to not draw white space.  You may want to add other defaults like no wrapping.
+I use NeoVintageous commands like `yon` to toggle line numbers on and off when I need them. NeoVintageous has other toggle commands like `yow` to toggle wrapping, `yos` spelling, `yom` minimap. So I need them on all the time.
 
-Menu → Preferences → Settings - Syntax Specific (when find in files is open)
-
-```json
-{
-    "word_wrap": false,
-    "draw_white_space": [],
-}
-```
-
-You can do the same with other syntaxes, like Markdown.
-
-```json
-{
-    "draw_centered": false,
-    "spell_check": true,
-    "tab_size": 4,
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true,
-    "word_wrap": false
-}
-```
-
-CSS.
-
-
-```json
-{
-    "tab_size": 2
-}
-```
-
-I hope this has been helpful.  What are your questions? Please open issues about problems installing or using any of the packages.  Or even to just let me know about the packages I've missed.  Take it easy my friends.
+I hope this has been helpful. Take it easy my friends.
 
 [^1]:
     https://en.wikipedia.org/wiki/Function_key
