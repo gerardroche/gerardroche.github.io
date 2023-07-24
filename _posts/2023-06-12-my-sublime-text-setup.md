@@ -1,7 +1,7 @@
 ---
 tags: sublime-text
 title: My Sublime Text setup
-last_modified_at: 2023-07-22T22:23:27+01:00
+last_modified_at: 2023-07-24T22:56:32+01:00
 ---
 
 ![The Usual Suspects (1995)](/assets/the-usual-suspects.webp)
@@ -16,19 +16,23 @@ Package Control is the Sublime Text package manager, but it needs to be installe
 
 Once installed you can install any package from [packagecontrol.io](https://packagecontrol.io).
 
-To install a package open open command palette.
+To install a package open the command palette.
 
 Command Palette → Package Control: Install Package
 
+Type the name of the package, and press enter. Done and done.
+
 ## Look and Feel
 
-I use an enhanced Monokai color scheme, [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree), and [FileIcons](https://packagecontrol.io/packages/FileIcons) for nicer sidebar icons. MonokaiFree offers a more consistent, polished version of the bundled Monokai color scheme, and plugin package support.
+I use an enhanced Monokai color scheme that I maintain called [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree). It's more consistent and more polished than the one bundled with Sublime.
+
+I love [FileIcons](https://packagecontrol.io/packages/FileIcons). It brings colour icon support to the sidebar.
 
 I use the built-in Adaptive theme.
 
 Menu → Preferences → Select Theme → Adaptive
 
-I like a yellow block cursor and square selections.
+I love my custom yellow block cursor and square selections.
 
 Menu → Preferences → Customize Color Scheme
 
@@ -50,7 +54,7 @@ Menu → Preferences → Customize Color Scheme
 
 ## Vim
 
-I love Vim, but I've never been able to switch to it fully. Enter [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous), the advanced vim emulation layer for Sublime. NeoVintageous is my [weapon of choice](https://www.youtube.com/watch?v=wCDIYvFmgW8).
+I love Vim, but I've never been able to switch to it fully. Enter [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous), a vim emulator for Sublime. NeoVintageous is my [weapon of choice](https://www.youtube.com/watch?v=wCDIYvFmgW8).
 
 - [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous) - An advanced vim engine for sublime.
 
@@ -61,7 +65,9 @@ I also use a number of optional NeoVintageous plugins.
 - [NeoVintageousLineNumbers](https://packagecontrol.io/packages/NeoVintageousLineNumbers) - Auto disable relative line numbers in insert mode.
 - [NeoVintageousToggle](https://packagecontrol.io/packages/NeoVintageousToggle) - Toggle NeoVintageous on and off.
 
-Some features in NeoVintageous require third party plugins. For instance, various window splitting commands require [Origami](https://packagecontrol.io/packages/Origami) and the [jump to error](/2023/05/24/neovintageous-jumping-to-errors/) commands require [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter).
+Auto disabling highlight line in Insert and Visual modes is so good.
+
+Some features in NeoVintageous require third party plugins. For instance, some window splitting commands require [Origami](https://packagecontrol.io/packages/Origami) and the [jump to error](/2023/05/24/neovintageous-jumping-to-errors/) commands require [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter).
 
 Here are my settings.
 
