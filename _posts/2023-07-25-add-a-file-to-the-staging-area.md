@@ -53,7 +53,7 @@ How does it work?
 
 The shell command lets you execute a `{cmd}` with the shell.
 
-The shell is defined by the `'shell'` option. The default is `$SHELL` or `"sh"` and on Windows it's `"cmd.exe"`.
+The shell is defined by the `'shell'` option. The default is `$SHELL` or `"sh"` or on Win32 it's `"cmd.exe"`.
 
 **Example:** List directory contents
 
@@ -69,7 +69,7 @@ If `{cmd}` contains "%" it is expanded to the current file name.
 :!git add %
 ```
 
-The last is part to understand is `:sil[ent] {cmd}`.
+The last is part to understand is `:silent`.
 
 ## The silent command - `:sil[ent] {cmd}`
 
