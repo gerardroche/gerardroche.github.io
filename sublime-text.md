@@ -18,7 +18,6 @@ layout: default
 - [NeoVintageousDvorak](https://github.com/gerardroche/NeoVintageousDvorak)
 - [NeoVintageousFiles](https://github.com/gerardroche/NeoVintageousFiles)
 - [NeoVintageousHighlightLine](https://github.com/gerardroche/NeoVintageousHighlightLine)
-- [NeoVintageousI18n](https://github.com/gerardroche/NeoVintageousI18n)
 - [NeoVintageousInsertModeKeymaps](https://github.com/gerardroche/NeoVintageousInsertModeKeymaps)
 - [NeoVintageousLineNumbers](https://github.com/gerardroche/NeoVintageousLineNumbers)
 - [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck)
