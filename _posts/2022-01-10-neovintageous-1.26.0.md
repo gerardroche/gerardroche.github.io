@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.26.0
-last_modified_at: 2023-06-28T22:28:20+01:00
+last_modified_at: 2023-08-08T23:28:12+01:00
 ---
 
 NeoVintageous 1.26.0 has been released.  The highlights are new text objects and multiple cursor improvements.
@@ -124,5 +124,5 @@ You do some very fancy time-saving operations on a multiple cursor.
 
 ## Further reading
 
-* `:help neovintageous`
+* `:help nv`
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.26.0)

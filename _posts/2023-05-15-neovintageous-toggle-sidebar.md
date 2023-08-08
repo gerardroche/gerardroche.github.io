@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: The NeoVintageous toggle sidebar
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-08-08T23:28:12+01:00
 ---
 
 ![Fender guitar toggle switch](/assets/2023-05-15-fender-toggle-switch.webp)
@@ -73,7 +73,3 @@ The reason you need both a mapping *and* a key binding is because the key bindin
 ## Wrapping up
 
 A side bar toggle is a great way to free up screen real estate. Pair it with an [Origami Toggle Zoom](/2019/02/26/toggle-zoom/) mapping for a great way to focus on immediate coding problems.
-
-## Further reading
-
-* `:help toggle-sidebar`

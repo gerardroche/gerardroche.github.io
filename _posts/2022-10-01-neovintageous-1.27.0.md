@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.27.0
-last_modified_at: 2023-06-28T22:27:42+01:00
+last_modified_at: 2023-08-08T23:28:12+01:00
 ---
 
 NeoVintageous 1.27.0 has been released.  The highlights are surround function, surround tag, surround `S{char}` now works in visual line mode, `%` improvements, and jumps like `*`, `#` now accept a count.
@@ -72,7 +72,7 @@ Old text | Command | New text ~
 ## Further reading
 
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.27.0)
-* `:help neovintageous`
+* `:help nv`
 * `:help surround`
 * `:help text-objects`
 * `:help various-motions`

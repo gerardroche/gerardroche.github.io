@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.18.0
-last_modified_at: 2023-06-16T10:52:00+01:00
+last_modified_at: 2023-08-08T23:28:12+01:00
 ---
 
 NeoVintageous 1.18.0 has just been released. The highlights of this release are sessions, unimpaired enhancements, visual block enhancements, search enhancements, and :substitute enhancements.
@@ -93,7 +93,6 @@ Note that currently `\m` and `\v` are functionally equivalent, as are `\M` and `
 ## Further reading
 
 * `:help nv`
-* `:help nv-rc`
 * `:help :s`
 * `:help /`
 * [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.18.0)

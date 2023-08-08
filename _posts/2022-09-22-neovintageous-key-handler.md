@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous key handler
-last_modified_at: 2023-06-17T13:20:02+01:00
+last_modified_at: 2023-08-08T23:28:12+01:00
 ---
 
 By default NeoVintageous handles all input keys.  You can tell NeoVintageous to ignore selected keys, in which case those keys will fallback to Sublime.  Let's look at some examples.
@@ -47,4 +47,4 @@ You can debug Sublime key events by running `sublime.log_input(True)` in the con
 
 ## Further reading
 
-* `:help neovintageous`
+* `:help nv`
