@@ -1,12 +1,15 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous Super keys
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-08-16T01:37:22+01:00
 ---
 
 ![Superman (1978)](/assets/superman.webp)
 
 ["Super" keys](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)) are disabled by default in NeoVintageous. You can enable them via the Command Palette **NeoVintageous: Toggle SUPER keys**. Super keys are more commonly labelled as a Windows key, or Command key (⌘) on Mac.
+
+> \[!NOTE\]
+> Since [v1.32](/2023/08/12/neovintageous-1.32.0/) super-keys are enabled by default.
 
 The key notation in Vim is `<D-...>`. For example, [create a mapping](/2023/05/16/neovintageous-mapping-sublime-text-commands/):
 

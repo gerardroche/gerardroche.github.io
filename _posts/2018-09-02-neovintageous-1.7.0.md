@@ -1,36 +1,41 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.7.0
-last_modified_at: 2023-06-16T10:30:00+01:00
+last_modified_at: 2023-08-16T01:37:22+01:00
 ---
 
 NeoVintageous 1.7.0 has been released and includes configurable search highlighting, and an highlighted yank implementation inspired by [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank).
+
+> \[!NOTE\]
+> This post has been updated to reflect changes to settings in [v1.32](/2023/08/12/neovintageous-1.32.0/).
 
 ## Highlighted Yank
 
 ![Highlightedyank demo](/assets/2018-09-02-highlightedyank.gif)
 
-The duration of the highlighted region is configurable.
+The duration in milliseconds of the highlighted yank is configurable.
 
 Menu → Preferences → Settings
 
 ```json
 {
-    "highlightedyank_duration": 1000
+    "vintageous_highlighted_yank_duration": 1000
 }
 ```
 
-Supported styles:
+Specify the style for highlighted yank indicator.
 
-- `fill`
-- `outline`
-- `squiggly_underline`
-- `stippled_underline`
-- `underline`
+Available options:
+
+- "fill"
+- "outline"
+- "underline"
+- "squiggly_underline"
+- "stippled_underline"
 
 ```json
 {
-    "highlightedyank_style": "fill"
+    "vintageous_highlighted_yank_style": "fill"
 }
 ```
 
@@ -56,7 +61,7 @@ It can be disabled.
 
 ```json
 {
-    "highlightedyank": false
+    "vintageous_highlighted_yank": false
 }
 ```
 
@@ -68,9 +73,9 @@ There are three search states: **current**, **incremental** (the match as you ty
 
 ```json
 {
-    "neovintageous_search_cur_style": "fill",
-    "neovintageous_search_inc_style": "fill",
-    "neovintageous_search_occ_style": "outline"
+    "vintageous_search_cur_style": "fill",
+    "vintageous_search_inc_style": "fill",
+    "vintageous_search_occ_style": "outline"
 }
 
 ```
@@ -101,6 +106,17 @@ Menu → Preferences → Customize Color Scheme
     ]
 }
 ```
+
+**Update 2023-08-09**
+
+This post was updated to reflect changes in v1.32. The the following settings were renamed:
+
+- Renamed `neovintageous_search_cur_style` to `vintageous_search_cur_style`
+- Renamed `neovintageous_search_inc_style` to `vintageous_search_inc_style`
+- Renamed `neovintageous_search_occ_style` to `vintageous_search_occ_style`
+- Renamed `highlightedyank` to `vintageous_highlighted_yank`
+- Renamed `highlightedyank_duration` to `vintageous_highlighted_yank_duration`
+- Renamed `highlightedyank_style` to `vintageous_highlighted_yank_style`
 
 ## Further reading
 
