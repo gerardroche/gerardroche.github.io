@@ -1,61 +1,109 @@
 ---
 tags: vim sublime-text neovintageous
 title: The Neovintageous vimrc file
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2023-10-01T17:21:54+01:00
 ---
 
-In Neovintageous a vimrc file is called a neovintageousrc file. The file contains initialisation commands and is loaded every time Sublime Text starts. To edit the neovintageousrc file use the Command Palette **NeoVintageous: Open RC File** and reload it with **NeoVintageous: Reload RC File**.
+In NeoVintageous, the equivalent of a vimrc file is called a "neovintageousrc" file. This file contains initialization commands and is loaded every time Sublime Text starts.
+
+To edit the neovintageousrc file, follow these steps:
+
+1. Open the Command Palette: `Command Palette → NeoVintageous: Open neovintageousrc file`.
+
+2. Make the necessary changes to the file.
+
+3. To apply the changes, reload the neovintageousrc from the Command Palette: `Command Palette → NeoVintageous: Reload neovintageousrc file`.
 
 ## Options
 
-The following options are supported: `autoindent`, `belloff`, `expandtab`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber,`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`.
+Here are some of the options supported in the NeoVintageous: `autoindent`, `belloff`, `expandtab`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`.
 
-You can set options with the `:set {option}` command. Here are two examples that I can't live without:
+For a full list of supported options, please refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md).
 
-    set ignorecase
-    set smartcase
+You can set these options using the `:set {option}` command. Here are two examples that you might find useful:
 
-Run `:help '{option}'` for help on individual options.
+```vim
+set ignorecase
+set smartcase
+```
 
-## Leader key
+If you need help with individual options, you can run `:help '{option}'` and read [more about each individual option](/2023/06/05/neovintageous-options/).
 
-The `<leader>` key is supported. The default is backslash, but I like a comma:
+## Leader Key
 
-    let mapleader=,
+To define a mapping which uses the "mapleader" variable, the special string
+"`<Leader>`" can be used.  It is replaced with the string value of
+"mapleader".  If "mapleader" is not set or empty, a backslash is used
+instead. Example:
 
-## Key mapping
+```vim
+noremap <Leader>A  oanother line<Esc>
+```
 
-The following key mapping commands are supported: `:noremap`, `:nnoremap`, `:onoremap`, `:snoremap`, `:vnoremap`
+Works like:
 
+```vim
+noremap \A  oanother line<Esc>
+```
 
-For example, to map `<C-l>` to the ex command `:nohlsearch`:
+But after:
 
-    noremap <C-l> :nohlsearch<CR>
+```vim
+let mapleader=,
+```
 
-Mapping directly to Sublime Text commands is supported too. Convert the command to mix-case. For example to map `<D-i>` to the `goto_symbol_in_project` command:
+It works like:
 
-    noremap <D-i> :GotoSymbolInProject<CR>
+```vim
+noremap ,A  oanother line<Esc>
+```
 
-Note that you may need to [enable super keys](/2022/09/22/neovintageous-super-keys/) for the `<D-i>` super-key to work in this example.
+Note that the value of "mapleader" is used at the moment the mapping is
+defined.  Changing "mapleader" after that has no effect for already defined
+mappings.
 
-### Key mapping command arguments
+## Key Mapping
 
-You can pass arguments to commands as space separated parameters in the format `arg=value`. For example to map `<C-f>` to the `show_overlay` command with the arguments `overlay=goto` and `text=@`:
+NeoVintageous supports various key mapping commands, including `:noremap`, `:nnoremap`, `:onoremap`, `:snoremap`, and `:vnoremap`.
 
-    nnoremap <C-f> :ShowOverlay overlay=goto text=@<CR>
+For instance, if you want to map `<C-l>` to the ex command `:nohlsearch`, you can do it like this:
 
-### Key mapping shell commands
+```vim
+noremap <C-l> :nohlsearch<CR>
+```
 
-You can map to shell commands through the ex command `:!`. For example, to map `<leader>gs` to `git status`:
+You can also map directly to Sublime Text commands by converting the command name to mixed case. For example, to map `<D-i>` to the `goto_symbol_in_project` command:
 
-    nnoremap <leader>gs :!git status<CR>
+```vim
+noremap <D-i> :GotoSymbolInProject<CR>
+```
 
-To ignore any output, prefix the `rhs` with `:silent`. For example, to map `<leader>ga` to `git add {current-file}` **and ignore any output**:
+Note that you might need to [enable super keys](/2022/09/22/neovintageous-super-keys/) for the `<D-i>` super key to work in this example.
 
-    nnoremap <leader>ga :silent !git add %<CR>
+### Key Mapping Command Arguments
 
-Neat and quiet powerful isn't it.
+NeoVintageous allows you to pass arguments to commands as space-separated parameters in the format `arg=value`. For instance, to map `<C-f>` to the `show_overlay` command with the arguments `overlay=goto` and `text=@`:
 
-## Further reading
+```vim
+nnoremap <C-f> :ShowOverlay overlay=goto text=@<CR>
+```
 
-* `:help nv`
+### Key Mapping Shell Commands
+
+You can also map to shell commands using the ex command `:!`. For example, to map `<leader>gs` to execute `git status`:
+
+```vim
+nnoremap <leader>gs :!git status<CR>
+```
+
+If you want to ignore any output from the command, you can prefix the right-hand side (rhs) with `:silent`. For example, to map `<leader>ga` to `git add {current-file}` and ignore any output:
+
+```vim
+nnoremap <leader>ga :silent !git add %<CR>
+```
+
+It's quite versatile and can be very powerful.
+
+## Further Reading
+
+For more information and advanced usage, you can refer to the [documentation](https://github.com/NeoVintageous/NeoVintageous).

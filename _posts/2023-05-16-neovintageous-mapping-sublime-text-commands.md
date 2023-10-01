@@ -1,49 +1,66 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Mapping Sublime Text commands
-last_modified_at: 2023-06-28T22:38:07+01:00
+last_modified_at: 2023-10-01T17:21:54+01:00
 ---
 
 ![The Goonies (1985)](/assets/2023-05-16-the-goonies-map.webp)
 
-NeoVintageous's mapping features are powerful. Did you know that you can map to any Sublime Text command? Run commands in ex mode? You can even map to your own or third party package commands.
+NeoVintageous's mapping features are exceptionally potent. Did you know that you can map to virtually any Sublime Text command, execute commands in ex mode, and even map to commands within your own or third-party packages?
 
-To run or map a Sublime Text command, convert it to PascalCase.
-
-Command | Ex mode
-:------ | :------
-`goto_symbol_in_project` | `:GotoSymbolInProject`
-
-For example to map the key `m` to `goto_symbol_in_project`, [create a mapping and reload your rc file](/2022/11/21/vimrc-and-neovintageousrc/):
+To map a Sublime Text command, simply convert it to PascalCase. For example, let's say you want to map the key `m` to the `goto_symbol_in_project` command.
 
 ```vim
 nnoremap m :GotoSymbolInProject<CR>
 ```
 
-**But where do I find the command names?**
+To edit the [neovintageousrc](/2022/11/21/vimrc-and-neovintageousrc/) file, follow these steps:
 
-Open the Sublime Text Console via Menu → View → Show Console and enable command logging via `sublime.log_commands(True)`.
+1. Open the Command Palette: `Command Palette → NeoVintageous: Open neovintageousrc file`.
+
+2. Make the necessary changes to the file.
+
+3. To apply the changes, reload the neovintageousrc from the Command Palette: `Command Palette → NeoVintageous: Reload neovintageousrc file`.
+
+Now, you might be wondering, "Where can I find the names of these commands?" Well, it's quite simple. When you run a command in Sublime Text, inspect the console log to see the command and its arguments.
+
+1. **Console Logging**: View console logging by navigating to `Menu → View → Show Console`.
+
+2. **Command and Input Logging**: Enable command and input logging by running the following commands in the console:
+
+   ```
+   sublime.log_commands(True)
+   sublime.log_input(True)
+   ```
 
 ![Sublime Text Console logging](/assets/2023-05-16-enable-console-logging-1.webp)
 
-Sublime Text logs commands to the console.
-
 ![Sublime Text Console logging](/assets/2023-05-16-enable-console-logging-2.webp)
 
-Sublime Text logs the command and all necessary parameters to create a mapping.
-
-For example, run **Menu → Goto → Goto Symbol**.
-
-Sublime Text prints:
+For example, let's say you want to map "Goto Symbol" command. Run the command, e.g., "Menu → Goto → Goto Symbol" command. Sublime Text will print the following in the console:
 
 ```
 command: show_overlay {"overlay": "goto", "text": "@"}
 ```
 
-Create a mapping and reload your rc file:
+To map this command, Pascal-case it, and format the arguments as follows:
 
 ```vim
 nnoremap m :ShowOverlay overlay=goto text=@<CR>
 ```
 
-Mapping to Sublime Text commands opens up worlds of possibilities.  Up your NeoVintageous game.  Map your most common operations and build from there.  Take it easy my friends.
+Note: Sublime Text commands are PascalCased for the purpose of distinguishing them from Ex commands, which always start with a lowercase letter. This choice is due to an implementation detail.
+
+The "Goto Symbol in Project" command can be run via "Menu → Goto → Goto Symbol in Project" and will print the following in the console:
+
+```
+command: goto_symbol_in_project
+```
+
+To map it:
+
+```vim
+noremap <D-i> :GotoSymbolInProject<CR>
+```
+
+Mapping to Sublime Text commands unlocks a world of possibilities. Elevate your NeoVintageous experience by mapping your most frequently used operations and build upon that foundation. Have fun, my friends!
