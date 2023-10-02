@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: The Neovintageous vimrc file
-last_modified_at: 2023-10-01T17:21:54+01:00
+last_modified_at: 2023-10-03T00:47:46+01:00
 ---
 
 In NeoVintageous, the equivalent of a vimrc file is called a "neovintageousrc" file. This file contains initialization commands and is loaded every time Sublime Text starts.
@@ -79,6 +79,25 @@ noremap <D-i> :GotoSymbolInProject<CR>
 ```
 
 Note that you might need to [enable super keys](/2022/09/22/neovintageous-super-keys/) for the `<D-i>` super key to work in this example.
+
+**Where do these commands come from?**
+
+When you run a command in Sublime Text, you can inspect the console log to discover the command and arguments needed to map it.
+
+1. Console Logging: View console logging by navigating to `Menu → View → Show Console`.
+
+2. Command and Input Logging: Enable command and input logging by running the following commands in the console:
+
+   ```
+   sublime.log_commands(True)
+   sublime.log_input(True)
+   ```
+
+For example, let's say you want to map "Goto Symbol" command above. Run the command, e.g., "Menu → Goto → Goto Symbol" command and Sublime Text will print the following in the console:
+
+```
+command: show_overlay {"overlay": "goto", "text": "@"}
+```
 
 ### Key Mapping Command Arguments
 
