@@ -3,7 +3,7 @@ tags: vim sublime-text neovintageous
 title: NeoVintageous 1.5.0
 redirect_from:
   - /2018/02/21/neovintageous-1.5.0-released/
-last_modified_at: 2023-06-29T22:36:26+01:00
+last_modified_at: 2024-02-08T10:07:11+00:00
 ---
 
 NeoVintageous 1.5.0 has been released and includes support for super-keys, command-line search history, command-line editing commands, and a toggle side bar command.
@@ -54,7 +54,7 @@ Also, a popular request, `CTRL-C` and `CTRL-[` now exit Command-line mode.
 
 ## Toggle Side Bar
 
-**The NeoVintageous toggle sidebar feature has been updated, see [Toggle SideBar enhancements](/2023/05/14/neovintageous-toggle-sidebar/) for more details.**
+**The NeoVintageous toggle sidebar feature has been updated, see [Toggle SideBar enhancements](/2023/05/15/neovintageous-toggle-sidebar/) for more details.**
 
 A toggle side bar command is now provided out-of-the-box. When you want to use a toggle side bar mapping it's recommended to use this command, because it will receive fixes and functionality tuned specially for Neovintageous.
 

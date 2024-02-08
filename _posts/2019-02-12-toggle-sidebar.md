@@ -1,10 +1,10 @@
 ---
 tags: vim sublime-text neovintageous
 title: Toggle Side Bar
-last_modified_at: 2023-08-08T23:28:12+01:00
+last_modified_at: 2024-02-08T10:06:54+00:00
 ---
 
-**The NeoVintageous toggle sidebar feature has been updated, see [](/2023/05/14/neovintageous-toggle-sidebar/) for more details.**
+**The NeoVintageous toggle sidebar feature has been updated, see [NeoVintageous Toggle SideBar](/2023/05/15/neovintageous-toggle-sidebar/) for more details.**
 
 I'm going to show you how to create a sidebar toggle mapping in NeoVintagous.
 
