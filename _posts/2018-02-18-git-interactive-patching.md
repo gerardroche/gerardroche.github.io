@@ -1,6 +1,6 @@
 ---
 tags: git
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2024-02-08T08:34:22+00:00
 ---
 
 The `git add --patch` command *interactively* add hunks to the index. It effectively runs `git add --interactive`, but bypasses the initial command menu and directly jumps to the patch subcommand.
@@ -15,7 +15,7 @@ The patch prompt can be intimidating, but everything is easy when you know how.
 
 When you run `git add --patch` (`git add -p` for short), you get prompted with the first hunk (if any), and git waits for response to a question:
 
-```terminal
+```sh
 $ Stage this hunk [y,n,q,a,d,/,s,e,?]?
 ```
 
@@ -23,7 +23,7 @@ Do you want to add this hunk to the index? Our options are the comma-delimited l
 
 What do they mean? You can press `?` (which is one of the options) for help. Git will display something like this:
 
-```terminal
+```sh
 $ Stage this hunk [y,n,q,a,d,/,s,e,?]?
 y - stage this hunk
 n - do not stage this hunk
@@ -49,13 +49,13 @@ To test the command out, use a test git repository. Trying out a new command on 
 
 By default, `--patch` commands wait for you to press `Enter` at each prompt i.e. after you've answered the question: `Stage this hunk [y,n,q,a,d,/,s,e,?]?`. To skip the need to press enter, enable [`interactive.singlekey`](https://git-scm.com/docs/git-config#git-config-interactivesingleKey):
 
-```terminal
+```sh
 $ git config --global interactive.singlekey true
 ```
 
 [On Ubuntu](https://superuser.com/a/817688) you'll need to install `libterm-readkey-perl`:
 
-```terminal
+```sh
 $ sudo apt-get install libterm-readkey-perl
 ```
 

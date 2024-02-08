@@ -1,7 +1,7 @@
 ---
 tags: git
 title: Bash Prompt Snobbery
-last_modified_at: 2023-06-16T10:59:00+01:00
+last_modified_at: 2024-02-08T08:34:22+00:00
 ---
 
 It's useful to customise your command-line prompt to show information about the current directory's Git repository. This can be as simple or complex as you want, but there are generally a few key pieces of information that most people want, like the current branch and the status of the working directory. Let's take a look at how to get started.
@@ -44,13 +44,13 @@ The primary prompt is the main variable we're interested in because it controls 
 
 To change PS1 to the current working directory (`\w`) followed by a dollar symbol:
 
-```terminal
+```sh
 $ PS1='\w \$ '
 ```
 
 Newlines can used to create multi-line prompts:
 
-```terminal
+```sh
 $ PS1='\w\n\$ '
 ```
 
@@ -62,7 +62,7 @@ If-else statements can be used. A good example is to indicate the exit status of
 
 The following prints "ERROR" when a recently executed command fails:
 
-```terminal
+```sh
 $ PS1='\w $(if test $? = 0;then echo "\$";else echo "ERROR \$";fi) '
 ```
 
@@ -70,7 +70,7 @@ Instead of printing "ERROR" let's use color codes to show a prompt in red.
 
 Color codes are surrounded with [escape sequences](https://unix.stackexchange.com/questions/124407/what-color-codes-can-i-use-in-my-ps1-prompt/124409#124409) (`\[` / `\]`). Using `\[` and `\]` around color codes is necessary to prevent issues with command line editing, browsing, and completion.
 
-```terminal
+```sh
 $ PS1='\w $(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) '
 ```
 
@@ -81,14 +81,14 @@ $ PS1='\w $(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) 
 
 Git provides a shell function out-of-the-box for generating repository status. It's a plain ol' shell function, and available when you install Git. For example, cd into a git controlled project and run:
 
-```terminal
+```sh
 $ echo "$(__git_ps1)"
  (master)
 ```
 
 The `__git_ps1` function accepts one argument. The argument is the format string. When no arguments are given the format string defaults to `(%s)`. Git will automatically replace `%s` with the repository status information:
 
-```terminal
+```sh
 $ echo "$(__git_ps1)"
  (master)
 $ echo "$(__git_ps1 "x %s y")"
@@ -97,7 +97,7 @@ x master y
 
 The function can be used directly as command-substitution in `PS1`:
 
-```terminal
+```sh
 $ PS1='\u@\h:\w$(__git_ps1) \$ '
 ```
 
@@ -107,7 +107,7 @@ $ PS1='\u@\h:\w$(__git_ps1) \$ '
 
 For a slightly faster prompt use the `PROMPT_COMMAND` variable. When the git prompt function is used with `PROMPT_COMMAND`, it accepts *three* arguments: pre, post, and format. The format defaults to `(%s)`:
 
-```terminal
+```sh
 $ PROMPT_COMMAND="__git_ps1 'x' ' y '"
 x (master) y
 $ PROMPT_COMMAND="__git_ps1 'x' ' y ' ' a %s b'"
@@ -116,7 +116,7 @@ x a (master) b y
 
 And you can use if-else statements and color codes:
 
-```terminal
+```sh
 $ PROMPT_COMMAND='__git_ps1 "\u@\h:\w" " $(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) "'
 ```
 

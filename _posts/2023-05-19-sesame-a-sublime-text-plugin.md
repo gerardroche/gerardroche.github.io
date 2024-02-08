@@ -3,7 +3,7 @@ tags: sublime-text
 title: Sesame - A Sublime Text plugin
 redirect_from:
     - /2023/05/19/neovintageous-open-sesame/
-last_modified_at: 2023-06-16T03:46:00+01:00
+last_modified_at: 2024-02-08T08:34:22+00:00
 ---
 
 ![Ali Baba overhearing one of the thieves saying "Open Sesame"](/assets/2023-05-19-open-sesame.webp)
@@ -39,7 +39,7 @@ Menu → Preferences → Key Bindings
 
 The default depth is 2, which means Sesame will look for projects two levels deep. For example, consider the following structure:
 
-```terminal
+```sh
 $ cd ~/projects && tree -L 2
 .
 ├── laravel

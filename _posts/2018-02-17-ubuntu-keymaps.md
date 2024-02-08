@@ -1,6 +1,6 @@
 ---
 tags: ubuntu
-last_modified_at: 2023-06-16T09:18:00+01:00
+last_modified_at: 2024-02-08T08:34:22+00:00
 ---
 
 There are several ways to configure keymaps in Ubuntu. You can use the out-of-the-box GUI, you can install `dconf-editor` (`sudo apt-get install dconf-tools`) to be able to view and edit them, or use the `gsettings` command line tool. The `gsettings` command opens up the possibility of keeping your keymaps under source control via custom shell scripts.
@@ -11,20 +11,20 @@ There are several ways to configure keymaps in Ubuntu. You can use the out-of-th
 
 List keymaps.
 
-```terminal
+```sh
 $ gsettings list-recursively | grep toggle-fullscreen
 org.gnome.desktop.wm.keybindings toggle-fullscreen @as []
 ```
 
 Let's use `<Super>u` to toggle full screen.
 
-```terminal
+```sh
 $ gsettings set org.gnome.desktop.wm.keybindings  toggle-fullscreen "['<Super>u']"
 ```
 
 The value is generally expected to be an array, which means we can bind multiple keymaps to the same command. The benefits of this is that you may want to add a keymap to a command and keep the defaults too.
 
-```terminal
+```sh
 $ gsettings list-recursively | grep unmaximize
 org.gnome.desktop.wm.keybindings unmaximize ['<Super>Down', '<Alt>F5']
 $ gsettings set org.gnome.desktop.wm.keybindings unmaximize "['<Super>Down', '<Alt>F5', '<Super>j']"
@@ -34,13 +34,13 @@ org.gnome.desktop.wm.keybindings unmaximize ['<Super>Down', '<Alt>F5', '<Super>j
 
 Sometimes a keymap that you want to use is bound to another command. You'll need to clear the old keymap for the new keymap to work e.g. suppose we want to map `<Super>`, but it's currently mapped to toggle an active notification, then we need to clear it before setting out new keymap.
 
-```terminal
+```sh
 gsettings set org.gnome.shell.keybindings focus-active-notification "[]"
 ```
 
 You can do interesting things like mapping the `Capslock` to `Esc` (if you like that sort of thing).
 
-```terminal
+```sh
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
 ```
 
@@ -48,7 +48,7 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
 
 Keeping your keymaps reusable across systems can be as straight forward as a shell script, perhaps [keep it under source control alongside your dotfiles](https://github.com/gerardroche/dotfiles/blob/master/src/bin/configure-ubuntu-keybindings). Here's an sample of some keymaps I use in a reusable script.
 
-```terminal
+```sh
 #!/bin/sh
 set -e
 echo -n "configuring keybindings... "

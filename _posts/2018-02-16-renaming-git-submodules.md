@@ -1,11 +1,11 @@
 ---
 tags: git
-last_modified_at: 2023-06-16T09:31:00+01:00
+last_modified_at: 2024-02-08T08:34:22+00:00
 ---
 
 Renaming a Git submodules since Git 1.8.5 is one command:
 
-```terminal
+```
 $ git mv <source> <destination>
 ```
 
@@ -13,7 +13,7 @@ That's all there is to it!
 
 Note: Git 2.9 [fixed an issue](https://stackoverflow.com/a/18712756) renaming *nested* submodules.
 
-```terminal
+```sh
 $ git --version
 git version 2.14.1
 $ lsb_release -ds
@@ -22,7 +22,7 @@ Ubuntu 17.10
 
 ## Example
 
-```terminal
+```sh
 $ git mv submodule_a submodule_b
 $ git status
 On branch master
