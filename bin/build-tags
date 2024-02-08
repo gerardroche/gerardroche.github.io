@@ -1,0 +1,62 @@
+#!/bin/sh
+#
+# Copyright (C) 2023 Gerard Roche
+#
+# This file is part of This program.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with This program.  If not, see <https://www.gnu.org/licenses/>.
+
+set -e
+unset CDPATH
+unset IFS
+
+TAGS=""
+
+for post in src/*/*/*/*/index.md; do
+    test -f "$post" || continue
+
+    tags="$(grep "tags: " "$post" | sed 's/^tags: //')"
+    for tag in $tags; do
+        TAGS="$TAGS\n$tag"
+    done
+
+    TAGS="$(echo "$TAGS" | sort -u)"
+done
+
+create_tag_file() {
+    tag="$1"
+    file="$2"
+    echo "Create tags file: $file"
+    cat << EOF > "$file"
+---
+sidebar: false
+prev: false
+next: false
+editLink: false
+lastUpdated: $(date +%Y-%m-%dT%H:%M:%S%:z)
+---
+
+# Posts tagged "$tag"
+
+<PostArchive tag="$tag" />
+EOF
+}
+
+# TODO when a new tag file created update the last updated field
+for tag in $TAGS; do
+    mkdir -p "src/tags/$tag"
+    tag_file="src/tags/$tag/index.md"
+    test ! -f "$tag_file" || continue
+    create_tag_file "$tag" "$tag_file"
+done

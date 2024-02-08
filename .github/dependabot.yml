@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    versioning-strategy: increase
+    target-branch: "master"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "gerardroche"
+    assignees:
+      - "gerardroche"
+  - package-ecosystem: "github-actions"
+    target-branch: "master"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "gerardroche"
+    assignees:
+      - "gerardroche"

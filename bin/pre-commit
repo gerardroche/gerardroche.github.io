@@ -24,66 +24,53 @@ unset CDPATH
 IFS='
 '
 
-readonly VERBOSE=
-
 verbose() {
     if test -n "$VERBOSE"; then
         echo "$*"
     fi
 }
 
-update_last_modified_at() {
-    verbose "  Updating last_modified_at"
-    sed -i 's/^\(last_modified_at\:\).*$/\1 '"$(date +%Y-%m-%dT%H:%M:%S%:z)"'/g' "$1"
+update_last_updated_field() {
+    verbose "  Update last updated field: $1"
+    is_dirty="$(git diff --name-only --diff-filter=ACMRTUXB "$1")"
+    sed -i 's/^\(lastUpdated\:\) [0-9].*$/\1 '"$(date +%Y-%m-%dT%H:%M:%S%:z)"'/g' "$1"
+    if test -n "$is_dirty"; then
+        echo "File is dirty, add the last updated change to continue."
+        git add -p "$1"
+    else
+        git add "$1"
+    fi
+}
+
+# Only update the tag archive last updated field for change types:
+# - added
+# - deleted
+# - renamed
+update_tags_for_file() {
+    should_update_tags="$(git diff --name-only  --diff-filter=ADR --cached  "$1")"
+    if test -n "$should_update_tags"; then
+        tags="$(grep "tags: " "$1" | sed 's/^tags: //;s/ /\n/g')"
+        for tag in $tags; do
+            update_last_updated_field "src/tags/$tag/index.md"
+        done
+    fi
 }
 
 update_changed_file() {
-    file="$1"
-    verbose "  Updating changed file $file"
-
-    # The is dirty check is intentionally done before the file is updated.
-    is_dirty="$(git diff --name-only --diff-filter=ACMRTUXB "$file")"
-
-    update_last_modified_at "$file"
-
-    # Add the updated last modified at change to staging area.
-    if test -n "$is_dirty"; then
-        echo "file is dirty, add the last_modified_at change to continue."
-        git add -p "$file"
-    else
-        git add "$file"
-    fi
+    update_last_updated_field "$1"
+    update_tags_for_file "$1"
 }
 
-process_changed_file() {
-    file="$1"
-    verbose "Processing changed file $file"
-
-    update_changed_file "$file"
-
-    # Only update the tag archives for change types like added, deleted, renamed.
-    should_update_tag_archive="$(git diff --name-only  --diff-filter=ADR --cached  "$file")"
-    if test -n "$should_update_tag_archive"; then
-        tags="$(grep "tags: " "$file" | sed 's/^tags: //;s/ /\n/g')"
-        for tag in $tags; do
-            verbose "    Updating $tag tag archive"
-            update_changed_file "_archive-tags/$tag.html"
-        done
-    fi
-
-}
-
-run_last_modified_at_updater() {
+update_changed_files() {
     changed_files=$(git diff --staged --name-only --diff-filter=ACMRTUXB)
     for changed_file in $changed_files; do
         case "$changed_file" in
-            *.md|*.html)
-                process_changed_file "$changed_file"
-                ;;
+            *.md) update_changed_file "$changed_file" ;;
         esac
     done
 }
 
-bin/gentags
-run_last_modified_at_updater
+VERBOSE=1
 
+bin/build-tags
+update_changed_files

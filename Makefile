@@ -1,17 +1,28 @@
-all: genassets gentags
-	git add .
-	git status
+all: build
 
-genassets:
-	rm -r assets/*
-	imagemin _assets/* -o assets/
-	imagemin _assets/*.jpg --plugin.webp.quality=95 -o assets/
-	imagemin _assets/*.png --plugin.webp.quality=95 -o assets/
-	rm assets/*.jpg
-	rm assets/*.png
-	svgo --config svgo.config.js -rf _assets -o assets
-	cp assets/zap.svg _includes/zap-svg.html
-	cp assets/avatar.svg _includes/avatar-svg.html
+clean:
+	rm -rf .vitepress/cache
+	rm -rf .vitepress/dist
 
-gentags:
-	bin/gentags
+build: build-assets build-tags
+	npm run docs:build
+
+build-assets:
+	imagemin assets/* \
+		--plugin.webp.quality=75 \
+		--plugin.webp.method=6 \
+		-o src/assets/images
+	svgo --config svgo.config.cjs -rf src/assets/images -o src/assets/images
+
+build-tags:
+	bin/build-tags
+
+rebuild-tags:
+	rm -r src/tags/*/index.md
+	bin/build-tags
+
+lint:
+	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/
+
+cs-fix:
+	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/ --fix
