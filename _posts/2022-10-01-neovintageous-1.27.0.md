@@ -1,7 +1,7 @@
 ---
 tags: vim sublime-text neovintageous
 title: NeoVintageous 1.27.0
-last_modified_at: 2023-08-08T23:28:12+01:00
+last_modified_at: 2024-02-08T08:34:33+00:00
 ---
 
 NeoVintageous 1.27.0 has been released.  The highlights are surround function, surround tag, surround `S{char}` now works in visual line mode, `%` improvements, and jumps like `*`, `#` now accept a count.
@@ -28,37 +28,37 @@ A `t` is a pair of HTML or XML tags.
 
 Old text | Command | New text ~
 -------- | ------- | ----------
-`<div>he|llo</div>` | `cit` | `<div>|</div>` (insert mode)
-`<div>he|llo</div>` | `cat` | `|` (insert mode)
-`<div>he|llo</div>` | `dit` | `<div>|</div>` (normal mode)
-`<div>he|llo</div>` | `dit` | `|` (normal mode)
-`<div>he|llo</div>` | `yit` | `<div>|hello</div>` (inner content yanked)
-`<div>he|llo</div>` | `yat` | `<div>|hello</div>` (outer content yanked)
+`<div>he\|llo</div>` | `cit` | `<div>\|</div>` (insert mode)
+`<div>he\|llo</div>` | `cat` | `\|` (insert mode)
+`<div>he\|llo</div>` | `dit` | `<div>\|</div>` (normal mode)
+`<div>he\|llo</div>` | `dit` | `\|` (normal mode)
+`<div>he\|llo</div>` | `yit` | `<div>\|hello</div>` (inner content yanked)
+`<div>he\|llo</div>` | `yat` | `<div>\|hello</div>` (outer content yanked)
 
 In surround, if `t` or `<` is used, NeoVintageous waits for an HTML/XML tag to insert.
 
 Old text | Command | New text ~
 -------- | ------- | ----------
-`<div>he|llo</div>` | `cst<li>` | `|<li>hello</li>`
-`<div>he|llo</div>` | `csttli>` | `|<li>hello</li>`
-`'he|llo'` | `cs'<div>` | `|<div>hello</div>`
-`he|llo` | `ysiw<div>` | `|<div>hello</div>`
-`<div>he|llo</div>` | `dst` | `|hello`
+`<div>he\|llo</div>` | `cst<li>` | `\|<li>hello</li>`
+`<div>he\|llo</div>` | `csttli>` | `\|<li>hello</li>`
+`'he\|llo'` | `cs'<div>` | `\|<div>hello</div>`
+`he\|llo` | `ysiw<div>` | `\|<div>hello</div>`
+`<div>he\|llo</div>` | `dst` | `\|hello`
 
 You may specify attributes here and they will be stripped from the closing tag. If replacing a tag, its attributes are kept in the new tag. End your input with `>` to discard the those attributes.
 
 Old text | Command | New text ~
 -------- | ------- | ----------
-`<div class="x">he|llo</div>` | `cst<li<CR>` | `|<li class="x">hello</li>`
-`<div class="x">he|llo</div>` | `cst<li>` | `|<li>hello</li>`
+`<div class="x">he\|llo</div>` | `cst<li<CR>` | `\|<li class="x">hello</li>`
+`<div class="x">he\|llo</div>` | `cst<li>` | `\|<li>hello</li>`
 
 If `<C-T>` is used, the tags will appear on lines by themselves.
 
 Old text | Command | New text ~
 -------- | ------- | ----------
-`<div>he|llo</div>` | `cst<C-t>li>` | `|<li>\nhello\n</li>`
-`<div class="x">he|llo</div>` | `cst<C-t>li>` | `|<li>\nhello\n</li>`
-`<div class="x">he|llo</div>` | `cst<C-t>li<CR>` | `|<li class="x">\nhello\n</li>`
+`<div>he\|llo</div>` | `cst<C-t>li>` | `|<li>\nhello\n</li>`
+`<div class="x">he\|llo</div>` | `cst<C-t>li>` | `\|<li>\nhello\n</li>`
+`<div class="x">he\|llo</div>` | `cst<C-t>li<CR>` | `\|<li class="x">\nhello\n</li>`
 
 ### Vim next item jump command improvements
 
@@ -66,8 +66,8 @@ Finding the next item in this line after or under the cursor and jump to its mat
 
 Old text | Command | New text ~
 -------- | ------- | ----------
-`<d|iv>hello</div>` | `%` | `<div>hello<|/div>`
-`<div>hello<|/div>` | `%` | `<|div>hello</div>`
+`<d\|iv>hello</div>` | `%` | `<div>hello<\|/div>`
+`<div>hello<\|/div>` | `%` | `<\|div>hello</div>`
 
 ## Further reading
 
