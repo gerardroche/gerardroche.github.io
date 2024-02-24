@@ -26,3 +26,7 @@ lint:
 
 cs-fix:
 	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/ --fix
+
+install-pre-commit:
+	cp bin/pre-commit .git/hooks/
+	git config core.hooksPath .git/hooks
