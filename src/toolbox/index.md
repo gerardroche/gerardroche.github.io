@@ -131,7 +131,3 @@ My configuration files for bash, vim, git, etc.
 ### [Liferea Feed Reader](https://github.com/lwindolf/liferea)
 
 Yes, I still use a feed reader. I'm just an old chunk of coal.
-
-## Music gear
-
-Check back for this or <a href="/feed.xml">Subscribe to the feed</a> and be notified of new posts.
