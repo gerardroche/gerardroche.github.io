@@ -38,7 +38,10 @@ export default defineConfig({
 
   themeConfig: {
 
-    logo: '/avatar.svg',
+    logo: {
+      src: '/avatar.svg',
+      alt: 'Avatar (pattern from the carpet in The Shinning (1980) movie).'
+    },
 
     lastUpdated: true,
 
