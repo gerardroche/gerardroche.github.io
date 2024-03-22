@@ -38,26 +38,6 @@ export default defineConfig({
 
   themeConfig: {
 
-    logo: {
-      src: '/avatar.svg',
-      alt: 'Avatar (pattern from the carpet in The Shinning (1980) movie).'
-    },
-
-    lastUpdated: true,
-
-    editLink: {
-      pattern: 'https://github.com/gerardroche/gerardroche.github.io/edit/master/src/:path',
-    },
-
-    socialLinks: [
-      { icon: 'x', link: 'https://x.com/gerardroche_' },
-      { icon: 'github', link: 'https://github.com/gerardroche' },
-    ],
-
-    search: {
-      provider: 'local',
-    },
-
     nav: [
       { text: 'Writing', link: '/writing/' },
       { text: 'Projects', link: '/projects/' },
@@ -66,7 +46,6 @@ export default defineConfig({
     ],
 
     sidebar: {
-
       '/projects/': [
         {
           text: 'Projects',
@@ -83,7 +62,6 @@ export default defineConfig({
           ],
         },
       ],
-
       '/20': [
         {
           text: 'Writing',
@@ -158,7 +136,26 @@ export default defineConfig({
           ],
         },
       ],
+    },
 
+    logo: {
+      src: '/avatar.svg',
+      alt: 'Avatar (pattern from the carpet in The Shinning (1980) movie).'
+    },
+
+    lastUpdated: true,
+
+    editLink: {
+      pattern: 'https://github.com/gerardroche/gerardroche.github.io/edit/master/src/:path',
+    },
+
+    socialLinks: [
+      { icon: 'x', link: 'https://x.com/gerardroche_' },
+      { icon: 'github', link: 'https://github.com/gerardroche' },
+    ],
+
+    search: {
+      provider: 'local',
     },
   },
 })
