@@ -15,7 +15,7 @@ Some of my favourite books and recommended reading.
 - [One Flew Over the Cuckoo's Nest](https://amzn.to/3UQx68s) by Ken Kesey
 - [Sentimental Education](https://amzn.to/3wzGl2K) by Gustave Flaubert
 - [Space Prison](https://amzn.to/49q8msm) ([audiobook](https://www.youtube.com/watch?v=qPjAniEcb6s)) by Tom Godwin
-- [The Complete Robot](https://amzn.to/3T6NBfo) by Isaac Asimov
+- [The Complete Robot](https://amzn.to/3xhjBFn) by Isaac Asimov
 - [The Hitchhiker's Guide to the Galaxy](https://amzn.to/3wwI6y0) (Book 1 of 5) by Douglas Adams
 - [The Robot](https://amzn.to/4bKX17J) (3 book series) by Isaac Asimov
 - [The Trial](https://amzn.to/3SIlxxq) by Franz Kafka
