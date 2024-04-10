@@ -30,11 +30,24 @@ const filteredMovies = computed(() => {
     })
   }
 
-  return applyFilters(filtered)
+  return applyLimit(applyFilters(filtered))
 })
 
 function applyFilters(movies) {
   return filterSort(filterSearch(movies))
+}
+
+function applyLimit(movies) {
+  const searchValue = search.value.toLowerCase().trim()
+  if (searchValue.includes(':')) {
+    const [field, value] = searchValue.split(':')
+    const trimmedValue = value.trim()
+    switch (field) {
+      case 'limit':
+        return movies.splice(0, trimmedValue);
+    }
+  }
+  return movies
 }
 
 function filterSort(movies) {
@@ -134,7 +147,7 @@ function filterSearch(movies) {
             v-model="search"
             type="search"
             class="DocSearch DocSearch-Button pl-10"
-            placeholder="genre: sci-fi actor: john candy director: john hughes"
+            placeholder="genre: sci-fi actor: john candy director: john hughes limit: 10"
           >
         </div>
       </div>
@@ -149,7 +162,7 @@ function filterSearch(movies) {
       </div>
 
       <div class="text-sm font-medium text-slate-700 dark:text-slate-400">
-        {{ filteredMovies.length }} items. These are some of my favourite movie and tv show recommendations. You'll thank me later.
+        {{ filteredMovies.length }} items. These are some of my favourite movie and tv recommendations. The list is limited to 250 movies and 150 series (<a href="/movies/changelog/">changelog</a>). I think it makes it more interesting if the list is limited.
       </div>
     </div>
     <div class="mt-2 grid grid-cols-4 gap-6 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-6">
