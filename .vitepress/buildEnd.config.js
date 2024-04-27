@@ -14,7 +14,7 @@ export const buildEnd = async(config) => {
     favicon: 'https://blog.gerardroche.com/favicon.ico',
   })
 
-  const posts = await createContentLoader('src/*/*/*/*/index.md', {
+  const posts = await createContentLoader('../src/*/*/*/*/index.md', {
     render: true,
     transform(raw) {
       return transformPosts(raw)
