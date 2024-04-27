@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: sublime-text git vim neovintageous
 title: GitOpen - A Sublime Text plugin
 lastUpdated: 2023-06-16T03:46:00+01:00

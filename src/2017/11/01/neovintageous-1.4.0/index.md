@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.4.0
 redirect_from:

@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim git sh
 title: Vim - Add a file to the staging area
 lastUpdated: 2024-02-11T22:57:51+00:00

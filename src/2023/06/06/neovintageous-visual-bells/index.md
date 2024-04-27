@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Visual Bells
 lastUpdated: 2023-07-01T00:31:52+01:00

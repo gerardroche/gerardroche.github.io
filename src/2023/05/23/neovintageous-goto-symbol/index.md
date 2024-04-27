@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Goto Symbol
 lastUpdated: 2023-06-17T02:43:57+01:00

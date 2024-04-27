@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Errors
 lastUpdated: 2023-06-17T02:28:07+01:00

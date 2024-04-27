@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Misspelled Words
 lastUpdated: 2023-06-17T02:36:53+01:00

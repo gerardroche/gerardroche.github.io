@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.34.0
 lastUpdated: 2024-02-24T10:41:23+00:00

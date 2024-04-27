@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous key handler
 lastUpdated: 2023-10-01T01:25:41+01:00

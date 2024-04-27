@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: sublime-text
 title: Sesame - A Sublime Text plugin
 redirect_from:

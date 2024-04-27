@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: sublime-text vim neovintageous php git
 title: My Sublime Text setup
 lastUpdated: 2023-07-24T22:56:32+01:00

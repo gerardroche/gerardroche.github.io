@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Options
 lastUpdated: 2023-07-03T19:09:53+01:00

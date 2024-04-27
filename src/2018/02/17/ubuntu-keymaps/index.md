@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: ubuntu sh
 title: Ubuntu Keymaps
 lastUpdated: 2024-02-08T08:34:22+00:00

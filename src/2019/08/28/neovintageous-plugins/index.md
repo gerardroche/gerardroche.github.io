@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous Plugins
 lastUpdated: 2023-06-16T10:46:00+01:00

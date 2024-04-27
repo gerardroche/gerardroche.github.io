@@ -1,6 +1,7 @@
 ---
 post: true
 sidebar: false
+aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Revert Hunk
 lastUpdated: 2023-06-16T03:46:00+01:00
