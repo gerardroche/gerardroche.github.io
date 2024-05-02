@@ -7,7 +7,7 @@ import { ref, computed } from 'vue'
 const concluded = ref(false)
 const current = ref(false)
 const search = ref('')
-const sortBy = ref('Title-asc')
+const sortBy = ref('imdbRating-desc')
 const type = ref(null)
 
 const filteredMovies = computed(() => {
@@ -110,12 +110,6 @@ function filterSearch(movies) {
         <select v-model="sortBy" class="DocSearch DocSearch-Button w-auto">
           <option disabled>
             Sort by
-          </option>
-          <option value="Director-asc">
-            Director asc
-          </option>
-          <option value="Director desc">
-            Director desc
           </option>
           <option value="Title-asc">
             Title asc
