@@ -6,6 +6,10 @@ sidebar: false
 
 You'll thank me later.
 
+## PHP
+
+- [PHP-CS-Fixer pre-commit hook](https://github.com/gerardroche/php-cs-fixer-pre-commit-hook)
+
 ## Sublime Text
 
 - [Git Open Modified](https://github.com/gerardroche/sublime-git-open-modified)) ([GitHub](https://github.com/gerardroche/sublime-git-open-modified)) Open modified files.
@@ -43,7 +47,3 @@ You'll thank me later.
 - [Generate Syntax Test Assertions](https://github.com/gerardroche/sublime-generate-syntax-test-assertions) ([GitHub](https://github.com/gerardroche/sublime-generate-syntax-test-assertions)) <Badge type="info">Package Control</Badge> Generate syntax assertions.
 - [API Completions](https://github.com/gerardroche/sublime-api-completions) ([GitHub](https://github.com/gerardroche/sublime-api-completions)) <Badge type="info">Package Control</Badge> API Completions.
 - [Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode) ([GitHub](https://github.com/gerardroche/sublime-toggle-debug-mode)) <Badge type="info">Package Control</Badge> Toggle loggers.
-
-## PHP
-
-- [PHP-CS-Fixer pre-commit hook](https://github.com/gerardroche/php-cs-fixer-pre-commit-hook)
