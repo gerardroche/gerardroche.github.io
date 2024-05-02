@@ -4,7 +4,7 @@ sidebar: false
 aside: false
 tags: sublime-text vim neovintageous php git
 title: My Sublime Text setup
-lastUpdated: 2023-07-24T22:56:32+01:00
+lastUpdated: 2024-05-02T03:17:31+01:00
 ---
 
 # My Sublime Text setup
@@ -211,13 +211,13 @@ wbond/packagecontrol.io
 
 ## Linting
 
-I use [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter) for linting. Here are some of the linters I use:
+I use [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter) for linting. Here are some of the linters I use:
 
-- [SublimeLinter-eslint](https://packagecontrol.io/packages/SublimeLinter-eslint)
-- [SublimeLinter-flake8](https://packagecontrol.io/packages/SublimeLinter-flake8)
-- [SublimeLinter-mypy](https://packagecontrol.io/packages/SublimeLinter-mypy)
-- [SublimeLinter-php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer) (pull requests for [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16) and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15) support)
-- [SublimeLinter-php](https://packagecontrol.io/packages/SublimeLinter-php)
+- [Sublime Linter eslint](https://packagecontrol.io/packages/SublimeLinter-eslint)
+- [Sublime Linter flake8](https://packagecontrol.io/packages/SublimeLinter-flake8)
+- [Sublime Linter mypy](https://packagecontrol.io/packages/SublimeLinter-mypy)
+- [Sublime Linter php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer) (pull requests for [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16) and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15) support)
+- [Sublime Linter php](https://packagecontrol.io/packages/SublimeLinter-php)
 
 ::: info NOTE
 I'm currently using LSP instead.
@@ -254,11 +254,11 @@ The context selector exclusion is to allow support for Goto PHP Manual, see [bel
 
 ## Sidebar
 
-[SideBarTools](https://packagecontrol.io/packages/SideBarTools) adds useful tools to the sidebar.
+[Side Bar Tools](https://packagecontrol.io/packages/SideBarTools) adds useful tools to the sidebar.
 
 ## Markdown
 
-[MarkdownPreview](https://packagecontrol.io/packages/MarkdownPreview) opens rendered markdown files in your browser.
+[Markdown Preview](https://packagecontrol.io/packages/MarkdownPreview) opens rendered markdown files in your browser.
 
 ## Git
 
@@ -270,29 +270,29 @@ The context selector exclusion is to allow support for Goto PHP Manual, see [bel
 
 ## PHP
 
-- [GotoPhpManual](https://github.com/gerardroche/sublime-goto-php-manual) Open PHP documentation.
+- [Goto PHP Manual](https://github.com/gerardroche/sublime-goto-php-manual) Open PHP documentation.
 
-- [PHPCompletionsKit](https://github.com/gerardroche/sublime-phpck) PHP completions.
+- [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck) PHP completions.
 
-- [PHPGrammar](https://github.com/gerardroche/sublime-php-grammar) PHP macros.
+- [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar) PHP macros.
 
-- [PHPSnippets](https://github.com/gerardroche/sublime-php-snippets) PHP snippets.
+- [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets) PHP snippets.
 
-- [PHPUnitCompletions](https://github.com/gerardroche/sublime-phpunit-completions) PHPUnit completions.
+- [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions) PHPUnit completions.
 
-- [PHPUnitKit](https://github.com/gerardroche/sublime-phpunit) PHPUnit integration.
+- [PHPUnit Kit](https://github.com/gerardroche/sublime-phpunit) PHPUnit integration.
 
-- [LaravelTestingCompletions](https://github.com/gerardroche/sublime-laravel-testing-completions) Laravel testing completions.
+- [Laravel Testing Completions](https://github.com/gerardroche/sublime-laravel-testing-completions) Laravel testing completions.
 
 ## Windows
 
 - [Origami](https://packagecontrol.io/packages/Origami) - Window commands.
 
-- [GotoDefinitionSplit](https://github.com/gerardroche/sublime-goto-definition-split) - Split definition.
+- [Goto Definition Split](https://github.com/gerardroche/sublime-goto-definition-split) - Split definition.
 
 ## Syntaxes
 
-- [ApacheConf](https://packagecontrol.io/packages/ApacheConf)
+- [Apache Conf](https://packagecontrol.io/packages/ApacheConf)
 
 - [Sass](https://packagecontrol.io/packages/Sass)
 
@@ -410,18 +410,12 @@ Menu → Preferences → Settings
 
 ## Sublime Text Development
 
-- [AutomaticPackageReloader](https://packagecontrol.io/packages/AutomaticPackageReloader)
+- [Automatic Package Reloader](https://packagecontrol.io/packages/AutomaticPackageReloader)
 
-- [ColorSchemeUnit](https://packagecontrol.io/packages/ColorSchemeUnit)
+- [Color Scheme Unit](https://packagecontrol.io/packages/ColorSchemeUnit)
 
-- [GenerateSyntaxTestAssertions](https://packagecontrol.io/packages/GenerateSyntaxTestAssertions)
+- [Sublime Text API Completions](https://github.com/gerardroche/sublime-api-completions)
 
-- [SublimeTextAPICompletions](https://github.com/gerardroche/sublime-api-completions)
+- [Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode)
 
-- [ToggleDebugMode](https://github.com/gerardroche/sublime-toggle-debug-mode)
-
-- [UnitTesting](https://packagecontrol.io/packages/UnitTesting)
-
----
-
-Take it easy, my friends.
+- [Unit Testing](https://packagecontrol.io/packages/UnitTesting)
