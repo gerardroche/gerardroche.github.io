@@ -17,7 +17,7 @@ features:
     link: '/2023/06/12/my-sublime-text-setup/'
     details: "Everyone wants to know the secret sauce."
 
-  - title: "PHP-CS-Fixer Pre-Commit Hook "
+  - title: "PHP-CS-Fixer Pre-Commit Hook"
     link: '/2021/07/09/php-cs-fixer-pre-commit-hook/'
     details: "Automatically execute a code style check before commits to save time."
 
