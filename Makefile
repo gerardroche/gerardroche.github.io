@@ -22,10 +22,10 @@ rebuild-tags:
 	bin/build-tags
 
 lint:
-	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/
+	npx eslint --cache
 
 cs-fix:
-	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/ --fix
+	npx eslint --cache --fix
 
 install-pre-commit:
 	cp bin/pre-commit .git/hooks/
