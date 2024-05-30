@@ -4,7 +4,7 @@ clean:
 	rm -rf .vitepress/cache
 	rm -rf .vitepress/dist
 
-build: build-assets build-tags
+build: build-assets build-tags lint
 	npm run docs:build
 
 build-assets:
@@ -30,3 +30,7 @@ cs-fix:
 install-pre-commit:
 	cp bin/pre-commit .git/hooks/
 	git config core.hooksPath .git/hooks
+
+update:
+	npm update
+	ncu -u --target minor
