@@ -44,7 +44,7 @@ function applyLimit(movies) {
     const trimmedValue = value.trim()
     switch (field) {
       case 'limit':
-        return movies.splice(0, trimmedValue);
+        return movies.splice(0, trimmedValue)
     }
   }
   return movies

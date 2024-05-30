@@ -140,7 +140,7 @@ export default defineConfig({
 
     logo: {
       src: '/avatar.svg',
-      alt: 'Avatar (pattern from the carpet in The Shinning (1980) movie).'
+      alt: 'Avatar (pattern from the carpet in The Shinning (1980) movie).',
     },
 
     lastUpdated: true,
