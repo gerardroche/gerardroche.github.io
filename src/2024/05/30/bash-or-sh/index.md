@@ -10,7 +10,7 @@ lastUpdated: 2024-06-01T23:00:49+01:00
 
 # bash vs sh
 
-I prefer `!/bin/sh` over `!/bin/bash`. I begin almost every script with four lines:
+I prefer `!/bin/sh` over `!/bin/bash`. I begin almost every script with the same four lines.
 
 ```sh
 #!/bin/sh

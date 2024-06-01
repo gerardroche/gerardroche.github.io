@@ -9,44 +9,41 @@ const { frontmatter } = useData()
     <p>What are your questions? Ask me anything on <a href="https://x.com/gerardroche_">X</a> or <a href="https://github.com/gerardroche/gerardroche.github.io/discussions">GitHub</a>.</p>
     <p>Be notified of new posts. <a href="/feed.xml">Subscribe to the feed.</a></p>
 
-    <div v-if="frontmatter.tags" class="tags">
+    <!-- <div v-if="frontmatter.tags" class="tags">
       <span v-for="tag in frontmatter.tags.split(' ')" :key="tag" class="tag">
         <a :href="`/tags/${tag}/`">{{ tag }}</a>
       </span>
-    </div>
+    </div> -->
   </div>
 </template>
 
 <style scoped>
 .post-footer {
-  margin-top: -16px;
   border-top: 1px solid var(--vp-c-divider);
-  padding-top: 24px;
+  color: var(--vp-c-text-2);
+}
+
+.post-footer a {
+  color: var(--vp-c-text-2);
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin-bottom: 16px;
 }
 
 .tag {
-  background-color: #3451b211;
-  border-radius: 4px;
-  padding: 4px 8px;
-  margin: 4px 8px 4px 0px;
-  display: flex;
-  align-items: center;
+  margin-right: 8px;
 }
 
 .tag a {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
   text-decoration: none;
-  margin-right: 4px;
+  border-radius: 4px;
+  background-color: var(--vp-c-gray-soft);
   font-weight: normal;
-}
-
-.tag span {
-  color: #555;
-  font-size: 0.8em;
 }
 </style>

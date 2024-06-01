@@ -40,14 +40,14 @@ const posts = computed(() => {
 
 <template>
   <section class="posts">
-    <article class="post" v-for="post in posts" :key="post.url">
+    <article v-for="post in posts" :key="post.url" class="post">
       <header>
         <time :datetime="formatDatetime(post.frontmatter.date)">
           {{ formatDate(post.frontmatter.date) }}
         </time>
         <h2>{{ post.frontmatter.title }}</h2>
       </header>
-      <div class="excerpt" v-if="post.frontmatter.excerpt">
+      <div v-if="post.frontmatter.excerpt" class="excerpt">
         {{ post.frontmatter.excerpt }}
         <br>
       </div>
