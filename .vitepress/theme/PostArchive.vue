@@ -39,35 +39,79 @@ const posts = computed(() => {
 </script>
 
 <template>
-  <ul class="posts">
-    <li v-for="post in posts" :key="post.url">
-      <a :href="post.url">{{ post.frontmatter.title }}</a>
-      <time :datetime="formatDatetime(post.frontmatter.date)">
-        {{ formatDate(post.frontmatter.date) }}
-      </time>
-    </li>
-  </ul>
+  <section class="posts">
+    <article class="post" v-for="post in posts" :key="post.url">
+      <header>
+        <time :datetime="formatDatetime(post.frontmatter.date)">
+          {{ formatDate(post.frontmatter.date) }}
+        </time>
+        <h2>{{ post.frontmatter.title }}</h2>
+      </header>
+      <div class="excerpt" v-if="post.frontmatter.excerpt">
+        {{ post.frontmatter.excerpt }}
+        <br>
+      </div>
+      <div class="more">
+        <a :href="post.url">Read more</a>
+      </div>
+    </article>
+  </section>
 </template>
 
 <style scoped>
+
 .posts {
-  padding-left: 0;
+  margin: 0 auto;
 }
 
-.posts li {
-  list-style-type: none;
-  padding: 5px 0;
-  display: flex;
-  align-items: center;
+.post {
+  min-height: 10em;
+  padding: 2.5em;
+  padding-bottom: 0;
+  margin-bottom: 1.25em !important;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: .2em;
+  box-shadow: var(--vp-shadow-2);
+  position: relative;
+  overflow: hidden;
 }
 
-.posts li a {
-  flex: 1;
-/*  color: #333; text-decoration: none;*/
+.post header {
+  text-align: center;
 }
 
-.posts li time {
-  margin-left: 10px;
-  font-style: italic;
+.post header time {
+  font-size: 12px;
 }
+
+.post header h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+  border: none;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.post .excerpt {
+  font-size: 17px;
+}
+
+.post .more {
+  text-align: center;
+  margin: 1.5em;
+}
+
+.post .more a {
+  margin: 0;
+  padding: .3em 2em;
+  border-radius: 3rem;
+  border: 1px solid var(--vp-c-divider);
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 </style>

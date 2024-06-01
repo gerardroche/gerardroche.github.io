@@ -10,7 +10,9 @@ lastUpdated: false
 
 Hello, my name is Gerard. I'm a software developer.
 
-You can find me on <a href="https://x.com/gerardroche_">X</a> and on <a href="https://github.com/gerardroche">GitHub</a>. Check out my [developer toolbox](/toolbox/) and my [Sublime Text packages](/projects/). You'll thank me later.
+Check out my [developer toolbox](/toolbox/) and my [Sublime Text packages](/projects/). You'll thank me later.
+
+You can find me on <a href="https://x.com/gerardroche_">X</a> and <a href="https://github.com/gerardroche/gerardroche.github.io/discussions">GitHub</a>.
 
 <br> <br> <br> <br> <br>
 <br> <br> <br> <br> <br>
