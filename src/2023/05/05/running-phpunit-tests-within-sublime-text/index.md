@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: sublime-text phpunit php
 title: Running PHPUnit tests within Sublime Text
-lastUpdated: 2023-06-16T03:46:00+01:00
+lastUpdated: false
 ---
 
 # Running PHPUnit tests within Sublime Text

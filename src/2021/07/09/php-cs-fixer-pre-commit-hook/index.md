@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: php
 title: PHP-CS-Fixer Pre-Commit Hook
-lastUpdated: 2023-06-16T03:46:00+01:00
+lastUpdated: false
 ---
 
 # PHP-CS-Fixer Pre-Commit Hook

@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: sublime-text vim neovintageous php git
 title: My Sublime Text setup
-lastUpdated: 2024-05-02T03:17:31+01:00
+lastUpdated: false
 ---
 
 # My Sublime Text setup

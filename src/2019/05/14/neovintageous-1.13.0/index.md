@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.13.0
-lastUpdated: 2023-06-16T10:33:00+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous 1.13.0

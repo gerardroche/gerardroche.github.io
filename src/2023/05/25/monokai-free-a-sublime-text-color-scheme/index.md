@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
-lastUpdated: 2023-07-13T08:33:13+01:00
+lastUpdated: false
 ---
 
 # MonokaiFree - A Sublime Text color scheme

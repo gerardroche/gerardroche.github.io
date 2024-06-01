@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous git
 title: NeoVintageous - Jumping to Conflicts
-lastUpdated: 2023-06-16T03:46:00+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous - Jumping to Conflicts

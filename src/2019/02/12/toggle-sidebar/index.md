@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: Toggle Side Bar
-lastUpdated: 2024-02-08T10:06:54+00:00
+lastUpdated: false
 ---
 
 # Toggle Side Bar

@@ -1,11 +1,14 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.35.0
 excerpt: "Introducing NeoVintageous 1.35.0! The highlight of this release is a brand new documentation website powered by the static site generator VitePress."
-lastUpdated: 2024-06-01T23:00:49+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous 1.35.0

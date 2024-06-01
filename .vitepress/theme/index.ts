@@ -10,7 +10,7 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'doc-footer-before': () => h(PostFooter),
+      'doc-after': () => h(PostFooter),
     })
   },
   enhanceApp({ app, router, siteData }) {

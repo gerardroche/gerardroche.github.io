@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous git
 title: NeoVintageous - Jumping to Diffs
-lastUpdated: 2023-06-17T02:36:47+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous - Jumping to Diffs

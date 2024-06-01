@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Toggle Zoom
-lastUpdated: 2023-06-16T10:58:00+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous - Toggle Zoom

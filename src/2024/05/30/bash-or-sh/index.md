@@ -1,11 +1,14 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: sh
 title: bash or sh
 excerpt: "I prefer sh over bash. I begin almost every script with the same four lines."
-lastUpdated: 2024-06-01T23:00:49+01:00
+lastUpdated: false
 ---
 
 # bash vs sh

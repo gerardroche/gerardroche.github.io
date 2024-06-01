@@ -1,12 +1,15 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: sublime-text
 title: Sesame - A Sublime Text plugin
 redirect_from:
     - /2023/05/19/neovintageous-open-sesame/
-lastUpdated: 2024-02-08T08:34:22+00:00
+lastUpdated: false
 ---
 
 # Sesame - A Sublime Text plugin

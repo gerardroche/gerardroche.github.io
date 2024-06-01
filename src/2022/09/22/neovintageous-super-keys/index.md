@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous Super keys
-lastUpdated: 2023-08-16T01:37:22+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous Super keys

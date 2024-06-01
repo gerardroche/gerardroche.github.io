@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: ubuntu sh
 title: Remapping CapsLock to Escape
-lastUpdated: 2023-06-16T03:46:00+01:00
+lastUpdated: false
 ---
 
 # Remapping CapsLock to Escape

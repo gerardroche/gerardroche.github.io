@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: The Neovintageous vimrc file
-lastUpdated: 2023-10-03T00:47:46+01:00
+lastUpdated: false
 ---
 
 # The Neovintageous vimrc file

@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous search
 title: The curious case of Vim search
-lastUpdated: 2023-06-16T10:52:00+01:00
+lastUpdated: false
 ---
 
 # The curious case of Vim search

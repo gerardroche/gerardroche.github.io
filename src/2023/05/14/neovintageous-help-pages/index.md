@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: The NeoVintageous help pages
-lastUpdated: 2023-07-01T21:18:08+01:00
+lastUpdated: false
 ---
 
 # The NeoVintageous help pages

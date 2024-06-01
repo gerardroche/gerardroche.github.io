@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Reveal in Side Bar
-lastUpdated: 2023-07-13T04:23:12+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous - Reveal in Side Bar

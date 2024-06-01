@@ -1,10 +1,13 @@
 ---
 post: true
+prev: false
+next: false
+editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Mapping Sublime Text commands
-lastUpdated: 2023-10-01T17:21:54+01:00
+lastUpdated: false
 ---
 
 # NeoVintageous - Mapping Sublime Text commands
