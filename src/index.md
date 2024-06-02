@@ -13,13 +13,13 @@ hero:
 
 features:
 
-  - title: "My Sublime Text setup"
-    link: '/2023/06/12/my-sublime-text-setup/'
-    details: "Everyone wants to know the secret sauce."
+  - title: "Framework is my next laptop"
+    link: '/2024/06/03/framework-is-my-next-laptop/'
+    details: "Framework is going to be my next laptop. I don't want to buy another laptop with Windows pre-installed. I don't use Windows. I don't see why I should have to pay for it."
 
-  - title: "PHP-CS-Fixer Pre-Commit Hook"
-    link: '/2021/07/09/php-cs-fixer-pre-commit-hook/'
-    details: "Automatically execute a code style check before commits to save time."
+  - title: "bash or sh"
+    link: '/2024/05/30/bash-or-sh/'
+    details: "I prefer sh over bash. I begin almost every script with the same four lines."
 
   - title: "NeoVintageous 1.33.0 is out!"
     link: '/2023/09/28/neovintageous-1.33.0/'

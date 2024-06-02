@@ -3,4 +3,3 @@ User-agent: *
 Disallow: /books/
 Disallow: /movies/
 Disallow: /music/
-Disallow: /tags/

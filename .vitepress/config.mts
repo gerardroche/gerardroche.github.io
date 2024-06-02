@@ -136,6 +136,7 @@ export default defineConfig({
       //       { link: '/2023/12/03/neovintageous-1.34.0/',  text: 'NeoVintageous 1.34.0' },
       //       { link: '/2024/02/22/neovintageous-1.35.0/',  text: 'NeoVintageous 1.35.0' },
       //       { link: '/2024/05/30/bash-or-sh/',  text: 'bash or sh' },
+      //       { link: '/2024/06/03/framework-is-my-next-laptop/',  text: 'Framework is my next laptop' },
       //     ],
       //   },
       // ],
