@@ -104,30 +104,42 @@ I use this drive for media. I have a few external drives for backups.
 
 I've been happy with [Gnome](https://www.gnome.org/) and [Ubuntu](https://ubuntu.com/desktop) for many years. I like Studio because it comes packed with lots of useful [audio](https://ubuntustudio.org/tour/audio/), [graphics](https://ubuntustudio.org/tour/graphics/), [photography](https://ubuntustudio.org/tour/photography/), and [video](https://ubuntustudio.org/tour/video/) software, including [OBS Studio](https://obsproject.com/), [GIMP](https://www.gimp.org/), and [Ardour](http://ardour.org/).
 
-### [Sublime Text](https://www.sublimetext.com/)
+### [Sublime Text](https://www.sublimetext.com/) - A programmer's editor.
 
-No other editor does it for me. My must have package is [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) (Vim Engine) and I'm not sure I could do without my [Sesame](https://github.com/gerardroche/sublime-sesame) and [PHPUnit](https://github.com/gerardroche/sublime-phpunit) packages.  I use [many packages](/projects/) including [LSP](https://github.com/sublimelsp/LSP) ([LSP-volar](https://github.com/sublimelsp/LSP-volar), [LSP-eslint](https://github.com/sublimelsp/LSP-eslint), [phpactor](https://github.com/phpactor/phpactor), [LSP-tailwindcss](https://github.com/sublimelsp/LSP-tailwindcss)), [Origami](https://github.com/SublimeText/Origami), and [A File Icon](https://github.com/SublimeText/AFileIcon).
+No other editor does it for me. See my [setup](/2023/06/12/my-sublime-text-setup/).
 
-### [Vim](https://www.vim.org/)
+### [Vim](https://www.vim.org/) - Vi IMproved, a programmer's text editor.
 
 I love Vim. Sublime Text is my primary editor, but I use Vim too.
 
-### [Tmux](https://github.com/tmux/tmux)
-
-All the time.
-
-### [Kitty](https://sw.kovidgoyal.net/kitty/)
+### [Alacritty](https://alacritty.org/) - A cross-platform, OpenGL terminal emulator.
 
 Faster, nicer.
 
-### [Firefox](https://www.mozilla.org/firefox/)
+### [Kitty](https://sw.kovidgoyal.net/kitty/) - A cross-platform, GPU based terminal emulator.
 
-I use the [uBlock Origin](https://github.com/gorhill/uBlock), a wide-spectrum content blocker. I also use Chromium.
+Faster, nicer.
 
-### [dotfiles](https://github.com/gerardroche/dotfiles)
+### [Tmux](https://github.com/tmux/tmux) - A terminal multiplexer.
 
-My configuration files for bash, vim, git, etc.
+All the time.
 
-### [Liferea Feed Reader](https://github.com/lwindolf/liferea)
+### [GitHub CLI](https://cli.github.com/) - A command-line interface to GitHub.
+
+Productivity up to 11.
+
+### [gitk](https://git-scm.com/docs/gitk) - The Git repository browser.
+
+No frills amazing tool.
+
+### [Brave](https://brave.com/) - The browser that puts you first.
+
+Switched to Brave early 2024. Love it. I only use [Firefox](https://www.mozilla.org/firefox/) + [uBlock Origin](https://github.com/gorhill/uBlock), a wide-spectrum content blocker, for development. I use Chromium for development too, but I may drop it because it's a Canonical Snap only now and Brave is Chromium based.
+
+### [Liferea](https://github.com/lwindolf/liferea) - A feed reader/news aggregator.
 
 Yes, I still use a feed reader. I'm just an old chunk of coal.
+
+### [Dotfiles](https://github.com/gerardroche/dotfiles)
+
+My setup and configurations for Ubuntu 24.04, bash, vim, git, and much more.
