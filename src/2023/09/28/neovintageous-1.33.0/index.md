@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.33.0
+excerpt: "Introducing NeoVintageous 1.33.0! While this release may seem somewhat understated, it brings many subtle enhancements, fixes, and an overall refinement of existing features."
 lastUpdated: false
 ---
 

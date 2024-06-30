@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: sh
 title: bash or sh
-excerpt: "I prefer sh over bash. I begin almost every script with the same four lines."
+excerpt: "I prefer `!/bin/sh` over `!/bin/bash`. I begin almost every script with the same four lines. Use a POSIX-compliant shell. Exit immediately if any command returns a non-zero status (indicating an error)."
 lastUpdated: false
 ---
 

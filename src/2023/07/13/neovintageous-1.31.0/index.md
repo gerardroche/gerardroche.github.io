@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.31.0
+excerpt: "NeoVintageous 1.31.0 has been released.  Highlights include new and improved window commands, marks, goto file commands, and an advanced reveal in side bar command."
 lastUpdated: false
 ---
 
