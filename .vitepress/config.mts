@@ -5,7 +5,7 @@ import markdownItFootnote from 'markdown-it-footnote'
 
 export default defineConfig({
   title: '@gerardroche',
-  description: 'Tips and opinions from a software developer.',
+  description: 'Software Developer. Posts about Tech, Movies, TV. I like Science Fiction, Technology, Movies, TV, Music. Maintainer of @neovintageous (Vim for Sublime Text).',
   lang: 'en',
   srcDir: 'src',
   srcExclude: ['reusables/**'],
@@ -144,7 +144,7 @@ export default defineConfig({
 
     logo: {
       src: '/avatar.svg',
-      alt: 'Avatar (pattern from the carpet in The Shinning (1980) movie).',
+      alt: 'Carpet pattern in The Shining (1980).',
     },
 
     lastUpdated: true,

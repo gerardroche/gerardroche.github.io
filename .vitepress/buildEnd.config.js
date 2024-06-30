@@ -6,8 +6,8 @@ import { writeFileSync } from 'fs'
 
 export const buildEnd = async(config) => {
   const feed = new Feed({
-    title: ':zap: KAPOW',
-    description: 'A blog about stuff.',
+    title: 'Gerard Roche',
+    description: 'Software Developer. Posts about Tech, Movies, TV. I like Science Fiction, Technology, Movies, TV, Music. Maintainer of @neovintageous (Vim for Sublime Text).',
     id: 'https://blog.gerardroche.com/feed.xml',
     link: 'https://blog.gerardroche.com/',
     language: 'en',
