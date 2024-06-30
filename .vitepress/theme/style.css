@@ -140,3 +140,9 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
+
+/* Make header logo and hero logo circular */
+img.VPImage.logo,
+.VPHome .VPHero img.VPImage.image-src {
+    border-radius: 50%;
+}

@@ -144,7 +144,7 @@ export default defineConfig({
 
     logo: {
       src: '/avatar.svg',
-      alt: 'Carpet pattern in The Shining (1980).',
+      alt: 'Avatar',
     },
 
     lastUpdated: true,

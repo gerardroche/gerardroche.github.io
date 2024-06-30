@@ -34,7 +34,7 @@ You'll thank me later.
 
 ### NeoVintageous (Vim Engine)
 
-- [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) ([GitHub](https://github.com/NeoVintageous/NeoVintageous)) <Badge type="info">Package Control</Badge> Vim engine.
+- [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) ([GitHub](https://github.com/NeoVintageous/NeoVintageous)) <Badge type="info">Package Control</Badge> Vim for Sublime Text.
 - [NeoVintageous Line Numbers](https://github.com/gerardroche/NeoVintageousLineNumbers) ([GitHub](https://github.com/gerardroche/NeoVintageousLineNumbers)) <Badge type="info">Package Control</Badge> Auto disable line numbers.
 - [NeoVintageous Highlight Line](https://github.com/gerardroche/NeoVintageousHighlightLine) ([GitHub](https://github.com/gerardroche/NeoVintageousHighlightLine)) <Badge type="info">Package Control</Badge> Auto disable line highlighting.
 - [NeoVintageous Files](https://github.com/gerardroche/NeoVintageousFiles) ([GitHub](https://github.com/gerardroche/NeoVintageousFiles)) <Badge type="info">Package Control</Badge> File commands.

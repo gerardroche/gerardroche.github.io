@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "zap KAPOW"
-  text: "A blog about things."
-  tagline: And now for something completely different.
+  name: "Gerard Roche"
+  text: Software developer.
+  tagline: I post about Tech, Movies, Music, and everything in between. Mostly tech.
   image:
-    src: /zap.svg
-    alt: "Lightning bolt symbol."
+    src: /avatar.svg
+    alt: "Avatar"
     width: 100
     height: 100
 
