@@ -3,9 +3,13 @@ import { defineConfig } from 'vitepress'
 import { buildEnd } from './buildEnd.config'
 import markdownItFootnote from 'markdown-it-footnote'
 
+const title = 'Gerard Roche'
+const description = 'Software Developer. Posts about Tech, Movies, TV. I like Science Fiction, Technology, Movies, TV, Music. Maintainer of @neovintageous (Vim for Sublime Text).'
+const url = 'https://blog.gerardroche.com'
+
 export default defineConfig({
-  title: '@gerardroche',
-  description: 'Software Developer. Posts about Tech, Movies, TV. I like Science Fiction, Technology, Movies, TV, Music. Maintainer of @neovintageous (Vim for Sublime Text).',
+  title,
+  description,
   lang: 'en',
   srcDir: 'src',
   srcExclude: ['reusables/**'],
@@ -24,14 +28,37 @@ export default defineConfig({
     // ...
   },
 
+  head: [
+    ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'Feed', href: `${url}/feed.xml` }],
+    ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['meta', { name: 'twitter:site', content: '@gerardroche_' }],
+    ['meta', { property: 'og:url', content: `${url}/` }],
+    ['meta', { property: 'og:title', content: title }],
+    ['meta', { property: 'og:description', content: description }],
+    ['meta', { property: 'og:image', content: `${url}/avatar-348129117e24fd643844da229e59d136.jpg` }],
+  ],
+
   sitemap: {
-    hostname: 'https://blog.gerardroche.com',
+    hostname: url,
   },
 
   markdown: {
     config: (md) => {
       md.use(markdownItFootnote)
     },
+  },
+
+  transformPageData(pageData) {
+    const canonicalUrl = `${url}/${pageData.relativePath}`
+      .replace(/\/index\.md$/, '/')
+      .replace(/\.md$/, '/')
+
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push(['meta', { property: 'og:url', href: canonicalUrl }])
+    pageData.frontmatter.head.push(['meta', { property: 'og:title', href: pageData.title || title }])
+    pageData.frontmatter.head.push(['meta', { property: 'og:description', href: pageData.frontmatter.excerpt || pageData.description || description }])
+
+    return pageData
   },
 
   buildEnd,
