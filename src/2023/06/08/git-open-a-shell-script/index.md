@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: git sh
 title: git open - A shell script
+excerpt: "git-open is a fantastic tool. It allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket."
 lastUpdated: false
 ---
 

@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Mapping Sublime Text commands
+excerpt: "NeoVintageous's mapping features are exceptionally potent. Did you know that you can map to virtually any Sublime Text command, execute commands in ex mode, and even map to commands within your own or third-party packages?"
 lastUpdated: false
 ---
 

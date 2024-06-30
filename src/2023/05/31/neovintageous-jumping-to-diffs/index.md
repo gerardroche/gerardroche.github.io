@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous git
 title: NeoVintageous - Jumping to Diffs
+excerpt: "NeoVintageous has two vim commands for jumping to diff hunks. [c Jump backward to the previous start of a change. ]c Jump forwards to the next start of a change."
 lastUpdated: false
 ---
 

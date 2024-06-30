@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Options
+excerpt: "NeoVintageous supports a number of vim options. Besides changing options with the :set command in an active view, you can set options at startup via a neovintageousrc file, NeoVintageous's answer to the vimrc file."
 lastUpdated: false
 ---
 

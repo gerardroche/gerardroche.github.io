@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Misspelled Words
+excerpt: "NeoVintageous has two vim commands for jumping to misspelled words. [s Jump backward to the previous misspelled word. ]s Jump forward to the next misspelled word."
 lastUpdated: false
 ---
 

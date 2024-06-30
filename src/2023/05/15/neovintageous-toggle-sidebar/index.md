@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: The NeoVintageous toggle sidebar
+excerpt: "Did you know that NeoVintageous has a side bar toggle command that you can map to? It's a great way to free up screen real estate when you need it. Let me show you a few examples."
 lastUpdated: false
 ---
 

@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: ubuntu sh
 title: Remapping CapsLock to Escape
+excerpt: "Do you use your CapsLock? Perhaps you like shouting at people. If you're a vim user, I suggest remapping it to Escape or at least something more useful."
 lastUpdated: false
 ---
 

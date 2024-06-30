@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Reveal in Side Bar
+excerpt: "You can reveal a file in the sidebar via a right mouse click and selecting Reveal in Side Bar, but why work so hard."
 lastUpdated: false
 ---
 

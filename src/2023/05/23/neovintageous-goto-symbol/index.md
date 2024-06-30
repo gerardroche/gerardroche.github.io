@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Goto Symbol
+excerpt: "You can go to any symbol in a project via Menu → Goto → Goto Symbol in Project, but why work so hard."
 lastUpdated: false
 ---
 

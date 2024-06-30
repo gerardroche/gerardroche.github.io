@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
+excerpt: "MonokaiFree is an enhanced version of the Monokai colour scheme."
 lastUpdated: false
 ---
 
@@ -62,7 +63,7 @@ Menu → Preferences → Settings
 ],
 ```
 
-If you want enable antialias instead, add in font_options: `"gray_antialias"`. [^1]
+If you want enable antialias instead, add in font_options: `"gray_antialias"`.
 
 ## Custom settings
 
@@ -89,6 +90,3 @@ I hope this has been helpful.  Take it easy, my friends.
 
 * [Monokai Color Scheme](https://packagecontrol.io/packages/MonokaiFree)
 * [Sublime Text Color Scheme Documentation](https://www.sublimetext.com/docs/color_schemes.html)
-
-[^1]:
-    https://github.com/tonsky/FiraCode/wiki/Sublime-Text-Instructions

@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: The NeoVintageous help pages
+excerpt: "Vim's help pages are distributed unmodified in NeoVintageous and are accessed in the same way as Vim. The help pages are provided unmodified so it's important to remember when using them that NeoVintageous may not yet implement that particular feature. Some differences are documented own help page."
 lastUpdated: false
 ---
 

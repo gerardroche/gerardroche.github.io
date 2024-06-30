@@ -9,6 +9,7 @@ tags: sublime-text
 title: Sesame - A Sublime Text plugin
 redirect_from:
     - /2023/05/19/neovintageous-open-sesame/
+excerpt: "Sesame is my favourite Sublime Text plugin. It's a quick way to open, add, switch, and remove projects and folders."
 lastUpdated: false
 ---
 

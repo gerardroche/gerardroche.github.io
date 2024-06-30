@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Revert Hunk
+excerpt: "You can revert a hunk via a right mouse click and selecting Revert Diff Hunk, but if my calculations are correct, when this baby is mapped, and we reload our rc file... you're gonna see some serious shit."
 lastUpdated: false
 ---
 

@@ -7,6 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Edit neovintageousrc
+excerpt: "You can use the Command Palette NeoVintageous: Open RC File to edit the neovintageousrc file. A mapping is quicker. And why not. I recommend `<leader>en`. A mnemonic is edit neovintageous."
 lastUpdated: false
 ---
 
