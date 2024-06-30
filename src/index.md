@@ -13,6 +13,10 @@ hero:
 
 features:
 
+  - title: "On which, type, and readlink commands"
+    link: '/2024/06/30/on-which-type-and-readlink-commands/'
+    details: "The `which` command identifies the location of a command. It does this by searching the `PATH` for executable files."
+
   - title: "Framework is my next laptop"
     link: '/2024/06/03/framework-is-my-next-laptop/'
     details: "Framework is going to be my next laptop. I don't want to buy another laptop with Windows pre-installed. I don't use Windows. I don't see why I should have to pay for it."
@@ -20,8 +24,4 @@ features:
   - title: "bash or sh"
     link: '/2024/05/30/bash-or-sh/'
     details: "I prefer sh over bash. I begin almost every script with the same four lines."
-
-  - title: "NeoVintageous 1.33.0 is out!"
-    link: '/2023/09/28/neovintageous-1.33.0/'
-    details: "While this release may seem somewhat understated, it brings many subtle enhancements, fixes, and an overall refinement of existing features."
 ---
