@@ -23,7 +23,7 @@ $ which ls
 The `-a` option prints all matching locations.
 
 ```sh
-$ which ls -a
+$ which -a ls
 /usr/bin/ls
 /bin/ls
 ```
