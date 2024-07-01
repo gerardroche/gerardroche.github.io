@@ -55,9 +55,9 @@ export default defineConfig({
       .replace(/\.md$/, '/')
 
     pageData.frontmatter.head ??= []
-    pageData.frontmatter.head.push(['meta', { property: 'og:url', href: canonicalUrl }])
-    pageData.frontmatter.head.push(['meta', { property: 'og:title', href: pageData.title || title }])
-    pageData.frontmatter.head.push(['meta', { property: 'og:description', href: pageData.frontmatter.excerpt || pageData.description || description }])
+    pageData.frontmatter.head.push(['meta', { property: 'og:url', content: canonicalUrl }])
+    pageData.frontmatter.head.push(['meta', { property: 'og:title', content: pageData.title || title }])
+    pageData.frontmatter.head.push(['meta', { property: 'og:description', content: pageData.frontmatter.excerpt || pageData.description || description }])
 
     return pageData
   },
