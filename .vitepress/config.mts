@@ -32,6 +32,7 @@ export default defineConfig({
     ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'Feed', href: `${url}/feed.xml` }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
     ['meta', { name: 'twitter:site', content: '@gerardroche_' }],
+    ['meta', { name: 'twitter:image', content: `${url}/avatar-348129117e24fd643844da229e59d136.jpg` }],
     ['meta', { property: 'og:url', content: `${url}/` }],
     ['meta', { property: 'og:title', content: title }],
     ['meta', { property: 'og:description', content: description }],

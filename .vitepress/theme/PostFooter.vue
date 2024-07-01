@@ -6,14 +6,8 @@ const { frontmatter } = useData()
 
 <template>
   <div v-if="frontmatter.post" class="vp-doc post-footer">
+    <p>What are your questions? Ask on <a href="https://x.com/gerardroche_">X</a> and <a href="https://github.com/gerardroche/gerardroche.github.io/discussions">GitHub</a>.</p>
     <p>Be notified of new posts. <a href="/feed.xml">Subscribe to the feed.</a></p>
-    <p>What are your questions? Ask me anything on <a href="https://x.com/gerardroche_">X</a> or <a href="https://github.com/gerardroche/gerardroche.github.io/discussions">GitHub</a>.</p>
-
-    <!-- <div v-if="frontmatter.tags" class="tags">
-      <span v-for="tag in frontmatter.tags.split(' ')" :key="tag" class="tag">
-        <a :href="`/tags/${tag}/`">{{ tag }}</a>
-      </span>
-    </div> -->
   </div>
 </template>
 
