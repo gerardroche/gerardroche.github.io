@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: ubuntu sh
 title: On which, type, and readlink commands
-excerpt: "The `which` command identifies the location of a command. It does this by searching the `PATH` for executable files. The `-a` option prints all matching locations."
+excerpt: "The which command identifies the location of a command. It does this by searching the PATH for executable files. The -a option prints all matching locations."
 lastUpdated: false
 ---
 
