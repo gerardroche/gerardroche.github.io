@@ -66,7 +66,7 @@ const posts = computed(() => {
 
 .post {
   min-height: 10em;
-  padding: 1.25em 2.5em;
+  padding: 1.8em 2.5em;
   position: relative;
   overflow: hidden;
 }
@@ -76,20 +76,23 @@ const posts = computed(() => {
 }
 
 .post header time {
-  font-size: 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .post header h2 {
   padding: 0;
-  margin: 0 0 1em 0;
+  margin: 5px 0 25px 0;
   border: none;
-  font-size: 27px;
+  font-size: 30px;
+  letter-spacing: normal;
   font-weight: 700;
 }
 
 .post .excerpt {
-  font-size: 18px;
-  margin-bottom: 1em;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 30px;
 }
 
 .post .more {
@@ -99,9 +102,16 @@ const posts = computed(() => {
 .post .more a {
   border: 1px solid var(--vp-c-divider);
   display: inline-block;
-  padding: .2em 2em;
+  padding: .3em 1em;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.post .more a:hover {
+  background: var(--vp-c-brand-1);
+  color: var(--vp-c-divider);
 }
 
 </style>
