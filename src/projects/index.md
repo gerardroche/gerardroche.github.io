@@ -6,44 +6,60 @@ sidebar: false
 
 You'll thank me later.
 
-## PHP
-
-- [PHP-CS-Fixer pre-commit hook](https://github.com/gerardroche/php-cs-fixer-pre-commit-hook)
-
 ## Sublime Text
 
-- [Git Open Modified](https://github.com/gerardroche/sublime-git-open-modified)) ([GitHub](https://github.com/gerardroche/sublime-git-open-modified)) Open modified files.
-- [Git Open](https://github.com/gerardroche/sublime-git-open) ([GitHub](https://github.com/gerardroche/sublime-git-open)) <Badge type="info">Package Control</Badge> Git open integration.
-- [Gitk](https://github.com/gerardroche/sublime-gitk) ([GitHub](https://github.com/gerardroche/sublime-gitk)) <Badge type="info">Package Control</Badge> Gitk integration.
-- [Goto Definition Split](https://github.com/gerardroche/sublime-goto-definition-split) ([GitHub](https://github.com/gerardroche/sublime-goto-definition-split)) <Badge type="info">Package Control</Badge> Split definition.
-- [Khan](https://github.com/gerardroche/sublime-khan) ([GitHub](https://github.com/gerardroche/sublime-khan)) <Badge type="info">Package Control</Badge> Ruler commands.
-- [Laravel Testing Completions](https://github.com/gerardroche/sublime-laravel-testing-completions) ([GitHub](https://github.com/gerardroche/sublime-laravel-testing-completions)) <Badge type="info">Package Control</Badge> Laravel testing completions.
-- [Monokai Free](https://github.com/gerardroche/sublime-monokai-free) ([GitHub](https://github.com/gerardroche/sublime-monokai-free)) <Badge type="info">Package Control</Badge> Monokai color scheme.
-- [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck) ([GitHub](https://github.com/gerardroche/sublime-phpck)) <Badge type="info">Package Control</Badge> PHP completions.
-- [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar) ([GitHub](https://github.com/gerardroche/sublime-php-grammar)) <Badge type="info">Package Control</Badge> PHP macros.
-- [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets) ([GitHub](https://github.com/gerardroche/sublime-php-snippets)) <Badge type="info">Package Control</Badge> PHP snippets.
-- [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions) ([GitHub](https://github.com/gerardroche/sublime-phpunit-completions)) <Badge type="info">Package Control</Badge> PHPUnit completions.
-- [PHPUnit Kit](/projects/sublime-phpunit) ([GitHub](https://github.com/gerardroche/sublime-phpunit)) <Badge type="info">Package Control</Badge> PHPUnit integration.
-- [Pine](https://github.com/gerardroche/sublime-pine) ([GitHub](https://github.com/gerardroche/sublime-pine)) <Badge type="info">Package Control</Badge> Pine syntax.
-- [Sensible](https://github.com/gerardroche/sublime-sensible) ([GitHub](https://github.com/gerardroche/sublime-sensible)) Shared defaults.
-- [Sesame](/projects/sublime-sesame) ([GitHub](https://github.com/gerardroche/sublime-sesame)) <Badge type="info">Package Control</Badge> Projects command palette.
-- [Show Ascii Value](https://github.com/gerardroche/sublime-show-ascii-value) ([GitHub](https://github.com/gerardroche/sublime-show-ascii-value)) Show ascii value.
-- [Test](https://github.com/gerardroche/sublime-test) ([GitHub](https://github.com/gerardroche/sublime-test)) <Badge type="info">Package Control</Badge> Unified test runner.
-- [Tmux](https://github.com/gerardroche/sublime-tmux) ([GitHub](https://github.com/gerardroche/sublime-tmux)) <Badge type="info">Package Control</Badge> Tmux syntax.
-- [Toggler](https://github.com/gerardroche/sublime-toggler) ([GitHub](https://github.com/gerardroche/sublime-toggler)) Toggle commands.
+**Vim**
 
-### NeoVintageous (Vim Engine)
+[NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) - Vim for Sublime Text.
 
-- [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) ([GitHub](https://github.com/NeoVintageous/NeoVintageous)) <Badge type="info">Package Control</Badge> Vim for Sublime Text.
-- [NeoVintageous Line Numbers](https://github.com/gerardroche/NeoVintageousLineNumbers) ([GitHub](https://github.com/gerardroche/NeoVintageousLineNumbers)) <Badge type="info">Package Control</Badge> Auto disable line numbers.
-- [NeoVintageous Highlight Line](https://github.com/gerardroche/NeoVintageousHighlightLine) ([GitHub](https://github.com/gerardroche/NeoVintageousHighlightLine)) <Badge type="info">Package Control</Badge> Auto disable line highlighting.
-- [NeoVintageous Files](https://github.com/gerardroche/NeoVintageousFiles) ([GitHub](https://github.com/gerardroche/NeoVintageousFiles)) <Badge type="info">Package Control</Badge> File commands.
-- [NeoVintageous Dvorak](https://github.com/gerardroche/NeoVintageousDvorak) ([GitHub](https://github.com/gerardroche/NeoVintageousDvorak)) <Badge type="info">Package Control</Badge> Dvorak mappings.
-- [NeoVintageous Colemak](https://github.com/gerardroche/NeoVintageousColemak) ([GitHub](https://github.com/gerardroche/NeoVintageousColemak)) <Badge type="info">Package Control</Badge> Colemak mappings.
+NeoVintageous is a Vim emulation plugin for Sublime Text. Fast, reliable, and flexible.
 
-### Sublime Text development
+Additional NeoVintageous enhancements:
 
-- [Color Scheme Unit](https://github.com/gerardroche/sublime-color-scheme-unit) ([GitHub](https://github.com/gerardroche/sublime-color-scheme-unit)) <Badge type="info">Package Control</Badge> Color scheme unit testing.
-- [Generate Syntax Test Assertions](https://github.com/gerardroche/sublime-generate-syntax-test-assertions) ([GitHub](https://github.com/gerardroche/sublime-generate-syntax-test-assertions)) <Badge type="info">Package Control</Badge> Generate syntax assertions.
-- [API Completions](https://github.com/gerardroche/sublime-api-completions) ([GitHub](https://github.com/gerardroche/sublime-api-completions)) <Badge type="info">Package Control</Badge> API Completions.
-- [Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode) ([GitHub](https://github.com/gerardroche/sublime-toggle-debug-mode)) <Badge type="info">Package Control</Badge> Toggle loggers.
+- [NeoVintageous Files](https://github.com/gerardroche/NeoVintageousFiles) - File commands.
+- [NeoVintageous Highlight Line](https://github.com/gerardroche/NeoVintageousHighlightLine) - Auto-disable Highlight Line in Insert mode.
+- [NeoVintageous Line Numbers](https://github.com/gerardroche/NeoVintageousLineNumbers) - Auto-disable Relative Line Numbers in Insert mode.
+- [NeoVintageous Toggle](https://github.com/NeoVintageous/NeoVintageousToggle) - Toggle NeoVintageous on/off.
+- [NeoVintageous Colemak](https://github.com/gerardroche/NeoVintageousColemak) - Colemak mappings.
+- [NeoVintageous Dvorak](https://github.com/gerardroche/NeoVintageousDvorak) - Dvorak mappings.
+
+**Git**
+
+- [Git Open Modified](https://github.com/gerardroche/sublime-git-open-modified) - Open all modified files.
+- [Git Open](https://github.com/gerardroche/sublime-git-open) - Provides [`git-open`](https://github.com/paulirish/git-open) integration.
+- [Gitk](https://github.com/gerardroche/sublime-gitk) - Provides [gitk](https://git-scm.com/docs/gitk) integration.
+
+**PHP**
+
+- [Laravel Testing Completions](https://github.com/gerardroche/sublime-laravel-testing-completions) - Laravel testing completions.
+- [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck) - PHP completions.
+- [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar) - PHP macros.
+- [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets) - PHP snippets.
+- [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions) - PHPUnit completions.
+- [PHPUnit](https://github.com/gerardroche/sublime-phpunit) - Run PHPUnit tests.
+
+**Other**
+
+- [Goto Definition Split](https://github.com/gerardroche/sublime-goto-definition-split) - Split definition side-by-side.
+- [Khan](https://github.com/gerardroche/sublime-khan) - Add, remove, and clear rulers.
+- [Monokai](https://github.com/gerardroche/sublime-monokai-free) - Enhanced Monokai color scheme.
+- [Pine](https://github.com/gerardroche/sublime-pine) - Pine syntax.
+- [Sensible](https://github.com/gerardroche/sublime-sensible) - A universal set of defaults.
+- [Sesame](https://github.com/gerardroche/sublime-sesame) - Open, add, remove, and switch projects.
+- [Show Ascii Value](https://github.com/gerardroche/sublime-show-ascii-value) - Show ASCII value under cursor.
+- [Test](https://github.com/gerardroche/sublime-test) - Unified test runner.
+- [Tmux](https://github.com/gerardroche/sublime-tmux) - Tmux syntax.
+- [Toggler](https://github.com/gerardroche/sublime-toggler) - Toggle settings.
+
+**Package dev**
+
+- [Color Scheme Unit](https://github.com/gerardroche/sublime-color-scheme-unit) - Color scheme Unit Testing.
+- [Sublime Text Generate Syntax Test Assertions](https://github.com/gerardroche/sublime-generate-syntax-test-assertions) - Generate syntax assertions.
+- [Sublime Text API Completions](https://github.com/gerardroche/sublime-api-completions) - Sublime Text API completions.
+- [Sublime Text Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode) - Toggle Sublime Text loggers.
+
+## PHP
+
+### [PHP-CS-Fixer Pre-Commit Hook](https://github.com/gerardroche/php-cs-fixer-pre-commit-hook)
+
+A Git [pre-commit hook](https://git-scm.com/docs/githooks#_pre_commit) to run [PHP Coding Standards Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer). The hook is invoked by [git-commit](https://git-scm.com/docs/git-commit), and can be bypassed with the `--no-verify` option. Never commit coding standard violations again!
