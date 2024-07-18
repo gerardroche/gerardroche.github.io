@@ -10,11 +10,7 @@ You'll thank me later.
 
 **Vim**
 
-[NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) - Vim for Sublime Text.
-
-NeoVintageous is a Vim emulation plugin for Sublime Text. Fast, reliable, and flexible.
-
-Additional NeoVintageous enhancements:
+[NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) is a Vim emulation plugin for Sublime Text. Fast, reliable, and flexible.
 
 - [NeoVintageous Files](https://github.com/gerardroche/NeoVintageousFiles) - File commands.
 - [NeoVintageous Highlight Line](https://github.com/gerardroche/NeoVintageousHighlightLine) - Auto-disable Highlight Line in Insert mode.
@@ -31,9 +27,10 @@ Additional NeoVintageous enhancements:
 
 **PHP**
 
+- [Goto PHP Manual](https://github.com/gerardroche/sublime-goto-php-manual) - Jump to documentation for keyword under cursor.
 - [Laravel Testing Completions](https://github.com/gerardroche/sublime-laravel-testing-completions) - Laravel testing completions.
-- [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck) - PHP completions.
-- [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar) - PHP macros.
+- [PHP Completions](https://github.com/gerardroche/sublime-phpck) - PHP completions.
+- [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar) - PHP macros and helpers.
 - [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets) - PHP snippets.
 - [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions) - PHPUnit completions.
 - [PHPUnit](https://github.com/gerardroche/sublime-phpunit) - Run PHPUnit tests.
@@ -41,22 +38,23 @@ Additional NeoVintageous enhancements:
 **Other**
 
 - [Goto Definition Split](https://github.com/gerardroche/sublime-goto-definition-split) - Split definition side-by-side.
+- [Goto Documentation](https://github.com/gerardroche/sublime-goto-documentation) - Jump to documentation for keyword under cursor.
 - [Khan](https://github.com/gerardroche/sublime-khan) - Add, remove, and clear rulers.
 - [Monokai](https://github.com/gerardroche/sublime-monokai-free) - Enhanced Monokai color scheme.
 - [Pine](https://github.com/gerardroche/sublime-pine) - Pine syntax.
 - [Sensible](https://github.com/gerardroche/sublime-sensible) - A universal set of defaults.
 - [Sesame](https://github.com/gerardroche/sublime-sesame) - Open, add, remove, and switch projects.
-- [Show Ascii Value](https://github.com/gerardroche/sublime-show-ascii-value) - Show ASCII value under cursor.
+- [Show Ascii Value](https://github.com/gerardroche/sublime-show-ascii-value) - Show ascii value under cursor.
 - [Test](https://github.com/gerardroche/sublime-test) - Unified test runner.
 - [Tmux](https://github.com/gerardroche/sublime-tmux) - Tmux syntax.
 - [Toggler](https://github.com/gerardroche/sublime-toggler) - Toggle settings.
 
 **Package dev**
 
-- [Color Scheme Unit](https://github.com/gerardroche/sublime-color-scheme-unit) - Color scheme Unit Testing.
-- [Sublime Text Generate Syntax Test Assertions](https://github.com/gerardroche/sublime-generate-syntax-test-assertions) - Generate syntax assertions.
-- [Sublime Text API Completions](https://github.com/gerardroche/sublime-api-completions) - Sublime Text API completions.
-- [Sublime Text Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode) - Toggle Sublime Text loggers.
+- [Color Scheme Unit](https://github.com/gerardroche/sublime-color-scheme-unit) - Color scheme unit testing.
+- [Generate Syntax Test Assertions](https://github.com/gerardroche/sublime-generate-syntax-test-assertions) - Generate syntax assertions.
+- [API Completions](https://github.com/gerardroche/sublime-api-completions) - API completions.
+- [Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode) - Toggle Sublime Text loggers.
 
 ## PHP
 
