@@ -175,7 +175,7 @@ export default defineConfig({
       alt: 'Avatar',
     },
 
-    lastUpdated: true,
+    lastUpdated: false,
 
     editLink: {
       pattern: 'https://github.com/gerardroche/gerardroche.github.io/edit/master/src/:path',
