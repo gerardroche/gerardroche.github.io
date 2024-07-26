@@ -1,8 +1,16 @@
+---
+aside: false
+editLink: false
+lastUpdated: false
+next: false
+outline: false
+prev: false
+sidebar: false
+---
+
 # Toolbox
 
-Here are things I use on a daily basis, from software to hardware, and from work to fun.
-
-You'll thank me later.
+Here are things I use on a daily basis. You'll thank me later.
 
 ## Workstation
 
@@ -100,17 +108,17 @@ I use this drive for media. I have a few external drives for backups.
 
 ## Software
 
-### [Ubuntu Studio + Gnome](https://ubuntustudio.org/)
+### [Gnome + Ubuntu Studio](https://ubuntustudio.org/)
 
 I've been happy with [Gnome](https://www.gnome.org/) and [Ubuntu](https://ubuntu.com/desktop) for many years. I like Studio because it comes packed with lots of useful [audio](https://ubuntustudio.org/tour/audio/), [graphics](https://ubuntustudio.org/tour/graphics/), [photography](https://ubuntustudio.org/tour/photography/), and [video](https://ubuntustudio.org/tour/video/) software, including [OBS Studio](https://obsproject.com/), [GIMP](https://www.gimp.org/), and [Ardour](http://ardour.org/).
-
-### [Sublime Text](https://www.sublimetext.com/) - A programmer's editor.
-
-No other editor does it for me. See my [setup](/2023/06/12/my-sublime-text-setup/).
 
 ### [Vim](https://www.vim.org/) - Vi IMproved, a programmer's text editor.
 
 I love Vim. Sublime Text is my primary editor, but I use Vim too.
+
+### [Sublime Text](https://www.sublimetext.com/) - A programmer's editor.
+
+I use Vim too.
 
 ### [Alacritty](https://alacritty.org/) - A cross-platform, OpenGL terminal emulator.
 
@@ -134,7 +142,7 @@ No frills amazing tool.
 
 ### [Brave](https://brave.com/) - The browser that puts you first.
 
-Switched to Brave early 2024. Love it. I only use [Firefox](https://www.mozilla.org/firefox/) + [uBlock Origin](https://github.com/gorhill/uBlock), a wide-spectrum content blocker, for development. I use Chromium for development too, but I may drop it because it's a Canonical Snap only now and Brave is Chromium based.
+Switched to Brave in early 2024. Love it. I now only use [Firefox](https://www.mozilla.org/firefox/) + [uBlock Origin](https://github.com/gorhill/uBlock) for development. I used Chromium for development, but now I use Brave for that too.
 
 ### [Liferea](https://github.com/lwindolf/liferea) - A feed reader/news aggregator.
 
