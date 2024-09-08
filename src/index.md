@@ -3,8 +3,7 @@ layout: home
 
 hero:
   name: "Gerard Roche"
-  text: Software developer.
-  tagline: I post about Tech, Movies, Music, and everything in between. Mostly tech.
+  text: Software developer
   image:
     src: /avatar.svg
     alt: "Avatar"

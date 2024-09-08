@@ -45,14 +45,13 @@ const posts = computed(() => {
         <time :datetime="formatDatetime(post.frontmatter.date)">
           {{ formatDate(post.frontmatter.date) }}
         </time>
-        <h2>{{ post.frontmatter.title }}</h2>
+        <a :href="post.url">
+          <h2>{{ post.frontmatter.title }}</h2>
+        </a>
       </header>
       <div v-if="post.frontmatter.excerpt" class="excerpt">
         {{ post.frontmatter.excerpt }}
         <br>
-      </div>
-      <div class="more">
-        <a :href="post.url">Read more</a>
       </div>
     </article>
   </section>
@@ -66,7 +65,7 @@ const posts = computed(() => {
 
 .post {
   min-height: 10em;
-  padding: 1.8em 2.5em;
+  padding: 1.5em 2.5em;
   position: relative;
   overflow: hidden;
 }
@@ -78,6 +77,11 @@ const posts = computed(() => {
 .post header time {
   font-size: 16px;
   margin-bottom: 10px;
+}
+
+.posts header a {
+    color: var(--vp-c-text-1);
+    text-decoration: none;
 }
 
 .post header h2 {
@@ -92,26 +96,5 @@ const posts = computed(() => {
 .post .excerpt {
   font-size: 20px;
   line-height: 28px;
-  margin-bottom: 30px;
 }
-
-.post .more {
-  text-align: center;
-}
-
-.post .more a {
-  border: 1px solid var(--vp-c-divider);
-  display: inline-block;
-  padding: .3em 1em;
-  text-decoration: none;
-  font-size: 15px;
-  line-height: 22px;
-  font-weight: 500;
-}
-
-.post .more a:hover {
-  background: var(--vp-c-brand-1);
-  color: var(--vp-c-divider);
-}
-
 </style>

@@ -12,11 +12,7 @@ sidebar: false
 
 Hello, my name is Gerard. I'm a software developer.
 
-I develop [Sublime Text plugins](/projects/#sublime-text) in my free time.
-
-Check out my [toolbox](/toolbox/) for other things I use daily.
-
-Follow me on <a href="https://x.com/gerardroche_">X</a>. I post about Technology and Movies.
+Follow me on <a href="https://x.com/gerardroche_?ref=gerardroche.com">X</a>.
 
 <br> <br> <br> <br> <br>
 <br> <br> <br> <br> <br>

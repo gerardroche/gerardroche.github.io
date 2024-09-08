@@ -1,6 +1,6 @@
 # PHPUnit Kit
 
-[PHPUnit](https://github.com/gerardroche/sublime-phpunit) integration.
+[PHPUnit](https://github.com/gerardroche/sublime-phpunit?ref=gerardroche.com) integration.
 
 ## Features
 
@@ -35,9 +35,9 @@
 
 ### Prerequisites
 
-- [Sublime Text](https://www.sublimetext.com/) version 3 or higher.
-- [Package Control](https://packagecontrol.io/installation) for Package Control installation.
-- [Git](https://git-scm.com/) for Manual Git installation.
+- [Sublime Text](https://www.sublimetext.com/?ref=gerardroche.com) version 3 or higher.
+- [Package Control](https://packagecontrol.io/installation?ref=gerardroche.com) for Package Control installation.
+- [Git](https://git-scm.com/?ref=gerardroche.com) for Manual Git installation.
 
 ::: details Package Control installation
 
@@ -350,7 +350,7 @@ Discover and use Pest to run tests.
 Enable SSH for remote testing.
 
 ::: details Example
-Run tests via SSH using [Laravel Homestead](https://laravel.com/docs/homestead)
+Run tests via SSH using [Laravel Homestead](https://laravel.com/docs/homestead?ref=gerardroche.com)
 
 ```jsonl
 "phpunit.ssh": true,
@@ -434,7 +434,7 @@ Environment variables and user home directory `~` placeholders are expanded.
 Enable Docker for testing.
 
 ::: details Example
-Run tests via [Docker](https://www.docker.com)
+Run tests via [Docker](https://www.docker.com?ref=gerardroche.com)
 
 ```jsonl
 "phpunit.docker": true,
