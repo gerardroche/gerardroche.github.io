@@ -26,6 +26,10 @@ const rtRating = computed(() => {
   return ''
 })
 
+const imdbUrl = computed(() => {
+    return 'https://www.imdb.com/title/' + props.movie.imdbID + '/'
+})
+
 const USE_LOCAL_POSTER = true
 
 const poster = computed(() => {
@@ -38,7 +42,9 @@ const poster = computed(() => {
 <template>
   <div class="relative flex flex-col justify-between">
     <div>
-      <img :src="poster" class="rounded-md" :alt="movie.Title" loading="lazy">
+      <a :href="imdbUrl">
+        <img :src="poster" class="rounded-md" :alt="movie.Title" loading="lazy">
+    </a>
     </div>
     <div class="mt-2 space-y-2">
       <h2 :title="movie.Title" class="truncate font-semibold text-slate-900 dark:text-slate-200">
@@ -55,7 +61,7 @@ const poster = computed(() => {
           <template v-if="rtRating">
             RT {{ rtRating }} /
           </template>
-          IMDB {{ movie.imdbRating }}
+          <a :href="imdbUrl">IMDB {{ movie.imdbRating }}</a>
         </div>
       </div>
     </div>

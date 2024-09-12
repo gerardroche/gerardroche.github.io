@@ -153,13 +153,15 @@ function filterSearch(movies) {
         <label>
           <Checkbox v-model:checked="concluded" @click="current = false" /> Concluded
         </label>
+        <span>{{ filteredMovies.length }} items.</span>
       </div>
 
       <div class="text-sm font-medium text-slate-700 dark:text-slate-400">
-        {{ filteredMovies.length }} items. These are some of my favourite movie and tv recommendations. The list is limited to 250 movies and 150 series (<a class="text-blue-600" href="/movies/changelog/">changelog</a>). I think it makes it more interesting if the list is limited. There are so many more good movies and tv shows, some are intentionally not on the list, but some are not on the list because I simply didn't think of them yet.
+        Just some of my favourite movies and tv series. Limited to 250 movies / 150 tv series (<a class="text-blue-600" href="/movies/changelog/">changelog</a>).
       </div>
+
     </div>
-    <div class="mt-2 grid grid-cols-4 gap-6 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-6">
+    <div class="mt-2 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-6">
       <MovieItem
         v-for="movie in filteredMovies"
         :key="movie.id"
