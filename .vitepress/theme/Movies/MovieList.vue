@@ -159,7 +159,6 @@ function filterSearch(movies) {
       <div class="text-sm font-medium text-slate-700 dark:text-slate-400">
         Just some of my favourite movies and tv series. Limited to 250 movies / 150 tv series (<a class="text-blue-600" href="/movies/changelog/">changelog</a>).
       </div>
-
     </div>
     <div class="mt-2 grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-6">
       <MovieItem

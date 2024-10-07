@@ -27,7 +27,7 @@ const rtRating = computed(() => {
 })
 
 const imdbUrl = computed(() => {
-    return 'https://www.imdb.com/title/' + props.movie.imdbID + '/'
+  return 'https://www.imdb.com/title/' + props.movie.imdbID + '/'
 })
 
 const USE_LOCAL_POSTER = true
@@ -44,7 +44,7 @@ const poster = computed(() => {
     <div>
       <a :href="imdbUrl">
         <img :src="poster" class="rounded-md" :alt="movie.Title" loading="lazy">
-    </a>
+      </a>
     </div>
     <div class="mt-2 space-y-2">
       <h2 :title="movie.Title" class="truncate font-semibold text-slate-900 dark:text-slate-200">
