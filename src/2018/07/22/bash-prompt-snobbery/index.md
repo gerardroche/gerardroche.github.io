@@ -163,8 +163,8 @@ PROMPT_COMMAND='__git_ps1 "╭─ \w" "\n╰$(if test $? = 0;then echo "\$";else
 ## Further reading
 
 * [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
-* [Git in Bash](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Bash)
-* [Git in Zsh](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Zsh)
-* [Git in Powershell](https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-Powershell)
+* [Git in Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
+* [Git in Zsh](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Zsh)
+* [Git in PowerShell](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-PowerShell)
 * [Bash PARAMETERS](http://man7.org/linux/man-pages/man1/bash.1.html#PARAMETERS)
 * [Bash PROMPTING](http://man7.org/linux/man-pages/man1/bash.1.html#PROMPTING)

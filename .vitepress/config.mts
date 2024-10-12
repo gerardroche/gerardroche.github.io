@@ -67,7 +67,7 @@ export default defineConfig({
   themeConfig: {
 
     nav: [
-      { text: 'Writing', link: '/writing/' },
+      { text: 'Blog', link: '/writing/' },
       { text: 'Projects', link: '/projects/' },
       { text: 'Toolbox', link: '/toolbox/' },
       { text: 'About', link: '/about/' },
