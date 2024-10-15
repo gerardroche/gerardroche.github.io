@@ -1,1 +1,3 @@
+Sitemap: https://blog.gerardroche.com/sitemap.xml
 User-agent: *
+Disallow:
