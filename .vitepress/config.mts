@@ -4,7 +4,7 @@ import { buildEnd } from './buildEnd.config'
 import markdownItFootnote from 'markdown-it-footnote'
 
 const title = 'Gerard Roche'
-const description = 'Software Developer. Posts about Tech, Movies, TV. I like Science Fiction, Technology, Movies, TV, Music. Maintainer of @neovintageous (a Vim emulator for Sublime Text).'
+const description = 'a blog by Gerard Roche on programming and software development'
 const url = 'https://blog.gerardroche.com'
 
 export default defineConfig({
