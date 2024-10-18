@@ -58,6 +58,5 @@ Delete lines that don't start with a digit:
 
 ## Further reading
 
-* `:help nv`
-* `:help :g`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.25.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.25.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.25.0)

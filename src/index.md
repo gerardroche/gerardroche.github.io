@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Gerard Roche"
-  text: Software developer
+  text: "on software development"
   image:
     src: /avatar.svg
     alt: "Avatar"

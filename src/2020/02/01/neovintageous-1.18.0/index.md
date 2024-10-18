@@ -108,7 +108,5 @@ Note that currently `\m` and `\v` are functionally equivalent, as are `\M` and `
 
 ## Further reading
 
-* `:help nv`
-* `:help :s`
-* `:help /`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.18.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.18.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.18.0)

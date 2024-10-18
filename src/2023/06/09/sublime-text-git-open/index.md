@@ -6,7 +6,7 @@ editLink: false
 sidebar: false
 aside: false
 tags: sublime-text git vim neovintageous
-title: GitOpen - A Sublime Text plugin
+title: Git Open - A Sublime Text plugin
 excerpt: "Git Open is a Sublime Text plugin that provides integration for git-open, a script that allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket."
 lastUpdated: false
 ---
@@ -14,8 +14,6 @@ lastUpdated: false
 # Git Open - Sublime Text
 
 [Git Open](https://github.com/gerardroche/sublime-git-open) is a Sublime Text plugin that provides integration for [git-open](/2023/06/08/git-open-a-shell-script/), a script that allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket.
-
-![Ghost in the Shell (1995)](/assets/images/ghost-in-the-shell-2.webp)
 
 ## Command Palette
 
@@ -48,6 +46,9 @@ nnoremap <Leader>oc :GitOpen commit=true<CR>
 nnoremap <Leader>oi :GitOpen issue=true<CR>
 ```
 
-::: tip
-In NeoVintageous, `gx` opens the url under your cursor in your browser.
+::: info In NeoVintageous, `gx` opens the url under your cursor in your browser.
 :::
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

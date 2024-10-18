@@ -146,3 +146,8 @@ img.VPImage.logo,
 .VPHome .VPHero img.VPImage.image-src {
     border-radius: 50%;
 }
+
+.post-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+}

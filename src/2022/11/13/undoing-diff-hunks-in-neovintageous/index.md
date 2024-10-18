@@ -32,10 +32,9 @@ Command Palette → NeoVintageous: Reload RC File
 
 You can jump between diff hunks with `]c` and `[c`.  See [jumping to diffs](/2023/05/31/neovintageous-jumping-to-diffs/).
 
-*Support for jumping to diffs was added in Sublime build 3189. In previous versions you need [GitGutter](https://github.com/jisaacks/GitGutter).*
+::: info Support for jumping to diffs was added in Sublime Text 3 build 3189. Support for older versions require [GitGutter](https://github.com/jisaacks/GitGutter).
+:::
 
 ## Further reading
 
-* `:help neovintageous`
-* `:help [c`
-* `:help ]c`
+* [NeoVintageous documentation](https://neovintageous.github.io/)

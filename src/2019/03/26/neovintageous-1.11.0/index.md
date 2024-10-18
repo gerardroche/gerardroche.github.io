@@ -67,6 +67,6 @@ NeoVintageous: Toggle SUPER keys
 
 ## Further reading
 
-* `:help nv`
 * [Toggle sidebar](/2019/02/12/toggle-sidebar/)
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.11.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.11.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.11.0)

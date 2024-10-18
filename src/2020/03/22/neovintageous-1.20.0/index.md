@@ -260,10 +260,5 @@ All of the new keys can be mapped!
 
 ## Further reading
 
-* `:help nv`
-* `:help 'smartcase'`
-* `:help text-objects`
-* `:help :ls`
-* `:help :history`
-* `:help :registers`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.20.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.20.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.20.0)

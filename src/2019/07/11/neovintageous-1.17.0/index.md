@@ -85,5 +85,5 @@ alias | command | description
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.17.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.17.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.17.0)

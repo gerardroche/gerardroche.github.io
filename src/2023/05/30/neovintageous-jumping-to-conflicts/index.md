@@ -13,8 +13,6 @@ lastUpdated: false
 
 # NeoVintageous - Jumping to Conflicts
 
-![Quantum Leap (1989)](/assets/images/quantum-leap.webp)
-
 NeoVintageous has two vim commands for jumping to SCM conflicts. These are part of the Unimpaired plugin bundled with NeoVintageous:
 
 Command | Description
@@ -44,3 +42,7 @@ And here is another line that is cleanly resolved or unmodified
 The area where a pair of conflicting changes happened is marked with markers <`<<<<<<`, `=======`, and `>>>>>>>`. The part before the `=======` is typically your side, and the part afterwards is typically their side.
 
 Have you ever had to go through a file resolving conflicts like this? I know you have. Now you can jump from one to the next.
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

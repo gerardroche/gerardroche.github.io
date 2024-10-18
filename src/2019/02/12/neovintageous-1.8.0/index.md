@@ -31,10 +31,8 @@ Note that the `ctrl` keys are ~~disabled by default (this will change in [v2.0.0
 
 ## Further reading
 
-* `:help nv`
-* `:help ctrl-d`
-* `:help ctrl-u`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.8.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.8.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.8.0)
 
 ---
 

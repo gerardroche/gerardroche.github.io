@@ -6,17 +6,17 @@ editLink: false
 sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
-title: NeoVintageous 1.4.0
-redirect_from:
-  - /2017/11/01/neovintageous-1.4.0-released/
+title: NeoVintageous 1.4.0 is now available with new features and enhancements.
+excerpt: "NeoVintageous 1.4.0 is now available. The highlights are a new help system (including full Vim documentation) and the ability to map to built-in Sublime Text commands or user commands."
+redirect_from: /2017/11/01/neovintageous-1.4.0-released/
 lastUpdated: false
 ---
 
-# NeoVintageous 1.4.0
+# NeoVintageous 1.4.0 is now available with new Vim help system and Vim mapping enhancements.
 
-NeoVintageous 1.4.0 has just been released. The highlights are a new help system (including full Vim documentation) and the ability to map to built-in Sublime Text commands or user commands.
+This release introduces Vim's help system, complete with full Vim documentation, mapping to built-in Sublime Text commands, and mapping to custom Sublime Text commands.
 
-## Help and Vim documentation
+## The Vim help system
 
 In NeoVintageous 1.4.0, you can access Vim's documentation thanks to the new `:help {subject}` command-line command. Vim's full documentation system is accessible via the command, and is an extensive cross-referenced and hyperlinked reference. It's kept up-to-date with the software and can answer almost any question about Vim's functionality. An up-to-date version of Vim help, with hyperlinks, can be found on [appspot](https://vimhelp.appspot.com).
 
@@ -52,7 +52,7 @@ Vim command argument | `-` | `:help -x`
 Option | `'` | `:help 'textwidth'`
 Regular expression | `/` | `:help /[`
 
-## Mapping commands
+## Mapping to built-in Sublime Text commands
 
 The other big feature for this release is the ability to map to Sublime Text commands and custom commands as well as the Command-line commands. The functionality is currently limited to basic, no-argument, commands **(commands can actually map arguments from [1.6.0](/2018/05/21/neovintageous-1.6.0/)) and advanced mapping from [1.11.0](/2019/03/26/neovintageous-1.11.0/) and [1.16.0](/2019/06/05/neovintageous-1.16.0/))**, but you can create custom command wrappers to map to those too.
 
@@ -74,7 +74,7 @@ And you'll need to reload it for changes to take effect:
 NeoVintageous: Reload My vintageousrc File
 ```
 
-### Mapping to user commands
+### Mapping to custom Sublime Text commands
 
 For example, you could map `,f` and `,ep` to the following two user commands respectively:
 
@@ -139,5 +139,5 @@ nnoremap <leader>gg :TestVisit<CR>
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.4.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.4.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.4.0)

@@ -70,6 +70,5 @@ Three new keys have been add `n` (next), `q` (skip), and `Q` (remove).  These co
 
 ## Resources
 
-* `:help neovintageous`
-* `:help multiple-cursors`
-* [1.30.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.30.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.30.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.30.0)

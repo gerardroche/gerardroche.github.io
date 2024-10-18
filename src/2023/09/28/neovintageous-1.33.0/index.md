@@ -257,4 +257,5 @@ Several multiple cursor aliases have been introduced to enhance your editing exp
 * Access Vim's full documentation with `:help {subject}` or [online](https://vimhelp.org).
 * Refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md) for supported Vim features.
 * Report features/bugs on [GitHub](https://github.com/NeoVintageous/NeoVintageous/issues).
+* [NeoVintageous documentation](https://neovintageous.github.io/)
 * [NeoVintageous 1.33.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.33.0)

@@ -73,4 +73,4 @@ By following these guidelines, you can tailor NeoVintageous to your liking and e
 
 ## Further reading
 
-* `:help nv`
+* [NeoVintageous documentation](https://neovintageous.github.io/)

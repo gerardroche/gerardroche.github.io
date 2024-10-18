@@ -82,11 +82,9 @@ Menu → Preferences → Customize Color Scheme
 }
 ```
 
-![Robert Llewellyn in Red Dwarf (1988)](/assets/images/red-dwarf-kryten.webp)
-
 I hope this has been helpful.  Take it easy, my friends.
 
 ## Resources
 
-* [Monokai Color Scheme](https://packagecontrol.io/packages/MonokaiFree)
-* [Sublime Text Color Scheme Documentation](https://www.sublimetext.com/docs/color_schemes.html)
+* [Subime Text Monokai enhanced color scheme](https://packagecontrol.io/packages/MonokaiFree)
+* [Sublime Text color scheme documentation](https://www.sublimetext.com/docs/color_schemes.html)

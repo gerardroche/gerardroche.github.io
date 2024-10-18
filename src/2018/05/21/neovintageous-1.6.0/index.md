@@ -70,7 +70,7 @@ noremap <leader>p :ShowOverlay overlay=goto show_files=true<CR>
 
 Search highlighting has been improved with incremental match, current match, and occurrences, all syntax highlighted. Here's what the current match and occurrences look like in the default Monokai color scheme:
 
-![Search highlighting](/assets/images/2018-05-21-search-highlighting.webp)
+![NeoVintageous Sublime Text Vim search highlighting](/assets/images/2018-05-21-search-highlighting.webp)
 
 Searches supporting the new highlighting include `/`, `?`, `*`, and `#`.
 
@@ -114,5 +114,5 @@ At first they may not seem useful until you think about how much you use key bin
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.6.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.6.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.6.0)

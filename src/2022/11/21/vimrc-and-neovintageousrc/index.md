@@ -133,4 +133,4 @@ It's quite versatile and can be very powerful.
 
 ## Further Reading
 
-For more information and advanced usage, you can refer to the [documentation](https://github.com/NeoVintageous/NeoVintageous).
+* [NeoVintageous documentation](https://neovintageous.github.io/)

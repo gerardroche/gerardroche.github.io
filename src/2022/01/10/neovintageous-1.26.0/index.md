@@ -132,5 +132,5 @@ You do some very fancy time-saving operations on a multiple cursor.
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.26.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.26.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.26.0)

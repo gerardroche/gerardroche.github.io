@@ -79,8 +79,5 @@ Old text | Command | New text ~
 
 ## Further reading
 
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.27.0)
-* `:help nv`
-* `:help surround`
-* `:help text-objects`
-* `:help various-motions`
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.27.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.27.0)

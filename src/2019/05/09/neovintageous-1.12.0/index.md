@@ -121,5 +121,5 @@ Print the history of last entered commands.
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.12.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.12.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.12.0)

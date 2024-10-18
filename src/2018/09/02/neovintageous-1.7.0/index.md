@@ -128,5 +128,5 @@ This post was updated to reflect changes in v1.32. The the following settings we
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.7.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0)

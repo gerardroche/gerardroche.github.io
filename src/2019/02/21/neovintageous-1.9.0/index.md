@@ -60,7 +60,5 @@ Old text | Command | New text
 
 ## Further reading
 
-* `:help nv`
-* `:help surround`
-* `:help vintageousrc`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.9.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0)

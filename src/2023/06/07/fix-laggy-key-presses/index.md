@@ -15,8 +15,6 @@ lastUpdated: false
 
 If key presses are slow or laggy, check the system configuration.
 
-![Halt and Catch Fire (2014 - 2017)](/assets/images/halt-and-catch-fire.webp)
-
 ## Ubuntu
 
 On **Ubuntu** you can configure keyboard repeat interval and delay:

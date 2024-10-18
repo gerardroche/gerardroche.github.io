@@ -13,8 +13,6 @@ lastUpdated: false
 
 # NeoVintageous - Jumping to Errors
 
-![Red Dwarf - Terrorform (1992)](/assets/images/red-dwarf.webp)
-
 [SublimeLinter](https://packagecontrol.io/search/SublimeLinter) is a code linting framework for Sublime Text.  NeoVintageous has two commands for jumping to lint errors.
 
 Command | Description
@@ -29,3 +27,7 @@ With a count, it means jump that many times: `3]l` jumps to the third error.
 If a count is greater than the number of errors it will jump to the last error.
 
 A status message is displayed if there are no more errors.
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

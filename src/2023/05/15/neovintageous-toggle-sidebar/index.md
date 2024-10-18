@@ -13,8 +13,6 @@ lastUpdated: false
 
 # The NeoVintageous toggle sidebar
 
-![Fender guitar toggle switch](/assets/images/2023-05-15-fender-toggle-switch.webp)
-
 Did you know that NeoVintageous has a side bar toggle command that you can map to? It's a great way to free up screen real estate when you need it. Let me show you a few examples.
 
 If you want to toggle the side bar with the key **m**, [create a mapping and reload your rc file](/2022/11/21/vimrc-and-neovintageousrc/):
@@ -82,3 +80,7 @@ The reason you need both a mapping *and* a key binding is because the key bindin
 ## Wrapping up
 
 A side bar toggle is a great way to free up screen real estate. Pair it with an [Origami Toggle Zoom](/2019/02/26/toggle-zoom/) mapping for a great way to focus on immediate coding problems.
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

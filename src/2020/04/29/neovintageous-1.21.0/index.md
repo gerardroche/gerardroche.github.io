@@ -93,5 +93,5 @@ nnoremap <leader>en :Neovintageous action=open_rc_file<CR>
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.21.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.21.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.21.0)

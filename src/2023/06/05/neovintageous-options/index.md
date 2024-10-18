@@ -15,8 +15,6 @@ lastUpdated: false
 
 NeoVintageous supports a number of vim options.
 
-![Rounders (1998)](/assets/images/rounders.webp)
-
 These options come in three forms:
 
 Type | Description
@@ -452,3 +450,7 @@ And the following settings:
 ```
 
 I hope this enhances your sublime vim experience. Take it easy, my friends.
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

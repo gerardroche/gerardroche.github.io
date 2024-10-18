@@ -15,8 +15,6 @@ lastUpdated: false
 
 [`git-open`](https://github.com/paulirish/git-open/) is a fantastic tool. It allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket.
 
-![Ghost in the Shell (1995)](/assets/images/ghost-in-the-shell.webp)
-
 Type `git open` to open a repo website in your browser.
 
 ```bash

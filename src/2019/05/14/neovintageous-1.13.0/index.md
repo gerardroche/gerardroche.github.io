@@ -89,5 +89,5 @@ Both `gn` and `gN`, like all motions, support operators like `c` and `d` too: `c
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.13.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.13.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.13.0)

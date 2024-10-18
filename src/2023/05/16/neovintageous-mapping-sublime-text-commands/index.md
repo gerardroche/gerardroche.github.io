@@ -13,8 +13,6 @@ lastUpdated: false
 
 # NeoVintageous - Mapping Sublime Text commands
 
-![The Goonies (1985)](/assets/images/2023-05-16-the-goonies-map.webp)
-
 NeoVintageous's mapping features are exceptionally potent. Did you know that you can map to virtually any Sublime Text command, execute commands in ex mode, and even map to commands within your own or third-party packages?
 
 To map a Sublime Text command, simply convert it to PascalCase. For example, let's say you want to map the key `m` to the `goto_symbol_in_project` command.
@@ -73,3 +71,7 @@ noremap <D-i> :GotoSymbolInProject<CR>
 ```
 
 Mapping to Sublime Text commands unlocks a world of possibilities. Elevate your NeoVintageous experience by mapping your most frequently used operations and build upon that foundation. Have fun, my friends!
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

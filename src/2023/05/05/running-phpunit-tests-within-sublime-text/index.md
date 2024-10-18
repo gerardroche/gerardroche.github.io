@@ -6,12 +6,12 @@ editLink: false
 sidebar: false
 aside: false
 tags: sublime-text phpunit php
-title: Running PHPUnit tests within Sublime Text
+title: Run PHPUnit tests from within Sublime Text at the speed of light
 excerpt: "Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you like Test Driven Development. PHPUnit Kit has all the features you will ever need to run PHPUnit tests from within Sublime Text."
 lastUpdated: false
 ---
 
-# Running PHPUnit tests within Sublime Text
+# Run PHPUnit tests from within Sublime Text at the speed of light
 
 Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you like Test Driven Development. PHPUnit Kit has all the features you will ever need to run PHPUnit tests from within Sublime Text.
 
@@ -60,27 +60,27 @@ Command                 | Description
 
 Go ahead and open a PHP file and run the **Test Suite** command. This will run the entire test suite and output the results in a Sublime Text panel.
 
-![Test Suite](/assets/images/2023-05-05-test-suite.webp)
+![Sublime Text PHPUnit test suite command](/assets/images/2023-05-05-test-suite.webp)
 
 You can run the entire test suite from any PHP file, but what about running a single test case? PHPUnitKit has you covered. Go ahead and open a test case and run **Test File**. This will a single test case:
 
-![Test File](/assets/images/2023-05-05-test-file.webp)
+![Sublime Text PHPUnit test file command](/assets/images/2023-05-05-test-file.webp)
 
 You can actually run the test case from the class under test, you don't even need the test case open. Go ahead and switch to the Class Under Test: **Test Switch**. Now run **Test File** again.
 
-![Test File](/assets/images/2023-05-05-test-file-again.webp)
+![Sublime Text PHPUnit test file command](/assets/images/2023-05-05-test-file-again.webp)
 
 Neat isn't it.
 
 How about running a single test method? Open a test case. Put your cursor on a test method and run **Test Nearest**. The cursor only needs to be *near* the test method and you can use a multiple-cursor.
 
-![Test Nearest](/assets/images/2023-05-05-test-nearest.webp)
+![Sublime Text PHPUnit test nearest command](/assets/images/2023-05-05-test-nearest.webp)
 
 ## Jumping to failures
 
 When a test fails, PHPUnit tries its best to provide as much context to help identify the problem. You can jump forward and backward through failure stack traces with <kbd>F4</kbd> and <kbd>SHIFT+F4</kbd>.
 
-![Test Failures](/assets/images/2023-05-05-test-failures.webp)
+![Sublime Text PHPUnit test failures command](/assets/images/2023-05-05-test-failures.webp)
 
 ## Support for ParaTest
 

@@ -12,8 +12,6 @@ lastUpdated: false
 
 # NeoVintageous Super keys
 
-![Superman (1978)](/assets/images/superman.webp)
-
 ["Super" keys](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)) are disabled by default in NeoVintageous. You can enable them via the Command Palette **NeoVintageous: Toggle SUPER keys**. Super keys are more commonly labelled as a Windows key, or Command key (⌘) on Mac.
 
 > \[!NOTE\]
@@ -38,3 +36,7 @@ You can configure the key handler to ignore selected keys. Read the [NeoVintageo
 Operating systems make extensive use of super keys. When you find a super key is not working, the might be "shadowed" by a desktop key binding. In that case, Sublime Text won't be receiving the key event.
 
 Debug the event by running `sublime.log_input(True)` in the console. Open the Sublime Text Console via Menu → View → Show Console. If Sublime Text is not receiving the key event, you will need to clear the desktop key binding. If you use Ubuntu reading [Ubuntu Keymaps](/2018/02/17/ubuntu-keymaps/) may help.
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

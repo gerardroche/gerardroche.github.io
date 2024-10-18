@@ -6,14 +6,14 @@ editLink: false
 sidebar: false
 aside: false
 tags: ubuntu sh
-title: On which, type, and readlink commands
-excerpt: "The `which` command identifies the location of a command. It does this by searching the `PATH` for executable files. The `-a` option prints all matching locations. To inspect the `PATH`, use `tr` to split it into separate lines for improved readability."
+title: The which, type, and readlink linux commands
+excerpt: "The which command identifies the location of commands. It searches the system PATH for executables. The -a option prints all matching locations. To inspect the PATH, use tr to split it into separate lines for improved readability."
 lastUpdated: false
 ---
 
-# On which, type, and readlink commands
+# The which, type, and readlink linux commands
 
-The `which` command identifies the location of a command. It does this by searching the `PATH` for executable files.
+The `which` command identifies the locations of commands. It searches the system `PATH` for executables.
 
 ```sh
 $ which ls

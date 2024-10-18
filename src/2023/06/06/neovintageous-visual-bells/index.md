@@ -15,8 +15,6 @@ lastUpdated: false
 
 NeoVintageous supports three types of vim visual bell.
 
-![Vanilla Sky (2001)](/assets/images/vanilla-sky.webp)
-
 ## Settings
 
 The setting [`vintageous_bell`](https://neovintageous.github.io/reference/settings#vintageous-bell) allows you to choose the style for the visual bell. The available options are:
@@ -60,3 +58,7 @@ There are two colour schemes available: "dark" (default) and "light"
 ```jsonl
 "vintageous_bell_color_scheme": "dark"
 ```
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

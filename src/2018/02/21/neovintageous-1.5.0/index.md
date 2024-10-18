@@ -133,5 +133,5 @@ The recursive mappings were removed, because they were not implemented as recurs
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.5.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.5.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.5.0)

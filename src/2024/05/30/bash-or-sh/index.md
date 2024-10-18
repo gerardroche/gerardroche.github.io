@@ -7,13 +7,13 @@ sidebar: false
 aside: false
 tags: sh
 title: bash or sh
-excerpt: "I prefer `!/bin/sh` over `!/bin/bash`. I begin almost every script with the same four lines. Use a POSIX-compliant shell. Exit immediately if any command returns a non-zero status (indicating an error)."
+excerpt: "I prefer sh over bash. I begin almost every script with the same four lines. A POSIX-compliant shell, exit immediately on error, unset CDPATH, and unset IFS."
 lastUpdated: false
 ---
 
 # bash vs sh
 
-I prefer `!/bin/sh` over `!/bin/bash`. I begin almost every script with the same four lines.
+I prefer `sh` over `bash`. I begin almost every script with the same four lines.
 
 ```sh
 #!/bin/sh

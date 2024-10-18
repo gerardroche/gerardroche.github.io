@@ -187,6 +187,5 @@ All of the new keys can be mapped!
 
 ## Further reading
 
-* `:help nv`
-* `:help modeline`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.19.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.19.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.19.0)

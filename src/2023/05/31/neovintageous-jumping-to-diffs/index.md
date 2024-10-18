@@ -13,8 +13,6 @@ lastUpdated: false
 
 # NeoVintageous - Jumping to Diffs
 
-![Back to the Future Part II (1989)](/assets/images/back-to-the-future-part-ii.webp)
-
 NeoVintageous has two vim commands for jumping to diff hunks:
 
 Command | Description
@@ -66,3 +64,7 @@ And display the current value in the status bar:
 ```vim
 :set wrapscan?
 ```
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

@@ -15,8 +15,6 @@ lastUpdated: false
 
 Everyone wants to know the secret sauce.
 
-![The Usual Suspects (1995)](/assets/images/the-usual-suspects.webp)
-
 ## Package Manager
 
 [Package Control](https://packagecontrol.io?ref=gerardroche.com) is a great package manager. See the [installation guide](https://packagecontrol.io/installation?ref=gerardroche.com) on how to install it.
@@ -267,43 +265,30 @@ The context selector exclusion is to allow support for Goto PHP Manual, see [bel
 ## Git
 
 - [Git Open](https://github.com/gerardroche/sublime-git-open?ref=gerardroche.com) `git-open` integration.
-
 - [Gitk](https://github.com/gerardroche/sublime-gitk?ref=gerardroche.com) `gitk` integration.
-
 - [Git Open Modified](https://github.com/gerardroche/sublime-git-open-modified?ref=gerardroche.com) Open modified files.
 
 ## PHP
 
 - [Goto PHP Manual](https://github.com/gerardroche/sublime-goto-php-manual?ref=gerardroche.com) Open PHP documentation.
-
 - [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck?ref=gerardroche.com) PHP completions.
-
 - [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar?ref=gerardroche.com) PHP macros.
-
 - [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets?ref=gerardroche.com) PHP snippets.
-
 - [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions?ref=gerardroche.com) PHPUnit completions.
-
 - [PHPUnit Kit](https://github.com/gerardroche/sublime-phpunit?ref=gerardroche.com) PHPUnit integration.
-
 - [Laravel Testing Completions](https://github.com/gerardroche/sublime-laravel-testing-completions?ref=gerardroche.com) Laravel testing completions.
 
 ## Windows
 
 - [Origami](https://packagecontrol.io/packages/Origami?ref=gerardroche.com) - Window commands.
-
 - [Goto Definition Split](https://github.com/gerardroche/sublime-goto-definition-split?ref=gerardroche.com) - Split definition.
 
 ## Syntaxes
 
 - [Apache Conf](https://packagecontrol.io/packages/ApacheConf?ref=gerardroche.com)
-
 - [Sass](https://packagecontrol.io/packages/Sass?ref=gerardroche.com)
-
 - [Terraform](https://packagecontrol.io/packages/Terraform?ref=gerardroche.com)
-
 - [Tmux](https://github.com/gerardroche/sublime-tmux?ref=gerardroche.com)
-
 - [Vue Syntax Highlight](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight?ref=gerardroche.com)
 
 ## Settings
@@ -412,14 +397,10 @@ Menu → Preferences → Settings
 ```
 :::
 
-## Sublime Text Development
+## Sublime Text development packages
 
 - [Automatic Package Reloader](https://packagecontrol.io/packages/AutomaticPackageReloader?ref=gerardroche.com)
-
 - [Color Scheme Unit](https://packagecontrol.io/packages/ColorSchemeUnit?ref=gerardroche.com)
-
 - [Sublime Text API Completions](https://github.com/gerardroche/sublime-api-completions?ref=gerardroche.com)
-
 - [Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode?ref=gerardroche.com)
-
 - [Unit Testing](https://packagecontrol.io/packages/UnitTesting?ref=gerardroche.com)

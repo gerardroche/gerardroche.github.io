@@ -223,4 +223,4 @@ The `iI` mapping is mostly included for completeness, it's effectively a synonym
 
 ## Further reading
 
-* `:help nv`
+* [NeoVintageous documentation](https://neovintageous.github.io/)

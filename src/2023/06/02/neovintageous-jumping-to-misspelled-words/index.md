@@ -13,8 +13,6 @@ lastUpdated: false
 
 # NeoVintageous - Jumping to Misspelled Words
 
-![Young Frankenstein (1974)](/assets/images/young-frankenstein.webp)
-
 NeoVintageous has two vim commands for jumping to misspelled words:
 
 Command | Description
@@ -66,3 +64,7 @@ And display the current value in the status bar:
 ```vim
 :set wrapscan?
 ```
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

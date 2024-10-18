@@ -306,10 +306,11 @@ Additionally, a meticulous [roadmap](https://github.com/NeoVintageous/NeoVintage
 * [#879](https://github.com/NeoVintageous/NeoVintageous/issues/879): neovintageousrc options only set on active view at startup
 * [#922](https://github.com/NeoVintageous/NeoVintageous/issues/922): neovintageousrc reloading does not refresh options
 
-## Resources
+## Further reading
 
 * The [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md) details updates between releases.
 * Access Vim's full documentation with `:help {subject}` or [online](https://vimhelp.org).
 * Refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md) for supported Vim features.
 * Report features/bugs on [GitHub](https://github.com/NeoVintageous/NeoVintageous/issues).
+* [NeoVintageous documentation](https://neovintageous.github.io/)
 * [NeoVintageous 1.32.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.32.0)

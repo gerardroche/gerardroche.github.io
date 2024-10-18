@@ -70,3 +70,8 @@ xxxxxxx "yyyyyyyyyyyy"
 - Closing folds, e.g., `zc`, when the fold is at the EOL doesn't work
 - Status indicators show a visible file as hidden when multiple tabs are visible
 - `f9` / `f12` keys do not work in normal mode
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.34.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.34.0)

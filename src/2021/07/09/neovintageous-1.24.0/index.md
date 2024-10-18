@@ -50,5 +50,5 @@ A few keys are currently mappable in insert mode: `<Esc>`, `<C-[>`, `<C-l>`, `<C
 
 ## Further reading
 
-* `:help nv`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.24.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.24.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.24.0)

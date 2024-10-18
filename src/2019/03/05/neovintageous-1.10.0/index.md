@@ -72,8 +72,5 @@ The new command **gf** edits the file whose name is under or after the cursor. (
 
 ## Further reading
 
-* `:help nv`
-* `:help :sort`
-* `:help text-objects`
-* `:help unimpaired`
-* [Release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.10.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous 1.10.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.10.0)

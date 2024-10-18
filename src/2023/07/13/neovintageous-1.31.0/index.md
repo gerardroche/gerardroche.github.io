@@ -194,10 +194,9 @@ The reason the key binding is required is because NeoVintageous does not handle 
 
 See also [how to create a toggle side bar mapping](/2023/05/15/neovintageous-toggle-sidebar/) and [how to create a reveal side bar mapping](/2023/05/18/neovintageous-reveal-in-side-bar/).
 
-## Resources
+## Further reading
 
 * [Create a reveal side bar mapping](/2023/05/18/neovintageous-reveal-in-side-bar/)
 * [Create a toggle side bar mapping](/2023/05/15/neovintageous-toggle-sidebar/)
+* [NeoVintageous documentation](https://neovintageous.github.io/)
 * [NeoVintageous 1.31.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.31.0)
-* `:help neovintageous`
-* `:help windows`

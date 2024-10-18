@@ -13,8 +13,6 @@ lastUpdated: false
 
 # NeoVintageous - Reveal in Side Bar
 
-![The Prestige (2006)](/assets/images/2023-05-18-the-prestige.webp)
-
 You can reveal a file in the sidebar via a right mouse click and selecting Reveal in Side Bar, but why work so hard. [Create a mapping](/2022/11/21/vimrc-and-neovintageousrc/):
 
 ```vim
@@ -58,3 +56,7 @@ The reason the key binding is required is because NeoVintageous does not handle 
 Pair it with a [toggle side bar mapping](/2023/05/15/neovintageous-toggle-sidebar/) to up your power user game.
 
 I hope this has been helpful.  Take it easy, my friends.
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)

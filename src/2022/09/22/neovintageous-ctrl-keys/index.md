@@ -23,3 +23,7 @@ In Vim, `<D-A>` and `<D-a>` are equal i.e. the case of `{char}` in `<D-{char}>` 
 ## Key Handler
 
 You can configure the key handler to ignore selected keys. Read the [NeoVintageous Key Handler](/2022/09/22/neovintageous-key-handler/).
+
+## Further reading
+
+* [NeoVintageous documentation](https://neovintageous.github.io/)
