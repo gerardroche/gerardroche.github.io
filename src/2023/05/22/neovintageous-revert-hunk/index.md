@@ -21,4 +21,4 @@ nnoremap <leader>hu :RevertHunk<CR>
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

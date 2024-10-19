@@ -61,4 +61,4 @@ There are two colour schemes available: "dark" (default) and "light"
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

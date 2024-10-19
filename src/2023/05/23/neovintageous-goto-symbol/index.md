@@ -33,4 +33,4 @@ Read [NeoVintageous Super Keys](/2022/09/22/neovintageous-super-keys/) for help 
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

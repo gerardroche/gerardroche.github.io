@@ -56,7 +56,7 @@ For example, to indent the current paragraph press `>}` and to re-indent it pres
 
 Instead of using a motion you can visually select the text and press `>`, `<`, or `=` to shift rightwards, shift leftwards, or re-indent.
 
-Here's a great [five minute Vimcast](http://vimcasts.org/episodes/indentation-commands/) that covers indentation command basics. Note that the vimscript features mentioned in the Vimcast are not supported, and the suggested mappings need to be formatted as follows:
+Here's a great [five minute Vimcast](http://vimcasts.org/episodes/indentation-commands/?ref=blog.gerardroche.com) that covers indentation command basics. Note that the vimscript features mentioned in the Vimcast are not supported, and the suggested mappings need to be formatted as follows:
 
 ```vim
 nnoremap <D-[> <lt><lt>
@@ -89,5 +89,5 @@ Both `gn` and `gN`, like all motions, support operators like `c` and `d` too: `c
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.13.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.13.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.13.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.13.0?ref=blog.gerardroche.com)

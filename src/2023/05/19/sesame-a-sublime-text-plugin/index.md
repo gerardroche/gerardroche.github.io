@@ -17,11 +17,11 @@ lastUpdated: false
 
 [Sesame](/projects/sublime-sesame) is my favourite Sublime Text plugin. It's a quick way to open, add, switch, and remove projects and folders.
 
-The name "Sesame" is a play on the phrase "[Open Sesame](https://en.wikipedia.org/wiki/Open_sesame)". A magical phrase in the story of "[Ali Baba and the Forty Thieves](https://en.wikipedia.org/wiki/Ali_Baba_and_the_Forty_Thieves)" from Antoine Galland's version of [One Thousand and One Nights](https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights). It opens the mouth of a cave in which forty thieves have hidden a treasure.
+The name "Sesame" is a play on the phrase "[Open Sesame](https://en.wikipedia.org/wiki/Open_sesame?ref=blog.gerardroche.com)". A magical phrase in the story of "[Ali Baba and the Forty Thieves](https://en.wikipedia.org/wiki/Ali_Baba_and_the_Forty_Thieves?ref=blog.gerardroche.com)" from Antoine Galland's version of [One Thousand and One Nights](https://en.wikipedia.org/wiki/One_Thousand_and_One_Nights?ref=blog.gerardroche.com). It opens the mouth of a cave in which forty thieves have hidden a treasure.
 
 ## Installation
 
-You can install Sesame via [Package Control](https://packagecontrol.io/packages/Sesame).
+You can install Sesame via [Package Control](https://packagecontrol.io/packages/Sesame?ref=blog.gerardroche.com).
 
 ## Setup
 
@@ -85,7 +85,7 @@ Here is what Sesame looks like in Sublime Text:
 
 ## Projects and Folders
 
-In Sesame, projects and folders mean the same thing. The only difference is that Sesame will use a Sublime Text [project file](https://www.sublimetext.com/docs/projects.html) to open the project/folder if it finds one at the base of the folder.
+In Sesame, projects and folders mean the same thing. The only difference is that Sesame will use a Sublime Text [project file](https://www.sublimetext.com/docs/projects.html?ref=blog.gerardroche.com) to open the project/folder if it finds one at the base of the folder.
 
 ## Multiple Projects Paths
 

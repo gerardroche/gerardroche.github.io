@@ -114,5 +114,5 @@ At first they may not seem useful until you think about how much you use key bin
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.6.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.6.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.6.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.6.0?ref=blog.gerardroche.com)

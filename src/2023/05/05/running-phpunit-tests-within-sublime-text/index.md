@@ -28,7 +28,7 @@ I'll show you how to install, setup, and run the test commands.
 
 ## Installation
 
-Install [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit) via Package Control.
+Install [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit?ref=blog.gerardroche.com) via Package Control.
 
 ## Setup
 
@@ -85,7 +85,7 @@ When a test fails, PHPUnit tries its best to provide as much context to help ide
 ## Support for ParaTest
 
 > The objective of ParaTest is to support parallel testing in PHPUnit.
-> &mdash; [ParaTest](https://github.com/paratestphp/paratest)
+> &mdash; [ParaTest](https://github.com/paratestphp/paratest?ref=blog.gerardroche.com)
 
 To enable support for PHPUnit parallel tests using ParaTest, open your Settings and set `phpunit.paratest` to `true`:
 

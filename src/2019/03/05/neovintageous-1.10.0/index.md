@@ -16,7 +16,7 @@ NeoVintageous 1.10.0 has just been released. The highlights in this release incl
 
 ## Scrolling horizontally
 
-Four new scrolling commands have been added. All horizontal scrolling commands only work when `'word_wrap'` is off. You can toggle word wrapping with the **Unimpaired** command `cow` ([mnemonic](https://www.brainpickings.org/2011/03/03/joshua-foer-moonwalking-with-einstein/): "change option wrap").
+Four new scrolling commands have been added. All horizontal scrolling commands only work when `'word_wrap'` is off. You can toggle word wrapping with the **Unimpaired** command `cow` ([mnemonic](https://www.brainpickings.org/2011/03/03/joshua-foer-moonwalking-with-einstein/?ref=blog.gerardroche.com): "change option wrap").
 
 command | action
 ------- | --------
@@ -72,5 +72,5 @@ The new command **gf** edits the file whose name is under or after the cursor. (
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.10.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.10.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.10.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.10.0?ref=blog.gerardroche.com)

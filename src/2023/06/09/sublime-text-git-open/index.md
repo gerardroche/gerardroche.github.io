@@ -13,7 +13,7 @@ lastUpdated: false
 
 # Git Open - Sublime Text
 
-[Git Open](https://github.com/gerardroche/sublime-git-open) is a Sublime Text plugin that provides integration for [git-open](/2023/06/08/git-open-a-shell-script/), a script that allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket.
+[Git Open](https://github.com/gerardroche/sublime-git-open?ref=blog.gerardroche.com) is a Sublime Text plugin that provides integration for [git-open](/2023/06/08/git-open-a-shell-script/), a script that allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket.
 
 ## Command Palette
 
@@ -33,7 +33,7 @@ Open the current issue in the repo website.
 
 ## NeoVintageous integration
 
-If you use [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous) (Vim Engine), I can suggest the following mapping:
+If you use [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous?ref=blog.gerardroche.com) (Vim Engine), I can suggest the following mapping:
 
 ```vim
 nnoremap <Leader>oo :GitOpen<CR>
@@ -51,4 +51,4 @@ nnoremap <Leader>oi :GitOpen issue=true<CR>
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

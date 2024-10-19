@@ -26,4 +26,4 @@ You can configure the key handler to ignore selected keys. Read the [NeoVintageo
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

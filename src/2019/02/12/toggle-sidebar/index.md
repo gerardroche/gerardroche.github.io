@@ -61,6 +61,6 @@ command | description
 
 * `:help nv`
 * `:help mapping`
-* [Command Palette](http://docs.sublimetext.info/en/latest/extensibility/command_palette.html#command-palette)
-* [Follow my leader](http://vimcasts.org/blog/2014/02/follow-my-leader/)
-* [Key Bindings](https://www.sublimetext.com/docs/3/key_bindings.html)
+* [Command Palette](http://docs.sublimetext.info/en/latest/extensibility/command_palette.html?ref=blog.gerardroche.com#command-palette)
+* [Follow my leader](http://vimcasts.org/blog/2014/02/follow-my-leader/?ref=blog.gerardroche.com)
+* [Key Bindings](https://www.sublimetext.com/docs/3/key_bindings.html?ref=blog.gerardroche.com)

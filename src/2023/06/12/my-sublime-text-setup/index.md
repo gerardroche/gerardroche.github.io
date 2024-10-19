@@ -17,17 +17,17 @@ Everyone wants to know the secret sauce.
 
 ## Package Manager
 
-[Package Control](https://packagecontrol.io?ref=gerardroche.com) is a great package manager. See the [installation guide](https://packagecontrol.io/installation?ref=gerardroche.com) on how to install it.
+[Package Control](https://packagecontrol.io?ref=blog.gerardroche.com) is a great package manager. See the [installation guide](https://packagecontrol.io/installation?ref=blog.gerardroche.com) on how to install it.
 
 ## Look and Feel
 
 ### Color scheme
 
-I use an enhanced Monokai color scheme called [MonokaiFree](https://github.com/gerardroche/sublime-monokai-free?ref=gerardroche.com).
+I use an enhanced Monokai color scheme called [MonokaiFree](https://github.com/gerardroche/sublime-monokai-free?ref=blog.gerardroche.com).
 
 ### Sidebar File Icons
 
-I use [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon?ref=gerardroche.com) for sidebar icon support. Another good option is [FileIcons](https://packagecontrol.io/packages/FileIcons?ref=gerardroche.com).
+I use [A File Icon](https://packagecontrol.io/packages/A%20File%20Icon?ref=blog.gerardroche.com) for sidebar icon support. Another good option is [FileIcons](https://packagecontrol.io/packages/FileIcons?ref=blog.gerardroche.com).
 
 ### Color scheme tweaks
 
@@ -92,15 +92,15 @@ I like things a little more compact.
 
 ## Vim Engine
 
-I love [Vim](https://www.vim.org/?ref=gerardroche.com). It is my [Weapon of Choice](https://www.youtube.com/watch?v=wCDIYvFmgW8?ref=gerardroche.com). The fastest, most reliable Vim engine for Sublime Text is [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous?ref=gerardroche.com).
+I love [Vim](https://www.vim.org/?ref=blog.gerardroche.com). It is my [Weapon of Choice](https://www.youtube.com/watch?v=wCDIYvFmgW8&ref=blog.gerardroche.com). The fastest, most reliable Vim engine for Sublime Text is [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous?ref=blog.gerardroche.com).
 
 I also use these NeoVintageous plugins:
 
-- [NeoVintageous Files](https://github.com/gerardroche/NeoVintageousFiles?ref=gerardroche.com) - File commands.
-- [NeoVintageous Highlight Line](https://github.com/gerardroche/NeoVintageousHighlightLine?ref=gerardroche.com) - Auto disable highlight line.
-- [NeoVintageous Line Numbers](https://github.com/gerardroche/NeoVintageousLineNumbers?ref=gerardroche.com) - Auto disable line numbers.
+- [NeoVintageous Files](https://github.com/gerardroche/NeoVintageousFiles?ref=blog.gerardroche.com) - File commands.
+- [NeoVintageous Highlight Line](https://github.com/gerardroche/NeoVintageousHighlightLine?ref=blog.gerardroche.com) - Auto disable highlight line.
+- [NeoVintageous Line Numbers](https://github.com/gerardroche/NeoVintageousLineNumbers?ref=blog.gerardroche.com) - Auto disable line numbers.
 
-I also add [Origami](https://packagecontrol.io/packages/Origami?ref=gerardroche.com) for additional window commands.
+I also add [Origami](https://packagecontrol.io/packages/Origami?ref=blog.gerardroche.com) for additional window commands.
 
 ::: details Settings
 Menu → Preferences → Settings
@@ -127,7 +127,7 @@ Menu → Preferences → Settings
 
 
 ::: details neovintageousrc
-This is a snapshot of my neovintageousrc, see it [in full in my sublimefiles](https://github.com/gerardroche/sublimefiles/blob/master/User/.neovintageousrc?ref=gerardroche.com).
+This is a snapshot of my neovintageousrc, see it [in full in my sublimefiles](https://github.com/gerardroche/sublimefiles/blob/master/User/.neovintageousrc?ref=blog.gerardroche.com).
 
 ```vim
 set ignorecase
@@ -213,13 +213,13 @@ wbond/packagecontrol.io
 
 ## Linting
 
-I use [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter?ref=gerardroche.com) for linting. Here are some of the linters I use:
+I use [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter?ref=blog.gerardroche.com) for linting. Here are some of the linters I use:
 
-- [Sublime Linter eslint](https://packagecontrol.io/packages/SublimeLinter-eslint?ref=gerardroche.com)
-- [Sublime Linter flake8](https://packagecontrol.io/packages/SublimeLinter-flake8?ref=gerardroche.com)
-- [Sublime Linter mypy](https://packagecontrol.io/packages/SublimeLinter-mypy?ref=gerardroche.com)
-- [Sublime Linter php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer?ref=gerardroche.com) (pull requests for [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16?ref=gerardroche.com) and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15?ref=gerardroche.com) support)
-- [Sublime Linter php](https://packagecontrol.io/packages/SublimeLinter-php?ref=gerardroche.com)
+- [Sublime Linter eslint](https://packagecontrol.io/packages/SublimeLinter-eslint?ref=blog.gerardroche.com)
+- [Sublime Linter flake8](https://packagecontrol.io/packages/SublimeLinter-flake8?ref=blog.gerardroche.com)
+- [Sublime Linter mypy](https://packagecontrol.io/packages/SublimeLinter-mypy?ref=blog.gerardroche.com)
+- [Sublime Linter php-cs-fixer](https://packagecontrol.io/packages/SublimeLinter-contrib-php-cs-fixer?ref=blog.gerardroche.com) (pull requests for [v3.0](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/16?ref=blog.gerardroche.com) and [ST4](https://github.com/jhoff/SublimeLinter-contrib-php-cs-fixer/pull/15?ref=blog.gerardroche.com) support)
+- [Sublime Linter php](https://packagecontrol.io/packages/SublimeLinter-php?ref=blog.gerardroche.com)
 
 ::: info NOTE
 I'm currently using LSP instead.
@@ -227,11 +227,11 @@ I'm currently using LSP instead.
 
 ## LSP
 
-I use [LSP](https://github.com/sublimelsp/LSP?ref=gerardroche.com) ([LSP-volar](https://github.com/sublimelsp/LSP-volar?ref=gerardroche.com), [LSP-eslint](https://github.com/sublimelsp/LSP-eslint?ref=gerardroche.com), [phpactor](https://github.com/phpactor/phpactor?ref=gerardroche.com), [LSP-tailwindcss](https://github.com/sublimelsp/LSP-tailwindcss?ref=gerardroche.com)).
+I use [LSP](https://github.com/sublimelsp/LSP?ref=blog.gerardroche.com) ([LSP-volar](https://github.com/sublimelsp/LSP-volar?ref=blog.gerardroche.com), [LSP-eslint](https://github.com/sublimelsp/LSP-eslint?ref=blog.gerardroche.com), [phpactor](https://github.com/phpactor/phpactor?ref=blog.gerardroche.com), [LSP-tailwindcss](https://github.com/sublimelsp/LSP-tailwindcss?ref=blog.gerardroche.com)).
 
 ## Documentation
 
-I use [GotoDocumentation](https://packagecontrol.io/packages/GotoDocumentation?ref=gerardroche.com) for opening documentation for the keyword under the cursor. I map it to F1.
+I use [GotoDocumentation](https://packagecontrol.io/packages/GotoDocumentation?ref=blog.gerardroche.com) for opening documentation for the keyword under the cursor. I map it to F1.
 
 ::: details Create a key binding
 Menu → Preferences → Key Bindings
@@ -256,40 +256,40 @@ The context selector exclusion is to allow support for Goto PHP Manual, see [bel
 
 ## Sidebar
 
-[Side Bar Tools](https://packagecontrol.io/packages/SideBarTools?ref=gerardroche.com) adds useful tools to the sidebar.
+[Side Bar Tools](https://packagecontrol.io/packages/SideBarTools?ref=blog.gerardroche.com) adds useful tools to the sidebar.
 
 ## Markdown
 
-[Markdown Preview](https://packagecontrol.io/packages/MarkdownPreview?ref=gerardroche.com) opens rendered markdown files in your browser.
+[Markdown Preview](https://packagecontrol.io/packages/MarkdownPreview?ref=blog.gerardroche.com) opens rendered markdown files in your browser.
 
 ## Git
 
-- [Git Open](https://github.com/gerardroche/sublime-git-open?ref=gerardroche.com) `git-open` integration.
-- [Gitk](https://github.com/gerardroche/sublime-gitk?ref=gerardroche.com) `gitk` integration.
-- [Git Open Modified](https://github.com/gerardroche/sublime-git-open-modified?ref=gerardroche.com) Open modified files.
+- [Git Open](https://github.com/gerardroche/sublime-git-open?ref=blog.gerardroche.com) `git-open` integration.
+- [Gitk](https://github.com/gerardroche/sublime-gitk?ref=blog.gerardroche.com) `gitk` integration.
+- [Git Open Modified](https://github.com/gerardroche/sublime-git-open-modified?ref=blog.gerardroche.com) Open modified files.
 
 ## PHP
 
-- [Goto PHP Manual](https://github.com/gerardroche/sublime-goto-php-manual?ref=gerardroche.com) Open PHP documentation.
-- [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck?ref=gerardroche.com) PHP completions.
-- [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar?ref=gerardroche.com) PHP macros.
-- [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets?ref=gerardroche.com) PHP snippets.
-- [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions?ref=gerardroche.com) PHPUnit completions.
-- [PHPUnit Kit](https://github.com/gerardroche/sublime-phpunit?ref=gerardroche.com) PHPUnit integration.
-- [Laravel Testing Completions](https://github.com/gerardroche/sublime-laravel-testing-completions?ref=gerardroche.com) Laravel testing completions.
+- [Goto PHP Manual](https://github.com/gerardroche/sublime-goto-php-manual?ref=blog.gerardroche.com) Open PHP documentation.
+- [PHP Completions Kit](https://github.com/gerardroche/sublime-phpck?ref=blog.gerardroche.com) PHP completions.
+- [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar?ref=blog.gerardroche.com) PHP macros.
+- [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets?ref=blog.gerardroche.com) PHP snippets.
+- [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions?ref=blog.gerardroche.com) PHPUnit completions.
+- [PHPUnit Kit](https://github.com/gerardroche/sublime-phpunit?ref=blog.gerardroche.com) PHPUnit integration.
+- [Laravel Testing Completions](https://github.com/gerardroche/sublime-laravel-testing-completions?ref=blog.gerardroche.com) Laravel testing completions.
 
 ## Windows
 
-- [Origami](https://packagecontrol.io/packages/Origami?ref=gerardroche.com) - Window commands.
-- [Goto Definition Split](https://github.com/gerardroche/sublime-goto-definition-split?ref=gerardroche.com) - Split definition.
+- [Origami](https://packagecontrol.io/packages/Origami?ref=blog.gerardroche.com) - Window commands.
+- [Goto Definition Split](https://github.com/gerardroche/sublime-goto-definition-split?ref=blog.gerardroche.com) - Split definition.
 
 ## Syntaxes
 
-- [Apache Conf](https://packagecontrol.io/packages/ApacheConf?ref=gerardroche.com)
-- [Sass](https://packagecontrol.io/packages/Sass?ref=gerardroche.com)
-- [Terraform](https://packagecontrol.io/packages/Terraform?ref=gerardroche.com)
-- [Tmux](https://github.com/gerardroche/sublime-tmux?ref=gerardroche.com)
-- [Vue Syntax Highlight](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight?ref=gerardroche.com)
+- [Apache Conf](https://packagecontrol.io/packages/ApacheConf?ref=blog.gerardroche.com)
+- [Sass](https://packagecontrol.io/packages/Sass?ref=blog.gerardroche.com)
+- [Terraform](https://packagecontrol.io/packages/Terraform?ref=blog.gerardroche.com)
+- [Tmux](https://github.com/gerardroche/sublime-tmux?ref=blog.gerardroche.com)
+- [Vue Syntax Highlight](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight?ref=blog.gerardroche.com)
 
 ## Settings
 
@@ -399,8 +399,8 @@ Menu → Preferences → Settings
 
 ## Sublime Text development packages
 
-- [Automatic Package Reloader](https://packagecontrol.io/packages/AutomaticPackageReloader?ref=gerardroche.com)
-- [Color Scheme Unit](https://packagecontrol.io/packages/ColorSchemeUnit?ref=gerardroche.com)
-- [Sublime Text API Completions](https://github.com/gerardroche/sublime-api-completions?ref=gerardroche.com)
-- [Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode?ref=gerardroche.com)
-- [Unit Testing](https://packagecontrol.io/packages/UnitTesting?ref=gerardroche.com)
+- [Automatic Package Reloader](https://packagecontrol.io/packages/AutomaticPackageReloader?ref=blog.gerardroche.com)
+- [Color Scheme Unit](https://packagecontrol.io/packages/ColorSchemeUnit?ref=blog.gerardroche.com)
+- [Sublime Text API Completions](https://github.com/gerardroche/sublime-api-completions?ref=blog.gerardroche.com)
+- [Toggle Debug Mode](https://github.com/gerardroche/sublime-toggle-debug-mode?ref=blog.gerardroche.com)
+- [Unit Testing](https://packagecontrol.io/packages/UnitTesting?ref=blog.gerardroche.com)

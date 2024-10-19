@@ -16,7 +16,7 @@ NeoVintageous 1.26.0 has been released.  The highlights are new text objects and
 
 ## New vim text objects
 
-New text objects inspired by [vim-targets](https://github.com/NeoVintageous/NeoVintageous/issues/781):
+New text objects inspired by [vim-targets](https://github.com/NeoVintageous/NeoVintageous/issues/781?ref=blog.gerardroche.com):
 
 ```
 i,
@@ -132,5 +132,5 @@ You do some very fancy time-saving operations on a multiple cursor.
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.26.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.26.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.26.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.26.0?ref=blog.gerardroche.com)

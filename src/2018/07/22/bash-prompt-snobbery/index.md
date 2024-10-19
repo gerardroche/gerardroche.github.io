@@ -62,7 +62,7 @@ Newlines can used to create multi-line prompts:
 $ PS1='\w\n\$ '
 ```
 
-Bash allows prompt strings to be customized by inserting backslash-escaped special characters that are decoded.  See [backslash-escaped special characters](http://man7.org/linux/man-pages/man1/bash.1.html#PROMPTING) for a complete list of all of special backslash-escaped characters.
+Bash allows prompt strings to be customized by inserting backslash-escaped special characters that are decoded.  See [backslash-escaped special characters](http://man7.org/linux/man-pages/man1/bash.1.html#PROMPTING?ref=blog.gerardroche.com) for a complete list of all of special backslash-escaped characters.
 
 ### if-else statements
 
@@ -76,7 +76,7 @@ $ PS1='\w $(if test $? = 0;then echo "\$";else echo "ERROR \$";fi) '
 
 Instead of printing "ERROR" let's use color codes to show a prompt in red.
 
-Color codes are surrounded with [escape sequences](https://unix.stackexchange.com/questions/124407/what-color-codes-can-i-use-in-my-ps1-prompt/124409#124409) (`\[` / `\]`). Using `\[` and `\]` around color codes is necessary to prevent issues with command line editing, browsing, and completion.
+Color codes are surrounded with [escape sequences](https://unix.stackexchange.com/questions/124407/what-color-codes-can-i-use-in-my-ps1-prompt/124409#124409?ref=blog.gerardroche.com) (`\[` / `\]`). Using `\[` and `\]` around color codes is necessary to prevent issues with command line editing, browsing, and completion.
 
 ```bash
 $ PS1='\w $(if test $? = 0;then echo "\$";else echo "\[\e[31m\]\$\[\e[0m\]";fi) '
@@ -162,9 +162,9 @@ PROMPT_COMMAND='__git_ps1 "╭─ \w" "\n╰$(if test $? = 0;then echo "\$";else
 
 ## Further reading
 
-* [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
-* [Git in Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
-* [Git in Zsh](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Zsh)
-* [Git in PowerShell](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-PowerShell)
-* [Bash PARAMETERS](http://man7.org/linux/man-pages/man1/bash.1.html#PARAMETERS)
-* [Bash PROMPTING](http://man7.org/linux/man-pages/man1/bash.1.html#PROMPTING)
+* [git-prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh?ref=blog.gerardroche.com)
+* [Git in Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash?ref=blog.gerardroche.com)
+* [Git in Zsh](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Zsh?ref=blog.gerardroche.com)
+* [Git in PowerShell](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-PowerShell?ref=blog.gerardroche.com)
+* [Bash PARAMETERS](http://man7.org/linux/man-pages/man1/bash.1.html?ref=blog.gerardroche.com#PARAMETERS)
+* [Bash PROMPTING](http://man7.org/linux/man-pages/man1/bash.1.html?ref=blog.gerardroche.com#PROMPTING)

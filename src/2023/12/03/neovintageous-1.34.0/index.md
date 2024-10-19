@@ -73,5 +73,5 @@ xxxxxxx "yyyyyyyyyyyy"
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.34.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.34.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.34.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.34.0?ref=blog.gerardroche.com)

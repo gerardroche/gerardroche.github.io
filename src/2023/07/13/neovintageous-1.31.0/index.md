@@ -17,7 +17,7 @@ NeoVintageous 1.31.0 has been released.  Highlights include new and improved win
 
 ## Sublime Text Vim window commands
 
-Most window commands require [origami](https://packagecontrol.io/packages/Origami) to work properly.  Origami is a great a plugin for managing windows.  [I highly recommend it](/2023/06/12/my-sublime-text-setup/).
+Most window commands require [origami](https://packagecontrol.io/packages/Origami?ref=blog.gerardroche.com) to work properly.  Origami is a great a plugin for managing windows.  [I highly recommend it](/2023/06/12/my-sublime-text-setup/).
 
 **Vim window splitting**
 
@@ -104,7 +104,7 @@ To jump to a global mark.
 `{A-Z}
 ```
 
-The next version of NeoVintageous will support [showing marks in the gutter](https://github.com/NeoVintageous/NeoVintageous/issues/915).
+The next version of NeoVintageous will support [showing marks in the gutter](https://github.com/NeoVintageous/NeoVintageous/issues/915?ref=blog.gerardroche.com).
 
 ## Sublime Text Vim goto file commands
 
@@ -198,5 +198,5 @@ See also [how to create a toggle side bar mapping](/2023/05/15/neovintageous-tog
 
 * [Create a reveal side bar mapping](/2023/05/18/neovintageous-reveal-in-side-bar/)
 * [Create a toggle side bar mapping](/2023/05/15/neovintageous-toggle-sidebar/)
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.31.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.31.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.31.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.31.0?ref=blog.gerardroche.com)

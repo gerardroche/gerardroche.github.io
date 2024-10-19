@@ -12,11 +12,11 @@ lastUpdated: false
 
 # NeoVintageous 1.21.0
 
-NeoVintageous 1.21.0 has been released. The highlights are a port of [vim-sneak](https://github.com/justinmk/vim-sneak), ability to enable `jj` and `jk` map to escape, and other minor enhancements and fixes.
+NeoVintageous 1.21.0 has been released. The highlights are a port of [vim-sneak](https://github.com/justinmk/vim-sneak?ref=blog.gerardroche.com), ability to enable `jj` and `jk` map to escape, and other minor enhancements and fixes.
 
 ## vim-sneak
 
-Sneak is a port of [vim-sneak](https://github.com/justinmk/vim-sneak) and is disabled by default.
+Sneak is a port of [vim-sneak](https://github.com/justinmk/vim-sneak?ref=blog.gerardroche.com) and is disabled by default.
 
 Menu → Preferences → Settings
 
@@ -93,5 +93,5 @@ nnoremap <leader>en :Neovintageous action=open_rc_file<CR>
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.21.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.21.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.21.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.21.0?ref=blog.gerardroche.com)

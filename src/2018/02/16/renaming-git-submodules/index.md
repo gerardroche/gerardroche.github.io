@@ -20,7 +20,7 @@ $ git mv <source> <destination>
 
 That's all there is to it!
 
-Note: Git 2.9 [fixed an issue](https://stackoverflow.com/a/18712756) renaming *nested* submodules.
+Note: Git 2.9 [fixed an issue](https://stackoverflow.com/a/18712756?ref=blog.gerardroche.com) renaming *nested* submodules.
 
 ```bash
 $ git --version

@@ -29,4 +29,4 @@ gsettings reset org.gnome.desktop.input-sources xkb-options
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

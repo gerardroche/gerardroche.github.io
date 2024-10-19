@@ -30,5 +30,5 @@ In builds `>=` 4081 sessions are saved on exit instead of at runtime.
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.28.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.28.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.28.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.28.0?ref=blog.gerardroche.com)

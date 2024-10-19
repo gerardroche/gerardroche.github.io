@@ -74,4 +74,4 @@ Mapping to Sublime Text commands unlocks a world of possibilities. Elevate your 
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

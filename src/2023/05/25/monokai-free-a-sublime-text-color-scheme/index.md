@@ -13,7 +13,7 @@ lastUpdated: false
 
 # MonokaiFree - A Sublime Text color scheme
 
-[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) is an enhanced version of the Monokai colour scheme.
+[MonokaiFree](https://packagecontrol.io/packages/MonokaiFree?ref=blog.gerardroche.com) is an enhanced version of the Monokai colour scheme.
 
 > PHP
 
@@ -48,7 +48,7 @@ Menu → Preferences → Settings
 
 ## Alternative font
 
-Try an alternative font like [Fira Code](https://github.com/tonsky/FiraCode).
+Try an alternative font like [Fira Code](https://github.com/tonsky/FiraCode?ref=blog.gerardroche.com).
 
 ```bash
 sudo apt-get install fonts-firacode
@@ -86,5 +86,5 @@ I hope this has been helpful.  Take it easy, my friends.
 
 ## Resources
 
-* [Subime Text Monokai enhanced color scheme](https://packagecontrol.io/packages/MonokaiFree)
-* [Sublime Text color scheme documentation](https://www.sublimetext.com/docs/color_schemes.html)
+* [Subime Text Monokai enhanced color scheme](https://packagecontrol.io/packages/MonokaiFree?ref=blog.gerardroche.com)
+* [Sublime Text color scheme documentation](https://www.sublimetext.com/docs/color_schemes.html?ref=blog.gerardroche.com)

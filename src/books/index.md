@@ -6,7 +6,7 @@ Some of my favourites.
 - Do Androids Dream Of Electric Sheep? by Philip K. Dick
 - Dracula by Bram Stoker
 - Fahrenheit 451 by Ray Bradbury
-- Flowers For Algernon by Daniel Keyes ([audiobook](https://www.youtube.com/watch?v=SHWted1RUmE))
+- Flowers For Algernon by Daniel Keyes ([audiobook](https://www.youtube.com/watch?v=SHWted1RUmE?ref=blog.gerardroche.com))
 - Homage to Catalonia by George Orwell
 - Magician (Book 1 of 4: Riftwar Saga) by Raymond E. Feist
 - Metamorphosis by Franz Kafka
@@ -14,7 +14,7 @@ Some of my favourites.
 - Notes from Underground by Fyodor Dostoevsky
 - One Flew Over the Cuckoo's Nest by Ken Kesey
 - Sentimental Education by Gustave Flaubert
-- Space Prison by Tom Godwin ([audiobook](https://www.youtube.com/watch?v=qPjAniEcb6s))
+- Space Prison by Tom Godwin ([audiobook](https://www.youtube.com/watch?v=qPjAniEcb6s?ref=blog.gerardroche.com))
 - The Complete Robot by Isaac Asimov
 - The Hitchhiker's Guide to the Galaxy (Book 1 of 5) by Douglas Adams
 - The Man Who Mistook His Wife for a Hat by Oliver Sacks

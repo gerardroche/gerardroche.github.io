@@ -55,7 +55,7 @@ gsettings set org.gnome.desktop.input-sources xkb-options "['caps:escape']"
 
 ## A shell script
 
-Keeping your keymaps reusable across systems can be as straight forward as a shell script, perhaps [keep it under source control alongside your dotfiles](https://github.com/gerardroche/dotfiles/blob/master/src/bin/configure-ubuntu-keybindings). Here's an sample of some keymaps I use in a reusable script.
+Keeping your keymaps reusable across systems can be as straight forward as a shell script, perhaps [keep it under source control alongside your dotfiles](https://github.com/gerardroche/dotfiles/blob/master/src/bin/configure-ubuntu-keybindings?ref=blog.gerardroche.com). Here's an sample of some keymaps I use in a reusable script.
 
 ```bash
 #!/bin/sh

@@ -12,9 +12,9 @@ hero:
 
 features:
 
-  - title: "On which, type, and readlink commands"
+  - title: "The which, type, and readlink linux commands "
     link: '/2024/06/30/on-which-type-and-readlink-commands/'
-    details: "The `which` command identifies the location of a command. It does this by searching the `PATH` for executable files."
+    details: "The which command identifies the location of commands. It searches the system PATH for executables. The -a option prints all matching locations. To inspect the PATH, use tr to split it into separate lines for improved readability."
 
   - title: "Framework is my next laptop"
     link: '/2024/06/03/framework-is-my-next-laptop/'
@@ -22,5 +22,5 @@ features:
 
   - title: "bash or sh"
     link: '/2024/05/30/bash-or-sh/'
-    details: "I prefer sh over bash. I begin almost every script with the same four lines."
+    details: "I prefer sh over bash. I begin almost every script with the same four lines. A POSIX-compliant shell, exit immediately on error, unset CDPATH, and unset IFS."
 ---

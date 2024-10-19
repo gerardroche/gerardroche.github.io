@@ -33,7 +33,7 @@ This release empowers you with enhanced editing functionality and customization,
 
 Seamlessly transition between input methods when entering and exiting Insert Mode. This feature supports third-party programs for input method switching.
 
-For a detailed guide on automatic input method switching, refer to the [readme](https://github.com/NeoVintageous/NeoVintageous), or consider the following example:
+For a detailed guide on automatic input method switching, refer to the [readme](https://github.com/NeoVintageous/NeoVintageous?ref=blog.gerardroche.com), or consider the following example:
 
 1. Open the Command Palette using `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
 
@@ -50,14 +50,14 @@ For a detailed guide on automatic input method switching, refer to the [readme](
 
    The `{im}` argument in the configuration represents a command-line option passed to the input switcher command.
 
-The [readme](https://github.com/NeoVintageous/NeoVintageous) offers comprehensive guides for various input switchers across different operating systems.
+The [readme](https://github.com/NeoVintageous/NeoVintageous?ref=blog.gerardroche.com) offers comprehensive guides for various input switchers across different operating systems.
 
 ## Colemak and Dvorak Mappings
 
 Enhance typing efficiency with innovative mapping packages for Colemak and Dvorak layouts.
 
-- [NeoVintageous Dvorak](https://github.com/gerardroche/NeoVintageousDvorak): Explore Dvorak key mappings.
-- [NeoVintageous Colemak](https://github.com/gerardroche/NeoVintageousColemak): Embrace the convenience of Colemak key mappings.
+- [NeoVintageous Dvorak](https://github.com/gerardroche/NeoVintageousDvorak?ref=blog.gerardroche.com): Explore Dvorak key mappings.
+- [NeoVintageous Colemak](https://github.com/gerardroche/NeoVintageousColemak?ref=blog.gerardroche.com): Embrace the convenience of Colemak key mappings.
 
 Both packages utilize the new `vintageous_source` setting, enabling third-party key mappings. This streamlined approach ensures tailored Vim experiences while accommodating customization.
 
@@ -269,48 +269,48 @@ Effortlessly manage super key activation according to preference.
 
 ## Comprehensive Documentation and Roadmap
 
-The [readme](https://github.com/NeoVintageous/NeoVintageous) now offers thorough insights into features, configurations, and tips for customizing your setup.
+The [readme](https://github.com/NeoVintageous/NeoVintageous?ref=blog.gerardroche.com) now offers thorough insights into features, configurations, and tips for customizing your setup.
 
-Additionally, a meticulous [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md) has been prepared. This exhaustive resource indexes existing features, providing a wealth of information to explore.
+Additionally, a meticulous [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md?ref=blog.gerardroche.com) has been prepared. This exhaustive resource indexes existing features, providing a wealth of information to explore.
 
 ## Notable Additions
 
-* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956): Add `:exi[t]!` alias of `:wq!`
-* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956): Add `:exit[!] [file]` alias of `:wq[!] [file]`
-* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956): Add `:x[it]!` alias of `:wq!`
-* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956): Add `:xit[!] [file]` alias of `:wq[!] [file]`
-* [#942](https://github.com/NeoVintageous/NeoVintageous/issues/942): Add `CTRL-M` alias of `Enter`
-* [#943](https://github.com/NeoVintageous/NeoVintageous/issues/943): Add `zuw` alias of `zug`
+* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956?ref=blog.gerardroche.com): Add `:exi[t]!` alias of `:wq!`
+* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956?ref=blog.gerardroche.com): Add `:exit[!] [file]` alias of `:wq[!] [file]`
+* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956?ref=blog.gerardroche.com): Add `:x[it]!` alias of `:wq!`
+* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/956?ref=blog.gerardroche.com): Add `:xit[!] [file]` alias of `:wq[!] [file]`
+* [#942](https://github.com/NeoVintageous/NeoVintageous/issues/942?ref=blog.gerardroche.com): Add `CTRL-M` alias of `Enter`
+* [#943](https://github.com/NeoVintageous/NeoVintageous/issues/943?ref=blog.gerardroche.com): Add `zuw` alias of `zug`
 
 ## Notable Changes
 
-* [#955](https://github.com/NeoVintageous/NeoVintageous/issues/947): `ZZ` now same as `:wq`
-* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/947): `:exi[t]` now same as `:wq`
-* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/947): `:x[it]` now same as `:wq`
-* [#947](https://github.com/NeoVintageous/NeoVintageous/issues/947): `:vnoremap` and `vunmap` now include Select mode
-* [#946](https://github.com/NeoVintageous/NeoVintageous/issues/946): `:noremap` and `unmap` now include Select mode
+* [#955](https://github.com/NeoVintageous/NeoVintageous/issues/947?ref=blog.gerardroche.com): `ZZ` now same as `:wq`
+* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/947?ref=blog.gerardroche.com): `:exi[t]` now same as `:wq`
+* [#956](https://github.com/NeoVintageous/NeoVintageous/issues/947?ref=blog.gerardroche.com): `:x[it]` now same as `:wq`
+* [#947](https://github.com/NeoVintageous/NeoVintageous/issues/947?ref=blog.gerardroche.com): `:vnoremap` and `vunmap` now include Select mode
+* [#946](https://github.com/NeoVintageous/NeoVintageous/issues/946?ref=blog.gerardroche.com): `:noremap` and `unmap` now include Select mode
 
 ### Notable Deprecations
 
-* [#819](https://github.com/NeoVintageous/NeoVintageous/issues/819): The deprecated setting `vintageous_exit_when_quiting_last_window` should be replaced with `vintageous_exit_when_quitting_last_window`.
-* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952): The deprecated setting `highlightedyank` should be replaced with `vintageous_highlighted_yank`
-* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952): The deprecated setting `highlightedyank_style` should be replaced with `vintageous_highlighted_yank_style`
-* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952): The deprecated setting `highlightedyank_duration` should be replaced with `vintageous_highlighted_yank_duration`
-* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952): The deprecated setting `neovintageous_search_cur_style` should be replaced with `vintageous_search_cur_style`
-* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952): The deprecated setting `neovintageous_search_inc_style` should be replaced with `vintageous_search_inc_style`
-* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952): The deprecated setting `neovintageous_search_occ_style` should be replaced with `vintageous_search_occ_style`
+* [#819](https://github.com/NeoVintageous/NeoVintageous/issues/819?ref=blog.gerardroche.com): The deprecated setting `vintageous_exit_when_quiting_last_window` should be replaced with `vintageous_exit_when_quitting_last_window`.
+* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952?ref=blog.gerardroche.com): The deprecated setting `highlightedyank` should be replaced with `vintageous_highlighted_yank`
+* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952?ref=blog.gerardroche.com): The deprecated setting `highlightedyank_style` should be replaced with `vintageous_highlighted_yank_style`
+* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952?ref=blog.gerardroche.com): The deprecated setting `highlightedyank_duration` should be replaced with `vintageous_highlighted_yank_duration`
+* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952?ref=blog.gerardroche.com): The deprecated setting `neovintageous_search_cur_style` should be replaced with `vintageous_search_cur_style`
+* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952?ref=blog.gerardroche.com): The deprecated setting `neovintageous_search_inc_style` should be replaced with `vintageous_search_inc_style`
+* [#952](https://github.com/NeoVintageous/NeoVintageous/issues/952?ref=blog.gerardroche.com): The deprecated setting `neovintageous_search_occ_style` should be replaced with `vintageous_search_occ_style`
 
 ## Notable Fixes
 
-* [#929](https://github.com/NeoVintageous/NeoVintageous/issues/929): No syntax highlighting for `<LocalLeader>`
-* [#879](https://github.com/NeoVintageous/NeoVintageous/issues/879): neovintageousrc options only set on active view at startup
-* [#922](https://github.com/NeoVintageous/NeoVintageous/issues/922): neovintageousrc reloading does not refresh options
+* [#929](https://github.com/NeoVintageous/NeoVintageous/issues/929?ref=blog.gerardroche.com): No syntax highlighting for `<LocalLeader>`
+* [#879](https://github.com/NeoVintageous/NeoVintageous/issues/879?ref=blog.gerardroche.com): neovintageousrc options only set on active view at startup
+* [#922](https://github.com/NeoVintageous/NeoVintageous/issues/922?ref=blog.gerardroche.com): neovintageousrc reloading does not refresh options
 
 ## Further reading
 
-* The [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md) details updates between releases.
-* Access Vim's full documentation with `:help {subject}` or [online](https://vimhelp.org).
-* Refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md) for supported Vim features.
-* Report features/bugs on [GitHub](https://github.com/NeoVintageous/NeoVintageous/issues).
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.32.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.32.0)
+* The [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md?ref=blog.gerardroche.com) details updates between releases.
+* Access Vim's full documentation with `:help {subject}` or [online](https://vimhelp.org?ref=blog.gerardroche.com).
+* Refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md?ref=blog.gerardroche.com) for supported Vim features.
+* Report features/bugs on [GitHub](https://github.com/NeoVintageous/NeoVintageous/issues?ref=blog.gerardroche.com).
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.32.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.32.0?ref=blog.gerardroche.com)

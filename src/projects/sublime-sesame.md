@@ -1,6 +1,6 @@
 # Sesame
 
-[Sesame](https://github.com/gerardroche/sublime-sesame?ref=gerardroche.com) is a Projects Command Palette. It provides commands to open, add, remove, and switch projects. For example, when you organise your projects like this:
+[Sesame](https://github.com/gerardroche/sublime-sesame?ref=blog.gerardroche.com) is a Projects Command Palette. It provides commands to open, add, remove, and switch projects. For example, when you organise your projects like this:
 
 ```
 ❯ ~/projects
@@ -54,9 +54,9 @@ One key binding is defined by default, Open, `Ctrl+Alt+O` (Win/Linux), `Super+Al
 
 ### Prerequisites
 
-- [Sublime Text](https://www.sublimetext.com/?ref=gerardroche.com) version 3 or higher.
-- [Package Control](https://packagecontrol.io/installation?ref=gerardroche.com) for Package Control installation.
-- [Git](https://git-scm.com/?ref=gerardroche.com) for Manual Git installation.
+- [Sublime Text](https://www.sublimetext.com/?ref=blog.gerardroche.com) version 3 or higher.
+- [Package Control](https://packagecontrol.io/installation?ref=blog.gerardroche.com) for Package Control installation.
+- [Git](https://git-scm.com/?ref=blog.gerardroche.com) for Manual Git installation.
 
 ::: details Package Control installation
 

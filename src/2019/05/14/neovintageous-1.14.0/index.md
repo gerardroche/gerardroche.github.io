@@ -37,5 +37,5 @@ The super-keys are disabled by default, you can enable them by editing your sett
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.14.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.14.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.14.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.14.0?ref=blog.gerardroche.com)

@@ -18,7 +18,7 @@ The ability to revert a diff hunk was added in Sublime Text 4.  You can access i
 
 **Context Menu → Revert Diff Hunk**
 
-For quicker access, create a vim NeoVintageous mapping.  I like to map it as `<leader>hu`.  This is the same mapping used by the popular vim plugin [vim-gitgutter](https://github.com/airblade/vim-gitgutter#hunks).
+For quicker access, create a vim NeoVintageous mapping.  I like to map it as `<leader>hu`.  This is the same mapping used by the popular vim plugin [vim-gitgutter](https://github.com/airblade/vim-gitgutter?ref=blog.gerardroche.com#hunks).
 
 Command Palette → NeoVintageous: Open RC File
 
@@ -32,9 +32,9 @@ Command Palette → NeoVintageous: Reload RC File
 
 You can jump between diff hunks with `]c` and `[c`.  See [jumping to diffs](/2023/05/31/neovintageous-jumping-to-diffs/).
 
-::: info Support for jumping to diffs was added in Sublime Text 3 build 3189. Support for older versions require [GitGutter](https://github.com/jisaacks/GitGutter).
+::: info Support for jumping to diffs was added in Sublime Text 3 build 3189. Support for older versions require [GitGutter](https://github.com/jisaacks/GitGutter?ref=blog.gerardroche.com).
 :::
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

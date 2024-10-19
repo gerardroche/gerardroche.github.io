@@ -16,7 +16,7 @@ NeoVintageous 1.24.0 has been released. This was a small release. The highlights
 
 ## Window splitting
 
-Splitting windows in NeoVintageous requires the the additional package [Origami](https://packagecontrol.io/packages/Origami).
+Splitting windows in NeoVintageous requires the the additional package [Origami](https://packagecontrol.io/packages/Origami?ref=blog.gerardroche.com).
 
 > Origami is a new way of thinking about panes in Sublime Text: you tell Sublime
   Text where you want a new pane, and it makes one for you. It works seamlessly
@@ -50,5 +50,5 @@ A few keys are currently mappable in insert mode: `<Esc>`, `<C-[>`, `<C-l>`, `<C
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.24.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.24.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.24.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.24.0?ref=blog.gerardroche.com)

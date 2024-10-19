@@ -17,7 +17,7 @@ In this version, a new documentation website has been created from scratch and w
 
 ## NeoVintageous documentation website
 
-Check out the new documentation website at [neovintageous.github.io](https://neovintageous.github.io/).
+Check out the new documentation website at [neovintageous.github.io](https://neovintageous.github.io/?ref=blog.gerardroche.com).
 
 ## Alternate buffer register
 
@@ -41,5 +41,5 @@ List Vim buffers with `:ls` and display Vim registers with `:registers`. The typ
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.35.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.35.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.35.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.35.0?ref=blog.gerardroche.com)

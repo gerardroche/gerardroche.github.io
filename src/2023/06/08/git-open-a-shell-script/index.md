@@ -13,7 +13,7 @@ lastUpdated: false
 
 # git-open - a shell script
 
-[`git-open`](https://github.com/paulirish/git-open/) is a fantastic tool. It allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket.
+[`git-open`](https://github.com/paulirish/git-open/?ref=blog.gerardroche.com) is a fantastic tool. It allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket.
 
 Type `git open` to open a repo website in your browser.
 
@@ -43,7 +43,7 @@ alias o='git open'
 
 ## Installation
 
-See the [readme installation guide](https://github.com/paulirish/git-open/?tab=readme-ov-file#installation) for setup instructions.
+See the [readme installation guide](https://github.com/paulirish/git-open/?tab=readme-ov-file&ref=blog.gerardroche.com#installation) for setup instructions.
 
 ## Sublime Text integration
 

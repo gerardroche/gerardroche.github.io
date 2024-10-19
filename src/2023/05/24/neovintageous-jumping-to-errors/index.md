@@ -13,7 +13,7 @@ lastUpdated: false
 
 # NeoVintageous - Jumping to Errors
 
-[SublimeLinter](https://packagecontrol.io/search/SublimeLinter) is a code linting framework for Sublime Text.  NeoVintageous has two commands for jumping to lint errors.
+[SublimeLinter](https://packagecontrol.io/search/SublimeLinter?ref=blog.gerardroche.com) is a code linting framework for Sublime Text.  NeoVintageous has two commands for jumping to lint errors.
 
 Command | Description
 :------ | :----------
@@ -30,4 +30,4 @@ A status message is displayed if there are no more errors.
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

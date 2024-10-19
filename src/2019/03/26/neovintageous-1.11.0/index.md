@@ -62,11 +62,11 @@ NeoVintageous: Toggle SUPER keys
 
 * Added `z.` redraw line at center of window and put cursor at first non-blank.
 * Added `[{`, `]}`, `[(`, and `])` in VISUAL mode.
-* Added `:split [file]` completions (split commands require the [Origami](https://packagecontrol.io/packages/Origami) package. tip: checkout the windowing split commands `CTRL-w s` aka `:split` and `CTRL-w v` aka `:vsplit`).
+* Added `:split [file]` completions (split commands require the [Origami](https://packagecontrol.io/packages/Origami?ref=blog.gerardroche.com) package. tip: checkout the windowing split commands `CTRL-w s` aka `:split` and `CTRL-w v` aka `:vsplit`).
 * Added support for the `Shift+Space` special key (`<S-Space>`) in mappings.
 
 ## Further reading
 
 * [Toggle sidebar](/2019/02/12/toggle-sidebar/)
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.11.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.11.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.11.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.11.0?ref=blog.gerardroche.com)

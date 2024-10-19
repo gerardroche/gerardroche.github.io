@@ -13,7 +13,7 @@ lastUpdated: false
 
 # The NeoVintageous Vim help system
 
-Vim's [help pages](https://vimhelp.org) are distributed unmodified in NeoVintageous and are accessed in the same way as Vim.
+Vim's [help pages](https://vimhelp.org?ref=blog.gerardroche.com) are distributed unmodified in NeoVintageous and are accessed in the same way as Vim.
 
 ```vim
 :help
@@ -65,4 +65,4 @@ I hope this has been helpful. Take it easy, my friends.
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

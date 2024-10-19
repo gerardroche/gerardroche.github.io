@@ -16,7 +16,7 @@ NeoVintageous includes a number of bundled plugins by default. Each plugin offer
 
 ## Abolish
 
-Abolish is a port of [vim-abolish](https://github.com/tpope/vim-abolish), Tim Pope, the author, describes it as
+Abolish is a port of [vim-abolish](https://github.com/tpope/vim-abolish?ref=blog.gerardroche.com), Tim Pope, the author, describes it as
 
 > Three superficially unrelated plugins in one that share a common theme: working with variants of a word.
 
@@ -54,7 +54,7 @@ Some algorithms, such as `cr-` (dash-case) and `cr.` (dot.case), are listed as "
 
 ## Commentary
 
-Commentary is a port of [vim-commentary](https://github.com/tpope/vim-commentary), it adds several commands that make it easier to comment, uncomment, and toggle comments.
+Commentary is a port of [vim-commentary](https://github.com/tpope/vim-commentary?ref=blog.gerardroche.com), it adds several commands that make it easier to comment, uncomment, and toggle comments.
 
 Use **gcc** to comment out a line (takes a count), **gc** to comment out the target of a motion (for example, **gcap** to comment out a paragraph, **gcG** to comment to the end of file), and **gc** in visual mode to comment out the selection. All of the commands toggle the comment.
 
@@ -66,7 +66,7 @@ command | description
 
 ## Highlighted Yank
 
-Highlighted Yank is a port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank).
+Highlighted Yank is a port of [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank?ref=blog.gerardroche.com).
 
 > Make the yanked region apparent!
 
@@ -74,7 +74,7 @@ This plugin highlights a yanked region immediately after being yanked. The **dur
 
 ## Multiple Cursors
 
-Multiple Cursors is a port of [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors).
+Multiple Cursors is a port of [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors?ref=blog.gerardroche.com).
 
 command | description
 ------- | -----------
@@ -106,7 +106,7 @@ NeoVintageous: Toggle CTRL keys
 
 ## Surround
 
-Surround is a port of [vim-surround](https://github.com/tpope/vim-surround).
+Surround is a port of [vim-surround](https://github.com/tpope/vim-surround?ref=blog.gerardroche.com).
 
 > Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 
@@ -156,11 +156,11 @@ old text | command | new text
 `if *x>3 {` | `ysW(` | `if ( x>3 ) {`
 `my $str = *whee!;` | `vllllS'` | `my $str = 'whee!';`
 
-The Surround plugin is very powerful and has many more features than shown above, see the [surround documentation](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/surround.txt) for more examples. You can also access documentation via the ex command `:help surround`.
+The Surround plugin is very powerful and has many more features than shown above, see the [surround documentation](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/surround.txt?ref=blog.gerardroche.com) for more examples. You can also access documentation via the ex command `:help surround`.
 
 ## Unimpaired
 
-Unimpaired is a port of [vim-unimpaired](https://github.com/tpope/vim-unimpaired).
+Unimpaired is a port of [vim-unimpaired](https://github.com/tpope/vim-unimpaired?ref=blog.gerardroche.com).
 
 > Much of unimpaired.vim was extracted from my vimrc when I noticed a pattern: complementary pairs of mappings.
 
@@ -208,7 +208,7 @@ On | Off | Toggle | Option
 
 ## Indent Object
 
-Indent Object is a port of [vim-indent-object](https://github.com/michaeljsmith/vim-indent-object). It defines a new text object, based on indentation levels. This is very useful in languages such as Python, in which the syntax defines scope in terms of indentation. Using the objects defined in this plugin, an entire if structure can be quickly selected.
+Indent Object is a port of [vim-indent-object](https://github.com/michaeljsmith/vim-indent-object?ref=blog.gerardroche.com). It defines a new text object, based on indentation levels. This is very useful in languages such as Python, in which the syntax defines scope in terms of indentation. Using the objects defined in this plugin, an entire if structure can be quickly selected.
 
 Just like regular text objects, these mappings can be used either with operators expecting a motion, such as `d` or `c`, as well as in visual mode.
 
@@ -223,4 +223,4 @@ The `iI` mapping is mostly included for completeness, it's effectively a synonym
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

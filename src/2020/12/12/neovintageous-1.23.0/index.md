@@ -57,7 +57,7 @@ The valid mode prefixes are:
 
 No prefix implies all modes.
 
-Any keybinding defined in [Defaut.sublime-keymap](https://github.com/NeoVintageous/NeoVintageous/blob/master/Default.sublime-keymap) that has a "nv_handle_key" context can be configured to delegate back to ST.
+Any keybinding defined in [Defaut.sublime-keymap](https://github.com/NeoVintageous/NeoVintageous/blob/master/Default.sublime-keymap?ref=blog.gerardroche.com) that has a "nv_handle_key" context can be configured to delegate back to ST.
 
 ## Sneak case-sensitivity
 
@@ -86,5 +86,5 @@ The new command `<C-u>` (insert mode) deletes all entered characters before the 
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.23.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.23.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.23.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.23.0?ref=blog.gerardroche.com)

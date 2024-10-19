@@ -21,4 +21,4 @@ nnoremap <leader>en :Neovintageous action=open_rc_file<CR>
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

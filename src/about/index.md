@@ -12,7 +12,7 @@ sidebar: false
 
 Hello, my name is Gerard. I'm a software developer.
 
-Follow me on <a href="https://x.com/gerardroche_?ref=gerardroche.com">X</a>.
+Follow me on <a href="https://x.com/gerardroche_?ref=blog.gerardroche.com">X</a>.
 
 <br> <br> <br> <br> <br>
 <br> <br> <br> <br> <br>

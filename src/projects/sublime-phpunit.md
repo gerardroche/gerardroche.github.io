@@ -1,6 +1,6 @@
 # PHPUnit Kit
 
-[PHPUnit](https://github.com/gerardroche/sublime-phpunit?ref=gerardroche.com) integration.
+[PHPUnit](https://github.com/gerardroche/sublime-phpunit?ref=blog.gerardroche.com) integration.
 
 ## Features
 
@@ -35,9 +35,9 @@
 
 ### Prerequisites
 
-- [Sublime Text](https://www.sublimetext.com/?ref=gerardroche.com) version 3 or higher.
-- [Package Control](https://packagecontrol.io/installation?ref=gerardroche.com) for Package Control installation.
-- [Git](https://git-scm.com/?ref=gerardroche.com) for Manual Git installation.
+- [Sublime Text](https://www.sublimetext.com/?ref=blog.gerardroche.com) version 3 or higher.
+- [Package Control](https://packagecontrol.io/installation?ref=blog.gerardroche.com) for Package Control installation.
+- [Git](https://git-scm.com/?ref=blog.gerardroche.com) for Manual Git installation.
 
 ::: details Package Control installation
 
@@ -350,7 +350,7 @@ Discover and use Pest to run tests.
 Enable SSH for remote testing.
 
 ::: details Example
-Run tests via SSH using [Laravel Homestead](https://laravel.com/docs/homestead?ref=gerardroche.com)
+Run tests via SSH using [Laravel Homestead](https://laravel.com/docs/homestead?ref=blog.gerardroche.com)
 
 ```jsonl
 "phpunit.ssh": true,
@@ -434,7 +434,7 @@ Environment variables and user home directory `~` placeholders are expanded.
 Enable Docker for testing.
 
 ::: details Example
-Run tests via [Docker](https://www.docker.com?ref=gerardroche.com)
+Run tests via [Docker](https://www.docker.com?ref=blog.gerardroche.com)
 
 ```jsonl
 "phpunit.docker": true,
@@ -500,7 +500,7 @@ Clear the terminal's scrollback buffer or do not attempt to clear it using the e
 - Type: `string`
 - Default: `:.` (current pane)
 
-Set the session, window, and pane, to be used to run tests. The format is `{session}:{window}.{pane}`, see [Tmux documentation](http://man.openbsd.org/OpenBSD-current/man1/tmux.1#COMMANDS) for details.
+Set the session, window, and pane, to be used to run tests. The format is `{session}:{window}.{pane}`, see [Tmux documentation](http://man.openbsd.org/OpenBSD-current/man1/tmux.1?ref=blog.gerardroche.com#COMMANDS) for details.
 
 ::: details Example current session, lowest-numbered window, top pane
 ```
@@ -534,13 +534,13 @@ Command Palette → Preferences: PHPUnit Settings
 ```
 :::
 
-[Artisan]: https://laravel.com/docs/artisan
-[Composer]: https://getcomposer.org
-[Kitty]: https://github.com/kovidgoyal/kitty
-[ParaTest]: https://github.com/paratestphp/paratest
-[Pest]: https://pestphp.com
-[PowerShell]: https://learn.microsoft.com/en-us/powershell/
-[Tmux]: https://github.com/tmux/tmux/wiki
-[cmd]: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd
-[iTerm2]: https://iterm2.com
-[xterm]: https://invisible-island.net/xterm/
+[Artisan]: https://laravel.com/docs/artisan?ref=blog.gerardroche.com
+[Composer]: https://getcomposer.org?ref=blog.gerardroche.com
+[Kitty]: https://github.com/kovidgoyal/kitty?ref=blog.gerardroche.com
+[ParaTest]: https://github.com/paratestphp/paratest?ref=blog.gerardroche.com
+[Pest]: https://pestphp.com?ref=blog.gerardroche.com
+[PowerShell]: https://learn.microsoft.com/en-us/powershell/?ref=blog.gerardroche.com
+[Tmux]: https://github.com/tmux/tmux/wiki?ref=blog.gerardroche.com
+[cmd]: https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd?ref=blog.gerardroche.com
+[iTerm2]: https://iterm2.com?ref=blog.gerardroche.com
+[xterm]: https://invisible-island.net/xterm/?ref=blog.gerardroche.com

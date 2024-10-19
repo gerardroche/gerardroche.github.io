@@ -46,7 +46,7 @@ You can map to any command by PascalCasing it.
 
 Append `<CR>` to indicate pressing the enter key.
 
-Another example, is mapping `<D-n>` to run the nearest test (requires the [Test](https://github.com/gerardroche/sublime-test) package):
+Another example, is mapping `<D-n>` to run the nearest test (requires the [Test](https://github.com/gerardroche/sublime-test?ref=blog.gerardroche.com) package):
 
 ```vim
 nnoremap <D-n> :TestNearest<CR>
@@ -133,5 +133,5 @@ The recursive mappings were removed, because they were not implemented as recurs
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.5.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.5.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.5.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.5.0?ref=blog.gerardroche.com)

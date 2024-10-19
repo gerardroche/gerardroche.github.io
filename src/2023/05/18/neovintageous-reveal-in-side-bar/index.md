@@ -24,7 +24,7 @@ A new advanced reveal in side bar command was added in [v1.31.0](/2023/07/13/neo
 
 ## Advanced reveal side bar
 
-The [new](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.31.0) reveal in side bar command does a number of things that the built-in Sublime Text command does not.
+The [new](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.31.0?ref=blog.gerardroche.com) reveal in side bar command does a number of things that the built-in Sublime Text command does not.
 
 1. Makes the side bar visible if it's not already visible
 2. Puts focus on the side bar
@@ -59,4 +59,4 @@ I hope this has been helpful.  Take it easy, my friends.
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

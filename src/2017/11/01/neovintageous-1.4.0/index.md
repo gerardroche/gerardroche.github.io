@@ -18,9 +18,9 @@ This release introduces Vim's help system, complete with full Vim documentation,
 
 ## The Vim help system
 
-In NeoVintageous 1.4.0, you can access Vim's documentation thanks to the new `:help {subject}` command-line command. Vim's full documentation system is accessible via the command, and is an extensive cross-referenced and hyperlinked reference. It's kept up-to-date with the software and can answer almost any question about Vim's functionality. An up-to-date version of Vim help, with hyperlinks, can be found on [appspot](https://vimhelp.appspot.com).
+In NeoVintageous 1.4.0, you can access Vim's documentation thanks to the new `:help {subject}` command-line command. Vim's full documentation system is accessible via the command, and is an extensive cross-referenced and hyperlinked reference. It's kept up-to-date with the software and can answer almost any question about Vim's functionality. An up-to-date version of Vim help, with hyperlinks, can be found on [appspot](https://vimhelp.appspot.com?ref=blog.gerardroche.com).
 
-NeoVintageous is an emulation of Vim so feature-parity is an ongoing effort, some features are not implemented or implemented fully, and differences are not fully documented. See [`:help nv`](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/neovintageous.txt) to learn about some of the differences. Please open issues to request missing features.
+NeoVintageous is an emulation of Vim so feature-parity is an ongoing effort, some features are not implemented or implemented fully, and differences are not fully documented. See [`:help nv`](https://github.com/NeoVintageous/NeoVintageous/blob/master/res/doc/neovintageous.txt?ref=blog.gerardroche.com) to learn about some of the differences. Please open issues to request missing features.
 
 ```vim
 :help nv
@@ -127,7 +127,7 @@ The mappings above mean you can resize groups equally (`,=`), vertically (`,|`),
 
 ### Mapping to Plugin Commands
 
-You can map pretty much any Sublime Text command, including commands provided by third party plugins. For example, the [Test](https://github.com/gerardroche/sublime-test) plugin provides commands for running your tests:
+You can map pretty much any Sublime Text command, including commands provided by third party plugins. For example, the [Test](https://github.com/gerardroche/sublime-test?ref=blog.gerardroche.com) plugin provides commands for running your tests:
 
 ```vim
 nnoremap <leader>t :TestNearest<CR>
@@ -139,5 +139,5 @@ nnoremap <leader>gg :TestVisit<CR>
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.4.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.4.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.4.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.4.0?ref=blog.gerardroche.com)

@@ -234,28 +234,28 @@ Several multiple cursor aliases have been introduced to enhance your editing exp
 ## Other Notable Additions
 
 - Add support for `<Left>` and `<Right>` in insert mode, allowing you to move the cursor one character to the left and right.
-- Add `[count]` support for `CTRL-i` and `CTRL-o`: navigate to newer and older cursor positions in the jump list. [#981](https://github.com/NeoVintageous/NeoVintageous/issues/981) [#980](https://github.com/NeoVintageous/NeoVintageous/issues/980)
-- Add `O` in visual mode: Go to Other end of highlighted text.  This is like "o", but in Visual block mode the cursor moves to the other corner in the same line. [#976](https://github.com/NeoVintageous/NeoVintageous/issues/976)
-- Add `CTRL-n` in insert mode to open auto-complete. [#965](https://github.com/NeoVintageous/NeoVintageous/issues/965)
+- Add `[count]` support for `CTRL-i` and `CTRL-o`: navigate to newer and older cursor positions in the jump list. [#981](https://github.com/NeoVintageous/NeoVintageous/issues/981?ref=blog.gerardroche.com) [#980](https://github.com/NeoVintageous/NeoVintageous/issues/980?ref=blog.gerardroche.com)
+- Add `O` in visual mode: Go to Other end of highlighted text.  This is like "o", but in Visual block mode the cursor moves to the other corner in the same line. [#976](https://github.com/NeoVintageous/NeoVintageous/issues/976?ref=blog.gerardroche.com)
+- Add `CTRL-n` in insert mode to open auto-complete. [#965](https://github.com/NeoVintageous/NeoVintageous/issues/965?ref=blog.gerardroche.com)
 
 ## Notable Fixes
 
 - Bracket text object, e.g., `vi{`, `vi}`, `viB`, should not include trailing whitespace on last line
 - Special keys like `<Esc>` don't work in complex mappings in some cases e.g., `<Esc>li`
 - Session history is not saved in some cases
-- `v_o` should update the cursor x position. [#974](https://github.com/NeoVintageous/NeoVintageous/issues/974)
-- Don't populate small delete when a register is specified. [#963](https://github.com/NeoVintageous/NeoVintageous/issues/963)
-- `zt`, `zb`, and `zz` should maintain cursor column. [#962](https://github.com/NeoVintageous/NeoVintageous/issues/962)
-- `z<CR>`, `z-`, and `z.` should position the cursor on the first non-blank. [#962](https://github.com/NeoVintageous/NeoVintageous/issues/962)
-- `zt`, `zb`, `zz`, `z<CR>`, `z-`, and `z.` scroll command inconsistencies. [#962](https://github.com/NeoVintageous/NeoVintageous/issues/962)
-- Commands like `:tabfirst`, `:tabonly`, `:tabnext`, should not be forceable. [#966](https://github.com/NeoVintageous/NeoVintageous/issues/966)
-- Disable line highlighting in Cmdline output. [#960](https://github.com/NeoVintageous/NeoVintageous/issues/960)
+- `v_o` should update the cursor x position. [#974](https://github.com/NeoVintageous/NeoVintageous/issues/974?ref=blog.gerardroche.com)
+- Don't populate small delete when a register is specified. [#963](https://github.com/NeoVintageous/NeoVintageous/issues/963?ref=blog.gerardroche.com)
+- `zt`, `zb`, and `zz` should maintain cursor column. [#962](https://github.com/NeoVintageous/NeoVintageous/issues/962?ref=blog.gerardroche.com)
+- `z<CR>`, `z-`, and `z.` should position the cursor on the first non-blank. [#962](https://github.com/NeoVintageous/NeoVintageous/issues/962?ref=blog.gerardroche.com)
+- `zt`, `zb`, `zz`, `z<CR>`, `z-`, and `z.` scroll command inconsistencies. [#962](https://github.com/NeoVintageous/NeoVintageous/issues/962?ref=blog.gerardroche.com)
+- Commands like `:tabfirst`, `:tabonly`, `:tabnext`, should not be forceable. [#966](https://github.com/NeoVintageous/NeoVintageous/issues/966?ref=blog.gerardroche.com)
+- Disable line highlighting in Cmdline output. [#960](https://github.com/NeoVintageous/NeoVintageous/issues/960?ref=blog.gerardroche.com)
 
 ## Resources
 
-* The [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md) details updates between releases.
-* Access Vim's full documentation with `:help {subject}` or [online](https://vimhelp.org).
-* Refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md) for supported Vim features.
-* Report features/bugs on [GitHub](https://github.com/NeoVintageous/NeoVintageous/issues).
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.33.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.33.0)
+* The [changelog](https://github.com/NeoVintageous/NeoVintageous/blob/master/CHANGELOG.md?ref=blog.gerardroche.com) details updates between releases.
+* Access Vim's full documentation with `:help {subject}` or [online](https://vimhelp.org?ref=blog.gerardroche.com).
+* Refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md?ref=blog.gerardroche.com) for supported Vim features.
+* Report features/bugs on [GitHub](https://github.com/NeoVintageous/NeoVintageous/issues?ref=blog.gerardroche.com).
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.33.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.33.0?ref=blog.gerardroche.com)

@@ -12,11 +12,11 @@ lastUpdated: false
 
 # NeoVintageous 1.9.0
 
-NeoVintageous [1.9.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0) has landed. This release brings built-in support for jumping to diffs, opening and closing folds, countable newlines, and surround enhancements.
+NeoVintageous [1.9.0](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0?ref=blog.gerardroche.com) has landed. This release brings built-in support for jumping to diffs, opening and closing folds, countable newlines, and surround enhancements.
 
 ## Jumping to diffs
 
-This is the first release to ship with built-in support for jumping to diffs (added in Sublime [build 3189](https://www.sublimetext.com/3dev)). For previous builds you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter) plugin.
+This is the first release to ship with built-in support for jumping to diffs (added in Sublime [build 3189](https://www.sublimetext.com/3dev?ref=blog.gerardroche.com)). For previous builds you'll need the [Git Gutter](https://github.com/jisaacks/GitGutter?ref=blog.gerardroche.com) plugin.
 
 command | action
 ------- | --------
@@ -60,5 +60,5 @@ Old text | Command | New text
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.9.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.9.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.9.0?ref=blog.gerardroche.com)

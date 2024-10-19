@@ -12,7 +12,7 @@ lastUpdated: false
 
 # NeoVintageous 1.7.0
 
-NeoVintageous 1.7.0 has been released and includes configurable search highlighting, and an highlighted yank implementation inspired by [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank).
+NeoVintageous 1.7.0 has been released and includes configurable search highlighting, and an highlighted yank implementation inspired by [vim-highlightedyank](https://github.com/machakann/vim-highlightedyank?ref=blog.gerardroche.com).
 
 > \[!NOTE\]
 > This post has been updated to reflect changes to settings in [v1.32](/2023/08/12/neovintageous-1.32.0/).
@@ -128,5 +128,5 @@ This post was updated to reflect changes in v1.32. The the following settings we
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
-* [NeoVintageous 1.7.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
+* [NeoVintageous 1.7.0 release notes](https://github.com/NeoVintageous/NeoVintageous/releases/tag/1.7.0?ref=blog.gerardroche.com)

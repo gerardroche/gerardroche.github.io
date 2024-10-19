@@ -13,7 +13,7 @@ lastUpdated: false
 
 # Framework is my next laptop
 
-[Framework](https://frame.work) is going to be my next laptop. I don't want to buy another laptop with Windows pre-installed. I don't use Windows. I don't see why I should have to pay for it.
+[Framework](https://frame.work?ref=blog.gerardroche.com) is going to be my next laptop. I don't want to buy another laptop with Windows pre-installed. I don't use Windows. I don't see why I should have to pay for it.
 
 ![Framework laptop](/assets/images/framework.webp)
 

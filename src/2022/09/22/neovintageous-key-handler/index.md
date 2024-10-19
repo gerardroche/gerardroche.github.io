@@ -59,7 +59,7 @@ With this setup, NeoVintageous will respect your mode-specific preferences. For 
 
 ## Special Keys
 
-In Vim, certain keys hold special significance. You can find a useful list of these special keys, along with their notations and codes, in the Vim documentation's [key-notation and key-codes section](https://vimhelp.org/intro.txt.html#key-notation).
+In Vim, certain keys hold special significance. You can find a useful list of these special keys, along with their notations and codes, in the Vim documentation's [key-notation and key-codes section](https://vimhelp.org/intro.txt.html?ref=blog.gerardroche.com#key-notation).
 
 ## Troubleshooting Tips
 
@@ -73,4 +73,4 @@ By following these guidelines, you can tailor NeoVintageous to your liking and e
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

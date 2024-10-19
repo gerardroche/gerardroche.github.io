@@ -45,4 +45,4 @@ Have you ever had to go through a file resolving conflicts like this? I know you
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

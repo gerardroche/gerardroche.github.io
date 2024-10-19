@@ -12,7 +12,7 @@ lastUpdated: false
 
 # NeoVintageous - Toggle Zoom
 
-If you're like me, you probably open a lot of windows and things get messy, but sometimes you just want to focus on one window. This is where the [Origami](https://packagecontrol.io/packages/Origami) package can help.
+If you're like me, you probably open a lot of windows and things get messy, but sometimes you just want to focus on one window. This is where the [Origami](https://packagecontrol.io/packages/Origami?ref=blog.gerardroche.com) package can help.
 
 Origami provides a commands to split, organize, and manage windows. One such command is Zoom/Unzoom Current Pane (Toggle Zoom).
 
@@ -44,7 +44,7 @@ nnoremap <Leader>. :ToggleZoomPane fraction=0.98<CR>
 
 ## Further reading
 
-* [Follow my leader](http://vimcasts.org/blog/2014/02/follow-my-leader/)
-* [Working with windows](http://vimcasts.org/episodes/working-with-windows/)
+* [Follow my leader](http://vimcasts.org/blog/2014/02/follow-my-leader/?ref=blog.gerardroche.com)
+* [Working with windows](http://vimcasts.org/episodes/working-with-windows/?ref=blog.gerardroche.com)
 * `:help mapleader`
 * `:help nv`

@@ -12,7 +12,7 @@ lastUpdated: false
 
 # NeoVintageous Super keys
 
-["Super" keys](https://en.wikipedia.org/wiki/Super_key_(keyboard_button)) are disabled by default in NeoVintageous. You can enable them via the Command Palette **NeoVintageous: Toggle SUPER keys**. Super keys are more commonly labelled as a Windows key, or Command key (⌘) on Mac.
+["Super" keys](https://en.wikipedia.org/wiki/Super_key_(keyboard_button?ref=blog.gerardroche.com)) are disabled by default in NeoVintageous. You can enable them via the Command Palette **NeoVintageous: Toggle SUPER keys**. Super keys are more commonly labelled as a Windows key, or Command key (⌘) on Mac.
 
 > \[!NOTE\]
 > Since [v1.32](/2023/08/12/neovintageous-1.32.0/) super-keys are enabled by default.
@@ -39,4 +39,4 @@ Debug the event by running `sublime.log_input(True)` in the console. Open the Su
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

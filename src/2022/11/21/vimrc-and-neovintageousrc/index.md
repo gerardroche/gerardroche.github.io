@@ -26,7 +26,7 @@ To edit the neovintageousrc file, follow these steps:
 
 Here are some of the options supported in the NeoVintageous: `autoindent`, `belloff`, `expandtab`, `hlsearch`, `ignorecase`, `incsearch`, `list`, `magic`, `menu`, `minimap`, `modeline`, `modelines`, `number`, `relativenumber`, `shell`, `sidebar`, `smartcase`, `spell`, `statusbar`, `tabstop`, `textwidth`, `winaltkeys`, `wrap`, `wrapscan`.
 
-For a full list of supported options, please refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md).
+For a full list of supported options, please refer to our [roadmap](https://github.com/NeoVintageous/NeoVintageous/blob/master/ROADMAP.md?ref=blog.gerardroche.com).
 
 You can set these options using the `:set {option}` command. Here are two examples that you might find useful:
 
@@ -133,4 +133,4 @@ It's quite versatile and can be very powerful.
 
 ## Further Reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

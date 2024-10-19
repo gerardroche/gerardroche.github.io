@@ -304,7 +304,7 @@ Draw each line number as the distance from the current line.  Alias of `relative
 
 To quickly toggle `'relativenumber'` use the unimpaired plugin option toggle `yor`.
 
-To auto disable relative numbers in Insert mode, install the [NeoVintageous Line Number](https://packagecontrol.io/packages/NeoVintageousLineNumbers) plugin.
+To auto disable relative numbers in Insert mode, install the [NeoVintageous Line Number](https://packagecontrol.io/packages/NeoVintageousLineNumbers?ref=blog.gerardroche.com) plugin.
 
 #### 'scrolloff' number option
 
@@ -453,4 +453,4 @@ I hope this enhances your sublime vim experience. Take it easy, my friends.
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)

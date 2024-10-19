@@ -83,4 +83,4 @@ A side bar toggle is a great way to free up screen real estate. Pair it with an 
 
 ## Further reading
 
-* [NeoVintageous documentation](https://neovintageous.github.io/)
+* [NeoVintageous documentation](https://neovintageous.github.io/?ref=blog.gerardroche.com)
