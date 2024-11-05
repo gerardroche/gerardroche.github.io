@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Jumping to Errors
-excerpt: "SublimeLinter is a code linting framework for Sublime Text. NeoVintageous has two commands for jumping to lint errors."
+description: "SublimeLinter is a code linting framework for Sublime Text. NeoVintageous has two commands for jumping to lint errors."
 lastUpdated: false
 ---
 

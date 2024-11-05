@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: sh
 title: bash or sh
-excerpt: "I prefer sh over bash. I begin almost every script with the same four lines. A POSIX-compliant shell, exit immediately on error, unset CDPATH, and unset IFS."
+description: "I prefer sh over bash. I begin almost every script with the same four lines. A POSIX-compliant shell, exit immediately on error, unset CDPATH, and unset IFS."
 lastUpdated: false
 ---
 

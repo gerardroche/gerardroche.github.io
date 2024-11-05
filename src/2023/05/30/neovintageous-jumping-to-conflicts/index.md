@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous git
 title: NeoVintageous - Jumping to Conflicts
-excerpt: "NeoVintageous has two vim commands for jumping to SCM conflicts. These are part of the Unimpaired plugin bundled with NeoVintageous. [n Jump backward to previous SCM conflict marker or diff/patch. ]n Jump forward to next SCM conflict marker or diff/patch."
+description: "NeoVintageous has two vim commands for jumping to SCM conflicts. These are part of the Unimpaired plugin bundled with NeoVintageous. [n Jump backward to previous SCM conflict marker or diff/patch. ]n Jump forward to next SCM conflict marker or diff/patch."
 lastUpdated: false
 ---
 

@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: ubuntu sh
 title: Fix laggy key presses
-excerpt: "If key presses are slow or laggy, check the system configuration. On Ubuntu you can configure keyboard repeat interval and delay."
+description: "If key presses are slow or laggy, check the system configuration. On Ubuntu you can configure keyboard repeat interval and delay."
 lastUpdated: false
 ---
 

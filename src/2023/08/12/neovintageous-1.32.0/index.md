@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.32.0
-excerpt: "Introducing NeoVintageous 1.32.0! This release comes packed with exciting features. Highlights include Effortless Input Method Switching, Colemak and Dvorak Mappings, Gutter Marks: Introducing Markology, Universal Character Mapping, Tailored Sublime Text Exit Behaviour, Comprehensive Documentation and Roadmap"
+description: "Introducing NeoVintageous 1.32.0! This release comes packed with exciting features. Highlights include Effortless Input Method Switching, Colemak and Dvorak Mappings, Gutter Marks: Introducing Markology, Universal Character Mapping, Tailored Sublime Text Exit Behaviour, Comprehensive Documentation and Roadmap"
 lastUpdated: false
 ---
 

@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: sublime-text
 title: MonokaiFree - A Sublime Text color scheme
-excerpt: "MonokaiFree is an enhanced version of the Monokai colour scheme."
+description: "MonokaiFree is an enhanced version of the Monokai colour scheme."
 lastUpdated: false
 ---
 

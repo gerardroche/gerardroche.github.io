@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.4.0 is now available with new features and enhancements.
-excerpt: "NeoVintageous 1.4.0 is now available. The highlights are a new help system (including full Vim documentation) and the ability to map to built-in Sublime Text commands or user commands."
+description: "NeoVintageous 1.4.0 is now available. The highlights are a new help system (including full Vim documentation) and the ability to map to built-in Sublime Text commands or user commands."
 redirect_from: /2017/11/01/neovintageous-1.4.0-released/
 lastUpdated: false
 ---

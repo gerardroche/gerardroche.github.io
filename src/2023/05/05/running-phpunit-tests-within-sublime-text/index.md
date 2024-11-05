@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: sublime-text phpunit php
 title: Run PHPUnit tests from within Sublime Text at the speed of light
-excerpt: "Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you like Test Driven Development. PHPUnit Kit has all the features you will ever need to run PHPUnit tests from within Sublime Text."
+description: "Being able to run your PHPUnit tests from within Sublime Text is a productivity win. This is especially true if you like Test Driven Development. PHPUnit Kit has all the features you will ever need to run PHPUnit tests from within Sublime Text."
 lastUpdated: false
 ---
 

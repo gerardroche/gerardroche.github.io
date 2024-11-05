@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: sublime-text git vim neovintageous
 title: Git Open - A Sublime Text plugin
-excerpt: "Git Open is a Sublime Text plugin that provides integration for git-open, a script that allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket."
+description: "Git Open is a Sublime Text plugin that provides integration for git-open, a script that allows you to open a repo website in your browser. It supports Linux, Mac, and Windows, and supports GitHub, GitLab, and Bitbucket."
 lastUpdated: false
 ---
 

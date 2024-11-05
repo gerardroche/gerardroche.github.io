@@ -6,6 +6,7 @@ next: false
 outline: false
 prev: false
 sidebar: false
+description: My name is Gerard. I'm a programmer and software developer. These are some of the projects I work on in my spare time.
 ---
 
 # Projects

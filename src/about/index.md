@@ -6,6 +6,7 @@ next: false
 outline: false
 prev: false
 sidebar: false
+description: My name is Gerard. I'm a programmer and software developer. Follow me on X at @gerardroche_
 ---
 
 # About

@@ -1,3 +1,14 @@
+---
+aside: false
+editLink: false
+lastUpdated: false
+next: false
+outline: false
+prev: false
+sidebar: false
+description: My name is Gerard. I'm a programmer and software developer. I love sci-fi and movies. Here is some of my favourite music.
+---
+
 # Music
 
 Some of my favourites.

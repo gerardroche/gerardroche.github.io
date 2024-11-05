@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim git sh
 title: Vim - Add a file to the staging area
-excerpt: "This is a mapping that adds the current file to the git staging area. This won't work if the file is not located within your current working directory. How can you determine the current working directory?"
+description: "This is a mapping that adds the current file to the git staging area. This won't work if the file is not located within your current working directory. How can you determine the current working directory?"
 lastUpdated: false
 ---
 

@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: sublime-text vim neovintageous php git
 title: My Sublime Text setup
-excerpt: "Everyone wants to know the secret sauce. Package Control is a great package manager. See the installation guide on how to install it. I use an enhanced Monokai color scheme called MonokaiFree. I use A File Icon for sidebar icon support."
+description: "Everyone wants to know the secret sauce. Package Control is a great package manager. See the installation guide on how to install it. I use an enhanced Monokai color scheme called MonokaiFree. I use A File Icon for sidebar icon support."
 lastUpdated: false
 ---
 

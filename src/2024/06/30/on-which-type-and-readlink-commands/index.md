@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: ubuntu sh
 title: The which, type, and readlink linux commands
-excerpt: "The which command identifies the location of commands. It searches the system PATH for executables. The -a option prints all matching locations. To inspect the PATH, use tr to split it into separate lines for improved readability."
+description: "The which command identifies the location of commands. It searches the system PATH for executables. The -a option prints all matching locations. To inspect the PATH, use tr to split it into separate lines for improved readability."
 lastUpdated: false
 ---
 

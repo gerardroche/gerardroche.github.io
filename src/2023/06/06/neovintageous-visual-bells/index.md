@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous
 title: NeoVintageous - Visual Bells
-excerpt: "NeoVintageous supports three types of vim visual bell. The setting vintageous_bell allows you to choose the style for the visual bell."
+description: "NeoVintageous supports three types of vim visual bell. The setting vintageous_bell allows you to choose the style for the visual bell."
 lastUpdated: false
 ---
 

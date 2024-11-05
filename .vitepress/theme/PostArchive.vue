@@ -49,8 +49,8 @@ const posts = computed(() => {
           <h2>{{ post.frontmatter.title }}</h2>
         </a>
       </header>
-      <div v-if="post.frontmatter.excerpt" class="excerpt">
-        {{ post.frontmatter.excerpt }}
+      <div v-if="post.frontmatter.excerpt || post.frontmatter.description" class="excerpt">
+        {{ post.frontmatter.excerpt || post.frontmatter.description }}
         <br>
       </div>
     </article>

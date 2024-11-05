@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: NeoVintageous 1.34.0
-excerpt: "Introducing NeoVintageous 1.34.0! This is a small release, it adds more support for the Targets plugin and some minor enhancements and fixes."
+description: "Introducing NeoVintageous 1.34.0! This is a small release, it adds more support for the Targets plugin and some minor enhancements and fixes."
 lastUpdated: false
 ---
 

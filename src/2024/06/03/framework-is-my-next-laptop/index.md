@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: ubuntu
 title: Framework is my next laptop
-excerpt: "Framework is going to be my next laptop. I don't want to buy another laptop with Windows pre-installed. I don't use Windows. I don't see why I should have to pay for it."
+description: "Framework is going to be my next laptop. I don't want to buy another laptop with Windows pre-installed. I don't use Windows. I don't see why I should have to pay for it."
 lastUpdated: false
 ---
 

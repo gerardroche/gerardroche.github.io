@@ -7,7 +7,7 @@ sidebar: false
 aside: false
 tags: vim sublime-text neovintageous release
 title: "NeoVintageous 1.35.0 is now available with a new documentation website and alternate buffer register"
-excerpt: "In this version, a new documentation website has been created from scratch and with the new alternate buffer register you can easily toggle between two Vim buffers."
+description: "In this version, a new documentation website has been created from scratch and with the new alternate buffer register you can easily toggle between two Vim buffers."
 lastUpdated: false
 ---
 
