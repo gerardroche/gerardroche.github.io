@@ -1,15 +1,26 @@
+---
+aside: false
+editLink: false
+lastUpdated: false
+next: false
+outline: false
+prev: false
+sidebar: false
+description: Sublime Text commands to open, add, remove, and switch projects or folders.
+---
+
 # Sesame
 
-[Sesame](https://github.com/gerardroche/sublime-sesame?ref=blog.gerardroche.com) is a Projects Command Palette. It provides commands to open, add, remove, and switch projects. For example, when you organise your projects like this:
+Sublime Text commands to open, add, remove, and switch projects or folders.
 
-```
-❯ ~/projects
+For example when you organise your projects:
+
+```sh
+$ /path/to/projects
 ├── laravel
 │   ├── fortify
 │   ├── framework
-│   ├── jetstream
-│   ├── passport
-│   └── vite-plugin
+│   └── passport
 ├── sublimelsp
 │   └── LSP
 └── wbond
@@ -17,55 +28,80 @@
     └── packagecontrol.io
 ```
 
-Sesame will prompt you with this:
+Sesame commands will prompt you:
 
 ```
 laravel/fortify
 laravel/framework
-laravel/jetstream
 laravel/passport
-laravel/vite-plugin
 sublimelsp/LSP
 wbond/package_control
 wbond/packagecontrol.io
 ```
 
-If there is sublime project file in the root of the directory, it will be used by Sesame, otherwise the folder is the project.
+If the project contains a `.sublime-project` file, it is used to open the project.
 
-:rocket: Highly configurable.
+## Commands
 
-::: details TL;DR Setup
+| Name              | Description |
+| ----------------- | ----------- |
+| Sesame: Open      | Open project or open folder. |
+| Sesame: Add       | Add project or add folder. |
+| Sesame: Remove    | Remove folder from window. |
+| Sesame: Switch    | Switch to project or folder. |
 
-Set the path where you want Sesame to find projects.
+## Setup
 
-Command Palette → Preferences: Settings
+Set the path of your projects.
+
+> Command Palette → Preferences: Settings
 
 ```jsonl
 "sesame.path": "~/projects"
 ```
 
-You can now run Sesame commands from the Command Palette.
+You can now run Sesame commands.
 
-::: info
-One key binding is defined by default, Open, `Ctrl+Alt+O` (Win/Linux), `Super+Alt+O` (Mac). You can create your preferred key bindings for other commands, see [below](#key-bindings).
-:::
+> Command Palette → Sesame: Open
+
+## Key bindings
+
+One key binding is defined by default.
+
+| Command      | Linux / Win  | Mac           |
+| ------------ | ------------ | ------------- |
+| Sesame: Open | `ctrl + alt + o` | `super + alt + o` |
+
+Create your preferred key bindings.
+
+> Command Palette → Preferences: Key Bindings
+
+::: code-group
+```jsonl [Linux / Win]
+[
+    { "keys": ["ctrl+alt+o"], "command": "sesame_open" },
+    { "keys": ["ctrl+alt+a"], "command": "sesame_add" },
+    { "keys": ["ctrl+alt+r"], "command": "sesame_remove" },
+    { "keys": ["ctrl+alt+s"], "command": "sesame_switch" }
+]
+```
+```jsonl [Mac]
+[
+    { "keys": ["super+alt+o"], "command": "sesame_open" },
+    { "keys": ["super+alt+a"], "command": "sesame_add" },
+    { "keys": ["super+alt+r"], "command": "sesame_remove" },
+    { "keys": ["super+alt+s"], "command": "sesame_switch" }
+]
+```
 
 ## Installation
 
-### Prerequisites
-
-- [Sublime Text](https://www.sublimetext.com/?ref=blog.gerardroche.com) version 3 or higher.
-- [Package Control](https://packagecontrol.io/installation?ref=blog.gerardroche.com) for Package Control installation.
-- [Git](https://git-scm.com/?ref=blog.gerardroche.com) for Manual Git installation.
-
 ::: details Package Control installation
 
-1. Open the Command Palette: `Ctrl+Shift+P` (Win/Linux) or `Cmd+Shift+P` (Mac).
+1. Open the Command Palette: `Ctrl+Shift+P` (Linux / Win) or `Cmd+Shift+P` (Mac).
 1. Type "Package Control: Install Package" and press Enter.
 1. In the input field, type "Sesame" and select it from the list of available packages.
 
-::: info NOTE
-You may need to restart Sublime Text.
 :::
 
 ::: details Manual Git installation
@@ -85,36 +121,6 @@ You may need to restart Sublime Text.
    ```bash
    git clone https://github.com/gerardroche/sublime-sesame.git Sesame
    ```
-::: info NOTE
-You may need to restart Sublime Text.
-:::
-
-## Command Palette
-
-- **Sesame: Open**
-- **Sesame: Add**
-- **Sesame: Remove**
-- **Sesame: Switch**
-
-## Key Bindings
-
-Only one key binding is defined by default, Open, `Ctrl+Alt+O` (Win/Linux), `Super+Alt+O` (Mac).
-
-::: details Create your preferred key bindings
-Command Palette → Preferences: Key Bindings
-::: code-group
-```jsonl [Linux / Win]
-{ "keys": ["ctrl+alt+o"], "command": "sesame_open" },
-{ "keys": ["ctrl+alt+a"], "command": "sesame_add" },
-{ "keys": ["ctrl+alt+r"], "command": "sesame_remove" },
-{ "keys": ["ctrl+alt+s"], "command": "sesame_switch" },
-```
-```jsonl [Mac]
-{ "keys": ["super+alt+o"], "command": "sesame_open" },
-{ "keys": ["super+alt+a"], "command": "sesame_add" },
-{ "keys": ["super+alt+r"], "command": "sesame_remove" },
-{ "keys": ["super+alt+s"], "command": "sesame_switch" },
-```
 :::
 
 ## Settings
@@ -168,9 +174,7 @@ By default, Sesame looks two levels deep inside the path. This maps nicely to `v
 ├── laravel
 │   ├── fortify
 │   ├── framework
-│   ├── jetstream
-│   ├── passport
-│   └── vite-plugin
+│   └── passport
 ├── sublimelsp
 │   └── LSP
 └── wbond
@@ -183,9 +187,7 @@ Sesame will prompt you with this:
 ```
 laravel/fortify
 laravel/framework
-laravel/jetstream
 laravel/passport
-laravel/vite-plugin
 sublimelsp/LSP
 wbond/package_control
 wbond/packagecontrol.io
@@ -219,14 +221,13 @@ The `sesame.vcs` setting allows you to control the inclusion of version control 
 
 - `false`: This setting excludes version-controlled projects. Only projects without vcs integration will be considered.
 
-## Custom
+## Custom commands
 
 Sesame commands accept `path`, `depth`, and `vcs` arguments.
 
-::: details Example
-To create custom Command Palette items, create or edit your commands file:
+**Example**
 
-`Packages/User/Default.sublime-commands`
+> Packages/User/Default.sublime-commands
 
 ```json
 [
@@ -248,8 +249,6 @@ To create custom Command Palette items, create or edit your commands file:
 ]
 ```
 
-You can find your Packages directory: Menu → Preferences → Browse Packages
-
 ::: info NOTE
-You don't create one for the Sesame: Remove command, because that command prompts you with currently opened folders to remove, so the path is not relevant for that command.
+There is no need to create a custom command for `Sesame: Remove` because that command prompts with the currently open projects and folders.
 :::

@@ -1,3 +1,14 @@
+---
+aside: false
+editLink: false
+lastUpdated: false
+next: false
+outline: false
+prev: false
+sidebar: false
+description: PHPUnit integration for Sublime Text. Run tests from within Sublime Text. Supports running tests in output panel, terminal, and tmux.
+---
+
 # PHPUnit Kit
 
 [PHPUnit](https://github.com/gerardroche/sublime-phpunit?ref=blog.gerardroche.com) integration.

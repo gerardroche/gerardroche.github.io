@@ -6,7 +6,7 @@ next: false
 outline: false
 prev: false
 sidebar: false
-description: My name is Gerard. I'm a programmer and software developer. These are some of the projects I work on in my spare time.
+description: My name is Gerard. I'm a software developer. These are some of the projects I work on.
 ---
 
 # Projects
@@ -15,7 +15,7 @@ description: My name is Gerard. I'm a programmer and software developer. These a
 
 - [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous?ref=blog.gerardroche.com) - Vim emulator for Sublime Text.
 - [PHPUnit](https://github.com/gerardroche/sublime-phpunit?ref=blog.gerardroche.com) - Run PHPUnit tests from inside Sublime Text.
-- [Sesame](https://github.com/gerardroche/sublime-sesame?ref=blog.gerardroche.com) - Manage projects and folders in Sublime Text.
+- [Sesame](/projects/sublime-sesame) - Sublime Text commands to open, add, remove, and switch projects or folders.
 
 ---
 
