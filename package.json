@@ -2,18 +2,18 @@
   "private": true,
   "type": "module",
   "devDependencies": {
-    "autoprefixer": "^10.4.20",
+    "autoprefixer": "^10.4.21",
     "eslint": "^8.57.1",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-tailwindcss": "^3.17.5",
-    "eslint-plugin-vue": "^9.32.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "eslint-plugin-vue": "^9.33.0",
     "feed": "^4.2.2",
     "markdown-it-footnote": "^4.0.0",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.3",
     "postcss-combine-duplicated-selectors": "^10.0.3",
     "postcss-sort-media-queries": "^5.2.0",
     "tailwindcss": "^3.4.17",
-    "vitepress": "^1.5.0",
+    "vitepress": "^1.6.3",
     "vue": "^3.5.13"
   },
   "scripts": {
