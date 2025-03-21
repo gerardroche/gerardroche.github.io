@@ -24,3 +24,7 @@ features:
     link: '/2024/05/30/bash-or-sh/'
     details: "I prefer sh over bash. I begin almost every script with the same four lines. A POSIX-compliant shell, exit immediately on error, unset CDPATH, and unset IFS."
 ---
+
+<h1 class="sr-only">Blog archive</h1>
+
+<PostArchive />

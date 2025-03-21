@@ -42,17 +42,14 @@ const posts = computed(() => {
   <section class="posts">
     <article v-for="post in posts" :key="post.url" class="post">
       <header>
-        <time :datetime="formatDatetime(post.frontmatter.date)">
-          {{ formatDate(post.frontmatter.date) }}
-        </time>
-        <a :href="post.url">
-          <h2>{{ post.frontmatter.title }}</h2>
-        </a>
+        <h2><a :href="post.url">{{ post.frontmatter.title }}</a></h2>
       </header>
       <div v-if="post.frontmatter.excerpt || post.frontmatter.description" class="excerpt">
-        {{ post.frontmatter.excerpt || post.frontmatter.description }}
-        <br>
+        <p>{{ post.frontmatter.excerpt || post.frontmatter.description }} <a :href="post.url">»</a></p>
       </div>
+      <time :datetime="formatDatetime(post.frontmatter.date)">
+        {{ formatDate(post.frontmatter.date) }}
+      </time>
     </article>
   </section>
 </template>
@@ -60,41 +57,41 @@ const posts = computed(() => {
 <style scoped>
 
 .posts {
-  margin: 0 auto;
+  max-width: 900px;
+  margin: 0 30px;
+  margin-top: 100px;
 }
 
 .post {
-  min-height: 10em;
-  padding: 1.5em 2.5em;
-  position: relative;
-  overflow: hidden;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
-
-.post header {
-  text-align: center;
-}
-
-.post header time {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.posts header a {
-    color: var(--vp-c-text-1);
-    text-decoration: none;
-}
-
 .post header h2 {
   padding: 0;
-  margin: 5px 0 25px 0;
+  margin: 0 0 0.4em 0;
   border: none;
-  font-size: 30px;
-  letter-spacing: normal;
+  font-size: 2rem;
+  line-height: 1.15em;
+}
+
+.post header h2 a {
+  text-decoration: none;
+  color: var(--vp-c-text-1);
   font-weight: 700;
 }
 
-.post .excerpt {
-  font-size: 20px;
-  line-height: 28px;
+.post p {
+  margin-top: 0;
 }
+
+.post p a {
+  text-decoration: none;
+  color: var(--vp-c-text-1);
+}
+
+.post time {
+  font-size: 0.9rem;
+}
+
 </style>

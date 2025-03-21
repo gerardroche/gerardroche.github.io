@@ -181,7 +181,7 @@ nnoremap <Leader>wl :CarryFileToPane direction=right<CR>
 
 ## Projects Command Palette
 
-I use [Sesame](/projects/sublime-sesame). It provides commands to open, add, remove, and switch folders. This is by far my favourite plugin. For example, suppose you organise your projects like this:
+I use [Sesame](https://github.com/gerardroche/sublime-sesame?ref=blog.gerardroche.com). It provides commands to open, add, remove, and switch folders. This is by far my favourite plugin. For example, suppose you organise your projects like this:
 
 ```
 ❯ ~/projects
