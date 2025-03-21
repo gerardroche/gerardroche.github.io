@@ -1,4 +1,4 @@
-/* eslint-disable no-multi-spaces */
+ 
 import { defineConfig } from 'vitepress'
 import { buildEnd } from './buildEnd.config'
 import markdownItFootnote from 'markdown-it-footnote'

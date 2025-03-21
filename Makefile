@@ -21,11 +21,12 @@ rebuild-tags:
 	rm -r src/tags/*/index.md
 	bin/build-tags
 
+# 	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/
 lint:
-	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/
+	npx eslint --cache .vitepress/
 
 cs-fix:
-	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/ --fix
+	npx eslint --cache .vitepress/ --fix
 
 install-pre-commit:
 	cp bin/pre-commit .git/hooks/
