@@ -80,9 +80,9 @@ export default defineConfig({
 
     lastUpdated: false,
 
-    editLink: {
-      pattern: 'https://github.com/gerardroche/gerardroche.github.io/edit/master/src/:path',
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/gerardroche/gerardroche.github.io/edit/master/src/:path',
+    // },
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com/gerardroche_' },
