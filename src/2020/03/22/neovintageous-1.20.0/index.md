@@ -60,35 +60,37 @@ If the `'ignorecase'` option is on, a search is *case-insensitive.*
 |fizz| |FIZZ| |fIzZ| |FiZZ|
 ```
 
-{% include tip.html content="You can toggle a boolean option by shouting!
+::: tip
+You can toggle a boolean option by shouting!
 
 ```vim
 :set {option}!
 ```
+:::
 
-and
-
-```vim
-:set {option}!
-```" %}
-
-{% include tip.html content="You can disable a boolean option by prefixing \"no\".
+::: tip
+You can disable a boolean option by prefixing \"no\".
 
 ```vim
 :set no{option}
-```" %}
+```
+:::
 
-{% include tip.html content="You can read an option with a mark of interrogation (the value will be shown in the window status bar).
+::: tip
+You can read an option with a mark of interrogation (the value will be shown in the window status bar).
 
 ```vim
 :set {option}?
-```" %}
+```
+:::
 
-{% include tip.html content="If you want the option to stick around after restarts, set it in your \"neovintageousrc\" file, you can open it from the Command Palette.
+::: tip
+If you want the option to stick around after restarts, set it in your \"neovintageousrc\" file, you can open it from the Command Palette.
 
 ```console
 NeoVintageous: Open RC File
-```" %}
+```
+:::
 
 ### 'smartcase'
 
@@ -181,27 +183,17 @@ i/
 
 Like **`a/`** but excludes the slashes ("inner" object).
 
-{% include tip.html content="Text objects are a series of commands that can be used in Visual mode or after an operator.
+::: tip
+Text objects are a series of commands that can be used in Visual mode or after an operator.
 
 ```
 Hello /wo|rld/!
-```
-
-```
 va/
-```
-
-```
 Hello |/world/|!
-```
-
-```
 ci/
-```
-
-```
 Hello /|/!
-```" %}
+```
+:::
 
 ## Command-line output
 
@@ -237,12 +229,14 @@ Each buffer has a unique number.  That number will not change, thus you can alwa
 Display the contents of all numbered and named registers.
 
 
-{% include tip.html content="Map it!
+::: tip
+Map it!
 
 
 ```vim
 nnoremap <leader>r :reg<CR>
-```" %}
+```
+:::
 
 ### History
 

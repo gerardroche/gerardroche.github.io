@@ -7,10 +7,10 @@ import { writeFileSync } from 'fs'
 export const buildEnd = async(config) => {
   const feed = new Feed({
     title: 'Gerard Roche',
-    description: 'Software Developer. Posts about Tech, Movies, TV. I like Science Fiction, Technology, Movies, TV, Music. Maintainer of @neovintageous (Vim for Sublime Text).',
+    description: 'Technical blog by Gerard Roche about programming and software development',
     id: 'https://blog.gerardroche.com/feed.xml',
     link: 'https://blog.gerardroche.com/',
-    language: 'en',
+    language: 'en-IE',
     favicon: 'https://blog.gerardroche.com/favicon.ico',
   })
 

@@ -6,21 +6,21 @@ editLink: false
 sidebar: false
 aside: false
 tags: ubuntu sh
-title: The which, type, and readlink linux commands
+title: The which, type, and readlink Linux commands
 description: "The which command identifies the location of commands. It searches the system PATH for executables. The -a option prints all matching locations. To inspect the PATH, use tr to split it into separate lines for improved readability."
 lastUpdated: false
 ---
 
-# The which, type, and readlink linux commands
+# The `which`, `type`, and `readlink` Linux commands
 
-The `which` command identifies the locations of commands. It searches the system `PATH` for executables.
+The `which` command locates executable files by searching the system `PATH`.
 
 ```sh
 $ which ls
 /usr/bin/ls
 ```
 
-The `-a` option prints all matching locations.
+Use the `-a` option to display all matching locations.
 
 ```sh
 $ which -a ls
@@ -28,7 +28,7 @@ $ which -a ls
 /bin/ls
 ```
 
-To inspect the `PATH`, use `tr` to split it into separate lines for improved readability.
+To examine the `PATH` variable, use `tr` to split it into separate lines for better readability:
 
 ```sh
 $ echo $PATH
@@ -54,15 +54,17 @@ $ echo $SHELL
 $ man bash
 ```
 
-Here are the fundamentals of navigating manual pages:
+## Navigating Manual Pages
 
-- Press `q` to exit.
-- Press `h` for help.
-- Press `/pattern` to search forward.
-- Press `n` to repeat search forward.
-- Press `N` to repeat search backward.
-- Use arrow keys, Space, Home, End, PgUp, PgDn, etc.
-- Many Vim motions are supported.
+- `q`: Exit
+- `h`: Display help
+- `/pattern`: Search forward
+- `n`: Repeat search forward
+- `N`: Repeat search backward
+- Use arrow keys, Space, Home, End, PgUp, PgDn
+- Supports Vim motions
+
+## The `type` Command
 
 The `type` command can determine if a command is a built-in, its location, the alias expansion for aliases, and the complete function for functions.
 
@@ -84,6 +86,8 @@ greet ()
 }
 ```
 
+## The `readlink` Command
+
 The `which` and `type` commands don't resolve symbolic links.
 
 Use the `readlink` command to resolve symbolic links, and use the `-f` option to resolve them recursively. Since the `readlink` command expects a path, use the `which` command to locate the path first.
@@ -99,6 +103,8 @@ $ readlink -f `which x-terminal-emulator`
 /usr/bin/snap
 ```
 
+## Handling Newlines and Options
+
 The `readlink` command outputs a trailing newline by default, which can be an issue in a scripting environment. Use the `-n` option to omit the newline.
 
 ```sh
@@ -111,7 +117,9 @@ You may want to use `--`, the standard end-of-options signal, to prevent the pat
 RESOLVED_PATH="$(readlink -nf -- "$1")"
 ```
 
-As an aside, use `update-alternatives` to change alternatives.
+## Managing Alternatives
+
+To modify symbolic link alternatives, use `update-alternatives`:
 
 ```
 $ sudo update-alternatives --config x-terminal-emulator

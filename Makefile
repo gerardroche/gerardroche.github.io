@@ -21,7 +21,6 @@ rebuild-tags:
 	rm -r src/tags/*/index.md
 	bin/build-tags
 
-# 	npx eslint --cache --ext '.js,.vue,.mts' .vitepress/
 lint:
 	npx eslint --cache .vitepress/
 
@@ -34,4 +33,4 @@ install-pre-commit:
 
 update:
 	npm update
-	ncu -u --target minor
+	ncu -u

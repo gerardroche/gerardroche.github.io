@@ -34,8 +34,6 @@ In newer versions the super keys can be toggled via Command Palette → NeoVinta
 
 :::
 
-<!-- {% include note.html content="In newer versions the super keys can be toggled via Command Palette → NeoVintageous: Toggle Super Keys." %} -->
-
 For example, to map `<D-i>` to the Goto Symbol in Project command, which is available out-of-the-box in Sublime (the `goto_symbol_in_project` command).
 
 ```vim

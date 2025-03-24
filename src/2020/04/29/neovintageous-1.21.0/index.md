@@ -85,11 +85,13 @@ Old | New
 `neovintageous_reload_my_rc_file` | `neovintageous` `{'action': 'reload_rc_file'}`
 `neovintageous_toggle_side_bar` | `neovintageous`  `{'action': 'toggle_side_bar'}`
 
-{% include tip.html content="mapping for editing the rc file!
+::: tip
+Mapping for editing the rc file!
 
 ```vim
 nnoremap <leader>en :Neovintageous action=open_rc_file<CR>
-```" %}
+```
+:::
 
 ## Further reading
 

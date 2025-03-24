@@ -6,8 +6,8 @@ const { frontmatter } = useData()
 
 <template>
   <div v-if="frontmatter.post" class="vp-doc post-footer">
-    <p>What are your questions? Find me on <a href="https://x.com/gerardroche_">X</a> and <a href="https://github.com/gerardroche/gerardroche.github.io/discussions">GitHub</a>.</p>
     <p>Be notified of new posts. <a href="/feed.xml">Subscribe to the feed.</a></p>
+    <p>Follow me on <a href="https://x.com/gerardroche_">X</a>.</p>
   </div>
 </template>
 

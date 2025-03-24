@@ -103,7 +103,9 @@ foo FOO fOO    ->    bar FOO fOO
 foo FOO fOO    ->    bar FOO fOO
 ```
 
-{% include tip.html content="The `g` flag in substitution commands tells the command to replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line." %}
+::: tip
+The `g` flag in substitution commands tells the command to replace all occurrences in the line. Without this argument, replacement occurs only for the first occurrence in each line.
+:::
 
 ## The 'smartcase' option
 

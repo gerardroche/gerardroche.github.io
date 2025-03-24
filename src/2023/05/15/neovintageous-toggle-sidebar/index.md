@@ -34,7 +34,9 @@ Then add a key binding via **Menu → Preferences → Key Bindings** (this is fo
 
 Now you can toggle the side bar with **m**, but suppose instead you want to toggle with <kbd>CTRL-d</kbd>.
 
-{% include note.html content="You will need [ctrl keys](/2022/09/22/neovintageous-ctrl-keys/) enabled." %}
+::: info NOTE
+Ensure [CTRL keys](/2022/09/22/neovintageous-ctrl-keys/) are enabled.
+:::
 
 Create a mapping and reload your rc file:
 
@@ -60,7 +62,10 @@ let mapleader=,
 nnoremap <leader>d :Neovintageous action=toggle_side_bar<CR>
 ```
 
-{% include note.html content="The default mapleader is **/** (slash)." %}
+::: info NOTE
+The default mapleader is **/** (slash).
+:::
+
 
 Then add a key binding via **Menu → Preferences → Key Bindings**:
 

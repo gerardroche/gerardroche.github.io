@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://blog.gerardroche.com/sitemap.xml
