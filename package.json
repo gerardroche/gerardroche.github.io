@@ -3,7 +3,7 @@
   "type": "module",
   "devDependencies": {
     "eslint": "^10.14.0",
-    "eslint-plugin-vue": "^10.8.0",
+    "eslint-plugin-vue": "^10.12.1",
     "feed": "^6.0.0",
     "markdown-it-footnote": "^4.0.0",
     "vitepress": "^1.6.4",
